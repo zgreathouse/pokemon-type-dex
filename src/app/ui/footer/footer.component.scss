@@ -1,0 +1,23 @@
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e4000f;
+  color: #fff;
+  height: 52px;
+}
+
+.footer-links-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+}
+
+.footer-link {
+  color: #fff;
+}
+
+.footer-link:hover {
+  color: #c5c5c5;
+}

@@ -13,7 +13,7 @@ export const ROUTES: Routes = [
       import('./features/home/home.component').then((m) => m.HomeComponent),
   },
   {
-    path: 'pokemon',
+    path: 'pokémon',
     loadComponent: () =>
       import('./features/pokemon/pokemon.component').then(
         (m) => m.PokemonComponent
