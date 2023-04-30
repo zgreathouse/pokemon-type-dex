@@ -1,0 +1,6 @@
+.type-picker-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(9, 64px);
+  grid-gap: 8px;
+}

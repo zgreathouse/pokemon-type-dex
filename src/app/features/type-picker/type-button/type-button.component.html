@@ -1,0 +1,6 @@
+<button 
+  [ngClass]="(selected$ | async) ? 'type-btn-selected' : 'type-btn'"
+  (click)="handleTypeSelection()"
+>
+  {{ pokemonType }}
+</button>

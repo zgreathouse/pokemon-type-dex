@@ -1,0 +1,25 @@
+.type-btn {
+  background-color: #fff;
+  border: 1px #555050 solid;
+}
+
+.type-btn-selected {
+  background-color: #e4000f;
+  color: #fff;
+  border: none;
+}
+
+.type-btn, .type-btn-selected {
+  border-radius: 4px;
+  width: 64px;
+  height: 24px;
+}
+
+.type-btn:hover {
+  background-color: #c5c5c5;
+}
+
+.type-btn:hover, .type-btn-selected:hover {
+  cursor: pointer;
+  border: 1px #9a8b8b solid;
+}
