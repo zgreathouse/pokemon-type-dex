@@ -1,0 +1,31 @@
+.type-detail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.type-detail-header {
+  align-self: center;
+}
+
+.type-detail-sections-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.type-detail-section {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.type-detail-section-header {
+  align-self: center;
+  margin-top: 0;
+}
+
+
+.type-detail {
+  display: flex;
+  flex-direction: column;
+}

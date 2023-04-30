@@ -1,0 +1,41 @@
+<div class="type-detail-container">
+  <h2 class="type-detail-header">
+    {{ selectedType$ | async }} Type
+  </h2>
+  <div class="type-detail-sections-container">
+    <div class="type-detail-section">
+      <h3 class="type-detail-section-header">Offense</h3>
+      <div class="type-detail">
+        <app-type-detail-info 
+          typeEffect="Super effective" 
+          [pokemonTypes]="superEffective"
+        ></app-type-detail-info>
+        <app-type-detail-info 
+          typeEffect="Not very effective" 
+          [pokemonTypes]="notVeryEffective"
+        ></app-type-detail-info>
+        <app-type-detail-info 
+          typeEffect="Ineffective" 
+          [pokemonTypes]="ineffective"
+        ></app-type-detail-info>
+      </div>
+    </div>
+    <div class="type-detail-section">
+      <h3 class="type-detail-section-header">Defense</h3>
+      <div class="type-detail">
+        <app-type-detail-info 
+          typeEffect="Weak" 
+          [pokemonTypes]="weak"
+        ></app-type-detail-info>
+        <app-type-detail-info 
+          typeEffect="Resists" 
+          [pokemonTypes]="resists"
+        ></app-type-detail-info>
+        <app-type-detail-info 
+          typeEffect="Immune" 
+          [pokemonTypes]="immune"
+        ></app-type-detail-info>
+      </div>
+    </div>
+  </div>
+</div>

@@ -17,3 +17,20 @@ export type PokemonType =
   | 'Dragon'
   | 'Steel'
   | 'Fairy';
+
+export interface PokemonTypeDetail {
+  superEffective: PokemonType[];
+  notVeryEffective: PokemonType[];
+  ineffective: PokemonType[];
+  weak: PokemonType[];
+  resists: PokemonType[];
+  immune: PokemonType[];
+}
+
+export type TypeEffect =
+  | 'Super effective'
+  | 'Not very effective'
+  | 'Ineffective'
+  | 'Weak'
+  | 'Resists'
+  | 'Immune';
