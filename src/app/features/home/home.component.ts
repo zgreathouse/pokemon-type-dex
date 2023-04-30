@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { TypePickerComponent } from 'src/app/features/type-picker/type-picker.component';
+import { TypePickerComponent } from './type-picker/type-picker.component';
 
 @Component({
   selector: 'app-home',
