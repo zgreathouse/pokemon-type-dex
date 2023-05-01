@@ -1,6 +1,7 @@
 .type-btn {
   background-color: #fff;
   border: 1px #555050 solid;
+  color: #555050;
 }
 
 .type-btn-selected {
@@ -11,13 +12,14 @@
 
 .type-btn, .type-btn-selected {
   border-radius: 8px;
-  width: 72px;
-  height: 24px;
+  width: 80px;
+  height: 32px;
   font-size: 14px;
 }
 
 .type-btn:hover {
   background-color: #c5c5c5;
+  color: #000;
 }
 
 .type-btn:hover, .type-btn-selected:hover {

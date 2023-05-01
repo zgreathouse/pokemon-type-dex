@@ -21,15 +21,15 @@
 }
 
 .nav-route-btn {
-  border: 1px #555050 solid;
-  border-radius: 4px;
-  width: 80px;
+  border: none;
+  width: 72px;
   height: 24px;
-  background-color: #fff;
+  background-color: #e4000f;
+  color: #fff;
+  font-size: 14px;
 }
 
 .nav-route-btn:hover {
   cursor: pointer;
-  border: 1px #9a8b8b solid;
-  background-color: #c5c5c5;
+  border-bottom: 1px #fff solid;
 }
