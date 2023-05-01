@@ -36,3 +36,5 @@ export type TypeEffect =
   | 'Immune';
 
 export type DamageMultiplier = '(x2)' | '(x0.5)' | '(x0)';
+
+export type DetailType = 'Offense' | 'Defense';

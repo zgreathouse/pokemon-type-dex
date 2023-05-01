@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding-top: 24px;
+  padding-top: 16px;
 }
 
 .type-detail-header {
@@ -15,6 +15,11 @@
   justify-content: space-around;
 }
 
+.type-detail-section-divider {
+  width: 1px;
+  background-color: #c5c5c5;
+}
+
 .type-detail-section {
   display: flex;
   flex-direction: column;
@@ -24,7 +29,11 @@
 
 .type-detail-section-header {
   align-self: center;
-  margin-top: 0;
+  text-align: center;
+  width: 332px;
+  margin: 0;
+  padding-bottom: 12px;
+  border-bottom: 1px #c5c5c5 solid;
 }
 
 

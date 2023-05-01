@@ -9,31 +9,38 @@
         <app-type-detail-info 
           typeEffect="Super effective" 
           [pokemonTypes]="superEffective"
+          detailType="Offense"
         ></app-type-detail-info>
         <app-type-detail-info 
           typeEffect="Not very effective" 
           [pokemonTypes]="notVeryEffective"
+          detailType="Offense"
         ></app-type-detail-info>
         <app-type-detail-info 
           typeEffect="Ineffective" 
           [pokemonTypes]="ineffective"
+          detailType="Offense"
         ></app-type-detail-info>
       </div>
     </div>
+    <div class="type-detail-section-divider"></div>
     <div class="type-detail-section">
       <h3 class="type-detail-section-header">Defense</h3>
       <div class="type-detail">
         <app-type-detail-info 
           typeEffect="Weak" 
           [pokemonTypes]="weak"
+          detailType="Defense"
         ></app-type-detail-info>
         <app-type-detail-info 
           typeEffect="Resists" 
           [pokemonTypes]="resists"
+          detailType="Defense"
         ></app-type-detail-info>
         <app-type-detail-info 
           typeEffect="Immune" 
           [pokemonTypes]="immune"
+          detailType="Defense"
         ></app-type-detail-info>
       </div>
     </div>

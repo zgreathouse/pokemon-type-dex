@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DamageMultiplier, TypeEffect } from '@types';
+import { DamageMultiplier, DetailType, TypeEffect } from '@types';
 
 @Component({
   selector: 'app-type-detail-info',
@@ -12,6 +12,7 @@ import { DamageMultiplier, TypeEffect } from '@types';
 export class TypeDetailInfoComponent implements OnInit {
   @Input() typeEffect!: TypeEffect;
   @Input() pokemonTypes!: string;
+  @Input() detailType!: DetailType;
 
   readonly notApplicable = '—';
 
