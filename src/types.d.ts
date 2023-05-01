@@ -34,3 +34,5 @@ export type TypeEffect =
   | 'Weak'
   | 'Resists'
   | 'Immune';
+
+export type DamageMultiplier = '(x2)' | '(x0.5)' | '(x0)';

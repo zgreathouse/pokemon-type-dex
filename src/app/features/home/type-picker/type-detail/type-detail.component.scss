@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
+  padding-top: 24px;
 }
 
 .type-detail-header {
@@ -16,7 +18,8 @@
 .type-detail-section {
   display: flex;
   flex-direction: column;
-  width: 45%;
+  max-width: 400px;
+  min-width: 400px;
 }
 
 .type-detail-section-header {

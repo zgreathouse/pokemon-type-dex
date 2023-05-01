@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Input, Output, Type } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PokemonType } from 'src/types';
+import { PokemonType } from '@types';
 import { TypePickerService } from '../type-picker.service';
 import { map, Observable } from 'rxjs';
 

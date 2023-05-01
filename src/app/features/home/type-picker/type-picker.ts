@@ -1,4 +1,4 @@
-import { PokemonType } from 'src/types';
+import { PokemonType } from '@types';
 
 export const POKEMON_TYPES: PokemonType[] = [
   'Normal',

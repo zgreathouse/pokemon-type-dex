@@ -1,4 +1,4 @@
-import { PokemonType, PokemonTypeDetail } from 'src/types';
+import { PokemonType, PokemonTypeDetail } from '@types';
 
 export const TYPE_DETAILS: Record<PokemonType, PokemonTypeDetail> = {
   Normal: {

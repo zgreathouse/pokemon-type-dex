@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { PokemonType } from 'src/types';
+import { PokemonType } from '@types';
 import { BehaviorSubject, shareReplay } from 'rxjs';
 
 @Injectable()
