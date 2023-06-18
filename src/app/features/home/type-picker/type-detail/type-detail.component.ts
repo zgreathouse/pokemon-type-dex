@@ -1,9 +1,9 @@
 import { Component, Input, OnDestroy, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { TYPE_DETAILS } from './type-detail';
+import { getTypeResistances, TYPE_DETAILS } from './type-detail';
 import { PokemonType } from '@types';
 import { TypePickerService } from '../type-picker.service';
-import { map, Subject, takeUntil, tap } from 'rxjs';
+import { map } from 'rxjs';
 import { TypeDetailInfoComponent } from './type-detail-info/type-detail-info.component';
 
 @Component({
@@ -13,43 +13,31 @@ import { TypeDetailInfoComponent } from './type-detail-info/type-detail-info.com
   templateUrl: './type-detail.component.html',
   styleUrls: ['./type-detail.component.scss'],
 })
-export class TypeDetailComponent implements OnInit, OnDestroy {
+export class TypeDetailComponent {
   readonly selectedType$ = this.typePickerService.selectedType$;
 
-  superEffective!: string;
-  notVeryEffective!: string;
-  ineffective!: string;
-  weak!: string;
-  resists!: string;
-  immune!: string;
-
-  readonly destroy$ = new Subject<boolean>();
+  superEffective$ = this.typePickerService.selectedType$.pipe(
+    map((type) => this.format(TYPE_DETAILS[type].superEffective))
+  );
+  notVeryEffective$ = this.typePickerService.selectedType$.pipe(
+    map((type) => this.format(TYPE_DETAILS[type].notVeryEffective))
+  );
+  ineffective$ = this.typePickerService.selectedType$.pipe(
+    map((type) => this.format(TYPE_DETAILS[type].ineffective))
+  );
+  weak$ = this.typePickerService.selectedType$.pipe(
+    map((type) => this.format(getTypeResistances(type).weak))
+  );
+  resists$ = this.typePickerService.selectedType$.pipe(
+    map((type) => this.format(getTypeResistances(type).resists))
+  );
+  immune$ = this.typePickerService.selectedType$.pipe(
+    map((type) => this.format(getTypeResistances(type).immune))
+  );
 
   constructor(private typePickerService: TypePickerService) {}
 
-  ngOnInit(): void {
-    this.selectedType$
-      .pipe(
-        map((selectedType) => TYPE_DETAILS[selectedType]),
-        tap((typeDetails) => {
-          this.superEffective = this.format(typeDetails.superEffective);
-          this.notVeryEffective = this.format(typeDetails.notVeryEffective);
-          this.ineffective = this.format(typeDetails.ineffective);
-          this.weak = this.format(typeDetails.weak);
-          this.resists = this.format(typeDetails.resists);
-          this.immune = this.format(typeDetails.immune);
-        }),
-        takeUntil(this.destroy$)
-      )
-      .subscribe();
-  }
-
   private format(pokemonTypes: PokemonType[]): string {
     return pokemonTypes.toString().split(',').join(', ') ?? '';
-  }
-
-  ngOnDestroy(): void {
-    this.destroy$.next(true);
-    this.destroy$.complete();
   }
 }

@@ -11,7 +11,7 @@ import { DamageMultiplier, DetailType, TypeEffect } from '@types';
 })
 export class TypeDetailInfoComponent implements OnInit {
   @Input() typeEffect!: TypeEffect;
-  @Input() pokemonTypes!: string;
+  @Input() pokemonTypes!: string | null;
   @Input() detailType!: DetailType;
 
   readonly notApplicable = '—';
@@ -26,10 +26,8 @@ export class TypeDetailInfoComponent implements OnInit {
     switch (true) {
       case typeEffect === 'Super effective' || typeEffect === 'Weak':
         return '(x2)';
-
       case typeEffect === 'Not very effective' || typeEffect === 'Resists':
         return '(x0.5)';
-
       default:
         return '(x0)';
     }

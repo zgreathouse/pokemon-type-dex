@@ -8,17 +8,17 @@
       <div class="type-detail">
         <app-type-detail-info 
           typeEffect="Super effective" 
-          [pokemonTypes]="superEffective"
+          [pokemonTypes]="superEffective$ | async"
           detailType="Offense"
         ></app-type-detail-info>
         <app-type-detail-info 
           typeEffect="Not very effective" 
-          [pokemonTypes]="notVeryEffective"
+          [pokemonTypes]="notVeryEffective$ | async"
           detailType="Offense"
         ></app-type-detail-info>
         <app-type-detail-info 
           typeEffect="Ineffective" 
-          [pokemonTypes]="ineffective"
+          [pokemonTypes]="ineffective$ | async"
           detailType="Offense"
         ></app-type-detail-info>
       </div>
@@ -29,17 +29,17 @@
       <div class="type-detail">
         <app-type-detail-info 
           typeEffect="Weak" 
-          [pokemonTypes]="weak"
+          [pokemonTypes]="weak$ | async"
           detailType="Defense"
         ></app-type-detail-info>
         <app-type-detail-info 
           typeEffect="Resists" 
-          [pokemonTypes]="resists"
+          [pokemonTypes]="resists$ | async"
           detailType="Defense"
         ></app-type-detail-info>
         <app-type-detail-info 
           typeEffect="Immune" 
-          [pokemonTypes]="immune"
+          [pokemonTypes]="immune$ | async"
           detailType="Defense"
         ></app-type-detail-info>
       </div>
