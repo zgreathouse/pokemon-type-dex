@@ -1,3 +1,8 @@
 <div class="pokemon-container">
   <h2>Pokemon</h2>
+  <div>
+    <div *ngFor="let pokemon of pokemon$ | async">
+      {{ pokemon.name }} 
+    </div>
+  </div>
 </div>
