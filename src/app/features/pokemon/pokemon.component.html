@@ -1,8 +1,11 @@
 <div class="pokemon-container">
   <h2>Pokemon</h2>
-  <div>
-    <div *ngFor="let pokemon of pokemon$ | async">
-      {{ pokemon.name }} 
-    </div>
+  <div class="pokemon-table-container">
+    <app-pokemon-card 
+      *ngFor="let pokemon of pokemon$ | async"
+      [name]="pokemon.name"
+      [typeOne]="pokemon.typeOne"
+      [typeTwo]="pokemon.typeTwo"
+    ></app-pokemon-card>
   </div>
 </div>
