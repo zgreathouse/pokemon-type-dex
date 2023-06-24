@@ -2,7 +2,7 @@ import { Component, Input, OnDestroy, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { getTypeResistances, TYPE_DETAILS } from './type-detail';
 import { PokemonType } from '@types';
-import { TypePickerService } from '../type-picker/type-picker.service';
+import { PokemonTypePickerService } from '../pokemon-type-picker/pokemon-type-picker.service';
 import { map } from 'rxjs';
 import { TypeDetailInfoComponent } from './type-detail-info/type-detail-info.component';
 
@@ -14,28 +14,28 @@ import { TypeDetailInfoComponent } from './type-detail-info/type-detail-info.com
   styleUrls: ['./type-detail.component.scss'],
 })
 export class TypeDetailComponent {
-  readonly selectedType$ = this.typePickerService.selectedType$;
+  readonly selectedType$ = this.pokemonTypePickerService.selectedType$;
 
-  superEffective$ = this.typePickerService.selectedType$.pipe(
+  superEffective$ = this.pokemonTypePickerService.selectedType$.pipe(
     map((type) => this.format(TYPE_DETAILS[type].superEffective))
   );
-  notVeryEffective$ = this.typePickerService.selectedType$.pipe(
+  notVeryEffective$ = this.pokemonTypePickerService.selectedType$.pipe(
     map((type) => this.format(TYPE_DETAILS[type].notVeryEffective))
   );
-  ineffective$ = this.typePickerService.selectedType$.pipe(
+  ineffective$ = this.pokemonTypePickerService.selectedType$.pipe(
     map((type) => this.format(TYPE_DETAILS[type].ineffective))
   );
-  weak$ = this.typePickerService.selectedType$.pipe(
+  weak$ = this.pokemonTypePickerService.selectedType$.pipe(
     map((type) => this.format(getTypeResistances(type).weak))
   );
-  resists$ = this.typePickerService.selectedType$.pipe(
+  resists$ = this.pokemonTypePickerService.selectedType$.pipe(
     map((type) => this.format(getTypeResistances(type).resists))
   );
-  immune$ = this.typePickerService.selectedType$.pipe(
+  immune$ = this.pokemonTypePickerService.selectedType$.pipe(
     map((type) => this.format(getTypeResistances(type).immune))
   );
 
-  constructor(private typePickerService: TypePickerService) {}
+  constructor(private pokemonTypePickerService: PokemonTypePickerService) {}
 
   private format(pokemonTypes: PokemonType[]): string {
     return pokemonTypes.toString().split(',').join(', ') ?? '';

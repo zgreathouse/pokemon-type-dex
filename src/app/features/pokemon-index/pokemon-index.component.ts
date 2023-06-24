@@ -4,7 +4,7 @@ import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
-import { PokemonService } from './pokemon.service';
+import { PokemonService } from './pokemon-index.service';
 import { PokemonCardComponent } from './pokemon-card/pokemon-card.component';
 import { debounceTime, distinctUntilChanged, map, startWith } from 'rxjs';
 import { PokemonType } from '@types';
@@ -21,18 +21,15 @@ import { PokemonType } from '@types';
     ReactiveFormsModule,
   ],
   providers: [PokemonService],
-  templateUrl: './pokemon.component.html',
-  styleUrls: ['./pokemon.component.scss'],
+  templateUrl: './pokemon-index.component.html',
+  styleUrls: ['./pokemon-index.component.scss'],
 })
-export class PokemonComponent {
+export class PokemonIndexComponent {
   @Input() pokemonType!: PokemonType;
   myControl = new FormControl('');
 
   readonly POKEMON_NAMES = this.pokemonService
-    .fetchPokemon()
-    .filter((pokemon) =>
-      [pokemon.typeOne, pokemon.typeTwo].includes(this.pokemonType)
-    )
+    .fetchPokemonByType(this.pokemonType)
     .map((pokemon) => pokemon.name.toLocaleLowerCase());
 
   filteredPokemon$ = this.myControl.valueChanges.pipe(

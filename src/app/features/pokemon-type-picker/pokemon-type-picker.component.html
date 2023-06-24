@@ -1,0 +1,8 @@
+<div class="pokemon-type-picker-container">
+  <div class="pokemon-type-picker-types-container">
+    <app-pokemon-type-picker-button 
+      *ngFor="let pokemonType of pokemonTypes"
+      [pokemonType]="pokemonType"
+    ></app-pokemon-type-picker-button>
+  </div>
+</div>

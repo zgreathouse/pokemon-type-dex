@@ -3,7 +3,7 @@ import { PokemonType } from '@types';
 import { BehaviorSubject, shareReplay } from 'rxjs';
 
 @Injectable({ providedIn: 'root' })
-export class TypePickerService {
+export class PokemonTypePickerService {
   private selectedTypeState$ = new BehaviorSubject<PokemonType>('Normal');
   readonly selectedType$ = this.selectedTypeState$
     .asObservable()
