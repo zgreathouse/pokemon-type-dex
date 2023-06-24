@@ -1,18 +1,12 @@
-<div class="footer-container">
+<mat-toolbar color="primary" class="footer-container">
   <div class="footer-links-container">
-    <a 
-      class="footer-link" 
+    <a
+      *ngFor="let link of links"
+      mat-button 
+      [href]="link.href" 
       target="_blank"
-      href="https://www.linkedin.com/in/zach-greathouse/"
     >
-      Linkedin
-    </a>
-    <a 
-      class="footer-link"
-      target="_blank"
-      href="https://github.com/zgreathouse/pokemon-type-dex"
-    >
-      Github
+      {{ link.label }}
     </a>
   </div>
-</div>
+</mat-toolbar>
