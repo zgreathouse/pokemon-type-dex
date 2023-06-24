@@ -37,9 +37,11 @@ $pokemon-type-dex-theme: mat.define-light-theme((
 //   css variables for colors
 // }
 
+html, body { 
+  height: 100%; 
+}
+
 body {
   margin: 0;
-  font-family: Verdana, sans-serif;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
 }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
