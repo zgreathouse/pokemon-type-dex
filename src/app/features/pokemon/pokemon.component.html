@@ -1,11 +1,21 @@
 <div class="pokemon-container">
   <h2>Pokemon</h2>
-  <div class="pokemon-table-container">
-    <app-pokemon-card 
-      *ngFor="let pokemon of pokemon$ | async"
-      [name]="pokemon.name"
-      [typeOne]="pokemon.typeOne"
-      [typeTwo]="pokemon.typeTwo"
-    ></app-pokemon-card>
-  </div>
+  <form class="example-form">
+    <mat-form-field appearance="fill">
+      <mat-label>Pokemon</mat-label>
+      <input 
+        type="text"
+        placeholder="Select a pokemon"
+        aria-label="Number"
+        matInput
+        [formControl]="myControl"
+        [matAutocomplete]="auto"
+      >
+      <mat-autocomplete #auto="matAutocomplete">
+        <mat-option *ngFor="let pokemon of filteredPokemon$ | async" [value]="pokemon">
+          {{ pokemon }}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+  </form>
 </div>
