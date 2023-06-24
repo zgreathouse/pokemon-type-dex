@@ -1,4 +1,4 @@
-import { PokemonType, PokemonTypeDetail, ResistanceDetail } from '@types';
+import { PokemonType, PokemonTypeEffectDetail, ResistanceDetail } from '@types';
 import { POKEMON_TYPES } from '../pokemon-type-picker/pokemon-types';
 
 export const getTypeResistances = (
@@ -29,7 +29,7 @@ export const getTypeResistances = (
   );
 };
 
-export const TYPE_DETAILS: Record<PokemonType, PokemonTypeDetail> = {
+export const TYPE_DETAILS: Record<PokemonType, PokemonTypeEffectDetail> = {
   Normal: {
     superEffective: [],
     notVeryEffective: ['Rock', 'Steel'],

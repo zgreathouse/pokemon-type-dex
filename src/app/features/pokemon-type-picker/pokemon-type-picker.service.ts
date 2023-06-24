@@ -4,12 +4,14 @@ import { BehaviorSubject, shareReplay } from 'rxjs';
 
 @Injectable({ providedIn: 'root' })
 export class PokemonTypePickerService {
-  private selectedTypeState$ = new BehaviorSubject<PokemonType>('Normal');
-  readonly selectedType$ = this.selectedTypeState$
+  private selectedPokemonTypeState$ = new BehaviorSubject<PokemonType>(
+    'Normal'
+  );
+  readonly selectedPokemonType$ = this.selectedPokemonTypeState$
     .asObservable()
     .pipe(shareReplay(1));
 
   updateSelectedType(pokemonType: PokemonType): void {
-    this.selectedTypeState$.next(pokemonType);
+    this.selectedPokemonTypeState$.next(pokemonType);
   }
 }

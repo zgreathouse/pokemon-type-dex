@@ -17,7 +17,7 @@ export class PokemonTypePickerButtonComponent {
   @Output() typeSelectionEvent = new EventEmitter<PokemonType>();
 
   readonly selected$: Observable<boolean> =
-    this.pokemonTypePickerService.selectedType$.pipe(
+    this.pokemonTypePickerService.selectedPokemonType$.pipe(
       map((selectedType) => selectedType === this.pokemonType)
     );
 

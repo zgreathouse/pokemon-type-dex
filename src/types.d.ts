@@ -18,7 +18,7 @@ export type PokemonType =
   | 'Steel'
   | 'Fairy';
 
-export interface PokemonTypeDetail {
+export interface PokemonTypeEffectDetail {
   superEffective: PokemonType[];
   notVeryEffective: PokemonType[];
   ineffective: PokemonType[];

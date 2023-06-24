@@ -1,0 +1,14 @@
+<div class="pokemon-type-effect-container">
+  <h3 class="pokemon-type-effect-header">{{ detailType }}</h3>
+  <div class="pokemon-type-effect">
+    <div 
+      *ngFor="let effect of pokemonTypeEffect$ | async"
+      class="pokemon-type-effect-info-container"
+    >
+      <h4>{{ effect.pokemonTypeEffect }}</h4>
+      <p class="pokemon-type-effect-info">
+        {{ effect.pokemonTypes?.length ? effect.pokemonTypes : notApplicable }}
+      </p>
+    </div>
+  </div>
+</div>

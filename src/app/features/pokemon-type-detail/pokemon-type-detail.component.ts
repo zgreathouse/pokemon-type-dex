@@ -4,30 +4,31 @@ import { getTypeResistances, TYPE_DETAILS } from './pokemon-type-detail';
 import { PokemonType } from '@types';
 import { PokemonTypePickerService } from '../pokemon-type-picker/pokemon-type-picker.service';
 import { map } from 'rxjs';
-import { PokemonTypeDetailInfoComponent } from './pokemon-type-detail-info/pokemon-type-detail-info.component';
+import { PokemonTypeEffectComponent } from './pokemon-type-effect/pokemon-type-effect.component';
 
 @Component({
   selector: 'app-pokemon-type-detail',
   standalone: true,
-  imports: [CommonModule, PokemonTypeDetailInfoComponent],
+  imports: [CommonModule, PokemonTypeEffectComponent],
   templateUrl: './pokemon-type-detail.component.html',
   styleUrls: ['./pokemon-type-detail.component.scss'],
 })
 export class PokemonTypeDetailComponent {
-  selectedType$ = this.pokemonTypePickerService.selectedType$;
-  selectedTypeDetail$ = this.selectedType$.pipe(
-    map((type) => TYPE_DETAILS[type])
-  );
+  selectedType$ = this.pokemonTypePickerService.selectedPokemonType$;
+  selectedTypeEffectDetail$ =
+    this.pokemonTypePickerService.selectedPokemonType$.pipe(
+      map((type) => TYPE_DETAILS[type])
+    );
 
-  superEffective$ = this.selectedTypeDetail$.pipe(
+  superEffective$ = this.selectedTypeEffectDetail$.pipe(
     map((typeDetail) => this.format(typeDetail.superEffective))
   );
 
-  notVeryEffective$ = this.selectedTypeDetail$.pipe(
+  notVeryEffective$ = this.selectedTypeEffectDetail$.pipe(
     map((typeDetail) => this.format(typeDetail.notVeryEffective))
   );
 
-  ineffective$ = this.selectedTypeDetail$.pipe(
+  ineffective$ = this.selectedTypeEffectDetail$.pipe(
     map((typeDetail) => this.format(typeDetail.ineffective))
   );
 

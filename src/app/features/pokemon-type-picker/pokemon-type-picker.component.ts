@@ -13,7 +13,7 @@ import { POKEMON_TYPES } from './pokemon-types';
 })
 export class PokemonTypePickerComponent {
   readonly pokemonTypes = POKEMON_TYPES;
-  readonly selectedType$ = this.pokemonTypePickerService.selectedType$;
+  readonly selectedType$ = this.pokemonTypePickerService.selectedPokemonType$;
 
   constructor(private pokemonTypePickerService: PokemonTypePickerService) {}
 }

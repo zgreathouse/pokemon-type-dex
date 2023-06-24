@@ -18,25 +18,3 @@
   width: 1px;
   background-color: #c5c5c5;
 }
-
-.pokemon-type-detail-section {
-  display: flex;
-  flex-direction: column;
-  max-width: 440px;
-  min-width: 440px;
-}
-
-.pokemon-type-detail-section-header {
-  align-self: center;
-  text-align: center;
-  width: 332px;
-  margin: 0;
-  padding-bottom: 12px;
-  border-bottom: 1px #c5c5c5 solid;
-}
-
-
-.pokemon-type-detail {
-  display: flex;
-  flex-direction: column;
-}
