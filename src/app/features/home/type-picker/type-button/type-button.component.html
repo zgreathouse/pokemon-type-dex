@@ -1,6 +1,11 @@
-<button 
-  [ngClass]="(selected$ | async) ? 'type-btn-selected' : 'type-btn'"
-  (click)="handleTypeSelection()"
->
-  {{ pokemonType }}
-</button>
+<ng-container *ngIf="{ selected: selected$ | async } as state">
+  <button 
+    mat-raised-button 
+    ripple
+    [ngClass]="state.selected ? 'type-btn-selected' : 'type-btn'"
+    [color]="state.selected ? 'primary' : 'basic'"
+    (focus)="selectType()"
+  >
+    {{ pokemonType }}
+  </button>
+</ng-container>
