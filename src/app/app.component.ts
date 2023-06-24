@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { ROUTES } from './app-routing.module';
+import { RouterModule } from '@angular/router';
+import { FooterComponent } from './ui/footer/footer.component';
+import { TopNavComponent } from './ui/top-nav/top-nav.component';
 
 @Component({
   selector: 'app-root',
+  standalone: true,
+  imports: [FooterComponent, RouterModule, TopNavComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
-  routes: string[] = ROUTES.filter(({ path }) => path && path !== '/').map(
-    ({ path }) => `${path?.charAt(0).toUpperCase()}${path?.slice(1)}` ?? ''
-  );
-}
+export class AppComponent {}
