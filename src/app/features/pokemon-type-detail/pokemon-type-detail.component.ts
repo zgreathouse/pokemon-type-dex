@@ -14,24 +14,32 @@ import { PokemonTypeDetailInfoComponent } from './pokemon-type-detail-info/pokem
   styleUrls: ['./pokemon-type-detail.component.scss'],
 })
 export class PokemonTypeDetailComponent {
-  readonly selectedType$ = this.pokemonTypePickerService.selectedType$;
+  selectedType$ = this.pokemonTypePickerService.selectedType$;
+  selectedTypeDetail$ = this.selectedType$.pipe(
+    map((type) => TYPE_DETAILS[type])
+  );
 
-  superEffective$ = this.pokemonTypePickerService.selectedType$.pipe(
-    map((type) => this.format(TYPE_DETAILS[type].superEffective))
+  superEffective$ = this.selectedTypeDetail$.pipe(
+    map((typeDetail) => this.format(typeDetail.superEffective))
   );
-  notVeryEffective$ = this.pokemonTypePickerService.selectedType$.pipe(
-    map((type) => this.format(TYPE_DETAILS[type].notVeryEffective))
+
+  notVeryEffective$ = this.selectedTypeDetail$.pipe(
+    map((typeDetail) => this.format(typeDetail.notVeryEffective))
   );
-  ineffective$ = this.pokemonTypePickerService.selectedType$.pipe(
-    map((type) => this.format(TYPE_DETAILS[type].ineffective))
+
+  ineffective$ = this.selectedTypeDetail$.pipe(
+    map((typeDetail) => this.format(typeDetail.ineffective))
   );
-  weak$ = this.pokemonTypePickerService.selectedType$.pipe(
+
+  weak$ = this.selectedType$.pipe(
     map((type) => this.format(getTypeResistances(type).weak))
   );
-  resists$ = this.pokemonTypePickerService.selectedType$.pipe(
+
+  resists$ = this.selectedType$.pipe(
     map((type) => this.format(getTypeResistances(type).resists))
   );
-  immune$ = this.pokemonTypePickerService.selectedType$.pipe(
+
+  immune$ = this.selectedType$.pipe(
     map((type) => this.format(getTypeResistances(type).immune))
   );
 

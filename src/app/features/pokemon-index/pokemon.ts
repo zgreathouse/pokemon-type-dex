@@ -1,6 +1,6 @@
 import { PokemonDetail } from '@types';
 
-const POKEMON: PokemonDetail[] = [
+export const POKEMON: PokemonDetail[] = [
   { name: 'Bulbasaur', typeOne: 'Grass', typeTwo: 'Poison' },
   { name: 'Ivysaur', typeOne: 'Grass', typeTwo: 'Poison' },
   { name: 'Venusaur', typeOne: 'Grass', typeTwo: 'Poison' },
@@ -153,5 +153,3 @@ const POKEMON: PokemonDetail[] = [
   { name: 'Mewtwo', typeOne: 'Psychic', typeTwo: null },
   { name: 'Mew', typeOne: 'Psychic', typeTwo: null },
 ];
-
-export default POKEMON;
