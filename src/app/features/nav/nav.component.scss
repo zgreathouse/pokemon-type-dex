@@ -1,17 +1,6 @@
 .nav-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  height: 48px;
-  padding: 0 12px;
-  position: sticky;
-  top: 0;
-  background-color: #e4000f;
-  color: #fff;
-}
-
-.nav-heading {
-  font-size: 24px;
 }
 
 .nav-routes-container {
@@ -21,15 +10,5 @@
 }
 
 .nav-route-btn {
-  border: none;
   width: 72px;
-  height: 24px;
-  background-color: #e4000f;
-  color: #fff;
-  font-size: 14px;
-}
-
-.nav-route-btn:hover {
-  cursor: pointer;
-  border-bottom: 1px #fff solid;
 }
