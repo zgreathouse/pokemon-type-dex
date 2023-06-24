@@ -1,5 +1,5 @@
 import { PokemonType, PokemonTypeDetail, ResistanceDetail } from '@types';
-import { POKEMON_TYPES } from '../type-picker';
+import { POKEMON_TYPES } from '../type-picker/type-picker';
 
 export const getTypeResistances = (
   attackingType: PokemonType

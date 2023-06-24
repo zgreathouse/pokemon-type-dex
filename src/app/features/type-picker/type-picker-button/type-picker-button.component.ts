@@ -6,13 +6,13 @@ import { TypePickerService } from '../type-picker.service';
 import { map, Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-type-button',
+  selector: 'app-type-picker-button',
   standalone: true,
   imports: [CommonModule, MatButtonModule],
-  templateUrl: './type-button.component.html',
-  styleUrls: ['./type-button.component.scss'],
+  templateUrl: './type-picker-button.component.html',
+  styleUrls: ['./type-picker-button.component.scss'],
 })
-export class TypeButtonComponent {
+export class TypePickerButtonComponent {
   @Input() pokemonType!: PokemonType;
   @Output() typeSelectionEvent = new EventEmitter<PokemonType>();
 

@@ -1,9 +1,8 @@
 <div class="type-picker-container">
   <div class="type-picker-types-container">
-    <app-type-button 
+    <app-type-picker-button 
       *ngFor="let pokemonType of pokemonTypes"
       [pokemonType]="pokemonType"
-    ></app-type-button>
+    ></app-type-picker-button>
   </div>
-  <app-type-detail></app-type-detail>
 </div>

@@ -2,7 +2,7 @@ import { Component, Input, OnDestroy, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { getTypeResistances, TYPE_DETAILS } from './type-detail';
 import { PokemonType } from '@types';
-import { TypePickerService } from '../type-picker.service';
+import { TypePickerService } from '../type-picker/type-picker.service';
 import { map } from 'rxjs';
 import { TypeDetailInfoComponent } from './type-detail-info/type-detail-info.component';
 

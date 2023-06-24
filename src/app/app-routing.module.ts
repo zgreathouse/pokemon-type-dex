@@ -10,19 +10,7 @@ export const ROUTES: Routes = [
   {
     path: 'home',
     loadComponent: () =>
-      import('./features/home/home.component').then((m) => m.HomeComponent),
-  },
-  {
-    path: 'pokémon',
-    loadComponent: () =>
-      import('./features/pokemon/pokemon.component').then(
-        (m) => m.PokemonComponent
-      ),
-  },
-  {
-    path: 'moves',
-    loadComponent: () =>
-      import('./features/moves/moves.component').then((m) => m.MovesComponent),
+      import('./ui/frame/frame.component').then((m) => m.FrameComponent),
   },
 ];
 

@@ -1,11 +1,12 @@
 .type-picker-container {
   display: flex;
   flex-direction: column;
+  padding: 16px 0;
 }
 
 .type-picker-types-container {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(9, 80px);
-  grid-gap: 8px;
+  grid-gap: 12px;
 }

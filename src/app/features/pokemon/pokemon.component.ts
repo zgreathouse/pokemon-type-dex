@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
@@ -7,6 +7,7 @@ import { MatInputModule } from '@angular/material/input';
 import { PokemonService } from './pokemon.service';
 import { PokemonCardComponent } from './pokemon-card/pokemon-card.component';
 import { debounceTime, distinctUntilChanged, map, startWith } from 'rxjs';
+import { PokemonType } from '@types';
 
 @Component({
   selector: 'app-pokemon',
@@ -24,10 +25,14 @@ import { debounceTime, distinctUntilChanged, map, startWith } from 'rxjs';
   styleUrls: ['./pokemon.component.scss'],
 })
 export class PokemonComponent {
+  @Input() pokemonType!: PokemonType;
   myControl = new FormControl('');
 
   readonly POKEMON_NAMES = this.pokemonService
     .fetchPokemon()
+    .filter((pokemon) =>
+      [pokemon.typeOne, pokemon.typeTwo].includes(this.pokemonType)
+    )
     .map((pokemon) => pokemon.name.toLocaleLowerCase());
 
   filteredPokemon$ = this.myControl.valueChanges.pipe(
