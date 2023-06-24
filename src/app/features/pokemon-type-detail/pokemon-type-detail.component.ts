@@ -1,19 +1,19 @@
 import { Component, Input, OnDestroy, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { getTypeResistances, TYPE_DETAILS } from './type-detail';
+import { getTypeResistances, TYPE_DETAILS } from './pokemon-type-detail';
 import { PokemonType } from '@types';
 import { PokemonTypePickerService } from '../pokemon-type-picker/pokemon-type-picker.service';
 import { map } from 'rxjs';
-import { TypeDetailInfoComponent } from './type-detail-info/type-detail-info.component';
+import { PokemonTypeDetailInfoComponent } from './pokemon-type-detail-info/pokemon-type-detail-info.component';
 
 @Component({
-  selector: 'app-type-detail',
+  selector: 'app-pokemon-type-detail',
   standalone: true,
-  imports: [CommonModule, TypeDetailInfoComponent],
-  templateUrl: './type-detail.component.html',
-  styleUrls: ['./type-detail.component.scss'],
+  imports: [CommonModule, PokemonTypeDetailInfoComponent],
+  templateUrl: './pokemon-type-detail.component.html',
+  styleUrls: ['./pokemon-type-detail.component.scss'],
 })
-export class TypeDetailComponent {
+export class PokemonTypeDetailComponent {
   readonly selectedType$ = this.pokemonTypePickerService.selectedType$;
 
   superEffective$ = this.pokemonTypePickerService.selectedType$.pipe(

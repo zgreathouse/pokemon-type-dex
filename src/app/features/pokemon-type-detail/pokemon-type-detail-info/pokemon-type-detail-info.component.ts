@@ -3,13 +3,13 @@ import { CommonModule } from '@angular/common';
 import { DamageMultiplier, DetailType, TypeEffect } from '@types';
 
 @Component({
-  selector: 'app-type-detail-info',
+  selector: 'app-pokemon-type-detail-info',
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './type-detail-info.component.html',
-  styleUrls: ['./type-detail-info.component.scss'],
+  templateUrl: './pokemon-type-detail-info.component.html',
+  styleUrls: ['./pokemon-type-detail-info.component.scss'],
 })
-export class TypeDetailInfoComponent implements OnInit {
+export class PokemonTypeDetailInfoComponent implements OnInit {
   @Input() typeEffect!: TypeEffect;
   @Input() pokemonTypes!: string | null;
   @Input() detailType!: DetailType;
