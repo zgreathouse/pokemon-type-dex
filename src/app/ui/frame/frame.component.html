@@ -1,4 +1,17 @@
 <div class="frame-container">
   <app-pokemon-type-picker></app-pokemon-type-picker>
-  <app-pokemon-type-detail></app-pokemon-type-detail>
+  <h2 class="pokemon-type-detail-header">
+    {{ selectedType$ | async }} Type
+  </h2>
+  <mat-tab-group mat-stretch-tabs="false" mat-align-tabs="center">
+    <mat-tab label="Detail">
+      <app-pokemon-type-detail></app-pokemon-type-detail>
+    </mat-tab>
+    <mat-tab label="Pokèmon">
+      <app-pokemon-index></app-pokemon-index>
+    </mat-tab>
+    <mat-tab label="Moves">
+      <div></div>
+    </mat-tab>
+  </mat-tab-group>
 </div>

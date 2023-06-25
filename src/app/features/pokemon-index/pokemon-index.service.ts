@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
-import { PokemonType } from '@types';
+import { PokemonDetail, PokemonType } from '@types';
 import { POKEMON } from 'src/app/features/pokemon-index/pokemon';
 
 @Injectable({ providedIn: 'root' })
-export class PokemonService {
-  fetchPokemonByType(pokemonType: PokemonType) {
+export class PokemonIndexService {
+  fetchPokemonByType(pokemonType: PokemonType): PokemonDetail[] {
     return POKEMON.filter(({ typeOne, typeTwo }) =>
       [typeOne, typeTwo].includes(pokemonType)
     );

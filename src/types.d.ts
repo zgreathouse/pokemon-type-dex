@@ -197,6 +197,7 @@ export type PokemonName =
   | 'Mew';
 
 export type PokemonDetail = {
+  id: string;
   name: PokemonName;
   typeOne: PokemonType;
   typeTwo: PokemonType | null;

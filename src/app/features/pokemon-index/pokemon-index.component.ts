@@ -1,50 +1,27 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormControl, ReactiveFormsModule } from '@angular/forms';
-import { MatAutocompleteModule } from '@angular/material/autocomplete';
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatInputModule } from '@angular/material/input';
-import { PokemonService } from './pokemon-index.service';
-import { PokemonCardComponent } from './pokemon-card/pokemon-card.component';
-import { debounceTime, distinctUntilChanged, map, startWith } from 'rxjs';
-import { PokemonType } from '@types';
+import { ReactiveFormsModule } from '@angular/forms';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { PokemonIndexService } from './pokemon-index.service';
+import { map } from 'rxjs';
+import { PokemonTypePickerService } from '../pokemon-type-picker/pokemon-type-picker.service';
 
 @Component({
-  selector: 'app-pokemon',
+  selector: 'app-pokemon-index',
   standalone: true,
-  imports: [
-    CommonModule,
-    MatAutocompleteModule,
-    MatFormFieldModule,
-    MatInputModule,
-    PokemonCardComponent,
-    ReactiveFormsModule,
-  ],
-  providers: [PokemonService],
+  imports: [CommonModule, MatGridListModule, ReactiveFormsModule],
   templateUrl: './pokemon-index.component.html',
   styleUrls: ['./pokemon-index.component.scss'],
 })
 export class PokemonIndexComponent {
-  @Input() pokemonType!: PokemonType;
-  myControl = new FormControl('');
-
-  readonly POKEMON_NAMES = this.pokemonService
-    .fetchPokemonByType(this.pokemonType)
-    .map((pokemon) => pokemon.name.toLocaleLowerCase());
-
-  filteredPokemon$ = this.myControl.valueChanges.pipe(
-    startWith(''),
-    distinctUntilChanged(),
-    debounceTime(300),
-    map((value) => this.filterPokemon(value || ''))
+  filteredPokemon$ = this.pokemonTypePickerService.selectedPokemonType$.pipe(
+    map((pokemonType) =>
+      this.pokemonIndexService.fetchPokemonByType(pokemonType)
+    )
   );
 
-  constructor(private pokemonService: PokemonService) {}
-
-  private filterPokemon(value: string): string[] {
-    const formattedValue = value.toLowerCase();
-    return this.POKEMON_NAMES.filter((pokemonName) =>
-      pokemonName.includes(formattedValue)
-    );
-  }
+  constructor(
+    private pokemonIndexService: PokemonIndexService,
+    private pokemonTypePickerService: PokemonTypePickerService
+  ) {}
 }

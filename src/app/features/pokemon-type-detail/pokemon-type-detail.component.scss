@@ -5,13 +5,10 @@
   align-items: center;
 }
 
-.pokemon-type-detail-header {
-  align-self: center;
-}
-
 .pokemon-type-detail-sections-container {
   display: flex;
   justify-content: space-around;
+  padding-top: 24px;
 }
 
 .pokemon-type-detail-section-divider {
