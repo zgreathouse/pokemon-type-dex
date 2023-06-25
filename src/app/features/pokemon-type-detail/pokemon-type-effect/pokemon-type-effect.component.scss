@@ -1,14 +1,13 @@
 .pokemon-type-effect-container {
   display: flex;
   flex-direction: column;
-  max-width: 440px;
-  min-width: 440px;
+  width: 420px;
 }
 
 .pokemon-type-effect-header {
   align-self: center;
   text-align: center;
-  width: 332px;
+  width: 316px;
   margin: 0;
   padding-bottom: 12px;
   border-bottom: 1px #c5c5c5 solid;
@@ -28,7 +27,7 @@
 
 .pokemon-type-effect-info {
   text-align: center;
-  height: 64px;
+  height: 56px;
   max-width: 64%;
   margin: 0;
   color: #555050;

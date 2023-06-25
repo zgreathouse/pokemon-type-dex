@@ -1,14 +1,10 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { DetailType, PokemonType, ResistanceDetail, TypeEffect } from '@types';
 import {
-  DetailType,
-  PokemonType,
-  PokemonTypeEffectDetail,
-  ResistanceDetail,
-  TypeEffect,
-} from '@types';
-import { TYPE_DETAILS } from '../pokemon-type-detail';
-import { POKEMON_TYPES } from '../../pokemon-type-picker/pokemon-types';
+  POKEMON_TYPES,
+  TYPE_DETAILS,
+} from '../../pokemon-type-picker/pokemon-types';
 import { PokemonTypePickerService } from '../../pokemon-type-picker/pokemon-type-picker.service';
 import { map } from 'rxjs';
 
