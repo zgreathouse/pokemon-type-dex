@@ -24,46 +24,7 @@ export class PokemonTypeEffectComponent {
   readonly notApplicable = '—';
 
   pokemonTypeEffect$ = this.pokemonTypePickerService.selectedPokemonType$.pipe(
-    map((pokemonType) => {
-      const pokemonTypeEffectDetail = TYPE_DETAILS[pokemonType];
-
-      const doubleDamageEffect: TypeEffect =
-        this.detailType === 'Offense' ? 'Super effective' : 'Weak';
-      const halfDamageEffect: TypeEffect =
-        this.detailType === 'Offense' ? 'Not very effective' : 'Resists';
-      const noDamageEffect: TypeEffect =
-        this.detailType === 'Offense' ? 'Ineffective' : 'Immune';
-
-      const doubleDamagePokemonTypes: PokemonType[] =
-        this.detailType === 'Offense'
-          ? pokemonTypeEffectDetail.superEffective
-          : this.getTypeResistances(pokemonType).weak;
-
-      const halfDamagePokemonTypes: PokemonType[] =
-        this.detailType === 'Offense'
-          ? pokemonTypeEffectDetail.notVeryEffective
-          : this.getTypeResistances(pokemonType).resists;
-
-      const noDamagePokemonTypes: PokemonType[] =
-        this.detailType === 'Offense'
-          ? pokemonTypeEffectDetail.ineffective
-          : this.getTypeResistances(pokemonType).immune;
-
-      return [
-        {
-          pokemonTypeEffect: `${doubleDamageEffect} ${this.doubleDamageMultiplier}`,
-          pokemonTypes: this.formatPokemonTypes(doubleDamagePokemonTypes),
-        },
-        {
-          pokemonTypeEffect: `${halfDamageEffect} ${this.halfDamageMultiplier}`,
-          pokemonTypes: this.formatPokemonTypes(halfDamagePokemonTypes),
-        },
-        {
-          pokemonTypeEffect: `${noDamageEffect} ${this.noDamageMultiplier}`,
-          pokemonTypes: this.formatPokemonTypes(noDamagePokemonTypes),
-        },
-      ];
-    })
+    map((pokemonType) => this.computePokemonTypeEffects(pokemonType))
   );
 
   constructor(private pokemonTypePickerService: PokemonTypePickerService) {}
@@ -92,5 +53,46 @@ export class PokemonTypeEffectComponent {
         immune: [],
       } as ResistanceDetail
     );
+  }
+
+  private computePokemonTypeEffects(pokemonType: PokemonType) {
+    const pokemonTypeEffectDetail = TYPE_DETAILS[pokemonType];
+
+    const doubleDamageEffect: TypeEffect =
+      this.detailType === 'Offense' ? 'Super effective' : 'Weak';
+    const halfDamageEffect: TypeEffect =
+      this.detailType === 'Offense' ? 'Not very effective' : 'Resists';
+    const noDamageEffect: TypeEffect =
+      this.detailType === 'Offense' ? 'Ineffective' : 'Immune';
+
+    const doubleDamagePokemonTypes: PokemonType[] =
+      this.detailType === 'Offense'
+        ? pokemonTypeEffectDetail.superEffective
+        : this.getTypeResistances(pokemonType).weak;
+
+    const halfDamagePokemonTypes: PokemonType[] =
+      this.detailType === 'Offense'
+        ? pokemonTypeEffectDetail.notVeryEffective
+        : this.getTypeResistances(pokemonType).resists;
+
+    const noDamagePokemonTypes: PokemonType[] =
+      this.detailType === 'Offense'
+        ? pokemonTypeEffectDetail.ineffective
+        : this.getTypeResistances(pokemonType).immune;
+
+    return [
+      {
+        pokemonTypeEffect: `${doubleDamageEffect} ${this.doubleDamageMultiplier}`,
+        pokemonTypes: this.formatPokemonTypes(doubleDamagePokemonTypes),
+      },
+      {
+        pokemonTypeEffect: `${halfDamageEffect} ${this.halfDamageMultiplier}`,
+        pokemonTypes: this.formatPokemonTypes(halfDamagePokemonTypes),
+      },
+      {
+        pokemonTypeEffect: `${noDamageEffect} ${this.noDamageMultiplier}`,
+        pokemonTypes: this.formatPokemonTypes(noDamagePokemonTypes),
+      },
+    ];
   }
 }

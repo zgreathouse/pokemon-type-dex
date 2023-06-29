@@ -14,6 +14,14 @@ import { PokemonTypePickerService } from '../pokemon-type-picker/pokemon-type-pi
   styleUrls: ['./pokemon-index.component.scss'],
 })
 export class PokemonIndexComponent {
+  readonly columnNames = [
+    'Pokèdex #',
+    'Pokèmon',
+    'Primary Type',
+    'Secondary Type',
+  ];
+  readonly emptyType = '—';
+
   filteredPokemon$ = this.pokemonTypePickerService.selectedPokemonType$.pipe(
     map((pokemonType) =>
       this.pokemonIndexService.fetchPokemonByType(pokemonType)
