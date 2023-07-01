@@ -111,7 +111,7 @@ export const TYPE_DETAILS: Record<PokemonType, PokemonTypeEffectDetail> = {
   Dark: {
     superEffective: ['Ghost', 'Psychic'],
     notVeryEffective: ['Dark', 'Fairy', 'Fighting'],
-    ineffective: ['Psychic'],
+    ineffective: [],
   },
   Dragon: {
     superEffective: ['Dragon'],

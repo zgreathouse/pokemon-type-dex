@@ -6,7 +6,7 @@
       class="pokemon-type-effect-info-container"
     >
       <h4>{{ effect.pokemonTypeEffect }}</h4>
-      <p class="pokemon-type-effect-info">
+      <p class="pokemon-type-effect-info" [@fadeIn]="'active'">
         {{ effect.pokemonTypes.length ? effect.pokemonTypes : notApplicable }}
       </p>
     </div>

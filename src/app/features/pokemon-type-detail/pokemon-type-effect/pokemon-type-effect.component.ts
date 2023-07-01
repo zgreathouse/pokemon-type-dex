@@ -1,10 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DetailType, PokemonType, ResistanceDetail, TypeEffect } from '@types';
-import {
-  POKEMON_TYPES,
-  TYPE_DETAILS,
-} from '../../pokemon-type-picker/pokemon-types';
+import { trigger, style, animate, transition } from '@angular/animations';
+import { DetailType } from '@types';
 import { PokemonTypePickerService } from '../../pokemon-type-picker/pokemon-type-picker.service';
 import { map } from 'rxjs';
 import { PokemonTypeEffectService } from './pokemon-type-effect.service';
@@ -15,6 +12,14 @@ import { PokemonTypeEffectService } from './pokemon-type-effect.service';
   imports: [CommonModule],
   templateUrl: './pokemon-type-effect.component.html',
   styleUrls: ['./pokemon-type-effect.component.scss'],
+  animations: [
+    trigger('fadeIn', [
+      transition('void => active', [
+        style({ opacity: 0 }),
+        animate(500, style({ opacity: 1 })),
+      ]),
+    ]),
+  ],
 })
 export class PokemonTypeEffectComponent {
   @Input() detailType!: DetailType;
