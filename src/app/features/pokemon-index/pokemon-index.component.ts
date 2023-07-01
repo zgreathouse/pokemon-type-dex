@@ -16,7 +16,8 @@ import { PokemonTypePickerService } from '../pokemon-type-picker/pokemon-type-pi
 export class PokemonIndexComponent {
   readonly columnNames = [
     'Pokèdex #',
-    'Pokèmon',
+    'Sprite',
+    'Name',
     'Primary Type',
     'Secondary Type',
   ];

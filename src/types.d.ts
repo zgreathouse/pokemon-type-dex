@@ -198,6 +198,7 @@ export type PokemonName =
 
 export type PokemonDetail = {
   id: string;
+  sprite: string;
   name: PokemonName;
   typeOne: PokemonType;
   typeTwo: PokemonType | null;

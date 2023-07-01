@@ -1,10 +1,13 @@
 <div class="pokemon-index-container">
-  <mat-grid-list cols="4" rowHeight="24px">
+  <mat-grid-list cols="5" rowHeight="72px">
     <mat-grid-tile *ngFor="let columnName of columnNames">
       <strong>{{ columnName }}</strong>
     </mat-grid-tile>
     <ng-container *ngFor="let pokemon of (filteredPokemon$ | async) as filteredPokemon">
       <mat-grid-tile>{{ pokemon.id }}</mat-grid-tile>
+      <mat-grid-tile>
+        <img class="pokemon-sprite" [src]="pokemon.sprite"/>
+      </mat-grid-tile>
       <mat-grid-tile>{{ pokemon.name }}</mat-grid-tile>
       <mat-grid-tile>{{ pokemon.typeOne }}</mat-grid-tile>
       <mat-grid-tile>{{ pokemon.typeTwo || emptyType}}</mat-grid-tile>
