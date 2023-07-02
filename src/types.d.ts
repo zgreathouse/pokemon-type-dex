@@ -224,3 +224,16 @@ export type PokemonDetail = {
   typeTwo: PokemonType | null;
   totalBaseStat: number;
 };
+
+export type PokemonMoveCategory = 'Physical' | 'Special' | 'Status' | '—';
+
+export type PokemonMoveDetail = {
+  name: string;
+  pokemonType: PokemonType;
+  category: PokemonMoveCategory;
+  power: string;
+  accuracy: string;
+  pp: string;
+  effect: string;
+  probability: string;
+};
