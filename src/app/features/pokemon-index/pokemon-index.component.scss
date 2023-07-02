@@ -1,9 +1,22 @@
+td, th {
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
 .pokemon-index-container {
-  padding-top: 16px;
   height: 416px;
 }
 
+.mat-sort-header-container {
+  justify-content: center !important;
+}
+
+.pokemon-type-chip-container {
+  display: flex;
+  justify-content: center;
+}
+
 .pokemon-sprite {
-  width: 72px;
-  height: 72px;
+  width: 68px;
+  height: 68px;
 }

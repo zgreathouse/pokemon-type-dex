@@ -1,27 +1,53 @@
-<div class="pokemon-index-container">
-  <mat-grid-list  cols="6" rowHeight="72px">
-    <mat-grid-tile *ngFor="let columnName of columnNames">
-      <strong>{{ columnName }}</strong>
-    </mat-grid-tile>
-    <div *ngFor="let pokemon of (filteredPokemon$ | async) as filteredPokemon">
-      <mat-grid-tile>{{ pokemon.id }}</mat-grid-tile>
-      <mat-grid-tile>
-        <img class="pokemon-sprite" [src]="pokemon.sprite"/>
-      </mat-grid-tile>
-      <mat-grid-tile>{{ pokemon.name }}</mat-grid-tile>
-      <mat-grid-tile>
-        <app-pokemon-type-chip [pokemonType]="pokemon.typeOne"></app-pokemon-type-chip>
-      </mat-grid-tile>
-      <mat-grid-tile>
-        <app-pokemon-type-chip 
-          *ngIf="pokemon.typeTwo; else NoTypes"
-          [pokemonType]="pokemon.typeTwo"
-        ></app-pokemon-type-chip>
-      </mat-grid-tile>
-      <mat-grid-tile>{{ pokemon.totalBaseStat }}</mat-grid-tile>
-    </div>
-  </mat-grid-list>
-</div>
+<section 
+  *ngIf="(filteredPokemon$ | async) as filteredPokemon" 
+  class="pokemon-index-container" 
+  tabindex="0"
+>
+  <table mat-table [dataSource]="filteredPokemon">
+    <!-- Pokèdex # Column -->
+    <ng-container matColumnDef="Pokèdex #">
+      <th mat-header-cell *matHeaderCellDef>Pokèdex #</th>
+      <td mat-cell *matCellDef="let pokemon">{{ pokemon.id }}</td>
+    </ng-container>
+    <!-- Sprite Column -->
+    <ng-container matColumnDef="Sprite">
+      <th mat-header-cell *matHeaderCellDef>Sprite</th>
+      <td mat-cell *matCellDef="let pokemon"> 
+        <img class="pokemon-sprite" [src]="pokemon.sprite"/> 
+      </td>
+    </ng-container>
+    <!-- Name Column -->
+    <ng-container matColumnDef="Name">
+      <th mat-header-cell *matHeaderCellDef>Name</th>
+      <td mat-cell *matCellDef="let pokemon">{{ pokemon.name }}</td>
+    </ng-container>
+    <!-- Primary Type Column -->
+    <ng-container matColumnDef="Primary Type">
+      <th mat-header-cell *matHeaderCellDef>Primary Type</th>
+      <td mat-cell *matCellDef="let pokemon"> 
+        <div class="pokemon-type-chip-container">
+          <app-pokemon-type-chip [pokemonType]="pokemon.typeOne"></app-pokemon-type-chip> 
+        </div>
+      </td>
+    </ng-container>
+    <!-- Secondary Type Column -->
+    <ng-container matColumnDef="Secondary Type">
+      <th mat-header-cell *matHeaderCellDef>Secondary Type</th>
+      <td mat-cell *matCellDef="let pokemon"> 
+        <div *ngIf="pokemon.typeTwo; else NoTypes" class="pokemon-type-chip-container">
+          <app-pokemon-type-chip [pokemonType]="pokemon.typeTwo"></app-pokemon-type-chip>
+        </div>
+      </td>
+    </ng-container>
+    <!-- Total Base Stat Column -->
+    <ng-container matColumnDef="Total Base Stat">
+      <th mat-header-cell *matHeaderCellDef>Total Base Stat</th>
+      <td mat-cell *matCellDef="let pokemon">{{ pokemon.totalBaseStat }}</td>
+    </ng-container>
+    <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</section>
 
 <ng-template #NoTypes>
   <p>{{ notApplicable }}</p>

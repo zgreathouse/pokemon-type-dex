@@ -1,7 +1,7 @@
-import { trigger, style, animate, transition } from '@angular/animations';
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
+import { MatTableModule } from '@angular/material/table';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { PokemonIndexService } from './pokemon-index.service';
 import { map } from 'rxjs';
@@ -14,6 +14,7 @@ import { PokemonTypeChipComponent } from 'src/app/ui/pokemon-type-chip/pokemon-t
   imports: [
     CommonModule,
     MatGridListModule,
+    MatTableModule,
     PokemonTypeChipComponent,
     ReactiveFormsModule,
   ],
@@ -21,7 +22,7 @@ import { PokemonTypeChipComponent } from 'src/app/ui/pokemon-type-chip/pokemon-t
   styleUrls: ['./pokemon-index.component.scss'],
 })
 export class PokemonIndexComponent {
-  readonly columnNames = [
+  readonly displayedColumns = [
     'Pokèdex #',
     'Sprite',
     'Name',
