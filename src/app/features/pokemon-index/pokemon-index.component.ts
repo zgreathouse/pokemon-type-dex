@@ -2,7 +2,6 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatTableModule } from '@angular/material/table';
-import { MatGridListModule } from '@angular/material/grid-list';
 import { PokemonIndexService } from './pokemon-index.service';
 import { map } from 'rxjs';
 import { PokemonTypePickerService } from '../pokemon-type-picker/pokemon-type-picker.service';
@@ -13,7 +12,6 @@ import { PokemonTypeChipComponent } from 'src/app/ui/pokemon-type-chip/pokemon-t
   standalone: true,
   imports: [
     CommonModule,
-    MatGridListModule,
     MatTableModule,
     PokemonTypeChipComponent,
     ReactiveFormsModule,
@@ -22,6 +20,7 @@ import { PokemonTypeChipComponent } from 'src/app/ui/pokemon-type-chip/pokemon-t
   styleUrls: ['./pokemon-index.component.scss'],
 })
 export class PokemonIndexComponent {
+  readonly notApplicable = '—';
   readonly displayedColumns = [
     'Pokèdex #',
     'Sprite',
@@ -30,14 +29,12 @@ export class PokemonIndexComponent {
     'Secondary Type',
     'Total Base Stat',
   ];
-  readonly notApplicable = '—';
-
-  filteredPokemon$ = this.pokemonTypePickerService.selectedPokemonType$.pipe(
-    map((pokemonType) =>
-      this.pokemonIndexService.fetchPokemonByType(pokemonType)
-    )
-  );
-
+  readonly filteredPokemon$ =
+    this.pokemonTypePickerService.selectedPokemonType$.pipe(
+      map((pokemonType) =>
+        this.pokemonIndexService.fetchPokemonByType(pokemonType)
+      )
+    );
   constructor(
     private pokemonIndexService: PokemonIndexService,
     private pokemonTypePickerService: PokemonTypePickerService
