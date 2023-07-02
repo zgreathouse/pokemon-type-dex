@@ -17,15 +17,15 @@ export class PokemonTypeEffectService {
     return [
       {
         pokemonTypeEffect: `Super effective ${this.doubleDamageMultiplier}`,
-        pokemonTypes: this.formatPokemonTypes(superEffective),
+        pokemonTypes: superEffective,
       },
       {
         pokemonTypeEffect: `Not very effective ${this.halfDamageMultiplier}`,
-        pokemonTypes: this.formatPokemonTypes(notVeryEffective),
+        pokemonTypes: notVeryEffective,
       },
       {
         pokemonTypeEffect: `Ineffective ${this.noDamageMultiplier}`,
-        pokemonTypes: this.formatPokemonTypes(ineffective),
+        pokemonTypes: ineffective,
       },
     ];
   }
@@ -35,15 +35,15 @@ export class PokemonTypeEffectService {
     return [
       {
         pokemonTypeEffect: `Weak ${this.doubleDamageMultiplier}`,
-        pokemonTypes: this.formatPokemonTypes(weak),
+        pokemonTypes: weak,
       },
       {
         pokemonTypeEffect: `Resists ${this.halfDamageMultiplier}`,
-        pokemonTypes: this.formatPokemonTypes(resists),
+        pokemonTypes: resists,
       },
       {
         pokemonTypeEffect: `Immune ${this.noDamageMultiplier}`,
-        pokemonTypes: this.formatPokemonTypes(immune),
+        pokemonTypes: immune,
       },
     ];
   }
@@ -68,9 +68,5 @@ export class PokemonTypeEffectService {
         immune: [],
       } as ResistanceDetail
     );
-  }
-
-  private formatPokemonTypes(pokemonTypes: PokemonType[]): string {
-    return pokemonTypes.toString().split(',').join(', ') ?? '';
   }
 }

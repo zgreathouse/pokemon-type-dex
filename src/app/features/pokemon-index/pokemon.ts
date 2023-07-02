@@ -11,6 +11,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Bulbasaur',
     typeOne: 'Grass',
     typeTwo: 'Poison',
+    totalBaseStat: 253,
   },
   {
     id: '#002',
@@ -18,6 +19,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Ivysaur',
     typeOne: 'Grass',
     typeTwo: 'Poison',
+    totalBaseStat: 325,
   },
   {
     id: '#003',
@@ -25,6 +27,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Venusaur',
     typeOne: 'Grass',
     typeTwo: 'Poison',
+    totalBaseStat: 425,
   },
   {
     id: '#004',
@@ -32,6 +35,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Charmander',
     typeOne: 'Fire',
     typeTwo: null,
+    totalBaseStat: 249,
   },
   {
     id: '#005',
@@ -39,6 +43,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Charmeleon',
     typeOne: 'Fire',
     typeTwo: null,
+    totalBaseStat: 325,
   },
   {
     id: '#006',
@@ -46,6 +51,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Charizard',
     typeOne: 'Fire',
     typeTwo: 'Flying',
+    totalBaseStat: 425,
   },
   {
     id: '#007',
@@ -53,6 +59,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Squirtle',
     typeOne: 'Water',
     typeTwo: null,
+    totalBaseStat: 250,
   },
   {
     id: '#008',
@@ -60,6 +67,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Wartortle',
     typeOne: 'Water',
     typeTwo: null,
+    totalBaseStat: 325,
   },
   {
     id: '#009',
@@ -67,6 +75,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Blastoise',
     typeOne: 'Water',
     typeTwo: null,
+    totalBaseStat: 425,
   },
   {
     id: '#010',
@@ -74,6 +83,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Caterpie',
     typeOne: 'Bug',
     typeTwo: null,
+    totalBaseStat: 175,
   },
   {
     id: '#011',
@@ -81,6 +91,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Metapod',
     typeOne: 'Bug',
     typeTwo: null,
+    totalBaseStat: 180,
   },
   {
     id: '#012',
@@ -88,6 +99,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Butterfree',
     typeOne: 'Bug',
     typeTwo: 'Flying',
+    totalBaseStat: 305,
   },
   {
     id: '#013',
@@ -95,6 +107,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Weedle',
     typeOne: 'Bug',
     typeTwo: 'Poison',
+    totalBaseStat: 175,
   },
   {
     id: '#014',
@@ -102,6 +115,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Kakuna',
     typeOne: 'Bug',
     typeTwo: 'Poison',
+    totalBaseStat: 180,
   },
   {
     id: '#015',
@@ -109,6 +123,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Beedrill',
     typeOne: 'Bug',
     typeTwo: 'Poison',
+    totalBaseStat: 305,
   },
   {
     id: '#016',
@@ -116,6 +131,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Pidgey',
     typeOne: 'Normal',
     typeTwo: 'Flying',
+    totalBaseStat: 216,
   },
   {
     id: '#017',
@@ -123,6 +139,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Pidgeotto',
     typeOne: 'Normal',
     typeTwo: 'Flying',
+    totalBaseStat: 299,
   },
   {
     id: '#018',
@@ -130,6 +147,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Pidgeot',
     typeOne: 'Normal',
     typeTwo: 'Flying',
+    totalBaseStat: 399,
   },
   {
     id: '#019',
@@ -137,6 +155,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Rattata',
     typeOne: 'Normal',
     typeTwo: null,
+    totalBaseStat: 218,
   },
   {
     id: '#020',
@@ -144,6 +163,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Raticate',
     typeOne: 'Normal',
     typeTwo: null,
+    totalBaseStat: 343,
   },
   {
     id: '#021',
@@ -151,6 +171,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Spearow',
     typeOne: 'Normal',
     typeTwo: 'Flying',
+    totalBaseStat: 231,
   },
   {
     id: '#022',
@@ -158,6 +179,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Fearow',
     typeOne: 'Normal',
     typeTwo: 'Flying',
+    totalBaseStat: 381,
   },
   {
     id: '#023',
@@ -165,6 +187,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Ekans',
     typeOne: 'Poison',
     typeTwo: null,
+    totalBaseStat: 234,
   },
   {
     id: '#024',
@@ -172,6 +195,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Arbok',
     typeOne: 'Poison',
     typeTwo: null,
+    totalBaseStat: 359,
   },
   {
     id: '#025',
@@ -179,6 +203,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Pikachu',
     typeOne: 'Electric',
     typeTwo: null,
+    totalBaseStat: 260,
   },
   {
     id: '#026',
@@ -186,6 +211,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Raichu',
     typeOne: 'Electric',
     typeTwo: null,
+    totalBaseStat: 395,
   },
   {
     id: '#027',
@@ -193,6 +219,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Sandshrew',
     typeOne: 'Ground',
     typeTwo: null,
+    totalBaseStat: 280,
   },
   {
     id: '#028',
@@ -200,6 +227,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Sandslash',
     typeOne: 'Ground',
     typeTwo: null,
+    totalBaseStat: 405,
   },
   {
     id: '#029',
@@ -207,6 +235,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Nidoran♀',
     typeOne: 'Poison',
     typeTwo: null,
+    totalBaseStat: 235,
   },
   {
     id: '#030',
@@ -214,6 +243,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Nidorina',
     typeOne: 'Poison',
     typeTwo: null,
+    totalBaseStat: 310,
   },
   {
     id: '#031',
@@ -221,6 +251,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Nidoqueen',
     typeOne: 'Poison',
     typeTwo: 'Ground',
+    totalBaseStat: 410,
   },
   {
     id: '#032',
@@ -228,6 +259,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Nidoran♂',
     typeOne: 'Poison',
     typeTwo: null,
+    totalBaseStat: 233,
   },
   {
     id: '#033',
@@ -235,6 +267,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Nidorino',
     typeOne: 'Poison',
     typeTwo: null,
+    totalBaseStat: 310,
   },
   {
     id: '#034',
@@ -242,6 +275,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Nidoking',
     typeOne: 'Poison',
     typeTwo: 'Ground',
+    totalBaseStat: 410,
   },
   {
     id: '#035',
@@ -249,6 +283,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Clefairy',
     typeOne: 'Fairy',
     typeTwo: null,
+    totalBaseStat: 258,
   },
   {
     id: '#036',
@@ -256,6 +291,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Clefable',
     typeOne: 'Fairy',
     typeTwo: null,
+    totalBaseStat: 383,
   },
   {
     id: '#037',
@@ -263,6 +299,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Vulpix',
     typeOne: 'Fire',
     typeTwo: null,
+    totalBaseStat: 249,
   },
   {
     id: '#038',
@@ -270,6 +307,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Ninetales',
     typeOne: 'Fire',
     typeTwo: null,
+    totalBaseStat: 424,
   },
   {
     id: '#039',
@@ -277,6 +315,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Jigglypuff',
     typeOne: 'Normal',
     typeTwo: 'Fairy',
+    totalBaseStat: 225,
   },
   {
     id: '#040',
@@ -284,6 +323,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Wigglytuff',
     typeOne: 'Normal',
     typeTwo: 'Fairy',
+    totalBaseStat: 350,
   },
   {
     id: '#041',
@@ -291,6 +331,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Zubat',
     typeOne: 'Poison',
     typeTwo: 'Flying',
+    totalBaseStat: 215,
   },
   {
     id: '#042',
@@ -298,6 +339,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Golbat',
     typeOne: 'Poison',
     typeTwo: 'Flying',
+    totalBaseStat: 390,
   },
   {
     id: '#043',
@@ -305,6 +347,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Oddish',
     typeOne: 'Grass',
     typeTwo: 'Poison',
+    totalBaseStat: 255,
   },
   {
     id: '#044',
@@ -312,6 +355,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Gloom',
     typeOne: 'Grass',
     typeTwo: 'Poison',
+    totalBaseStat: 320,
   },
   {
     id: '#045',
@@ -319,6 +363,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Vileplume',
     typeOne: 'Grass',
     typeTwo: 'Poison',
+    totalBaseStat: 390,
   },
   {
     id: '#046',
@@ -326,6 +371,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Paras',
     typeOne: 'Bug',
     typeTwo: 'Grass',
+    totalBaseStat: 240,
   },
   {
     id: '#047',
@@ -333,6 +379,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Parasect',
     typeOne: 'Bug',
     typeTwo: 'Grass',
+    totalBaseStat: 0,
   },
   {
     id: '#048',
@@ -340,6 +387,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Venonat',
     typeOne: 'Bug',
     typeTwo: 'Poison',
+    totalBaseStat: 345,
   },
   {
     id: '#049',
@@ -347,6 +395,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Venomoth',
     typeOne: 'Bug',
     typeTwo: 'Poison',
+    totalBaseStat: 375,
   },
   {
     id: '#050',
@@ -354,6 +403,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Diglett',
     typeOne: 'Ground',
     typeTwo: null,
+    totalBaseStat: 230,
   },
   {
     id: '#051',
@@ -361,6 +411,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Dugtrio',
     typeOne: 'Ground',
     typeTwo: null,
+    totalBaseStat: 355,
   },
   {
     id: '#052',
@@ -368,6 +419,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Meowth',
     typeOne: 'Normal',
     typeTwo: null,
+    totalBaseStat: 250,
   },
   {
     id: '#053',
@@ -375,6 +427,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Persian',
     typeOne: 'Normal',
     typeTwo: null,
+    totalBaseStat: 375,
   },
   {
     id: '#054',
@@ -382,6 +435,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Psyduck',
     typeOne: 'Water',
     typeTwo: null,
+    totalBaseStat: 255,
   },
   {
     id: '#055',
@@ -389,6 +443,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Golduck',
     typeOne: 'Water',
     typeTwo: null,
+    totalBaseStat: 405,
   },
   {
     id: '#056',
@@ -396,6 +451,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Mankey',
     typeOne: 'Fighting',
     typeTwo: null,
+    totalBaseStat: 260,
   },
   {
     id: '#057',
@@ -403,6 +459,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Primeape',
     typeOne: 'Fighting',
     typeTwo: null,
+    totalBaseStat: 385,
   },
   {
     id: '#058',
@@ -410,6 +467,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Growlithe',
     typeOne: 'Fire',
     typeTwo: null,
+    totalBaseStat: 280,
   },
   {
     id: '#059',
@@ -417,6 +475,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Arcanine',
     typeOne: 'Fire',
     typeTwo: null,
+    totalBaseStat: 455,
   },
   {
     id: '#060',
@@ -424,6 +483,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Poliwag',
     typeOne: 'Water',
     typeTwo: null,
+    totalBaseStat: 260,
   },
   {
     id: '#061',
@@ -431,6 +491,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Poliwhirl',
     typeOne: 'Water',
     typeTwo: null,
+    totalBaseStat: 335,
   },
   {
     id: '#062',
@@ -438,6 +499,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Poliwrath',
     typeOne: 'Water',
     typeTwo: 'Fighting',
+    totalBaseStat: 410,
   },
   {
     id: '#063',
@@ -445,6 +507,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Abra',
     typeOne: 'Psychic',
     typeTwo: null,
+    totalBaseStat: 255,
   },
   {
     id: '#064',
@@ -452,6 +515,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Kadabra',
     typeOne: 'Psychic',
     typeTwo: null,
+    totalBaseStat: 330,
   },
   {
     id: '#065',
@@ -459,6 +523,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Alakazam',
     typeOne: 'Psychic',
     typeTwo: null,
+    totalBaseStat: 405,
   },
   {
     id: '#066',
@@ -466,6 +531,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Machop',
     typeOne: 'Fighting',
     typeTwo: null,
+    totalBaseStat: 270,
   },
   {
     id: '#067',
@@ -473,6 +539,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Machoke',
     typeOne: 'Fighting',
     typeTwo: null,
+    totalBaseStat: 345,
   },
   {
     id: '#068',
@@ -480,6 +547,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Machamp',
     typeOne: 'Fighting',
     typeTwo: null,
+    totalBaseStat: 420,
   },
   {
     id: '#069',
@@ -487,6 +555,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Bellsprout',
     typeOne: 'Grass',
     typeTwo: 'Poison',
+    totalBaseStat: 270,
   },
   {
     id: '#070',
@@ -494,6 +563,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Weepinbell',
     typeOne: 'Grass',
     typeTwo: 'Poison',
+    totalBaseStat: 345,
   },
   {
     id: '#071',
@@ -501,6 +571,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Victreebel',
     typeOne: 'Grass',
     typeTwo: 'Poison',
+    totalBaseStat: 420,
   },
   {
     id: '#072',
@@ -508,6 +579,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Tentacool',
     typeOne: 'Water',
     typeTwo: 'Poison',
+    totalBaseStat: 285,
   },
   {
     id: '#073',
@@ -515,6 +587,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Tentacruel',
     typeOne: 'Water',
     typeTwo: 'Poison',
+    totalBaseStat: 435,
   },
   {
     id: '#074',
@@ -522,6 +595,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Geodude',
     typeOne: 'Rock',
     typeTwo: 'Ground',
+    totalBaseStat: 270,
   },
   {
     id: '#075',
@@ -529,6 +603,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Graveler',
     typeOne: 'Rock',
     typeTwo: 'Ground',
+    totalBaseStat: 345,
   },
   {
     id: '#076',
@@ -536,6 +611,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Golem',
     typeOne: 'Rock',
     typeTwo: 'Ground',
+    totalBaseStat: 420,
   },
   {
     id: '#077',
@@ -543,6 +619,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Ponyta',
     typeOne: 'Fire',
     typeTwo: null,
+    totalBaseStat: 345,
   },
   {
     id: '#078',
@@ -550,6 +627,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Rapidash',
     typeOne: 'Fire',
     typeTwo: null,
+    totalBaseStat: 420,
   },
   {
     id: '#079',
@@ -557,6 +635,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Slowpoke',
     typeOne: 'Water',
     typeTwo: 'Psychic',
+    totalBaseStat: 275,
   },
   {
     id: '#080',
@@ -564,6 +643,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Slowbro',
     typeOne: 'Water',
     typeTwo: 'Psychic',
+    totalBaseStat: 390,
   },
   {
     id: '#081',
@@ -571,6 +651,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Magnemite',
     typeOne: 'Electric',
     typeTwo: 'Steel',
+    totalBaseStat: 270,
   },
   {
     id: '#082',
@@ -578,6 +659,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Magneton',
     typeOne: 'Electric',
     typeTwo: 'Steel',
+    totalBaseStat: 395,
   },
   {
     id: '#083',
@@ -585,6 +667,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Farfetch',
     typeOne: 'Normal',
     typeTwo: 'Flying',
+    totalBaseStat: 290,
   },
   {
     id: '#084',
@@ -592,6 +675,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Doduo',
     typeOne: 'Normal',
     typeTwo: 'Flying',
+    totalBaseStat: 275,
   },
   {
     id: '#085',
@@ -599,6 +683,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Dodrio',
     typeOne: 'Normal',
     typeTwo: 'Flying',
+    totalBaseStat: 400,
   },
   {
     id: '#086',
@@ -606,6 +691,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Seel',
     typeOne: 'Water',
     typeTwo: null,
+    totalBaseStat: 280,
   },
   {
     id: '#087',
@@ -613,6 +699,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Dewgong',
     typeOne: 'Water',
     typeTwo: 'Ice',
+    totalBaseStat: 405,
   },
   {
     id: '#088',
@@ -620,6 +707,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Grimer',
     typeOne: 'Poison',
     typeTwo: null,
+    totalBaseStat: 275,
   },
   {
     id: '#089',
@@ -627,6 +715,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Muk',
     typeOne: 'Poison',
     typeTwo: null,
+    totalBaseStat: 400,
   },
   {
     id: '#090',
@@ -634,6 +723,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Shellder',
     typeOne: 'Water',
     typeTwo: null,
+    totalBaseStat: 280,
   },
   {
     id: '#091',
@@ -641,6 +731,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Cloyster',
     typeOne: 'Water',
     typeTwo: 'Ice',
+    totalBaseStat: 480,
   },
   {
     id: '#092',
@@ -648,6 +739,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Gastly',
     typeOne: 'Ghost',
     typeTwo: 'Poison',
+    totalBaseStat: 275,
   },
   {
     id: '#093',
@@ -655,6 +747,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Haunter',
     typeOne: 'Ghost',
     typeTwo: 'Poison',
+    totalBaseStat: 350,
   },
   {
     id: '#094',
@@ -662,6 +755,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Gengar',
     typeOne: 'Ghost',
     typeTwo: 'Poison',
+    totalBaseStat: 425,
   },
   {
     id: '#095',
@@ -669,6 +763,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Onix',
     typeOne: 'Rock',
     typeTwo: 'Ground',
+    totalBaseStat: 340,
   },
   {
     id: '#096',
@@ -676,6 +771,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Drowzee',
     typeOne: 'Psychic',
     typeTwo: null,
+    totalBaseStat: 285,
   },
   {
     id: '#097',
@@ -683,6 +779,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Hypno',
     typeOne: 'Psychic',
     typeTwo: null,
+    totalBaseStat: 410,
   },
   {
     id: '#098',
@@ -690,6 +787,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Krabby',
     typeOne: 'Water',
     typeTwo: null,
+    totalBaseStat: 300,
   },
   {
     id: '#099',
@@ -697,6 +795,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Kingler',
     typeOne: 'Water',
     typeTwo: null,
+    totalBaseStat: 425,
   },
   {
     id: '#100',
@@ -704,6 +803,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Voltorb',
     typeOne: 'Electric',
     typeTwo: null,
+    totalBaseStat: 275,
   },
   {
     id: '#101',
@@ -711,6 +811,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Electrode',
     typeOne: 'Electric',
     typeTwo: null,
+    totalBaseStat: 400,
   },
   {
     id: '#102',
@@ -718,6 +819,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Exeggcute',
     typeOne: 'Grass',
     typeTwo: 'Psychic',
+    totalBaseStat: 280,
   },
   {
     id: '#103',
@@ -725,6 +827,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Exeggutor',
     typeOne: 'Grass',
     typeTwo: 'Psychic',
+    totalBaseStat: 455,
   },
   {
     id: '#104',
@@ -732,6 +835,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Cubone',
     typeOne: 'Ground',
     typeTwo: null,
+    totalBaseStat: 270,
   },
   {
     id: '#105',
@@ -739,6 +843,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Marowak',
     typeOne: 'Ground',
     typeTwo: null,
+    totalBaseStat: 345,
   },
   {
     id: '#106',
@@ -746,6 +851,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Hitmonlee',
     typeOne: 'Fighting',
     typeTwo: null,
+    totalBaseStat: 345,
   },
   {
     id: '#107',
@@ -753,6 +859,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Hitmonchan',
     typeOne: 'Fighting',
     typeTwo: null,
+    totalBaseStat: 345,
   },
   {
     id: '#108',
@@ -760,6 +867,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Lickitung',
     typeOne: 'Normal',
     typeTwo: null,
+    totalBaseStat: 310,
   },
   {
     id: '#109',
@@ -767,6 +875,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Koffing',
     typeOne: 'Poison',
     typeTwo: null,
+    totalBaseStat: 295,
   },
   {
     id: '#110',
@@ -774,6 +883,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Weezing',
     typeOne: 'Poison',
     typeTwo: null,
+    totalBaseStat: 420,
   },
   {
     id: '#111',
@@ -781,6 +891,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Rhyhorn',
     typeOne: 'Ground',
     typeTwo: 'Rock',
+    totalBaseStat: 315,
   },
   {
     id: '#112',
@@ -788,6 +899,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Rhydon',
     typeOne: 'Ground',
     typeTwo: 'Rock',
+    totalBaseStat: 440,
   },
   {
     id: '#113',
@@ -795,6 +907,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Chansey',
     typeOne: 'Normal',
     typeTwo: null,
+    totalBaseStat: 415,
   },
   {
     id: '#114',
@@ -802,6 +915,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Tangela',
     typeOne: 'Grass',
     typeTwo: null,
+    totalBaseStat: 395,
   },
   {
     id: '#115',
@@ -809,6 +923,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Kangaskhan',
     typeOne: 'Normal',
     typeTwo: null,
+    totalBaseStat: 410,
   },
   {
     id: '#116',
@@ -816,6 +931,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Horsea',
     typeOne: 'Water',
     typeTwo: null,
+    totalBaseStat: 270,
   },
   {
     id: '#117',
@@ -823,6 +939,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Seadra',
     typeOne: 'Water',
     typeTwo: null,
+    totalBaseStat: 395,
   },
   {
     id: '#118',
@@ -830,6 +947,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Goldeen',
     typeOne: 'Water',
     typeTwo: null,
+    totalBaseStat: 285,
   },
   {
     id: '#119',
@@ -837,6 +955,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Seaking',
     typeOne: 'Water',
     typeTwo: null,
+    totalBaseStat: 385,
   },
   {
     id: '#120',
@@ -844,6 +963,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Staryu',
     typeOne: 'Water',
     typeTwo: null,
+    totalBaseStat: 285,
   },
   {
     id: '#121',
@@ -851,6 +971,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Starmie',
     typeOne: 'Water',
     typeTwo: 'Psychic',
+    totalBaseStat: 435,
   },
   {
     id: '#122',
@@ -858,6 +979,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Mr. Mime',
     typeOne: 'Psychic',
     typeTwo: 'Fairy',
+    totalBaseStat: 340,
   },
   {
     id: '#123',
@@ -865,6 +987,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Scyther',
     typeOne: 'Bug',
     typeTwo: 'Flying',
+    totalBaseStat: 420,
   },
   {
     id: '#124',
@@ -872,6 +995,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Jynx',
     typeOne: 'Ice',
     typeTwo: 'Psychic',
+    totalBaseStat: 340,
   },
   {
     id: '#125',
@@ -879,6 +1003,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Electabuzz',
     typeOne: 'Electric',
     typeTwo: null,
+    totalBaseStat: 395,
   },
   {
     id: '#126',
@@ -886,6 +1011,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Magmar',
     typeOne: 'Fire',
     typeTwo: null,
+    totalBaseStat: 395,
   },
   {
     id: '#127',
@@ -893,6 +1019,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Pinsir',
     typeOne: 'Bug',
     typeTwo: null,
+    totalBaseStat: 430,
   },
   {
     id: '#128',
@@ -900,6 +1027,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Tauros',
     typeOne: 'Normal',
     typeTwo: null,
+    totalBaseStat: 450,
   },
   {
     id: '#129',
@@ -907,6 +1035,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Magikarp',
     typeOne: 'Water',
     typeTwo: null,
+    totalBaseStat: 185,
   },
   {
     id: '#130',
@@ -914,6 +1043,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Gyarados',
     typeOne: 'Water',
     typeTwo: 'Flying',
+    totalBaseStat: 480,
   },
   {
     id: '#131',
@@ -921,6 +1051,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Lapras',
     typeOne: 'Water',
     typeTwo: 'Ice',
+    totalBaseStat: 450,
   },
   {
     id: '#132',
@@ -928,6 +1059,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Ditto',
     typeOne: 'Normal',
     typeTwo: null,
+    totalBaseStat: 240,
   },
   {
     id: '#133',
@@ -935,6 +1067,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Eevee',
     typeOne: 'Normal',
     typeTwo: null,
+    totalBaseStat: 280,
   },
   {
     id: '#134',
@@ -942,6 +1075,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Vaporeon',
     typeOne: 'Water',
     typeTwo: null,
+    totalBaseStat: 430,
   },
   {
     id: '#135',
@@ -949,6 +1083,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Jolteon',
     typeOne: 'Electric',
     typeTwo: null,
+    totalBaseStat: 430,
   },
   {
     id: '#136',
@@ -956,6 +1091,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Flareon',
     typeOne: 'Fire',
     typeTwo: null,
+    totalBaseStat: 430,
   },
   {
     id: '#137',
@@ -963,6 +1099,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Porygon',
     typeOne: 'Normal',
     typeTwo: null,
+    totalBaseStat: 310,
   },
   {
     id: '#138',
@@ -970,6 +1107,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Omanyte',
     typeOne: 'Rock',
     typeTwo: 'Water',
+    totalBaseStat: 300,
   },
   {
     id: '#139',
@@ -977,6 +1115,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Omastar',
     typeOne: 'Rock',
     typeTwo: 'Water',
+    totalBaseStat: 425,
   },
   {
     id: '#140',
@@ -984,6 +1123,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Kabuto',
     typeOne: 'Rock',
     typeTwo: 'Water',
+    totalBaseStat: 300,
   },
   {
     id: '#141',
@@ -991,6 +1131,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Kabutops',
     typeOne: 'Rock',
     typeTwo: 'Water',
+    totalBaseStat: 430,
   },
   {
     id: '#142',
@@ -998,6 +1139,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Aerodactyl',
     typeOne: 'Rock',
     typeTwo: 'Flying',
+    totalBaseStat: 440,
   },
   {
     id: '#143',
@@ -1005,6 +1147,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Snorlax',
     typeOne: 'Normal',
     typeTwo: null,
+    totalBaseStat: 430,
   },
   {
     id: '#144',
@@ -1012,6 +1155,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Articuno',
     typeOne: 'Ice',
     typeTwo: 'Flying',
+    totalBaseStat: 485,
   },
   {
     id: '#145',
@@ -1019,6 +1163,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Zapdos',
     typeOne: 'Electric',
     typeTwo: 'Flying',
+    totalBaseStat: 490,
   },
   {
     id: '#146',
@@ -1026,6 +1171,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Moltres',
     typeOne: 'Fire',
     typeTwo: 'Flying',
+    totalBaseStat: 495,
   },
   {
     id: '#147',
@@ -1033,6 +1179,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Dratini',
     typeOne: 'Dragon',
     typeTwo: null,
+    totalBaseStat: 250,
   },
   {
     id: '#148',
@@ -1040,6 +1187,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Dragonair',
     typeOne: 'Dragon',
     typeTwo: null,
+    totalBaseStat: 350,
   },
   {
     id: '#149',
@@ -1047,6 +1195,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Dragonite',
     typeOne: 'Dragon',
     typeTwo: 'Flying',
+    totalBaseStat: 500,
   },
   {
     id: '#150',
@@ -1054,6 +1203,7 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Mewtwo',
     typeOne: 'Psychic',
     typeTwo: null,
+    totalBaseStat: 590,
   },
   {
     id: '#151',
@@ -1061,5 +1211,6 @@ export const POKEMON: PokemonDetail[] = [
     name: 'Mew',
     typeOne: 'Psychic',
     typeTwo: null,
+    totalBaseStat: 500,
   },
 ];

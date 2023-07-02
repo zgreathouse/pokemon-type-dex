@@ -6,9 +6,22 @@
       class="pokemon-type-effect-info-container"
     >
       <h4>{{ effect.pokemonTypeEffect }}</h4>
-      <p class="pokemon-type-effect-info" [@fadeIn]="'active'">
-        {{ effect.pokemonTypes.length ? effect.pokemonTypes : notApplicable }}
-      </p>
+      <div 
+        *ngIf="effect.pokemonTypes.length; else NoTypes" 
+        class="pokemon-type-chips-container"
+      >
+        <app-pokemon-type-chip 
+          *ngFor="let pokemonType of effect.pokemonTypes"
+          [pokemonType]="pokemonType"
+          [@fadeIn]="'active'"
+        ></app-pokemon-type-chip>
+      </div>
     </div>
   </div>
 </div>
+
+<ng-template #NoTypes>
+  <p class="pokemon-type-effect-info" [@fadeIn]="'active'">
+    {{ notApplicable }}
+  </p>
+</ng-template>

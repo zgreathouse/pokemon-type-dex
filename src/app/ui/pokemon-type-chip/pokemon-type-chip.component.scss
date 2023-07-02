@@ -1,0 +1,20 @@
+.pokemon-type-chip {
+  width: 56px;
+  height: 12px;
+  text-align: center;
+  padding: 4px;
+  border: solid 1px #636365;
+  border-radius: 8px;
+  margin: 0 2px;
+}
+
+.pokemon-type-chip-text {
+  margin: 0;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: white;
+  text-shadow: -1px 1px 0 black, 
+    1px 1px 0 black, 
+    1px -1px 0 black, 
+    -1px -1px 0 black;
+}

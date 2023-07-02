@@ -5,6 +5,7 @@ import { PokemonTypeDetailComponent } from '../../features/pokemon-type-detail/p
 import { PokemonTypePickerComponent } from '../../features/pokemon-type-picker/pokemon-type-picker.component';
 import { PokemonIndexComponent } from 'src/app/features/pokemon-index/pokemon-index.component';
 import { PokemonTypePickerService } from 'src/app/features/pokemon-type-picker/pokemon-type-picker.service';
+import { PokemonTypeChipComponent } from '../pokemon-type-chip/pokemon-type-chip.component';
 
 @Component({
   selector: 'app-frame',
@@ -12,6 +13,7 @@ import { PokemonTypePickerService } from 'src/app/features/pokemon-type-picker/p
   imports: [
     CommonModule,
     MatTabsModule,
+    PokemonTypeChipComponent,
     PokemonIndexComponent,
     PokemonTypeDetailComponent,
     PokemonTypePickerComponent,

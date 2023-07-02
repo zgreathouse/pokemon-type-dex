@@ -18,6 +18,26 @@ export type PokemonType =
   | 'Steel'
   | 'Fairy';
 
+export type PokemonTypeColor =
+  | '#ADA494' // Normal
+  | '#F75131' // Fire
+  | '#399CFF' // Water
+  | '#7BCE52' // Grass
+  | '#FFC631' // Electric
+  | '#98D8D8' // Ice
+  | '#A45139' // Fighting
+  | '#B45AA4' // Poison
+  | '#D6B55A' // Ground
+  | '#BDAFF6' // Flying
+  | '#FF72A5' // Psychic
+  | '#A8B81F' // Bug
+  | '#BDA55A' // Rock
+  | '#514773' // Ghost
+  | '#735A4A' // Dark
+  | '#7038F8' // Dragon
+  | '#A8A29D' // Steel
+  | '#F7B5F7'; // Fairy
+
 export interface PokemonTypeEffectDetail {
   superEffective: PokemonType[];
   notVeryEffective: PokemonType[];
@@ -202,4 +222,5 @@ export type PokemonDetail = {
   name: PokemonName;
   typeOne: PokemonType;
   typeTwo: PokemonType | null;
+  totalBaseStat: number;
 };
