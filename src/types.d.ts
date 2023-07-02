@@ -235,5 +235,5 @@ export type PokemonMoveDetail = {
   accuracy: string;
   pp: string;
   effect: string;
-  probability: string;
+  probability: string | null;
 };

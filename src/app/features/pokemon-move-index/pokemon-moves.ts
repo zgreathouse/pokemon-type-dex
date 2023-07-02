@@ -9,7 +9,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Pikachu-exclusive Z-Move. High critical hit ratio.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Absorb',
@@ -19,7 +19,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '25',
     effect: 'User recovers half the HP inflicted on opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Accelerock',
@@ -29,7 +29,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'User attacks first.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Acid',
@@ -49,7 +49,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: "Sharply raises user's Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Acid Downpour',
@@ -59,7 +59,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Poison type Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Acid Spray',
@@ -79,7 +79,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Stronger when the user does not have a held item.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Acupressure',
@@ -89,7 +89,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '30',
     effect: 'Sharply raises a random stat.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Aerial Ace',
@@ -99,7 +99,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '20',
     effect: 'Ignores Accuracy and Evasiveness.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Aeroblast',
@@ -109,7 +109,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '95',
     pp: '5',
     effect: 'High critical hit ratio.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'After You',
@@ -119,7 +119,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '15',
     effect: 'Gives target priority in the next turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Agility',
@@ -129,7 +129,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '30',
     effect: "Sharply raises user's Speed.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Air Cutter',
@@ -139,7 +139,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '95',
     pp: '25',
     effect: 'High critical hit ratio.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Air Slash',
@@ -159,7 +159,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Fighting type Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Ally Switch',
@@ -169,7 +169,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '15',
     effect: 'User switches with opposite teammate.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Amnesia',
@@ -179,7 +179,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: "Sharply raises user's Special Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Anchor Shot',
@@ -190,7 +190,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '20',
     effect:
       'The user entangles the target with its anchor chain while attacking. The target becomes unable to flee.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Ancient Power',
@@ -220,7 +220,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'High critical hit ratio.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Aqua Jet',
@@ -230,7 +230,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'User attacks first.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Aqua Ring',
@@ -240,7 +240,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: 'Restores a little HP each turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Aqua Step',
@@ -260,7 +260,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '10',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Arm Thrust',
@@ -270,7 +270,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'Hits 2-5 times in one turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Armor Cannon',
@@ -280,7 +280,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: "Lowers user's Defense and Special Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Aromatherapy',
@@ -290,7 +290,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '5',
     effect: 'Cures all status problems in your party.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Aromatic Mist',
@@ -300,7 +300,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: 'Raises Special Defense of an ally.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Assist',
@@ -310,7 +310,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: 'User performs a move known by its allies at random.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Assurance',
@@ -320,7 +320,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Power doubles if opponent already took damage in the same turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Astonish',
@@ -341,7 +341,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '5',
     effect:
       'The user attacks by sending a frightful amount of small ghosts at opposing Pokémon.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Attack Order',
@@ -351,7 +351,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'High critical hit ratio.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Attract',
@@ -361,7 +361,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: "If opponent is the opposite gender, it's less likely to attack.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Aura Sphere',
@@ -371,7 +371,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '20',
     effect: 'Ignores Accuracy and Evasiveness.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Aura Wheel',
@@ -401,7 +401,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: 'Halves damage from Physical and Special attacks for five turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Autotomize',
@@ -411,7 +411,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '15',
     effect: 'Reduces weight and sharply raises Speed.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Avalanche',
@@ -421,7 +421,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Power doubles if user took damage first.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Axe Kick',
@@ -431,7 +431,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '10',
     effect: 'May confuse opponent. If it misses, the user loses HP.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Baby-Doll Eyes',
@@ -441,7 +441,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '30',
     effect: "Always goes first. Lowers the target's attack.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Baddy Bad',
@@ -451,7 +451,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Reduces damage from Physical attacks.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Baneful Bunker',
@@ -461,7 +461,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Protects the user and poisons opponent on contact.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Barb Barrage',
@@ -471,7 +471,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Inflicts double damage if the target has a status condition.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Barrage',
@@ -481,7 +481,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '85',
     pp: '20',
     effect: 'Hits 2-5 times in one turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Barrier',
@@ -491,7 +491,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: "Sharply raises user's Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Baton Pass',
@@ -501,7 +501,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '40',
     effect: 'User switches out and gives stat changes to the incoming Pokémon.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Beak Blast',
@@ -512,7 +512,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '15',
     effect:
       "The user first heats up its beak, and then it attacks the target. Making direct contact with the Pokémon while it's heating up its beak results in a burn.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Beat Up',
@@ -522,7 +522,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: "Each Pokémon in user's party attacks.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Behemoth Bash',
@@ -532,7 +532,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'Damage doubles if target is Dynamaxed.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Behemoth Blade',
@@ -542,7 +542,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'Damage doubles if target is Dynamaxed.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Belch',
@@ -552,7 +552,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '10',
     effect: 'User must have consumed a Berry.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Belly Drum',
@@ -562,7 +562,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'User loses 50% of its max HP, but Attack raises to maximum.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Bestow',
@@ -572,7 +572,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '15',
     effect: "Gives the user's held item to the target.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Bide',
@@ -582,7 +582,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'User takes damage for two turns then strikes back double.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Bind',
@@ -612,7 +612,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'User recovers half the HP inflicted on opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Bitter Malice',
@@ -622,7 +622,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Inflicts double damage if the target has a status condition.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Black Hole Eclipse',
@@ -632,7 +632,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Dark type Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Blast Burn',
@@ -642,7 +642,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '5',
     effect: 'User must recharge next turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Blaze Kick',
@@ -662,7 +662,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Bleakwind Storm',
@@ -672,7 +672,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '80',
     pp: '10',
     effect: 'May cause frostbite.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Blizzard',
@@ -692,7 +692,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '5',
     effect: 'Opponent cannot flee or switch.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Bloom Doom',
@@ -702,7 +702,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Grass type Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Blue Flare',
@@ -722,7 +722,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: "The higher the user's Defense, the stronger the attack.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Body Slam',
@@ -743,7 +743,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'If the user attacks before the target, the power of this move is doubled.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Bolt Strike',
@@ -773,7 +773,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '10',
     effect: 'Hits 2-5 times in one turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Bonemerang',
@@ -783,7 +783,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '10',
     effect: 'Hits twice in one turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Boomburst',
@@ -793,7 +793,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Hits all adjacent Pokémon.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Bounce',
@@ -814,7 +814,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'User recovers half the HP inflicted on opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Branch Poke',
@@ -824,7 +824,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '40',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Brave Bird',
@@ -834,7 +834,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'User receives recoil damage.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Breaking Swipe',
@@ -854,7 +854,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Normal type Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Brick Break',
@@ -864,7 +864,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Breaks through Reflect and Light Screen barriers.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Brine',
@@ -874,7 +874,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: "Power doubles if opponent's HP is less than 50%.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Brutal Swing',
@@ -885,7 +885,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '20',
     effect:
       'The user swings its body around violently to inflict damage on everything in its vicinity.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Bubble',
@@ -915,7 +915,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: "Receives the effect from the opponent's held berry.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Bug Buzz',
@@ -935,7 +935,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: "Raises user's Attack and Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Bulldoze',
@@ -955,7 +955,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '30',
     effect: 'User attacks first.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Bullet Seed',
@@ -965,7 +965,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '30',
     effect: 'Hits 2-5 times in one turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Burn Up',
@@ -976,7 +976,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '5',
     effect:
       'To inflict massive damage, the user burns itself out. After using this move, the user will no longer be Fire type.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Burning Jealousy',
@@ -987,7 +987,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '5',
     effect:
       'Hits all opponents, and burns any that have had their stats boosted.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Buzzy Buzz',
@@ -1007,7 +1007,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: "Raises user's Special Attack and Special Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Camouflage',
@@ -1017,7 +1017,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: "Changes user's type according to the location.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Captivate',
@@ -1027,7 +1027,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: "Sharply lowers opponent's Special Attack if opposite gender.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Catastropika',
@@ -1037,7 +1037,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Pikachu-exclusive Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Ceaseless Edge',
@@ -1047,7 +1047,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '15',
     effect: 'High critical hit ratio. Damages target with splinters each turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Celebrate',
@@ -1058,7 +1058,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '40',
     effect:
       'The Pokémon congratulates you on your special day. No battle effect.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Charge',
@@ -1069,7 +1069,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '20',
     effect:
       "Raises user's Special Defense and next Electric move's power increases.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Charge Beam',
@@ -1089,7 +1089,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: "Sharply lowers opponent's Attack.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Chatter',
@@ -1109,7 +1109,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: "Lowers opponent's Attack.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Chilly Reception',
@@ -1119,7 +1119,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Switches out and summons a snowstorm lasting 5 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Chip Away',
@@ -1129,7 +1129,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: "Ignores opponent's stat changes.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Chloroblast',
@@ -1139,7 +1139,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '95',
     pp: '5',
     effect: 'User receives recoil damage.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Circle Throw',
@@ -1149,7 +1149,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '10',
     effect: 'In battles, the opponent switches. In the wild, the Pokémon runs.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Clamp',
@@ -1189,7 +1189,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Kommo-o exclusive Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Clear Smog',
@@ -1199,7 +1199,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '15',
     effect: "Removes all of the target's stat changes.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Close Combat',
@@ -1219,7 +1219,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Boosts Attack and Defense of a teammate.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Coil',
@@ -1229,7 +1229,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: "Raises user's Attack, Defense and Accuracy.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Collision Course',
@@ -1239,7 +1239,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: "Boosted even more if it's super-effective.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Combat Torque',
@@ -1249,7 +1249,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Comet Punch',
@@ -1259,7 +1259,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '85',
     pp: '15',
     effect: 'Hits 2-5 times in one turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Comeuppance',
@@ -1270,7 +1270,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'Deals more damage to the opponent that last inflicted damage on it.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Confide',
@@ -1290,7 +1290,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Confuses opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Confusion',
@@ -1320,7 +1320,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Rock type Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Conversion',
@@ -1330,7 +1330,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '30',
     effect: "Changes user's type to that of its first move.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Conversion 2',
@@ -1340,7 +1340,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '30',
     effect: "User changes type to become resistant to opponent's last move.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Copycat',
@@ -1350,7 +1350,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: "Copies opponent's last move.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Core Enforcer',
@@ -1360,7 +1360,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: "Suppresses the target's ability if the target has already moved.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Corkscrew Crash',
@@ -1370,7 +1370,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Steel type Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Corrosive Gas',
@@ -1380,7 +1380,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '40',
     effect: "Removes opponent's items.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Cosmic Power',
@@ -1390,7 +1390,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: "Raises user's Defense and Special Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Cotton Guard',
@@ -1400,7 +1400,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: "Drastically raises user's Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Cotton Spore',
@@ -1410,7 +1410,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '40',
     effect: "Sharply lowers opponent's Speed.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Counter',
@@ -1420,7 +1420,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'When hit by a Physical Attack, user strikes back with 2x power.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Court Change',
@@ -1430,7 +1430,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Swaps the effects on either side of the field.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Covet',
@@ -1440,7 +1440,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '25',
     effect: "Opponent's item is stolen by the user.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Crabhammer',
@@ -1450,7 +1450,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '10',
     effect: 'High critical hit ratio.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Crafty Shield',
@@ -1460,7 +1460,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Protects the Pokémon from status moves.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Cross Chop',
@@ -1470,7 +1470,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '80',
     pp: '5',
     effect: 'High critical hit ratio.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Cross Poison',
@@ -1510,7 +1510,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'More powerful when opponent has higher HP.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Curse',
@@ -1521,7 +1521,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'Ghosts lose 50% of max HP and curse the opponent; Non-Ghosts raise Attack, Defense and lower Speed.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Cut',
@@ -1531,7 +1531,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '95',
     pp: '30',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Dark Pulse',
@@ -1551,7 +1551,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '50',
     pp: '10',
     effect: 'Puts all adjacent opponents to sleep.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Darkest Lariat',
@@ -1561,7 +1561,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: "Ignores opponent's stat changes.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Dazzling Gleam',
@@ -1571,7 +1571,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Hits all adjacent opponents.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Decorate',
@@ -1591,7 +1591,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: "Raises user's Defense and Special Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Defense Curl',
@@ -1601,7 +1601,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '40',
     effect: "Raises user's Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Defog',
@@ -1611,7 +1611,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '15',
     effect: "Lowers opponent's Evasiveness and clears fog.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Destiny Bond',
@@ -1621,7 +1621,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '5',
     effect: 'If the user faints, the opponent also faints.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Detect',
@@ -1631,7 +1631,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '5',
     effect: 'Protects the user, but may fail if used consecutively.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Devastating Drake',
@@ -1641,7 +1641,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Dragon type Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Diamond Storm',
@@ -1662,7 +1662,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'Digs underground on first turn, attacks on second. Can also escape from caves.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Dire Claw',
@@ -1673,7 +1673,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '15',
     effect:
       'High critical hit ratio. May poison, paralyze or make the opponent drowsy.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Disable',
@@ -1683,7 +1683,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: "Opponent can't use its last attack for a few turns.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Disarming Voice',
@@ -1693,7 +1693,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '15',
     effect: 'Ignores Accuracy and Evasiveness.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Discharge',
@@ -1713,7 +1713,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Dives underwater on first turn, attacks on second turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Dizzy Punch',
@@ -1734,7 +1734,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'Changes the abilities of the user and its teammates to that of the target.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Doom Desire',
@@ -1744,7 +1744,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'Damage occurs 2 turns later.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Double Hit',
@@ -1754,7 +1754,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '10',
     effect: 'Hits twice in one turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Double Iron Bash',
@@ -1774,7 +1774,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '30',
     effect: 'Hits twice in one turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Double Shock',
@@ -1784,7 +1784,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'After using this move, the user will no longer be Electric type.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Double Slap',
@@ -1794,7 +1794,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '85',
     pp: '10',
     effect: 'Hits 2-5 times in one turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Double Team',
@@ -1804,7 +1804,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '15',
     effect: "Raises user's Evasiveness.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Double-Edge',
@@ -1814,7 +1814,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'User receives recoil damage.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Draco Meteor',
@@ -1854,7 +1854,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Dragon Dance',
@@ -1864,7 +1864,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: "Raises user's Attack and Speed.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Dragon Darts',
@@ -1874,7 +1874,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'User attacks twice.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Dragon Energy',
@@ -1884,7 +1884,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: "The higher the user's HP, the higher the power.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Dragon Hammer',
@@ -1895,7 +1895,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '15',
     effect:
       'The user uses its body like a hammer to attack the target and inflict damage.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Dragon Pulse',
@@ -1905,7 +1905,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Dragon Rage',
@@ -1915,7 +1915,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Always inflicts 40 HP.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Dragon Rush',
@@ -1935,7 +1935,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '10',
     effect: 'In battles, the opponent switches. In the wild, the Pokémon runs.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Drain Punch',
@@ -1945,7 +1945,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'User recovers half the HP inflicted on opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Draining Kiss',
@@ -1955,7 +1955,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'User recovers most the HP inflicted on opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Dream Eater',
@@ -1965,7 +1965,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'User recovers half the HP inflicted on a sleeping opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Drill Peck',
@@ -1975,7 +1975,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Drill Run',
@@ -1985,7 +1985,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '95',
     pp: '10',
     effect: 'High critical hit ratio.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Drum Beating',
@@ -2005,7 +2005,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '15',
     effect: 'Hits twice in one turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Dual Wingbeat',
@@ -2016,7 +2016,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'The user slams the target with its wings. The target is hit twice in a row.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Dynamax Cannon',
@@ -2026,7 +2026,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'Damage doubles if opponent is Dynamaxed.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Dynamic Punch',
@@ -2056,7 +2056,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Power is doubled if opponent is underground from using Dig.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Echoed Voice',
@@ -2066,7 +2066,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Power increases each turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Eerie Impulse',
@@ -2076,7 +2076,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: "Sharply lowers opponent's Special Attack.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Eerie Spell',
@@ -2086,7 +2086,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: "Deals damage and reduces opponent's PP.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Egg Bomb',
@@ -2096,7 +2096,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '75',
     pp: '10',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Electric Terrain',
@@ -2106,7 +2106,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Prevents all Pokémon from falling asleep for 5 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Electrify',
@@ -2116,7 +2116,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: "Changes the target's move to Electric type.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Electro Ball',
@@ -2126,7 +2126,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'The faster the user, the stronger the attack.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Electro Drift',
@@ -2136,7 +2136,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: "Boosted even more if it's super-effective.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Electroweb',
@@ -2156,7 +2156,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Opponent cannot use items.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Ember',
@@ -2176,7 +2176,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'Forces opponent to keep using its last move for 3 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Endeavor',
@@ -2186,7 +2186,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: "Reduces opponent's HP to same as user's.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Endure',
@@ -2197,7 +2197,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'Always left with at least 1 HP, but may fail if used consecutively.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Energy Ball',
@@ -2217,7 +2217,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: "Makes target's ability same as user's.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Eruption',
@@ -2227,7 +2227,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: "Stronger when the user's HP is higher.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Esper Wing',
@@ -2237,7 +2237,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: "High critical hit ratio. Raises user's Speed.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Eternabeam',
@@ -2247,7 +2247,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '5',
     effect: "User can't move on the next turn.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Expanding Force',
@@ -2257,7 +2257,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Increases power and hits all opponents on Psychic Terrain.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Explosion',
@@ -2267,7 +2267,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'User faints.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Extrasensory',
@@ -2297,7 +2297,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'User attacks first.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Facade',
@@ -2307,7 +2307,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'Power doubles if user is burned, poisoned, or paralyzed.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Fairy Lock',
@@ -2317,7 +2317,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Prevents fleeing in the next turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Fairy Wind',
@@ -2327,7 +2327,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '30',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Fake Out',
@@ -2347,7 +2347,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: "Sharply lowers opponent's Special Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'False Surrender',
@@ -2357,7 +2357,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '10',
     effect: 'Ignores Accuracy and Evasiveness.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'False Swipe',
@@ -2367,7 +2367,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '40',
     effect: 'Always leaves opponent with at least 1 HP.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Feather Dance',
@@ -2377,7 +2377,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: "Sharply lowers opponent's Attack.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Feint',
@@ -2387,7 +2387,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Only hits if opponent uses Protect or Detect in the same turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Feint Attack',
@@ -2397,7 +2397,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '20',
     effect: 'Ignores Accuracy and Evasiveness.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Fell Stinger',
@@ -2407,7 +2407,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '25',
     effect: "Drastically raises user's Attack if target is KO'd.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Fiery Dance',
@@ -2437,7 +2437,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Lowers HP but sharply boosts Attack, Special Attack, and Speed.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Final Gambit',
@@ -2447,7 +2447,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: "Inflicts damage equal to the user's remaining HP. User faints.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Fire Blast',
@@ -2489,7 +2489,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'Added effects appear if combined with Grass Pledge or Water Pledge.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Fire Punch',
@@ -2520,7 +2520,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'Although this move has great power, it only works the first turn the user is in battle.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Fishious Rend',
@@ -2531,7 +2531,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'If the user attacks before the target, the power of this move is doubled.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Fissure',
@@ -2541,7 +2541,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '30',
     pp: '5',
     effect: 'One-Hit-KO, if it hits.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Flail',
@@ -2551,7 +2551,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: "The lower the user's HP, the higher the power.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Flame Burst',
@@ -2561,7 +2561,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'May also injure nearby Pokémon.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Flame Charge',
@@ -2611,7 +2611,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: "Lowers opponent's Accuracy.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Flash Cannon',
@@ -2631,7 +2631,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Confuses opponent, but raises its Special Attack.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Fleur Cannon',
@@ -2651,7 +2651,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Power depends on held item.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Flip Turn',
@@ -2662,7 +2662,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '20',
     effect:
       'After making its attack, the user rushes back to switch places with a party Pokémon in waiting.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Floaty Fall',
@@ -2683,7 +2683,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       "The user restores the target's HP by up to half of its max HP. It restores more HP when the terrain is grass.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Flower Shield',
@@ -2703,7 +2703,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '10',
     effect: 'Never misses; always results in a critical hit.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Fly',
@@ -2713,7 +2713,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '95',
     pp: '15',
     effect: 'Flies up on first turn, attacks on second turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Flying Press',
@@ -2723,7 +2723,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '95',
     pp: '10',
     effect: 'Deals Fighting and Flying type damage.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Focus Blast',
@@ -2743,7 +2743,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '30',
     effect: 'Increases critical hit ratio.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Focus Punch',
@@ -2753,7 +2753,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'If the user is hit before attacking, it flinches instead.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Follow Me',
@@ -2763,7 +2763,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: 'In Double Battle, the user takes all the attacks.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Force Palm',
@@ -2784,7 +2784,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '40',
     effect:
       "Resets opponent's Evasiveness, and allows Normal- and Fighting-type attacks to hit Ghosts.",
-    probability: '—',
+    probability: null,
   },
   {
     name: "Forest's Curse",
@@ -2794,7 +2794,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'Adds Grass type to opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Foul Play',
@@ -2804,7 +2804,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: "Uses the opponent's Attack stat.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Freeze Shock',
@@ -2844,7 +2844,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Resets all stat changes.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Frenzy Plant',
@@ -2854,7 +2854,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '5',
     effect: 'User must recharge next turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Frost Breath',
@@ -2874,7 +2874,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'Power decreases with higher Friendship.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Fury Attack',
@@ -2884,7 +2884,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '85',
     pp: '20',
     effect: 'Hits 2-5 times in one turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Fury Cutter',
@@ -2894,7 +2894,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '95',
     pp: '20',
     effect: 'Power increases each turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Fury Swipes',
@@ -2904,7 +2904,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '80',
     pp: '15',
     effect: 'Hits 2-5 times in one turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Fusion Bolt',
@@ -2914,7 +2914,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'Power increases if Fusion Flare is used in the same turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Fusion Flare',
@@ -2924,7 +2924,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'Power increases if Fusion Bolt is used in the same turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Future Sight',
@@ -2934,7 +2934,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Damage occurs 2 turns later.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'G-Max Befuddle',
@@ -2956,7 +2956,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'Blastoise-exclusive G-Max Move. Damages non-Water types for 4 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'G-Max Centiferno',
@@ -2976,7 +2976,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '5',
     effect: 'Machamp-exclusive G-Max Move. Increases critical hit ratio.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'G-Max Cuddle',
@@ -2996,7 +2996,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '5',
     effect: "Duraludon-exclusive G-Max Move. Reduces opponent's PP.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'G-Max Drum Solo',
@@ -3006,7 +3006,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '5',
     effect: "Rillaboom-exclusive G-Max Move. Ignores target's ability.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'G-Max Finale',
@@ -3016,7 +3016,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '5',
     effect: "Alcremie-exclusive G-Max Move. Heals the user's team.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'G-Max Fireball',
@@ -3026,7 +3026,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '5',
     effect: "Cinderace-exclusive G-Max Move. Ignores target's ability.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'G-Max Foam Burst',
@@ -3057,7 +3057,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '5',
     effect: 'Orbeetle-exclusive G-Max Move. Summons Gravity for 5 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'G-Max Hydrosnipe',
@@ -3067,7 +3067,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '5',
     effect: "Inteleon-exclusive G-Max Move. Ignores target's ability.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'G-Max Malodor',
@@ -3088,7 +3088,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '5',
     effect:
       'Melmetal-exclusive G-Max Move. Prevents opponents using the same move twice in a row.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'G-Max One Blow',
@@ -3099,7 +3099,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '5',
     effect:
       'Urshifu Single-Strike Style-exclusive G-Max Move. Strikes through Max Guard and Protect.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'G-Max Rapid Flow',
@@ -3110,7 +3110,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '5',
     effect:
       'Urshifu Rapid-Strike Style-exclusive G-Max Move. Strikes through Max Guard and Protect.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'G-Max Replenish',
@@ -3120,7 +3120,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '5',
     effect: 'Snorlax-exclusive G-Max Move. Recycles Berries.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'G-Max Resonance',
@@ -3130,7 +3130,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '5',
     effect: 'Lapras-exclusive G-Max Move. Reduces damage for 5 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'G-Max Sandblast',
@@ -3160,7 +3160,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '5',
     effect: 'Grimmsnarl-exclusive G-Max Move. Makes opponents drowsy.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'G-Max Steelsurge',
@@ -3170,7 +3170,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '5',
     effect: 'Copperajah-exclusive G-Max Move. Sets up Spikes on the field.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'G-Max Stonesurge',
@@ -3180,7 +3180,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '5',
     effect: 'Drednaw-exclusive G-Max Move. Sets up Stealth Rock.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'G-Max Stun Shock',
@@ -3201,7 +3201,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       "Appletun-exclusive G-Max Move. Heals status conditions of user's team.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'G-Max Tartness',
@@ -3222,7 +3222,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'Gengar-exclusive G-Max Move. Prevents opponent from switching out.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'G-Max Vine Lash',
@@ -3233,7 +3233,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'Venusaur-exclusive G-Max Move. Damages non-Grass types for 4 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'G-Max Volcalith',
@@ -3274,7 +3274,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '10',
     effect: 'Corviknight-exclusive G-Max Move. Removes battlefield hazards.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Gastro Acid',
@@ -3284,7 +3284,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: "Cancels out the effect of the opponent's Ability.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Gear Grind',
@@ -3294,7 +3294,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '85',
     pp: '15',
     effect: 'Hits twice in one turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Gear Up',
@@ -3305,7 +3305,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '20',
     effect:
       'The user engages its gears to raise the Attack and Sp. Atk stats of ally Pokémon with the Plus or Minus Ability.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Genesis Supernova',
@@ -3315,7 +3315,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Mew-exclusive Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Geomancy',
@@ -3326,7 +3326,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       "Charges on first turn, sharply raises user's Sp. Attack, Sp. Defense and Speed on the second.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Giga Drain',
@@ -3336,7 +3336,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'User recovers half the HP inflicted on opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Giga Impact',
@@ -3346,7 +3346,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '5',
     effect: 'User must recharge next turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Gigaton Hammer',
@@ -3356,7 +3356,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'Cannot be used twice in a row.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Gigavolt Havoc',
@@ -3366,7 +3366,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Electric type Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Glacial Lance',
@@ -3377,7 +3377,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '5',
     effect:
       'The user attacks by hurling a blizzard-cloaked icicle lance at opposing Pokémon.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Glaciate',
@@ -3398,7 +3398,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '5',
     effect:
       'Attacks from opposing Pokémon during the next turn cannot miss and will inflict double damage.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Glare',
@@ -3408,7 +3408,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '30',
     effect: 'Paralyzes opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Glitzy Glow',
@@ -3418,7 +3418,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Reduces damage from Special attacks.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Grass Knot',
@@ -3428,7 +3428,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'The heavier the opponent, the stronger the attack.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Grass Pledge',
@@ -3439,7 +3439,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'Added effects appear if preceded by Water Pledge or succeeded by Fire Pledge.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Grass Whistle',
@@ -3449,7 +3449,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '55',
     pp: '15',
     effect: 'Puts opponent to sleep.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Grassy Glide',
@@ -3459,7 +3459,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'High priority during Grassy Terrain.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Grassy Terrain',
@@ -3469,7 +3469,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Restores a little HP of all Pokémon for 5 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Grav Apple',
@@ -3490,7 +3490,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '5',
     effect:
       'Prevents moves like Fly and Bounce and the Ability Levitate for 5 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Growl',
@@ -3500,7 +3500,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '40',
     effect: "Lowers opponent's Attack.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Growth',
@@ -3510,7 +3510,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: "Raises user's Attack and Special Attack.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Grudge',
@@ -3521,7 +3521,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '5',
     effect:
       "If the users faints after using this move, the PP for the opponent's last move is depleted.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Guard Split',
@@ -3531,7 +3531,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Averages Defense and Special Defense with the target.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Guard Swap',
@@ -3541,7 +3541,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'User and opponent swap Defense and Special Defense.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Guardian of Alola',
@@ -3551,7 +3551,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: "Tapu-exclusive Z-move. Cuts opponent's HP by 75%.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Guillotine',
@@ -3561,7 +3561,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '30',
     pp: '5',
     effect: 'One-Hit-KO, if it hits.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Gunk Shot',
@@ -3581,7 +3581,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '35',
     effect: 'Hits Pokémon using Fly/Bounce/Sky Drop with double power.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Gyro Ball',
@@ -3591,7 +3591,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'The slower the user, the stronger the attack.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Hail',
@@ -3601,7 +3601,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Non-Ice types are damaged for 5 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Hammer Arm',
@@ -3621,7 +3621,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '30',
     effect: 'Doubles prize money from trainer battles.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Harden',
@@ -3631,7 +3631,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '30',
     effect: "Raises user's Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Haze',
@@ -3641,7 +3641,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '30',
     effect: 'Resets all stat changes.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Head Charge',
@@ -3651,7 +3651,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'User receives recoil damage.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Head Smash',
@@ -3661,7 +3661,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '80',
     pp: '5',
     effect: 'User receives recoil damage.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Headbutt',
@@ -3681,7 +3681,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: "Lowers user's Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Heal Bell',
@@ -3691,7 +3691,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '5',
     effect: "Heals the user's party's status conditions.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Heal Block',
@@ -3701,7 +3701,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Prevents the opponent from restoring HP for 5 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Heal Order',
@@ -3711,7 +3711,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'User recovers half its max HP.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Heal Pulse',
@@ -3721,7 +3721,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: "Restores half the target's max HP.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Healing Wish',
@@ -3731,7 +3731,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'The user faints and the next Pokémon released is fully healed.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Heart Stamp',
@@ -3751,7 +3751,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Stat changes are swapped with the opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Heat Crash',
@@ -3761,7 +3761,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'The heavier the user, the stronger the attack.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Heat Wave',
@@ -3781,7 +3781,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'The heavier the user, the stronger the attack.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Helping Hand',
@@ -3791,7 +3791,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: "In Double Battles, boosts the power of the partner's move.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Hex',
@@ -3801,7 +3801,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Inflicts more damage if the target has a status condition.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Hidden Power',
@@ -3811,7 +3811,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: "Type and power depends on user's IVs.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'High Horsepower',
@@ -3821,7 +3821,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '95',
     pp: '10',
     effect: 'The user fiercely attacks the target using its entire body.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'High Jump Kick',
@@ -3831,7 +3831,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '10',
     effect: 'If it misses, the user loses half their HP.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Hold Back',
@@ -3841,7 +3841,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '40',
     effect: 'Always leaves opponent with at least 1 HP.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Hold Hands',
@@ -3851,7 +3851,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '40',
     effect: 'Makes the user and an ally very happy.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Hone Claws',
@@ -3861,7 +3861,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '15',
     effect: "Raises user's Attack and Accuracy.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Horn Attack',
@@ -3871,7 +3871,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '25',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Horn Drill',
@@ -3881,7 +3881,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '30',
     pp: '5',
     effect: 'One-Hit-KO, if it hits.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Horn Leech',
@@ -3891,7 +3891,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'User recovers half the HP inflicted on opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Howl',
@@ -3901,7 +3901,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '40',
     effect: 'Raises Attack of allies.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Hurricane',
@@ -3921,7 +3921,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '5',
     effect: 'User must recharge next turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Hydro Pump',
@@ -3931,7 +3931,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '80',
     pp: '5',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Hydro Steam',
@@ -3941,7 +3941,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Power increases in harsh sunlight.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Hydro Vortex',
@@ -3951,7 +3951,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Water type Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Hyper Beam',
@@ -3961,7 +3961,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '5',
     effect: 'User must recharge next turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Hyper Drill',
@@ -3971,7 +3971,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'Can strike through Protect/Detect.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Hyper Fang',
@@ -3991,7 +3991,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Hyperspace Fury',
@@ -4011,7 +4011,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '5',
     effect: 'Can strike through Protect/Detect.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Hypnosis',
@@ -4021,7 +4021,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '60',
     pp: '20',
     effect: 'Puts opponent to sleep.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Ice Ball',
@@ -4031,7 +4031,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '20',
     effect: 'Doubles in power each turn for 5 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Ice Beam',
@@ -4092,7 +4092,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '30',
     effect: 'User attacks first.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Ice Spinner',
@@ -4102,7 +4102,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Removes effects of Terrain.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Icicle Crash',
@@ -4122,7 +4122,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '30',
     effect: 'Hits 2-5 times in one turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Icy Wind',
@@ -4142,7 +4142,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Opponent is unable to use moves that the user also knows.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Incinerate',
@@ -4152,7 +4152,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: "Destroys the target's held berry.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Infernal Parade',
@@ -4162,7 +4162,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Inflicts double damage if the target has a status condition.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Inferno',
@@ -4182,7 +4182,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Fire type Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Infestation',
@@ -4202,7 +4202,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: 'User restores HP each turn. User cannot escape/switch.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Instruct',
@@ -4212,7 +4212,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '15',
     effect: 'Allows an ally to use a move instead.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Ion Deluge',
@@ -4222,7 +4222,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '25',
     effect: 'Changes Normal-type moves to Electric-type.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Iron Defense',
@@ -4232,7 +4232,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '15',
     effect: "Sharply raises user's Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Iron Head',
@@ -4262,7 +4262,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Prevents user and opponent from switching out.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Jet Punch',
@@ -4272,7 +4272,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Always goes first.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Judgment',
@@ -4282,7 +4282,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Type depends on the Arceus Plate being held.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Jump Kick',
@@ -4292,7 +4292,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '95',
     pp: '10',
     effect: 'If it misses, the user loses half their HP.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Jungle Healing',
@@ -4302,7 +4302,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: "Restores team's HP and cures status conditions.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Karate Chop',
@@ -4312,7 +4312,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '25',
     effect: 'High critical hit ratio.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Kinesis',
@@ -4322,7 +4322,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '80',
     pp: '15',
     effect: "Lowers opponent's Accuracy.",
-    probability: '—',
+    probability: null,
   },
   {
     name: "King's Shield",
@@ -4332,7 +4332,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: "Protects the user and lowers opponent's Attack on contact.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Knock Off',
@@ -4342,7 +4342,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: "Removes opponent's held item for the rest of the battle.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Kowtow Cleave',
@@ -4352,7 +4352,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '10',
     effect: 'Always hits.',
-    probability: '—',
+    probability: null,
   },
   {
     name: "Land's Wrath",
@@ -4362,7 +4362,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Laser Focus',
@@ -4372,7 +4372,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '30',
     effect: "User's next attack is guaranteed to result in a critical hit.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Lash Out',
@@ -4382,7 +4382,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'Double power if stats were lowered during the turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Last Resort',
@@ -4392,7 +4392,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'Can only be used after all other moves are used.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Last Respects',
@@ -4402,7 +4402,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Damages increases the more party Pokémon have been defeated.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Lava Plume',
@@ -4422,7 +4422,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'High critical hit ratio.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Leaf Storm',
@@ -4452,7 +4452,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '40',
     effect: 'Strikes opponent with leaves.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Leech Life',
@@ -4462,7 +4462,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'User recovers half the HP inflicted on opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Leech Seed',
@@ -4472,7 +4472,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '10',
     effect: 'Drains HP from opponent each turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Leer',
@@ -4492,7 +4492,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Mimikyu-exclusive Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Lick',
@@ -4512,7 +4512,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'User and teammates recover HP.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Light of Ruin',
@@ -4522,7 +4522,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '5',
     effect: 'User receives recoil damage.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Light Screen',
@@ -4532,7 +4532,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '30',
     effect: 'Halves damage from Special attacks for 5 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Light That Burns the Sky',
@@ -4543,7 +4543,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '1',
     effect:
       "Ultra Necrozma-exclusive Z-Move. Ignores target's ability; uses highest Attack stat.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Liquidation',
@@ -4563,7 +4563,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '5',
     effect: "User's next attack is guaranteed to hit.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Lovely Kiss',
@@ -4573,7 +4573,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '75',
     pp: '10',
     effect: 'Puts opponent to sleep.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Low Kick',
@@ -4583,7 +4583,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'The heavier the opponent, the stronger the attack.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Low Sweep',
@@ -4603,7 +4603,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '30',
     effect: 'Opponent cannot land critical hits for 5 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Lumina Crash',
@@ -4613,7 +4613,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Harshly lowers target’s Special Defense.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Lunar Blessing',
@@ -4623,7 +4623,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '5',
     effect: "Heals user's status conditions and recovers HP.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Lunar Dance',
@@ -4633,7 +4633,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'The user faints but the next Pokémon released is fully healed.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Lunge',
@@ -4664,7 +4664,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '30',
     effect: 'User attacks first.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Magic Coat',
@@ -4674,7 +4674,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '15',
     effect: 'Reflects moves that cause status conditions back to the attacker.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Magic Powder',
@@ -4684,7 +4684,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: "Changes target's type to Psychic.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Magic Room',
@@ -4694,7 +4694,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Suppresses the effects of held items for five turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Magical Leaf',
@@ -4704,7 +4704,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '20',
     effect: 'Ignores Accuracy and Evasiveness.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Magical Torque',
@@ -4714,7 +4714,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Magma Storm',
@@ -4734,7 +4734,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '20',
     effect: 'Ignores Accuracy and Evasiveness.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Magnet Rise',
@@ -4744,7 +4744,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'User becomes immune to Ground-type moves for 5 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Magnetic Flux',
@@ -4754,7 +4754,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: 'Raises Defense and Sp. Defense of Plus/Minus Pokémon.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Magnitude',
@@ -4764,7 +4764,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '30',
     effect: 'Hits with random power.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Make It Rain',
@@ -4774,7 +4774,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: "Lowers user's Special Attack. Money is earned after the battle.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Malicious Moonsault',
@@ -4784,7 +4784,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Incineroar-exclusive Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Mat Block',
@@ -4794,7 +4794,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Protects teammates from damaging moves.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Max Airstream',
@@ -4824,7 +4824,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '—',
     effect: 'Fire type Dynamax move. Summons harsh sunlight.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Max Flutterby',
@@ -4844,7 +4844,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '—',
     effect: 'Water type Dynamax move. Summons heavy rain.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Max Guard',
@@ -4854,7 +4854,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '—',
     effect: 'Status category Dynamax move. Protects the user.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Max Hailstorm',
@@ -4864,7 +4864,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '—',
     effect: 'Ice type Dynamax move. Summons hail.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Max Knuckle',
@@ -4884,7 +4884,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '—',
     effect: 'Electric type Dynamax move. Summons Electric Terrain.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Max Mindstorm',
@@ -4894,7 +4894,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '—',
     effect: 'Psychic type Dynamax move. Summons Psychic Terrain.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Max Ooze',
@@ -4914,7 +4914,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '—',
     effect: 'Grass type Dynamax move. Summons Grassy Terrain.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Max Phantasm',
@@ -4944,7 +4944,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '—',
     effect: 'Rock type Dynamax move. Summons a sandstorm.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Max Starfall',
@@ -4954,7 +4954,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '—',
     effect: 'Fairy type Dynamax move. Summons Misty Terrain.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Max Steelspike',
@@ -4994,7 +4994,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: "User copies the opponent's attack with 1.5× power.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Mean Look',
@@ -5004,7 +5004,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '5',
     effect: 'Opponent cannot flee or switch.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Meditate',
@@ -5014,7 +5014,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '40',
     effect: "Raises user's Attack.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Mega Drain',
@@ -5024,7 +5024,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'User recovers half the HP inflicted on opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Mega Kick',
@@ -5034,7 +5034,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '75',
     pp: '5',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Mega Punch',
@@ -5044,7 +5044,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '85',
     pp: '20',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Megahorn',
@@ -5054,7 +5054,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '85',
     pp: '10',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Memento',
@@ -5064,7 +5064,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: "User faints, sharply lowers opponent's Attack and Special Attack.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Menacing Moonraze Maelstrom',
@@ -5074,7 +5074,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Lunala-exclusive Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Metal Burst',
@@ -5084,7 +5084,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: "Deals damage equal to 1.5x opponent's attack.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Metal Claw',
@@ -5104,7 +5104,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '85',
     pp: '40',
     effect: "Sharply lowers opponent's Special Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Meteor Assault',
@@ -5114,7 +5114,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'User must recharge next turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Meteor Beam',
@@ -5125,7 +5125,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'User gathers space power and boosts its Sp. Atk stat, then attacks the target on the next turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Meteor Mash',
@@ -5145,7 +5145,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'User performs almost any move in the game at random.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Milk Drink',
@@ -5155,7 +5155,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '5',
     effect: 'User recovers half its max HP.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Mimic',
@@ -5165,7 +5165,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: "Copies the opponent's last move.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Mind Blown',
@@ -5175,7 +5175,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'User receives recoil damage.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Mind Reader',
@@ -5185,7 +5185,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '5',
     effect: "User's next attack is guaranteed to hit.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Minimize',
@@ -5195,7 +5195,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: "Sharply raises user's Evasiveness.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Miracle Eye',
@@ -5205,7 +5205,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '40',
     effect: "Resets opponent's Evasiveness, removes Dark's Psychic immunity.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Mirror Coat',
@@ -5215,7 +5215,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'When hit by a Special Attack, user strikes back with 2x power.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Mirror Move',
@@ -5225,7 +5225,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: "User performs the opponent's last move.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Mirror Shot',
@@ -5245,7 +5245,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '30',
     effect: "User's stats cannot be changed for a period of time.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Mist Ball',
@@ -5265,7 +5265,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'Power increases on Misty Terrain.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Misty Terrain',
@@ -5275,7 +5275,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Protects the field from status conditions for 5 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Moonblast',
@@ -5295,7 +5295,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: "Ignores the target's ability.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Moonlight',
@@ -5305,7 +5305,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '5',
     effect: 'User recovers HP. Amount varies with the weather.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Morning Sun',
@@ -5315,7 +5315,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '5',
     effect: 'User recovers HP. Amount varies with the weather.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Mortal Spin',
@@ -5326,7 +5326,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '15',
     effect:
       'Removes entry hazards and trap move effects, and poisons opposing Pokémon.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Mountain Gale',
@@ -5336,7 +5336,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '85',
     pp: '10',
     effect: "Lowers user's Speed.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Mud Bomb',
@@ -5366,7 +5366,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '15',
     effect: 'Weakens the power of Electric-type moves.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Mud-Slap',
@@ -5396,7 +5396,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Type matches Memory item held.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Mystical Fire',
@@ -5416,7 +5416,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '10',
     effect: "Raises user's Attack or Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Nasty Plot',
@@ -5426,7 +5426,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: "Sharply raises user's Special Attack.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Natural Gift',
@@ -5436,7 +5436,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: "Power and type depend on the user's held berry.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Nature Power',
@@ -5446,7 +5446,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: 'Uses a certain move based on the current terrain.',
-    probability: '—',
+    probability: null,
   },
   {
     name: "Nature's Madness",
@@ -5456,7 +5456,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '10',
     effect: "Halves the foe's HP.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Needle Arm',
@@ -5476,7 +5476,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Ghost type Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Night Daze',
@@ -5496,7 +5496,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: "Inflicts damage equal to user's level.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Night Slash',
@@ -5506,7 +5506,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'High critical hit ratio.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Nightmare',
@@ -5516,7 +5516,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'The sleeping opponent loses 25% of its max HP each turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'No Retreat',
@@ -5546,7 +5546,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Nuzzle',
@@ -5566,7 +5566,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'User recovers most of the HP inflicted on opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Obstruct',
@@ -5576,7 +5576,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Protects the user and sharply lowers Defence on contact.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Oceanic Operetta',
@@ -5586,7 +5586,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Primarina-exclusive Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Octazooka',
@@ -5607,7 +5607,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '15',
     effect:
       "Lowers opponent's Defense and Special Defense every turn, and they cannot flee or switch out.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Odor Sleuth',
@@ -5618,7 +5618,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '40',
     effect:
       "Resets opponent's Evasiveness, and allows Normal- and Fighting-type attacks to hit Ghosts.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Ominous Wind',
@@ -5638,7 +5638,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Origin Pulse',
@@ -5648,7 +5648,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '85',
     pp: '10',
     effect: 'Hits all adjacent opponents.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Outrage',
@@ -5658,7 +5658,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'User attacks for 2-3 turns but then becomes confused.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Overdrive',
@@ -5668,7 +5668,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Hits all adjacent opponents.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Overheat',
@@ -5688,7 +5688,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: "The user's and opponent's HP becomes the average of both.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Parabolic Charge',
@@ -5698,7 +5698,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'User recovers half the HP inflicted on opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Parting Shot',
@@ -5718,7 +5718,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'Money is earned after the battle.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Payback',
@@ -5728,7 +5728,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Power doubles if the user was attacked first.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Peck',
@@ -5738,7 +5738,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '35',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Perish Song',
@@ -5748,7 +5748,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '5',
     effect: 'Any Pokémon in play when this attack is used faints in 3 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Petal Blizzard',
@@ -5758,7 +5758,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Hits all adjacent Pokémon.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Petal Dance',
@@ -5768,7 +5768,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'User attacks for 2-3 turns but then becomes confused.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Phantom Force',
@@ -5779,7 +5779,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'Disappears on first turn, attacks on second. Can strike through Protect/Detect.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Photon Geyser',
@@ -5789,7 +5789,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'Uses Attack or Special Attack stat, whichever is higher.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Pika Papow',
@@ -5799,7 +5799,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '20',
     effect: "Power increases when player's bond is stronger.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Pin Missile',
@@ -5809,7 +5809,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '95',
     pp: '20',
     effect: 'Hits 2-5 times in one turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Plasma Fists',
@@ -5819,7 +5819,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Changes Normal-type moves to Electric-type moves.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Play Nice',
@@ -5849,7 +5849,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'If the opponent is holding a berry, its effect is stolen by user.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Poison Fang',
@@ -5869,7 +5869,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '40',
     effect: 'Poisons opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Poison Jab',
@@ -5889,7 +5889,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '75',
     pp: '35',
     effect: 'Poisons opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Poison Sting',
@@ -5919,7 +5919,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Deals damage to opponent or restores HP of teammate.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Poltergeist',
@@ -5929,7 +5929,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '5',
     effect: 'Fails if the target doesn’t have an item.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Population Bomb',
@@ -5939,7 +5939,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '10',
     effect: 'Hits 1-10 times in a row.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Pounce',
@@ -5959,7 +5959,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '35',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Powder',
@@ -5969,7 +5969,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'Damages Pokémon using Fire type moves.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Powder Snow',
@@ -5989,7 +5989,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Power Shift',
@@ -5999,7 +5999,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Switches offensive and defensive stats.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Power Split',
@@ -6009,7 +6009,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Averages Attack and Special Attack with the target.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Power Swap',
@@ -6019,7 +6019,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'User and opponent swap Attack and Special Attack.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Power Trick',
@@ -6029,7 +6029,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: "User's own Attack and Defense switch.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Power Trip',
@@ -6040,7 +6040,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       "The user boasts its strength and attacks the target. The more the user's stats are raised, the greater the move's power.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Power Whip',
@@ -6050,7 +6050,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '85',
     pp: '10',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Power-Up Punch',
@@ -6070,7 +6070,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '85',
     pp: '10',
     effect: 'Hits all adjacent opponents.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Present',
@@ -6080,7 +6080,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '15',
     effect: 'Either deals damage or heals.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Prismatic Laser',
@@ -6091,7 +6091,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       "The user shoots powerful lasers using the power of a prism. The user can't move on the next turn.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Protect',
@@ -6101,7 +6101,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Protects the user, but may fail if used consecutively.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Psybeam',
@@ -6121,7 +6121,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Power increases on Electric Terrain.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Psych Up',
@@ -6131,7 +6131,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: "Copies the opponent's stat changes.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Psychic',
@@ -6152,7 +6152,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'The user bites the target with its psychic capabilities. This can also destroy Light Screen and Reflect.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Psychic Terrain',
@@ -6162,7 +6162,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Prevents priority moves from being used for 5 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Psycho Boost',
@@ -6182,7 +6182,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'High critical hit ratio.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Psycho Shift',
@@ -6192,7 +6192,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: "Transfers user's status condition to the opponent.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Psyshield Bash',
@@ -6202,7 +6202,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '10',
     effect: "Raises user's Defense and Special Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Psyshock',
@@ -6213,7 +6213,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       "Inflicts damage based on the target's Defense, not Special Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Psystrike',
@@ -6224,7 +6224,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       "Inflicts damage based on the target's Defense, not Special Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Psywave',
@@ -6234,7 +6234,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: "Inflicts damage 50-150% of user's level.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Pulverizing Pancake',
@@ -6244,7 +6244,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Snorlax-exclusive Normal type Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Punishment',
@@ -6254,7 +6254,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: "Power increases when opponent's stats have been raised.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Purify',
@@ -6265,7 +6265,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '20',
     effect:
       "The user heals the target's status condition. If the move succeeds, it also restores the user's own HP.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Pursuit',
@@ -6275,7 +6275,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'Double power if the opponent is switching out.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Pyro Ball',
@@ -6295,7 +6295,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Makes the target act last this turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Quick Attack',
@@ -6305,7 +6305,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '30',
     effect: 'User attacks first.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Quick Guard',
@@ -6315,7 +6315,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '15',
     effect: "Protects the user's team from high-priority moves.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Quiver Dance',
@@ -6325,7 +6325,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: "Raises user's Special Attack, Special Defense and Speed.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Rage',
@@ -6335,7 +6335,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: "Raises user's Attack when hit.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Rage Fist',
@@ -6346,7 +6346,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       "The more times the user has been hit by attacks, the greater the move's power.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Rage Powder',
@@ -6356,7 +6356,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: 'Forces attacks to hit user, not team-mates.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Raging Bull',
@@ -6367,7 +6367,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'Type depends on the user’s form. Breaks through Reflect and Light Screen barriers.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Raging Fury',
@@ -6377,7 +6377,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'User keeps repeating the same move over and over.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Rain Dance',
@@ -6387,7 +6387,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '5',
     effect: 'Makes it rain for 5 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Rapid Spin',
@@ -6408,7 +6408,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '95',
     pp: '25',
     effect: 'High critical hit ratio.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Razor Shell',
@@ -6429,7 +6429,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'Charges on first turn, attacks on second. High critical hit ratio.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Recover',
@@ -6439,7 +6439,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '5',
     effect: 'User recovers half its max HP.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Recycle',
@@ -6449,7 +6449,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: "User's used hold item is restored.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Reflect',
@@ -6459,7 +6459,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: 'Halves damage from Physical attacks for 5 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Reflect Type',
@@ -6469,7 +6469,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '15',
     effect: "User becomes the target's type.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Refresh',
@@ -6479,7 +6479,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: 'Cures paralysis, poison, and burns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Relic Song',
@@ -6499,7 +6499,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '5',
     effect: 'User sleeps for 2 turns, but user is fully healed.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Retaliate',
@@ -6509,7 +6509,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'Inflicts double damage if a teammate fainted on the last turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Return',
@@ -6519,7 +6519,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'Power increases with higher Friendship.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Revelation Dance',
@@ -6529,7 +6529,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: "Type changes based on Oricorio's form.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Revenge',
@@ -6539,7 +6539,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Power increases if user was hit first.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Reversal',
@@ -6549,7 +6549,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: "The lower the user's HP, the higher the power.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Revival Blessing',
@@ -6559,7 +6559,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Revives a fainted party Pokémon to half HP.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Rising Voltage',
@@ -6569,7 +6569,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'Power doubles on Electric Terrain.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Roar',
@@ -6579,7 +6579,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: 'In battles, the opponent switches. In the wild, the Pokémon runs.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Roar of Time',
@@ -6589,7 +6589,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '5',
     effect: 'User must recharge next turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Rock Blast',
@@ -6599,7 +6599,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '10',
     effect: 'Hits 2-5 times in one turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Rock Climb',
@@ -6619,7 +6619,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: "Sharply raises user's Speed.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Rock Slide',
@@ -6649,7 +6649,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '15',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Rock Tomb',
@@ -6669,7 +6669,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '5',
     effect: 'User must recharge next turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Role Play',
@@ -6679,7 +6679,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: "User copies the opponent's Ability.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Rolling Kick',
@@ -6699,7 +6699,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '20',
     effect: 'Doubles in power each turn for 5 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Roost',
@@ -6710,7 +6710,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '5',
     effect:
       'User recovers half of its max HP and loses the Flying type temporarily.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Rototiller',
@@ -6730,7 +6730,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Power increases if teammates use it in the same turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Ruination',
@@ -6740,7 +6740,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '10',
     effect: "Halves the opponent's HP.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Sacred Fire',
@@ -6760,7 +6760,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: "Ignores opponent's stat changes.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Safeguard',
@@ -6770,7 +6770,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '25',
     effect: "The user's party is protected from status conditions.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Salt Cure',
@@ -6780,7 +6780,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Deals damage each turn; Steel and Water types are more affected.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Sand Attack',
@@ -6790,7 +6790,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: "Lowers opponent's Accuracy.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Sand Tomb',
@@ -6810,7 +6810,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '80',
     pp: '10',
     effect: 'May burn target.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Sandstorm',
@@ -6820,7 +6820,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Creates a sandstorm for 5 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Sappy Seed',
@@ -6840,7 +6840,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Bug type Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Scald',
@@ -6861,7 +6861,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '20',
     effect:
       "Hits 2-5 times in one turn. Boosts user's Speed but lowers its Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Scary Face',
@@ -6871,7 +6871,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: "Sharply lowers opponent's Speed.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Scorching Sands',
@@ -6881,7 +6881,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'May burn the target.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Scratch',
@@ -6891,7 +6891,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '35',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Screech',
@@ -6901,7 +6901,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '85',
     pp: '40',
     effect: "Sharply lowers opponent's Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Searing Shot',
@@ -6921,7 +6921,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Solgaleo-exclusive Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Secret Power',
@@ -6942,7 +6942,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       "Inflicts damage based on the target's Defense, not Special Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Seed Bomb',
@@ -6952,7 +6952,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Seed Flare',
@@ -6972,7 +6972,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: "Inflicts damage equal to user's level.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Self-Destruct',
@@ -6982,7 +6982,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'User faints.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Shadow Ball',
@@ -7012,7 +7012,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'High critical hit ratio.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Shadow Force',
@@ -7023,7 +7023,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '5',
     effect:
       'Disappears on first turn, attacks on second. Can strike through Protect/Detect.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Shadow Punch',
@@ -7033,7 +7033,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '20',
     effect: 'Ignores Accuracy and Evasiveness.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Shadow Sneak',
@@ -7043,7 +7043,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '30',
     effect: 'User attacks first.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Sharpen',
@@ -7053,7 +7053,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '30',
     effect: "Raises user's Attack.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Shattered Psyche',
@@ -7063,7 +7063,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Psychic type Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Shed Tail',
@@ -7074,7 +7074,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'Creates a substitute, then swaps places with a party Pokémon in waiting.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Sheer Cold',
@@ -7084,7 +7084,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '30',
     pp: '5',
     effect: 'One-Hit-KO, if it hits.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Shell Side Arm',
@@ -7095,7 +7095,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'May poison opponent. Inflicts either Special or Physical damage, whichever is better.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Shell Smash',
@@ -7106,7 +7106,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '15',
     effect:
       "Sharply raises user's Attack, Special Attack and Speed but lowers Defense and Special Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Shell Trap',
@@ -7116,7 +7116,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'Deals more damage to opponent if hit by a Physical move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Shelter',
@@ -7126,7 +7126,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Raises Defense and Evasion.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Shift Gear',
@@ -7136,7 +7136,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: "Raises user's Attack and sharply raises Speed.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Shock Wave',
@@ -7146,7 +7146,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '20',
     effect: 'Ignores Accuracy and Evasiveness.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Shore Up',
@@ -7157,7 +7157,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '5',
     effect:
       'The user regains up to half of its max HP. It restores more HP in a sandstorm.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Signal Beam',
@@ -7177,7 +7177,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: "Protects the user and lowers opponent's Speed on contact.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Silver Wind',
@@ -7197,7 +7197,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: "Changes target's ability to Simple.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Sing',
@@ -7207,7 +7207,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '55',
     pp: '15',
     effect: 'Puts opponent to sleep.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Sinister Arrow Raid',
@@ -7217,7 +7217,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Decidueye-exclusive Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Sizzly Slide',
@@ -7237,7 +7237,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: "Permanently copies the opponent's last move.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Skill Swap',
@@ -7247,7 +7247,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'The user swaps Abilities with the opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Skitter Smack',
@@ -7257,7 +7257,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '10',
     effect: "Lowers opponent's Sp. Attack.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Skull Bash',
@@ -7289,7 +7289,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'Takes opponent into the air on first turn, drops them on second turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Sky Uppercut',
@@ -7299,7 +7299,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '15',
     effect: 'Hits the opponent, even during Fly.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Slack Off',
@@ -7309,7 +7309,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '5',
     effect: 'User recovers half its max HP.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Slam',
@@ -7319,7 +7319,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '75',
     pp: '20',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Slash',
@@ -7329,7 +7329,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'High critical hit ratio.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Sleep Powder',
@@ -7339,7 +7339,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '75',
     pp: '15',
     effect: 'Puts opponent to sleep.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Sleep Talk',
@@ -7349,7 +7349,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'User performs one of its own moves while sleeping.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Sludge',
@@ -7400,7 +7400,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'The user stabs the target with a sharp horn. This attack never misses.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Smelling Salts',
@@ -7410,7 +7410,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Power doubles if opponent is paralyzed, but cures it.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Smog',
@@ -7430,7 +7430,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: "Lowers opponent's Accuracy.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Snap Trap',
@@ -7460,7 +7460,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: "Steals the effects of the opponent's next move.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Snipe Shot',
@@ -7471,7 +7471,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '15',
     effect:
       'Ignores moves and abilities that draw in moves. High critical hit ratio.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Snore',
@@ -7491,7 +7491,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Raises Defense of Ice types for 5 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Soak',
@@ -7501,7 +7501,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: "Changes the target's type to water.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Soft-Boiled',
@@ -7511,7 +7511,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '5',
     effect: 'User recovers half its max HP.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Solar Beam',
@@ -7521,7 +7521,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Charges on first turn, attacks on second.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Solar Blade',
@@ -7531,7 +7531,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Charges on first turn, attacks on second.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Sonic Boom',
@@ -7541,7 +7541,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '20',
     effect: 'Always inflicts 20 HP.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Soul-Stealing 7-Star Strike',
@@ -7551,7 +7551,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Marshadow-exclusive Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Spacial Rend',
@@ -7561,7 +7561,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '95',
     pp: '5',
     effect: 'High critical hit ratio.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Spark',
@@ -7581,7 +7581,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Heals the burns of its target.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Sparkly Swirl',
@@ -7591,7 +7591,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Cures all status problems in the party Pokémon.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Spectral Thief',
@@ -7602,7 +7602,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       "The user hides in the target's shadow, steals the target's stat boosts, and then attacks.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Speed Swap',
@@ -7612,7 +7612,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'The user exchanges Speed stats with the target.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Spicy Extract',
@@ -7623,7 +7623,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '15',
     effect:
       "Harshly lowers the opponent's Defense and sharply raises their Attack.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Spider Web',
@@ -7633,7 +7633,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Opponent cannot escape/switch.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Spike Cannon',
@@ -7643,7 +7643,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Hits 2-5 times in one turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Spikes',
@@ -7653,7 +7653,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: 'Hurts opponents when they switch into battle.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Spiky Shield',
@@ -7663,7 +7663,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Protects the user and inflicts damage on contact.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Spin Out',
@@ -7673,7 +7673,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'Harshly lowers user’s Speed.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Spirit Break',
@@ -7693,7 +7693,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Prevents the opponent from switching out.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Spit Up',
@@ -7703,7 +7703,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Power depends on how many times the user performed Stockpile.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Spite',
@@ -7713,7 +7713,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: "The opponent's last move loses 2-5 PP.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Splash',
@@ -7723,7 +7723,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '40',
     effect: "Doesn't do ANYTHING.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Splintered Stormshards',
@@ -7733,7 +7733,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Lycanroc-exclusive Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Splishy Splash',
@@ -7753,7 +7753,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Puts opponent to sleep.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Spotlight',
@@ -7764,7 +7764,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '15',
     effect:
       'The user shines a spotlight on the target so that only the target will be attacked during the turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Springtide Storm',
@@ -7775,7 +7775,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '5',
     effect:
       "Boosts user's stats in Incarnate Forme, or lowers opponent's stats in Therian Forme.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Stealth Rock',
@@ -7785,7 +7785,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: 'Damages opponent switching into battle.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Steam Eruption',
@@ -7815,7 +7815,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '95',
     pp: '5',
     effect: 'User loses 50% of its HP.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Steel Roller',
@@ -7825,7 +7825,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'Fails if no Terrain in effect.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Steel Wing',
@@ -7845,7 +7845,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: "Lowers opponent's Speed when switching into battle.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Stockpile',
@@ -7855,7 +7855,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: 'Stores energy for use with Spit Up and Swallow.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Stoked Sparksurfer',
@@ -7886,7 +7886,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       "Driven by frustration, the user attacks the target. If the user's previous move has failed, the power of this move doubles.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Stone Axe',
@@ -7896,7 +7896,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '15',
     effect: 'High critical hit ratio. Damages target with splinters each turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Stone Edge',
@@ -7906,7 +7906,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '80',
     pp: '5',
     effect: 'High critical hit ratio.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Stored Power',
@@ -7916,7 +7916,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: "Power increases when user's stats have been raised.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Storm Throw',
@@ -7946,7 +7946,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Strength Sap',
@@ -7967,7 +7967,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '95',
     pp: '40',
     effect: "Sharply lowers opponent's Speed.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Struggle',
@@ -7977,7 +7977,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '—',
     effect: 'Only usable when all PP are gone. Hurts the user.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Struggle Bug',
@@ -8008,7 +8008,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '75',
     pp: '30',
     effect: 'Paralyzes opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Submission',
@@ -8018,7 +8018,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '80',
     pp: '20',
     effect: 'User receives recoil damage.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Substitute',
@@ -8028,7 +8028,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Uses HP to creates a decoy that takes hits.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Subzero Slammer',
@@ -8038,7 +8038,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Ice type Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Sucker Punch',
@@ -8049,7 +8049,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '5',
     effect:
       'User attacks first, but only works if opponent is readying an attack.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Sunny Day',
@@ -8059,7 +8059,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '5',
     effect: 'Makes it sunny for 5 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Sunsteel Strike',
@@ -8069,7 +8069,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: "Ignores the target's ability.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Super Fang',
@@ -8079,7 +8079,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '10',
     effect: "Always takes off half of the opponent's HP.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Superpower',
@@ -8099,7 +8099,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '55',
     pp: '20',
     effect: 'Confuses opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Supersonic Skystrike',
@@ -8109,7 +8109,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Flying type Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Surf',
@@ -8119,7 +8119,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Hits all adjacent Pokémon.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Surging Strikes',
@@ -8129,7 +8129,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'Always results in a critical hit and ignores stat changes.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Swagger',
@@ -8139,7 +8139,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '85',
     pp: '15',
     effect: 'Confuses opponent, but sharply raises its Attack.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Swallow',
@@ -8150,7 +8150,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'The more times the user has performed Stockpile, the more HP is recovered.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Sweet Kiss',
@@ -8160,7 +8160,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '75',
     pp: '10',
     effect: 'Confuses opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Sweet Scent',
@@ -8170,7 +8170,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: "Lowers opponent's Evasiveness.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Swift',
@@ -8180,7 +8180,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '20',
     effect: 'Ignores Accuracy and Evasiveness.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Switcheroo',
@@ -8190,7 +8190,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Swaps held items with the opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Swords Dance',
@@ -8200,7 +8200,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: "Sharply raises user's Attack.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Synchronoise',
@@ -8210,7 +8210,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Hits any Pokémon that shares a type with the user.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Synthesis',
@@ -8220,7 +8220,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '5',
     effect: 'User recovers HP. Amount varies with the weather.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Tackle',
@@ -8230,7 +8230,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '35',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Tail Glow',
@@ -8240,7 +8240,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: "Drastically raises user's Special Attack.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Tail Slap',
@@ -8250,7 +8250,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '85',
     pp: '10',
     effect: 'Hits 2-5 times in one turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Tail Whip',
@@ -8260,7 +8260,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '30',
     effect: "Lowers opponent's Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Tailwind',
@@ -8270,7 +8270,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '15',
     effect: 'Doubles Speed for 4 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Take Down',
@@ -8280,7 +8280,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '85',
     pp: '20',
     effect: 'User receives recoil damage.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Take Heart',
@@ -8290,7 +8290,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: "Heals user's status conditions and raises its stats.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Tar Shot',
@@ -8311,7 +8311,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'Opponent can only use moves that attack.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Tearful Look',
@@ -8332,7 +8332,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Forces all Pokémon on the field to eat their berries.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Techno Blast',
@@ -8342,7 +8342,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'Type depends on the Drive being held.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Tectonic Rage',
@@ -8352,7 +8352,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Ground type Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Teeter Dance',
@@ -8362,7 +8362,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'Confuses all Pokémon.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Telekinesis',
@@ -8373,7 +8373,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '15',
     effect:
       "Ignores opponent's Evasiveness for three turns, add Ground immunity.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Teleport',
@@ -8384,7 +8384,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '20',
     effect:
       'Allows user to flee wild battles; also warps player to last PokéCenter.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Tera Blast',
@@ -8394,7 +8394,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Changes type when the user has Terastallized.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Terrain Pulse',
@@ -8404,7 +8404,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Type and power change depending on the Terrain in effect.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Thief',
@@ -8414,7 +8414,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '25',
     effect: "Also steals opponent's held item.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Thousand Arrows',
@@ -8424,7 +8424,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Makes Flying-type Pokémon vulnerable to Ground moves.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Thousand Waves',
@@ -8434,7 +8434,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Opponent cannot flee or switch.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Thrash',
@@ -8444,7 +8444,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'User attacks for 2-3 turns but then becomes confused.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Throat Chop',
@@ -8474,7 +8474,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '15',
     effect: 'Deals damage and traps opponent, damaging them for 4-5 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Thunder Fang',
@@ -8514,7 +8514,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '20',
     effect: 'Paralyzes opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Thunderbolt',
@@ -8544,7 +8544,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: "Lowers opponent's Attack and Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Tidy Up',
@@ -8555,7 +8555,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'Removes the effects of entry hazards and Substitute, and boosts user’s Attack and Speed.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Topsy-Turvy',
@@ -8565,7 +8565,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: 'Reverses stat changes of opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Torch Song',
@@ -8575,7 +8575,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: "Raises user's Special Attack.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Torment',
@@ -8585,7 +8585,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'Opponent cannot use the same move in a row.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Toxic',
@@ -8595,7 +8595,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '10',
     effect: 'Badly poisons opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Toxic Spikes',
@@ -8605,7 +8605,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: 'Poisons opponents when they switch into battle.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Toxic Thread',
@@ -8625,7 +8625,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: "Raises user's Speed.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Transform',
@@ -8635,7 +8635,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'User takes on the form and attacks of the opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Tri Attack',
@@ -8655,7 +8655,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Swaps held items with the opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Trick Room',
@@ -8665,7 +8665,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '5',
     effect: 'Slower Pokémon move first in the turn for 5 turns.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Trick-or-Treat',
@@ -8675,7 +8675,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'Adds Ghost type to opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Triple Arrows',
@@ -8685,7 +8685,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: "Raises critical hit ratio and lowers target's Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Triple Axel',
@@ -8695,7 +8695,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '10',
     effect: 'Attacks thrice with more power each time.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Triple Dive',
@@ -8705,7 +8705,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '95',
     pp: '10',
     effect: 'Hits 3 times in a row.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Triple Kick',
@@ -8715,7 +8715,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '90',
     pp: '10',
     effect: 'Hits thrice in one turn at increasing power.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Trop Kick',
@@ -8735,7 +8735,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '5',
     effect: 'The lower the PP, the higher the power.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Twin Beam',
@@ -8745,7 +8745,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Hits twice in one turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Twineedle',
@@ -8765,7 +8765,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '1',
     effect: 'Fairy type Z-Move.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Twister',
@@ -8786,7 +8786,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'User switches out immediately after attacking.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Uproar',
@@ -8796,7 +8796,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'User attacks for 3 turns and prevents sleep.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'V-create',
@@ -8816,7 +8816,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '30',
     effect: 'User attacks first.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Veevee Volley',
@@ -8826,7 +8826,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '20',
     effect: "Power increases when player's bond is stronger.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Venom Drench',
@@ -8846,7 +8846,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Inflicts double damage if the target is poisoned.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Victory Dance',
@@ -8856,7 +8856,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Raises Attack and Defense.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Vine Whip',
@@ -8866,7 +8866,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '25',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Vise Grip',
@@ -8876,7 +8876,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '30',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Vital Throw',
@@ -8886,7 +8886,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '∞',
     pp: '10',
     effect: 'User attacks last, but ignores Accuracy and Evasiveness.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Volt Switch',
@@ -8896,7 +8896,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'User must switch out after attacking.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Volt Tackle',
@@ -8916,7 +8916,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'Power doubles if opponent is asleep, but wakes it up.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Water Gun',
@@ -8926,7 +8926,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '25',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Water Pledge',
@@ -8937,7 +8937,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     pp: '10',
     effect:
       'Added effects appear if preceded by Fire Pledge or succeeded by Grass Pledge.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Water Pulse',
@@ -8957,7 +8957,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '20',
     effect: 'Hits 2-5 times in one turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Water Sport',
@@ -8967,7 +8967,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '15',
     effect: 'Weakens the power of Fire-type moves.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Water Spout',
@@ -8977,7 +8977,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: "The higher the user's HP, the higher the damage caused.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Waterfall',
@@ -8997,7 +8997,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: 'User receives recoil damage.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Weather Ball',
@@ -9007,7 +9007,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: "Move's power and type changes with the weather.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Whirlpool',
@@ -9027,7 +9027,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '20',
     effect: 'In battles, the opponent switches. In the wild, the Pokémon runs.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Wicked Blow',
@@ -9037,7 +9037,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: 'Always results in a critical hit and ignores stat changes.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Wicked Torque',
@@ -9047,7 +9047,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Wide Guard',
@@ -9057,7 +9057,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: "Protects the user's team from multi-target attacks.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Wild Charge',
@@ -9067,7 +9067,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'User receives recoil damage.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Wildbolt Storm',
@@ -9077,7 +9077,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '80',
     pp: '10',
     effect: 'May paralyze target.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Will-O-Wisp',
@@ -9087,7 +9087,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '85',
     pp: '15',
     effect: 'Burns opponent.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Wing Attack',
@@ -9097,7 +9097,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '35',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Wish',
@@ -9107,7 +9107,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'The user recovers HP in the following turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Withdraw',
@@ -9117,7 +9117,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '40',
     effect: "Raises user's Defense.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Wonder Room',
@@ -9127,7 +9127,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: "Swaps every Pokémon's Defense and Special Defense for 5 turns.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Wood Hammer',
@@ -9137,7 +9137,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: 'User receives recoil damage.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Work Up',
@@ -9147,7 +9147,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '30',
     effect: "Raises user's Attack and Special Attack.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Worry Seed',
@@ -9157,7 +9157,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '10',
     effect: "Changes the opponent's Ability to Insomnia.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Wrap',
@@ -9177,7 +9177,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '5',
     effect: "The higher the opponent's HP, the higher the damage.",
-    probability: '—',
+    probability: null,
   },
   {
     name: 'X-Scissor',
@@ -9187,7 +9187,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '100',
     pp: '15',
     effect: '',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Yawn',
@@ -9197,7 +9197,7 @@ export const POKEMON_MOVES: PokemonMoveDetail[] = [
     accuracy: '—',
     pp: '10',
     effect: 'Puts opponent to sleep in the next turn.',
-    probability: '—',
+    probability: null,
   },
   {
     name: 'Zap Cannon',

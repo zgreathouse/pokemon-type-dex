@@ -6,6 +6,7 @@ import { PokemonTypePickerComponent } from '../../features/pokemon-type-picker/p
 import { PokemonIndexComponent } from 'src/app/features/pokemon-index/pokemon-index.component';
 import { PokemonTypePickerService } from 'src/app/features/pokemon-type-picker/pokemon-type-picker.service';
 import { PokemonTypeChipComponent } from '../pokemon-type-chip/pokemon-type-chip.component';
+import { PokemonMovesIndexComponent } from 'src/app/features/pokemon-move-index/pokemon-moves-index.component';
 
 @Component({
   selector: 'app-frame',
@@ -16,6 +17,7 @@ import { PokemonTypeChipComponent } from '../pokemon-type-chip/pokemon-type-chip
     PokemonTypeChipComponent,
     PokemonIndexComponent,
     PokemonTypeDetailComponent,
+    PokemonMovesIndexComponent,
     PokemonTypePickerComponent,
   ],
   templateUrl: './frame.component.html',

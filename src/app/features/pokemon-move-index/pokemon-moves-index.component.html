@@ -1,0 +1,29 @@
+<div class="pokemon-moves-index-container">
+  <mat-grid-list  cols="9" rowHeight="64px">
+    <mat-grid-tile *ngFor="let columnName of columnNames" [colspan]="columnName.colspan">
+      <span [ngClass]="columnName.className">
+        <strong>{{ columnName.name }}</strong>
+      </span>
+    </mat-grid-tile>
+    <div *ngFor="let pokemonMove of (filteredPokemonMoves$ | async)">
+      <mat-grid-tile [colspan]="1">
+        <span class="grid-tile-text">{{ pokemonMove.name }}</span>
+      </mat-grid-tile>
+      <mat-grid-tile [colspan]="1">
+        <app-pokemon-type-chip [pokemonType]="pokemonMove.pokemonType"></app-pokemon-type-chip>
+      </mat-grid-tile>
+      <mat-grid-tile>{{ pokemonMove.category }}</mat-grid-tile>
+      <mat-grid-tile [colspan]="3">
+        <span class="grid-tile-text">
+          {{ pokemonMove.effect }} 
+          <strong>
+            {{ pokemonMove.probability ? '(' + pokemonMove.probability + '%)' : '' }}
+          </strong>
+        </span>
+      </mat-grid-tile>
+      <mat-grid-tile>{{ pokemonMove.power }}</mat-grid-tile>
+      <mat-grid-tile>{{ pokemonMove.accuracy }}</mat-grid-tile>
+      <mat-grid-tile>{{ pokemonMove.pp }}</mat-grid-tile>
+    </div>
+  </mat-grid-list>
+</div>
