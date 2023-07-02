@@ -3,9 +3,9 @@
     mat-raised-button 
     ripple
     [ngClass]="state.selected ? 'pokemon-type-picker-btn-selected' : 'pokemon-type-picker-btn'"
-    [color]="state.selected ? 'primary' : 'basic'"
+    [ngStyle]="{ 'background-color': state.selected ? pokemonTypeColor : 'white' }"
     (focus)="selectType()"
   >
-    {{ pokemonType }}
+    {{ pokemonType.toUpperCase() }}
   </button>
 </ng-container>

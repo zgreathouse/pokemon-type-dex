@@ -1,6 +1,15 @@
 .pokemon-type-picker-btn, .pokemon-type-picker-btn-selected {
   border-radius: 8px;
-  width: 80px;
-  height: 32px;
-  font-size: 14px;
+  width: 72px;
+  height: 28px;
+  font-size: 12px;
+}
+
+.pokemon-type-picker-btn-selected {
+  color: white;
+  border: solid 1px #636365;
+  text-shadow: -1px 1px 0 black, 
+    1px 1px 0 black, 
+    1px -1px 0 black, 
+    -1px -1px 0 black;
 }
