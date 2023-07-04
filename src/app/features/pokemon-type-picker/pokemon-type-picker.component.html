@@ -1,8 +1,17 @@
 <div class="pokemon-type-picker-container">
-  <div class="pokemon-type-picker-types-container">
-    <app-pokemon-type-picker-button 
+  <div 
+    *ngIf="(selectedType$| async) as selectedType" 
+    class="pokemon-type-picker-types-container"
+  >
+    <button 
       *ngFor="let pokemonType of pokemonTypes"
-      [pokemonType]="pokemonType"
-    ></app-pokemon-type-picker-button>
+      mat-raised-button 
+      ripple
+      [ngClass]="selectedType === pokemonType ? 'pokemon-type-picker-btn-selected' : 'pokemon-type-picker-btn'"
+      [ngStyle]="{ 'background-color': selectedType === pokemonType ? pokemonTypeColors[pokemonType] : 'white' }"
+      (focus)="selectType(pokemonType)"
+    >
+      {{ pokemonType.toUpperCase() }}
+    </button>
   </div>
 </div>
