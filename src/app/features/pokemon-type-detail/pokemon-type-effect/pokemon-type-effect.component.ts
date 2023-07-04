@@ -28,8 +28,6 @@ import { PokemonService } from 'src/app/services/pokemon.service';
 export class PokemonTypeEffectComponent {
   @Input() detailType!: DetailType;
 
-  readonly notApplicable = '—';
-
   pokemonTypeEffect$ = this.pokemonService.selectedPokemonType$.pipe(
     map((pokemonType) =>
       this.detailType === 'Offense'

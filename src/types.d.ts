@@ -42,6 +42,9 @@ export interface PokemonTypeEffectDetail {
   superEffective: PokemonType[];
   notVeryEffective: PokemonType[];
   ineffective: PokemonType[];
+  weak: PokemonType[];
+  resists: PokemonType[];
+  immune: PokemonType[];
 }
 
 export type TypeEffect =

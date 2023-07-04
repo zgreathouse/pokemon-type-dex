@@ -10,7 +10,6 @@ export class PokemonService {
   private selectedPokemonTypeState$ = new BehaviorSubject<PokemonType>(
     'Normal'
   );
-
   selectedPokemonType$ = this.selectedPokemonTypeState$
     .asObservable()
     .pipe(shareReplay(1));
@@ -31,11 +30,9 @@ export class PokemonService {
     )
   );
 
-  private doubleDamageMultiplier = '(x2)';
-  private halfDamageMultiplier = '(x0.5)';
-  private noDamageMultiplier = '(x0)';
-
-  constructor() {}
+  // typeEffectsOfSelectedType$ = this.selectedPokemonType$.pipe(
+  //   map((selectedPokemonType) => POKEMON_TYPE_DETAILS[selectedPokemonType])
+  // );
 
   updateSelectedType(pokemonType: PokemonType): void {
     this.selectedPokemonTypeState$.next(pokemonType);
@@ -46,57 +43,35 @@ export class PokemonService {
       POKEMON_TYPE_DETAILS[pokemonType];
     return [
       {
-        pokemonTypeEffect: `Super effective ${this.doubleDamageMultiplier}`,
+        pokemonTypeEffect: `Super effective`,
         pokemonTypes: superEffective,
       },
       {
-        pokemonTypeEffect: `Not very effective ${this.halfDamageMultiplier}`,
+        pokemonTypeEffect: `Not very effective`,
         pokemonTypes: notVeryEffective,
       },
       {
-        pokemonTypeEffect: `Ineffective ${this.noDamageMultiplier}`,
+        pokemonTypeEffect: `Ineffective`,
         pokemonTypes: ineffective,
       },
     ];
   }
 
   computeDefensiveTypeEffects(pokemonType: PokemonType) {
-    const { weak, resists, immune } = this.getTypeResistances(pokemonType);
+    const { weak, resists, immune } = POKEMON_TYPE_DETAILS[pokemonType];
     return [
       {
-        pokemonTypeEffect: `Weak ${this.doubleDamageMultiplier}`,
+        pokemonTypeEffect: `Weak`,
         pokemonTypes: weak,
       },
       {
-        pokemonTypeEffect: `Resists ${this.halfDamageMultiplier}`,
+        pokemonTypeEffect: `Resists`,
         pokemonTypes: resists,
       },
       {
-        pokemonTypeEffect: `Immune ${this.noDamageMultiplier}`,
+        pokemonTypeEffect: `Immune`,
         pokemonTypes: immune,
       },
     ];
-  }
-
-  private getTypeResistances(attackingType: PokemonType): ResistanceDetail {
-    return POKEMON_TYPES.reduce(
-      (acc, type) => {
-        const { superEffective, notVeryEffective, ineffective } =
-          POKEMON_TYPE_DETAILS[type];
-        if (superEffective.includes(attackingType)) {
-          acc.weak.push(type);
-        } else if (notVeryEffective.includes(attackingType)) {
-          acc.resists.push(type);
-        } else if (ineffective.includes(attackingType)) {
-          acc.immune.push(type);
-        }
-        return acc;
-      },
-      {
-        weak: [],
-        resists: [],
-        immune: [],
-      } as ResistanceDetail
-    );
   }
 }
