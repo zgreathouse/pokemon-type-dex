@@ -6,6 +6,7 @@ import { PokemonIndexService } from './pokemon-index.service';
 import { map } from 'rxjs';
 import { PokemonTypePickerService } from '../pokemon-type-picker/pokemon-type-picker.service';
 import { PokemonTypeChipComponent } from 'src/app/ui/pokemon-type-chip/pokemon-type-chip.component';
+import { POKEMON } from './pokemon';
 
 @Component({
   selector: 'app-pokemon-index',
@@ -21,6 +22,7 @@ import { PokemonTypeChipComponent } from 'src/app/ui/pokemon-type-chip/pokemon-t
 })
 export class PokemonIndexComponent {
   readonly notApplicable = '—';
+  readonly emptyMessage = `None of the first ${POKEMON.length} Pokemon have this typing.`;
   readonly displayedColumns = [
     'Pokèdex #',
     'Sprite',

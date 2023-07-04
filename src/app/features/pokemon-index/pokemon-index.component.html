@@ -44,6 +44,12 @@
       <th mat-header-cell *matHeaderCellDef>Total Base Stat</th>
       <td mat-cell *matCellDef="let pokemon">{{ pokemon.totalBaseStat }}</td>
     </ng-container>
+    <!-- Empty Data -->
+    <tr class="mat-row" *matNoDataRow>
+      <td class="mat-cell mat-cell-empty" colspan="6">
+        None of the first 151 Pokemon have this typing.
+      </td>
+    </tr>
     <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
   </table>

@@ -125,7 +125,7 @@ export const TYPE_DETAILS: Record<PokemonType, PokemonTypeEffectDetail> = {
   },
   Fairy: {
     superEffective: ['Dark', 'Dragon', 'Fighting'],
-    notVeryEffective: ['Fighting', 'Poison', 'Steel'],
+    notVeryEffective: ['Fire', 'Poison', 'Steel'],
     ineffective: [],
   },
 };
