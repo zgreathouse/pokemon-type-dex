@@ -1,4 +1,4 @@
-import { Component, Input, OnDestroy, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PokemonTypeEffectComponent } from './pokemon-type-effect/pokemon-type-effect.component';
 import { PokemonService } from 'src/app/services/pokemon.service';

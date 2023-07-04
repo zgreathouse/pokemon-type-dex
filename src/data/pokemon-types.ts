@@ -21,7 +21,10 @@ export const POKEMON_TYPES: PokemonType[] = [
   'Fairy',
 ];
 
-export const TYPE_DETAILS: Record<PokemonType, PokemonTypeEffectDetail> = {
+export const POKEMON_TYPE_DETAILS: Record<
+  PokemonType,
+  PokemonTypeEffectDetail
+> = {
   Normal: {
     superEffective: [],
     notVeryEffective: ['Rock', 'Steel'],

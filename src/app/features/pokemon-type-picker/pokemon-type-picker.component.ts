@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { POKEMON_TYPES } from './pokemon-types';
+import { POKEMON_TYPES } from '../../../data/pokemon-types';
 import { PokemonService } from 'src/app/services/pokemon.service';
 import { PokemonType } from '@types';
 import { pokemonTypeColors } from 'src/app/ui/pokemon-type-chip/pokemon-type-chip';
@@ -14,10 +14,10 @@ import { MatButtonModule } from '@angular/material/button';
   styleUrls: ['./pokemon-type-picker.component.scss'],
 })
 export class PokemonTypePickerComponent {
-  readonly pokemonTypes = POKEMON_TYPES;
-  readonly pokemonTypeColors = pokemonTypeColors;
+  pokemonTypes = POKEMON_TYPES;
+  pokemonTypeColors = pokemonTypeColors;
 
-  readonly selectedType$ = this.pokemonService.selectedPokemonType$;
+  selectedType$ = this.pokemonService.selectedPokemonType$;
 
   constructor(private pokemonService: PokemonService) {}
 

@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
-import { map } from 'rxjs';
 import { PokemonTypeChipComponent } from 'src/app/ui/pokemon-type-chip/pokemon-type-chip.component';
 import { MatTableModule } from '@angular/material/table';
 import { PokemonService } from 'src/app/services/pokemon.service';
@@ -19,8 +18,7 @@ import { PokemonService } from 'src/app/services/pokemon.service';
   styleUrls: ['./pokemon-moves-index.component.scss'],
 })
 export class PokemonMovesIndexComponent {
-  readonly notApplicable = '—';
-  readonly displayedColumns = [
+  displayedColumns = [
     'Name',
     'Type',
     'Category',
@@ -30,11 +28,8 @@ export class PokemonMovesIndexComponent {
     'Effect',
     'Probability',
   ];
-  readonly filteredPokemonMoves$ =
-    this.pokemonService.selectedPokemonType$.pipe(
-      map((pokemonType) =>
-        this.pokemonService.fetchPokemonMovesByType(pokemonType)
-      )
-    );
+
+  filteredPokemonMoves$ = this.pokemonService.pokemonMovesOfSelectedType$;
+
   constructor(private pokemonService: PokemonService) {}
 }

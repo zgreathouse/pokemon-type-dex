@@ -1,26 +1,35 @@
 import { Injectable } from '@angular/core';
-import { POKEMON } from '../features/pokemon-index/pokemon';
-import { POKEMON_MOVES } from '../features/pokemon-move-index/pokemon-moves';
-import {
-  POKEMON_TYPES,
-  TYPE_DETAILS,
-} from '../features/pokemon-type-picker/pokemon-types';
-import {
-  PokemonDetail,
-  PokemonMoveDetail,
-  PokemonType,
-  ResistanceDetail,
-} from '@types';
-import { BehaviorSubject, shareReplay } from 'rxjs';
+import { POKEMON } from '../../data/pokemon';
+import { POKEMON_MOVES } from '../../data/pokemon-moves';
+import { POKEMON_TYPES, POKEMON_TYPE_DETAILS } from '../../data/pokemon-types';
+import { PokemonType, ResistanceDetail } from '@types';
+import { BehaviorSubject, map, shareReplay } from 'rxjs';
 
 @Injectable({ providedIn: 'root' })
 export class PokemonService {
   private selectedPokemonTypeState$ = new BehaviorSubject<PokemonType>(
     'Normal'
   );
-  readonly selectedPokemonType$ = this.selectedPokemonTypeState$
+
+  selectedPokemonType$ = this.selectedPokemonTypeState$
     .asObservable()
     .pipe(shareReplay(1));
+
+  pokemonOfSelectedType$ = this.selectedPokemonType$.pipe(
+    map((selectedPokemonType) =>
+      POKEMON.filter(({ typeOne, typeTwo }) =>
+        [typeOne, typeTwo].includes(selectedPokemonType)
+      )
+    )
+  );
+
+  pokemonMovesOfSelectedType$ = this.selectedPokemonType$.pipe(
+    map((selectedPokemonType) =>
+      POKEMON_MOVES.filter(
+        (pokemonMove) => pokemonMove.pokemonType === selectedPokemonType
+      )
+    )
+  );
 
   private doubleDamageMultiplier = '(x2)';
   private halfDamageMultiplier = '(x0.5)';
@@ -32,21 +41,9 @@ export class PokemonService {
     this.selectedPokemonTypeState$.next(pokemonType);
   }
 
-  fetchPokemonByType(pokemonType: PokemonType): PokemonDetail[] {
-    return POKEMON.filter(({ typeOne, typeTwo }) =>
-      [typeOne, typeTwo].includes(pokemonType)
-    );
-  }
-
-  fetchPokemonMovesByType(pokemonType: PokemonType): PokemonMoveDetail[] {
-    return POKEMON_MOVES.filter(
-      (pokemonMove) => pokemonType === pokemonMove.pokemonType
-    );
-  }
-
   computeOffensiveTypeEffects(pokemonType: PokemonType) {
     const { superEffective, notVeryEffective, ineffective } =
-      TYPE_DETAILS[pokemonType];
+      POKEMON_TYPE_DETAILS[pokemonType];
     return [
       {
         pokemonTypeEffect: `Super effective ${this.doubleDamageMultiplier}`,
@@ -85,7 +82,7 @@ export class PokemonService {
     return POKEMON_TYPES.reduce(
       (acc, type) => {
         const { superEffective, notVeryEffective, ineffective } =
-          TYPE_DETAILS[type];
+          POKEMON_TYPE_DETAILS[type];
         if (superEffective.includes(attackingType)) {
           acc.weak.push(type);
         } else if (notVeryEffective.includes(attackingType)) {
