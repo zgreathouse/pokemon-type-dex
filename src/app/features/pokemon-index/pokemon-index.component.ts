@@ -2,11 +2,10 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatTableModule } from '@angular/material/table';
-import { PokemonIndexService } from './pokemon-index.service';
 import { map } from 'rxjs';
-import { PokemonTypePickerService } from '../pokemon-type-picker/pokemon-type-picker.service';
 import { PokemonTypeChipComponent } from 'src/app/ui/pokemon-type-chip/pokemon-type-chip.component';
 import { POKEMON } from './pokemon';
+import { PokemonService } from 'src/app/services/pokemon.service';
 
 @Component({
   selector: 'app-pokemon-index',
@@ -31,14 +30,8 @@ export class PokemonIndexComponent {
     'Secondary Type',
     'Total Base Stat',
   ];
-  readonly filteredPokemon$ =
-    this.pokemonTypePickerService.selectedPokemonType$.pipe(
-      map((pokemonType) =>
-        this.pokemonIndexService.fetchPokemonByType(pokemonType)
-      )
-    );
-  constructor(
-    private pokemonIndexService: PokemonIndexService,
-    private pokemonTypePickerService: PokemonTypePickerService
-  ) {}
+  readonly filteredPokemon$ = this.pokemonService.selectedPokemonType$.pipe(
+    map((pokemonType) => this.pokemonService.fetchPokemonByType(pokemonType))
+  );
+  constructor(private pokemonService: PokemonService) {}
 }

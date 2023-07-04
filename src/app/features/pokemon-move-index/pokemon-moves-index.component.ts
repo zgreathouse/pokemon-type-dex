@@ -3,9 +3,8 @@ import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
 import { map } from 'rxjs';
 import { PokemonTypeChipComponent } from 'src/app/ui/pokemon-type-chip/pokemon-type-chip.component';
-import { PokemonMovesIndexService } from './pokemon-moves-index.service';
-import { PokemonTypePickerService } from '../pokemon-type-picker/pokemon-type-picker.service';
 import { MatTableModule } from '@angular/material/table';
+import { PokemonService } from 'src/app/services/pokemon.service';
 
 @Component({
   selector: 'app-pokemon-moves-index',
@@ -32,13 +31,10 @@ export class PokemonMovesIndexComponent {
     'Probability',
   ];
   readonly filteredPokemonMoves$ =
-    this.pokemonTypePickerService.selectedPokemonType$.pipe(
+    this.pokemonService.selectedPokemonType$.pipe(
       map((pokemonType) =>
-        this.pokemonMoveIndexService.fetchPokemonMovesByType(pokemonType)
+        this.pokemonService.fetchPokemonMovesByType(pokemonType)
       )
     );
-  constructor(
-    private pokemonMoveIndexService: PokemonMovesIndexService,
-    private pokemonTypePickerService: PokemonTypePickerService
-  ) {}
+  constructor(private pokemonService: PokemonService) {}
 }

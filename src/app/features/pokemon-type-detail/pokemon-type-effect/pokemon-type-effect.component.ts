@@ -2,10 +2,9 @@ import { trigger, style, animate, transition } from '@angular/animations';
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 import { DetailType } from '@types';
-import { PokemonTypePickerService } from '../../pokemon-type-picker/pokemon-type-picker.service';
 import { map } from 'rxjs';
-import { PokemonTypeEffectService } from './pokemon-type-effect.service';
 import { PokemonTypeChipComponent } from 'src/app/ui/pokemon-type-chip/pokemon-type-chip.component';
+import { PokemonService } from 'src/app/services/pokemon.service';
 
 @Component({
   selector: 'app-pokemon-type-effect',
@@ -31,16 +30,13 @@ export class PokemonTypeEffectComponent {
 
   readonly notApplicable = '—';
 
-  pokemonTypeEffect$ = this.pokemonTypePickerService.selectedPokemonType$.pipe(
+  pokemonTypeEffect$ = this.pokemonService.selectedPokemonType$.pipe(
     map((pokemonType) =>
       this.detailType === 'Offense'
-        ? this.pokemonTypeEffectService.computeOffensiveTypeEffects(pokemonType)
-        : this.pokemonTypeEffectService.computeDefensiveTypeEffects(pokemonType)
+        ? this.pokemonService.computeOffensiveTypeEffects(pokemonType)
+        : this.pokemonService.computeDefensiveTypeEffects(pokemonType)
     )
   );
 
-  constructor(
-    private pokemonTypeEffectService: PokemonTypeEffectService,
-    private pokemonTypePickerService: PokemonTypePickerService
-  ) {}
+  constructor(private pokemonService: PokemonService) {}
 }

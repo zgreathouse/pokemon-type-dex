@@ -4,9 +4,9 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { PokemonTypeDetailComponent } from '../../features/pokemon-type-detail/pokemon-type-detail.component';
 import { PokemonTypePickerComponent } from '../../features/pokemon-type-picker/pokemon-type-picker.component';
 import { PokemonIndexComponent } from 'src/app/features/pokemon-index/pokemon-index.component';
-import { PokemonTypePickerService } from 'src/app/features/pokemon-type-picker/pokemon-type-picker.service';
 import { PokemonTypeChipComponent } from '../pokemon-type-chip/pokemon-type-chip.component';
 import { PokemonMovesIndexComponent } from 'src/app/features/pokemon-move-index/pokemon-moves-index.component';
+import { PokemonService } from 'src/app/services/pokemon.service';
 
 @Component({
   selector: 'app-frame',
@@ -24,7 +24,7 @@ import { PokemonMovesIndexComponent } from 'src/app/features/pokemon-move-index/
   styleUrls: ['./frame.component.scss'],
 })
 export class FrameComponent {
-  selectedType$ = this.pokemonTypePickerService.selectedPokemonType$;
+  selectedType$ = this.pokemonService.selectedPokemonType$;
 
-  constructor(private pokemonTypePickerService: PokemonTypePickerService) {}
+  constructor(private pokemonService: PokemonService) {}
 }

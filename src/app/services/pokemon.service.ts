@@ -1,15 +1,48 @@
 import { Injectable } from '@angular/core';
-import { PokemonType, ResistanceDetail } from '@types';
+import { POKEMON } from '../features/pokemon-index/pokemon';
+import { POKEMON_MOVES } from '../features/pokemon-move-index/pokemon-moves';
 import {
   POKEMON_TYPES,
   TYPE_DETAILS,
-} from '../../pokemon-type-picker/pokemon-types';
+} from '../features/pokemon-type-picker/pokemon-types';
+import {
+  PokemonDetail,
+  PokemonMoveDetail,
+  PokemonType,
+  ResistanceDetail,
+} from '@types';
+import { BehaviorSubject, shareReplay } from 'rxjs';
 
 @Injectable({ providedIn: 'root' })
-export class PokemonTypeEffectService {
+export class PokemonService {
+  private selectedPokemonTypeState$ = new BehaviorSubject<PokemonType>(
+    'Normal'
+  );
+  readonly selectedPokemonType$ = this.selectedPokemonTypeState$
+    .asObservable()
+    .pipe(shareReplay(1));
+
   private doubleDamageMultiplier = '(x2)';
   private halfDamageMultiplier = '(x0.5)';
   private noDamageMultiplier = '(x0)';
+
+  constructor() {}
+
+  updateSelectedType(pokemonType: PokemonType): void {
+    this.selectedPokemonTypeState$.next(pokemonType);
+  }
+
+  fetchPokemonByType(pokemonType: PokemonType): PokemonDetail[] {
+    return POKEMON.filter(({ typeOne, typeTwo }) =>
+      [typeOne, typeTwo].includes(pokemonType)
+    );
+  }
+
+  fetchPokemonMovesByType(pokemonType: PokemonType): PokemonMoveDetail[] {
+    return POKEMON_MOVES.filter(
+      (pokemonMove) => pokemonType === pokemonMove.pokemonType
+    );
+  }
 
   computeOffensiveTypeEffects(pokemonType: PokemonType) {
     const { superEffective, notVeryEffective, ineffective } =

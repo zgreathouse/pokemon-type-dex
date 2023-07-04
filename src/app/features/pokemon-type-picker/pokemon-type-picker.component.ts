@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PokemonTypePickerService } from './pokemon-type-picker.service';
 import { PokemonTypePickerButtonComponent } from './pokemon-type-picker-button/pokemon-type-picker-button.component';
 import { POKEMON_TYPES } from './pokemon-types';
+import { PokemonService } from 'src/app/services/pokemon.service';
 
 @Component({
   selector: 'app-pokemon-type-picker',
@@ -13,7 +13,7 @@ import { POKEMON_TYPES } from './pokemon-types';
 })
 export class PokemonTypePickerComponent {
   readonly pokemonTypes = POKEMON_TYPES;
-  readonly selectedType$ = this.pokemonTypePickerService.selectedPokemonType$;
+  readonly selectedType$ = this.pokemonService.selectedPokemonType$;
 
-  constructor(private pokemonTypePickerService: PokemonTypePickerService) {}
+  constructor(private pokemonService: PokemonService) {}
 }

@@ -1,7 +1,7 @@
 import { Component, Input, OnDestroy, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { PokemonTypePickerService } from '../pokemon-type-picker/pokemon-type-picker.service';
 import { PokemonTypeEffectComponent } from './pokemon-type-effect/pokemon-type-effect.component';
+import { PokemonService } from 'src/app/services/pokemon.service';
 
 @Component({
   selector: 'app-pokemon-type-detail',
@@ -11,7 +11,7 @@ import { PokemonTypeEffectComponent } from './pokemon-type-effect/pokemon-type-e
   styleUrls: ['./pokemon-type-detail.component.scss'],
 })
 export class PokemonTypeDetailComponent {
-  selectedType$ = this.pokemonTypePickerService.selectedPokemonType$;
+  selectedType$ = this.pokemonService.selectedPokemonType$;
 
-  constructor(private pokemonTypePickerService: PokemonTypePickerService) {}
+  constructor(private pokemonService: PokemonService) {}
 }
