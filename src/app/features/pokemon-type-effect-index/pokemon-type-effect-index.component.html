@@ -6,13 +6,13 @@
   <table mat-table [dataSource]="pokemonTypeEffects">
     <!-- Effect Column -->
     <ng-container matColumnDef="Effect">
-      <th class= "w-180" mat-header-cell *matHeaderCellDef>Effect</th>
+      <th class= "w-160" mat-header-cell *matHeaderCellDef>Effect</th>
       <td mat-cell *matCellDef="let pokemonTypeEffect">{{ pokemonTypeEffect.effect }}</td>
     </ng-container>
-    <!-- Damage Multiplier Column -->
-    <ng-container matColumnDef="Damage Multiplier">
-      <th class= "w-180" mat-header-cell *matHeaderCellDef>Damage Multiplier</th>
-      <td mat-cell *matCellDef="let pokemonTypeEffect">{{ pokemonTypeEffect.damageMultiplier }}</td>
+    <!-- Damage Column -->
+    <ng-container matColumnDef="Damage">
+      <th class= "damage-column-cell w-160" mat-header-cell *matHeaderCellDef>Damage</th>
+      <td class="damage-column-cell" mat-cell *matCellDef="let pokemonTypeEffect">{{ pokemonTypeEffect.damageMultiplier }}</td>
     </ng-container>
     <!-- Pokemon Types Column -->
     <ng-container matColumnDef="Pokemon Types">

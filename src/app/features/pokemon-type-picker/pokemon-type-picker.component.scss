@@ -1,20 +1,20 @@
 .pokemon-type-picker-container {
   display: flex;
   flex-direction: column;
-  padding: 12px 0 0;
+  padding: 12px 0;
 }
 
 .pokemon-type-picker-types-container {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(9, 76px);
-  grid-gap: 8px;
+  grid-template-columns: repeat(9, 84px);
+  grid-gap: 12px;
 }
 
 .pokemon-type-picker-btn, .pokemon-type-picker-btn-selected {
   border-radius: 8px;
-  width: 72px;
-  height: 28px;
+  width: 88px;
+  height: 32px;
   font-size: 12px;
 }
 

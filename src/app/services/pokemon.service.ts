@@ -1,16 +1,14 @@
 import { Injectable } from '@angular/core';
 import { POKEMON } from '../../data/pokemon';
 import { POKEMON_MOVES } from '../../data/pokemon-moves';
-import { POKEMON_TYPES, POKEMON_TYPE_DETAILS } from '../../data/pokemon-types';
-import { PokemonType, ResistanceDetail } from '@types';
-import { BehaviorSubject, map, shareReplay } from 'rxjs';
+import { POKEMON_TYPE_DETAILS } from '../../data/pokemon-types';
+import { PokemonType } from '@types';
+import { BehaviorSubject, map, Observable, shareReplay } from 'rxjs';
 
 @Injectable({ providedIn: 'root' })
 export class PokemonService {
-  private selectedPokemonTypeState$ = new BehaviorSubject<PokemonType>(
-    'Normal'
-  );
-  selectedPokemonType$ = this.selectedPokemonTypeState$
+  private _selectedPokemonType$ = new BehaviorSubject<PokemonType>('Normal');
+  selectedPokemonType$ = this._selectedPokemonType$
     .asObservable()
     .pipe(shareReplay(1));
 
@@ -30,46 +28,52 @@ export class PokemonService {
     )
   );
 
-  // typeEffectsOfSelectedType$ = this.selectedPokemonType$.pipe(
-  //   map((selectedPokemonType) => POKEMON_TYPE_DETAILS[selectedPokemonType])
-  // );
+  typeEffectsOfSelectedType$ = this.selectedPokemonType$.pipe(
+    map((selectedPokemonType) => this.computeTypeEffects(selectedPokemonType))
+  );
 
   updateSelectedType(pokemonType: PokemonType): void {
-    this.selectedPokemonTypeState$.next(pokemonType);
+    this._selectedPokemonType$.next(pokemonType);
   }
 
-  computeOffensiveTypeEffects(pokemonType: PokemonType) {
-    const { superEffective, notVeryEffective, ineffective } =
-      POKEMON_TYPE_DETAILS[pokemonType];
+  private computeTypeEffects(pokemonType: PokemonType) {
+    const {
+      superEffective,
+      notVeryEffective,
+      ineffective,
+      weak,
+      resists,
+      immune,
+    } = POKEMON_TYPE_DETAILS[pokemonType];
     return [
       {
-        pokemonTypeEffect: `Super effective`,
+        effect: 'Super effective',
+        damageMultiplier: 'x2',
         pokemonTypes: superEffective,
       },
       {
-        pokemonTypeEffect: `Not very effective`,
+        effect: 'Not very effective',
+        damageMultiplier: 'x0.5',
         pokemonTypes: notVeryEffective,
       },
       {
-        pokemonTypeEffect: `Ineffective`,
+        effect: 'Ineffective',
+        damageMultiplier: 'x0',
         pokemonTypes: ineffective,
       },
-    ];
-  }
-
-  computeDefensiveTypeEffects(pokemonType: PokemonType) {
-    const { weak, resists, immune } = POKEMON_TYPE_DETAILS[pokemonType];
-    return [
       {
-        pokemonTypeEffect: `Weak`,
+        effect: 'Weak',
+        damageMultiplier: 'x2',
         pokemonTypes: weak,
       },
       {
-        pokemonTypeEffect: `Resists`,
+        effect: 'Resists',
+        damageMultiplier: 'x0.5',
         pokemonTypes: resists,
       },
       {
-        pokemonTypeEffect: `Immune`,
+        effect: 'Immune',
+        damageMultiplier: 'x0',
         pokemonTypes: immune,
       },
     ];

@@ -1,15 +1,13 @@
 <div class="frame-container">
   <app-pokemon-type-picker></app-pokemon-type-picker>
-  <h2 class="pokemon-type-detail-header">
+  <!-- <h2 class="pokemon-type-detail-header">
     {{ selectedType$ | async }} Type
-  </h2>
+  </h2> -->
   <mat-tab-group 
-    mat-stretch-tabs="false" 
-    mat-align-tabs="center"
     animationDuration="500ms"
   >
     <mat-tab label="Detail">
-      <app-pokemon-type-detail></app-pokemon-type-detail>
+      <app-pokemon-type-effect-index></app-pokemon-type-effect-index>
     </mat-tab>
     <mat-tab label="Pokèmon">
       <app-pokemon-index></app-pokemon-index>
