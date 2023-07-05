@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { POKEMON } from '@data/pokemon';
 import { POKEMON_MOVES } from '@data/pokemon-moves';
-import { POKEMON_TYPE_DETAILS } from '@data/pokemon-types';
-import { PokemonType, PokemonTypeEffectDetail } from '@types';
+import { POKEMON_TYPE_COLORS, POKEMON_TYPE_DETAILS } from '@data/pokemon-types';
+import { PokemonType, PokemonTypeColor, PokemonTypeEffectDetail } from '@types';
 import { BehaviorSubject, map, shareReplay } from 'rxjs';
 
 @Injectable({
@@ -37,6 +37,10 @@ export class PokemonService {
       )
     )
   );
+
+  getPokemonTypeColor(pokemonType: PokemonType): PokemonTypeColor {
+    return POKEMON_TYPE_COLORS[pokemonType];
+  }
 
   private computeTypeEffects(
     pokemonType: PokemonType

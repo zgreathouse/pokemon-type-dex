@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { MatTabsModule } from '@angular/material/tabs';
 import { PokemonTypePickerComponent } from '../../features/pokemon-type-picker/pokemon-type-picker.component';
 import { PokemonIndexComponent } from 'src/app/features/pokemon-index/pokemon-index.component';
-import { PokemonTypeChipComponent } from '../pokemon-type-chip/pokemon-type-chip.component';
 import { PokemonMovesIndexComponent } from 'src/app/features/pokemon-move-index/pokemon-moves-index.component';
 import { PokemonTypeEffectIndexComponent } from 'src/app/features/pokemon-type-effect-index/pokemon-type-effect-index.component';
 
@@ -15,7 +14,6 @@ import { PokemonTypeEffectIndexComponent } from 'src/app/features/pokemon-type-e
     MatTabsModule,
     PokemonIndexComponent,
     PokemonMovesIndexComponent,
-    PokemonTypeChipComponent,
     PokemonTypeEffectIndexComponent,
     PokemonTypePickerComponent,
   ],

@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PokemonService } from 'src/app/services/pokemon.service';
 import { MatTableModule } from '@angular/material/table';
-import { PokemonTypeChipComponent } from 'src/app/ui/pokemon-type-chip/pokemon-type-chip.component';
+import { PokemonTypeChipComponent } from 'src/app/features/pokemon-type-chip/pokemon-type-chip.component';
 
 @Component({
   selector: 'app-pokemon-type-effect-index',

@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PokemonType, PokemonTypeColor } from '@types';
-import { POKEMON_TYPE_COLORS } from '@data/pokemon-types';
+import { PokemonService } from 'src/app/services/pokemon.service';
 
 @Component({
   selector: 'app-pokemon-type-chip',
@@ -15,7 +15,11 @@ export class PokemonTypeChipComponent implements OnInit {
 
   pokemonTypeColor!: PokemonTypeColor;
 
+  constructor(private pokemonService: PokemonService) {}
+
   ngOnInit(): void {
-    this.pokemonTypeColor = POKEMON_TYPE_COLORS[this.pokemonType];
+    this.pokemonTypeColor = this.pokemonService.getPokemonTypeColor(
+      this.pokemonType
+    );
   }
 }
