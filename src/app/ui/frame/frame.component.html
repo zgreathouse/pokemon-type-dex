@@ -1,19 +1,16 @@
 <div class="frame-container">
-  <app-pokemon-type-picker></app-pokemon-type-picker>
-  <!-- <h2 class="pokemon-type-detail-header">
-    {{ selectedType$ | async }} Type
-  </h2> -->
-  <mat-tab-group 
-    animationDuration="500ms"
-  >
-    <mat-tab label="Detail">
-      <app-pokemon-type-effect-index></app-pokemon-type-effect-index>
-    </mat-tab>
-    <mat-tab label="Pokèmon">
-      <app-pokemon-index></app-pokemon-index>
-    </mat-tab>
-    <mat-tab label="Moves">
-      <app-pokemon-moves-index></app-pokemon-moves-index>
-    </mat-tab>
-  </mat-tab-group>
+  <div class="frame-content-container">
+    <app-pokemon-type-picker></app-pokemon-type-picker>
+    <mat-tab-group animationDuration="500ms">
+      <mat-tab label="Effect">
+        <app-pokemon-type-effect-index></app-pokemon-type-effect-index>
+      </mat-tab>
+      <mat-tab label="Pokèmon">
+        <app-pokemon-index></app-pokemon-index>
+      </mat-tab>
+      <mat-tab label="Moves">
+        <app-pokemon-moves-index></app-pokemon-moves-index>
+      </mat-tab>
+    </mat-tab-group>
+  </div>
 </div>

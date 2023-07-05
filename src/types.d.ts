@@ -38,27 +38,24 @@ export type PokemonTypeColor =
   | '#A8A29D' // Steel
   | '#F7B5F7'; // Fairy
 
-export interface PokemonTypeEffectDetail {
+// export type PokemonTypeDetail
+
+export type PokemonTypeEffects = {
   superEffective: PokemonType[];
   notVeryEffective: PokemonType[];
   ineffective: PokemonType[];
   weak: PokemonType[];
   resists: PokemonType[];
   immune: PokemonType[];
-}
+};
 
-export type TypeEffect =
-  | 'Super effective'
-  | 'Not very effective'
-  | 'Ineffective'
-  | 'Effective'
-  | 'Weak'
-  | 'Resists'
-  | 'Immune';
+export type DamageMultiplier = 'x2' | 'x0.5' | 'x0';
 
-export type DamageMultiplier = '(x2)' | '(x0.5)' | '(x0)';
-
-export type DetailType = 'Offense' | 'Defense';
+export type PokemonTypeEffectDetail = {
+  effect: string;
+  damageMultiplier: DamageMultiplier;
+  pokemonTypes: PokemonType[];
+};
 
 export type PokemonName =
   | 'Bulbasaur'

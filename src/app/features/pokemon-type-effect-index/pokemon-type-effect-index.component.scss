@@ -1,12 +1,26 @@
-.pokemon-type-chip-container {
-  display: flex;
+.pokemon-type-effect-index-container {
+  height: 514px;
 }
 
-.w-160 {
-  width: 160px;
+.pokemon-type-chip-container {
+  display: grid;
+  grid-template-columns: repeat(7, 70px);
+  grid-gap: 4px;
+}
+
+.center-content {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.w-144 {
+  width: 144px;
 }
 
 .damage-column-cell {
-  text-align: center !important;
-  vertical-align: middle !important;
+  width: 56px;
+}
+
+.no-types {
+  padding-left: 12px;
 }

@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PokemonType, PokemonTypeColor } from '@types';
-import { pokemonTypeColors } from './pokemon-type-chip';
+import { POKEMON_TYPE_COLORS } from '@data/pokemon-types';
 
 @Component({
   selector: 'app-pokemon-type-chip',
@@ -16,6 +16,6 @@ export class PokemonTypeChipComponent implements OnInit {
   pokemonTypeColor!: PokemonTypeColor;
 
   ngOnInit(): void {
-    this.pokemonTypeColor = pokemonTypeColors[this.pokemonType];
+    this.pokemonTypeColor = POKEMON_TYPE_COLORS[this.pokemonType];
   }
 }

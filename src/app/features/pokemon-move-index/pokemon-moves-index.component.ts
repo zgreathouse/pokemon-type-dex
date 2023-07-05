@@ -26,10 +26,9 @@ export class PokemonMovesIndexComponent {
     'Accuracy',
     'PP',
     'Effect',
-    'Probability',
+    '%',
   ];
-
-  filteredPokemonMoves$ = this.pokemonService.pokemonMovesOfSelectedType$;
+  filteredPokemonMoves$ = this.pokemonService.movesOfSelectedType$;
 
   constructor(private pokemonService: PokemonService) {}
 }

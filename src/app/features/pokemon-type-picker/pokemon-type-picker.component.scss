@@ -1,24 +1,24 @@
 .pokemon-type-picker-container {
   display: flex;
   flex-direction: column;
-  padding: 12px 0;
+  padding: 8px 0;
 }
 
 .pokemon-type-picker-types-container {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(9, 84px);
+  grid-template-columns: repeat(9, 80px);
   grid-gap: 12px;
 }
 
-.pokemon-type-picker-btn, .pokemon-type-picker-btn-selected {
+.pokemon-type-picker-btn {
   border-radius: 8px;
-  width: 88px;
+  width: 80px;
   height: 32px;
-  font-size: 12px;
+  font-size: 11px;
 }
 
-.pokemon-type-picker-btn-selected {
+.selected {
   color: white;
   border: solid 1px #636365;
   text-shadow: -1px 1px 0 black, 

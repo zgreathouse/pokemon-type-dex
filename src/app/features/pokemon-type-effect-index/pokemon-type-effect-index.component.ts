@@ -13,7 +13,6 @@ import { PokemonTypeChipComponent } from 'src/app/ui/pokemon-type-chip/pokemon-t
 })
 export class PokemonTypeEffectIndexComponent {
   displayedColumns = ['Effect', 'Damage', 'Pokemon Types'];
-
   pokemonTypeEffect$ = this.pokemonService.typeEffectsOfSelectedType$;
 
   constructor(private pokemonService: PokemonService) {}

@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatTableModule } from '@angular/material/table';
 import { PokemonTypeChipComponent } from 'src/app/ui/pokemon-type-chip/pokemon-type-chip.component';
-import { POKEMON } from '../../../data/pokemon';
+import { POKEMON } from '@data/pokemon';
 import { PokemonService } from 'src/app/services/pokemon.service';
 
 @Component({
@@ -21,14 +21,13 @@ import { PokemonService } from 'src/app/services/pokemon.service';
 export class PokemonIndexComponent {
   emptyMessage = `None of the first ${POKEMON.length} Pokemon have this typing.`;
   displayedColumns = [
-    'Pokèdex #',
+    'ID',
     'Sprite',
     'Name',
     'Primary Type',
     'Secondary Type',
     'Total Base Stat',
   ];
-
   filteredPokemon$ = this.pokemonService.pokemonOfSelectedType$;
 
   constructor(private pokemonService: PokemonService) {}

@@ -1,9 +1,10 @@
 .frame-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  font-size: 14px;
 }
 
-.pokemon-type-detail-header {
-  align-self: center;
-  margin-bottom: 8px;
+.frame-content-container {
+  width: 80%;
 }
