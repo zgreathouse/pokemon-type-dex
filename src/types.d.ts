@@ -60,12 +60,6 @@ export type DamageMultiplier = '(x2)' | '(x0.5)' | '(x0)';
 
 export type DetailType = 'Offense' | 'Defense';
 
-export type ResistanceDetail = {
-  weak: PokemonType[];
-  resists: PokemonType[];
-  immune: PokemonType[];
-};
-
 export type PokemonName =
   | 'Bulbasaur'
   | 'Ivysaur'
