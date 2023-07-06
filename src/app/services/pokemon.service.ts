@@ -94,7 +94,7 @@ export class PokemonService {
     effectPerspective: EffectPerspective
   ): PokemonTypeEffectDetail[] {
     const isOffensePerspective = effectPerspective === 'Offense';
-    return [
+    const nullTypeEffectsList: PokemonTypeEffectDetail[] = [
       {
         types: [],
         effect: isOffensePerspective ? 'Super effective' : 'Weak',
@@ -120,6 +120,21 @@ export class PokemonService {
         pokemonTypes: [],
       },
     ];
+    if (!isOffensePerspective) {
+      nullTypeEffectsList.splice(0, 0, {
+        types: [],
+        effect: '(Double) Weak',
+        damageMultiplier: 'x4',
+        pokemonTypes: [],
+      });
+      nullTypeEffectsList.splice(-1, 0, {
+        types: [],
+        effect: '(Double) Resists',
+        damageMultiplier: 'x0.25',
+        pokemonTypes: [],
+      });
+    }
+    return nullTypeEffectsList;
   }
 
   private computeOffensiveTypeEffects(
