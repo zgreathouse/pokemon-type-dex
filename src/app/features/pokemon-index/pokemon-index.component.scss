@@ -1,11 +1,4 @@
-.pokemon-index-container {
-  height: 600px;
-}
-
-.center-content {
-  text-align: center;
-  vertical-align: middle;
-}
+.pokemon-index-container { height: 600px; }
 
 .pokemon-type-chip-container {
   display: flex;
@@ -17,13 +10,14 @@
   height: 76px;
 }
 
-.w-192 {
-  min-width: 192px;
-} 
-
-.w-200 {
-  min-width: 200px;
+.center-content {
+  text-align: center;
+  vertical-align: middle;
 }
+
+.w-192 { min-width: 192px; } 
+
+.w-200 { min-width: 232px; }
 
 .empty {
   padding: 64px;

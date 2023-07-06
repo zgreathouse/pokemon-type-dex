@@ -1,28 +1,81 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
-import { MatTableModule } from '@angular/material/table';
+import {
+  AfterViewInit,
+  Component,
+  OnDestroy,
+  OnInit,
+  ViewChild,
+} from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatSort, MatSortModule } from '@angular/material/sort';
+import {
+  MatTableDataSource,
+  MatTableDataSourcePaginator,
+  MatTableModule,
+} from '@angular/material/table';
+import { Subject, takeUntil, tap } from 'rxjs';
+import { PokemonService } from 'src/app/services/pokemon.service';
 import { PokemonTypeChipComponent } from 'src/app/features/pokemon-type-chip/pokemon-type-chip.component';
 import { POKEMON } from '@data/pokemon';
-import { PokemonService } from 'src/app/services/pokemon.service';
+import { PokemonDetail } from '@types';
 
 @Component({
   selector: 'app-pokemon-index',
   standalone: true,
-  imports: [CommonModule, MatTableModule, PokemonTypeChipComponent],
+  imports: [
+    CommonModule,
+    FormsModule,
+    MatSortModule,
+    MatTableModule,
+    PokemonTypeChipComponent,
+    ReactiveFormsModule,
+  ],
   templateUrl: './pokemon-index.component.html',
   styleUrls: ['./pokemon-index.component.scss'],
 })
-export class PokemonIndexComponent {
-  emptyMessage = `None of the first ${POKEMON.length} Pokemon have this typing.`;
-  displayedColumns = [
-    'ID',
-    'Sprite',
-    'Name',
-    'Primary Type',
-    'Secondary Type',
-    'Total Base Stat',
+export class PokemonIndexComponent implements OnInit, AfterViewInit, OnDestroy {
+  @ViewChild(MatSort, { static: false }) sort!: MatSort;
+
+  readonly displayedColumns = [
+    'id',
+    'sprite',
+    'name',
+    'primaryType',
+    'secondaryType',
+    'totalBaseStat',
   ];
-  filteredPokemon$ = this.pokemonService.pokemonOfSelectedType$;
+  readonly idColumnHeader = 'ID';
+  readonly spriteColumnHeader = 'Sprite';
+  readonly nameColumnHeader = 'Name';
+  readonly primaryTypeColumnHeader = 'Primary Type';
+  readonly secondaryTypeColumnHeader = 'Secondary Type';
+  readonly totalBaseStatColumnHeader = 'Total Base Stat';
+  readonly emptyTableMessage = `None of the first ${POKEMON.length} Pokemon have this typing.`;
+
+  dataSource!: MatTableDataSource<PokemonDetail, MatTableDataSourcePaginator>;
+
+  private destroy$ = new Subject<boolean>();
 
   constructor(private pokemonService: PokemonService) {}
+
+  ngOnInit(): void {
+    this.pokemonService.pokemonOfSelectedType$
+      .pipe(
+        tap((pokemon) => {
+          this.dataSource = new MatTableDataSource(pokemon);
+          if (this.sort) this.dataSource.sort = this.sort;
+        }),
+        takeUntil(this.destroy$)
+      )
+      .subscribe();
+  }
+
+  ngAfterViewInit(): void {
+    this.dataSource.sort = this.sort;
+  }
+
+  ngOnDestroy(): void {
+    this.destroy$.next(true);
+    this.destroy$.complete();
+  }
 }
