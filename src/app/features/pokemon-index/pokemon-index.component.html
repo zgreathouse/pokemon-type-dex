@@ -10,7 +10,7 @@
 
     <!-- Sprite Column -->
     <ng-container matColumnDef="sprite">
-      <th class="center-content w-200" mat-header-cell *matHeaderCellDef>
+      <th class="center-content w-240" mat-header-cell *matHeaderCellDef>
         {{ spriteColumnHeader }} 
       </th>
       <td class="center-content" mat-cell *matCellDef="let element"> 
@@ -20,7 +20,7 @@
 
     <!-- Name Column -->
     <ng-container matColumnDef="name">
-      <th class="w-192" mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by name">
+      <th class="w-120" mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by name">
         {{ nameColumnHeader }}
       </th>
       <td mat-cell *matCellDef="let element">{{ element.name }}</td>
@@ -28,7 +28,7 @@
 
     <!-- Primary Type Column -->
     <ng-container matColumnDef="primaryType">
-      <th class="center-content w-200" mat-header-cell *matHeaderCellDef>
+      <th class="center-content w-160" mat-header-cell *matHeaderCellDef>
         {{ primaryTypeColumnHeader }}
       </th>
       <td mat-cell *matCellDef="let element"> 
@@ -40,7 +40,7 @@
 
     <!-- Secondary Type Column -->
     <ng-container matColumnDef="secondaryType">
-      <th class="center-content w-200" mat-header-cell *matHeaderCellDef>
+      <th class="center-content w-140" mat-header-cell *matHeaderCellDef>
         {{ secondaryTypeColumnHeader }}
       </th>
       <td class="center-content" mat-cell *matCellDef="let element"> 
@@ -52,7 +52,7 @@
 
     <!-- Total Base Stat Column -->
     <ng-container matColumnDef="totalBaseStat">
-      <th class="w-200" mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by total base stat">
+      <th class="w-480" mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by total base stat">
         {{ totalBaseStatColumnHeader }}
       </th>
       <td mat-cell *matCellDef="let element">{{ element.totalBaseStat }}</td>
