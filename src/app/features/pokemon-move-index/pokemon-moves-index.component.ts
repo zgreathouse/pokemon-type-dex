@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import {
   AfterViewInit,
   Component,
@@ -5,18 +6,16 @@ import {
   OnInit,
   ViewChild,
 } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { PokemonTypeChipComponent } from 'src/app/features/pokemon-type-chip/pokemon-type-chip.component';
+import { MatSort, MatSortModule } from '@angular/material/sort';
 import {
   MatTableDataSource,
   MatTableDataSourcePaginator,
   MatTableModule,
 } from '@angular/material/table';
+import { Subject, takeUntil, tap } from 'rxjs';
 import { PokemonService } from 'src/app/services/pokemon.service';
-import { MatSort, MatSortModule } from '@angular/material/sort';
+import { PokemonTypeChipComponent } from 'src/app/features/pokemon-type-chip/pokemon-type-chip.component';
 import { PokemonMoveDetail } from '@types';
-import { takeUntil, tap } from 'rxjs';
-import { Subject } from 'rxjs';
 
 @Component({
   selector: 'app-pokemon-moves-index',
