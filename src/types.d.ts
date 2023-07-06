@@ -76,7 +76,12 @@ export type PokemonDetail = {
   name: string;
   typeOne: PokemonType;
   typeTwo: PokemonType | null;
-  totalBaseStat: number;
+  hp: number;
+  attack: number;
+  defense: number;
+  specialAttack: number;
+  specialDefense: number;
+  speed: number;
 };
 
 export type PokemonMoveCategory = 'Physical' | 'Special' | 'Status' | '—';
