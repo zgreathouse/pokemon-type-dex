@@ -1,8 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PokemonService } from 'src/app/services/pokemon.service';
 import { MatTableModule } from '@angular/material/table';
 import { PokemonTypeChipComponent } from 'src/app/features/pokemon-type-chip/pokemon-type-chip.component';
+import { EffectPerspective, PokemonTypeEffectDetail } from '@types';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-pokemon-type-effect-index',
@@ -11,9 +13,18 @@ import { PokemonTypeChipComponent } from 'src/app/features/pokemon-type-chip/pok
   templateUrl: './pokemon-type-effect-index.component.html',
   styleUrls: ['./pokemon-type-effect-index.component.scss'],
 })
-export class PokemonTypeEffectIndexComponent {
-  displayedColumns = ['Effect', 'Damage', 'Pokemon Types'];
-  pokemonTypeEffect$ = this.pokemonService.typeEffectsOfSelectedType$;
+export class PokemonTypeEffectIndexComponent implements OnInit {
+  @Input() effectPerspective!: EffectPerspective;
+
+  displayedColumns = ['Selected Type(s)', 'Effect', 'Damage', 'Pokemon Types'];
+  pokemonTypeEffect$!: Observable<PokemonTypeEffectDetail[]>;
 
   constructor(private pokemonService: PokemonService) {}
+
+  ngOnInit(): void {
+    this.pokemonTypeEffect$ =
+      this.effectPerspective === 'Offense'
+        ? this.pokemonService.offensiveTypeEffectsOfSelectedType$
+        : this.pokemonService.defensiveTypeEffectsOfSelectedType$;
+  }
 }

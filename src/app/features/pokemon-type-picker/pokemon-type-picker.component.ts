@@ -15,11 +15,11 @@ import { MatButtonModule } from '@angular/material/button';
 export class PokemonTypePickerComponent {
   pokemonTypes = POKEMON_TYPES;
   pokemonTypeColors = POKEMON_TYPE_COLORS;
-  selectedPokemonType$ = this.pokemonService.selectedPokemonType$;
+  selectedPokemonTypes$ = this.pokemonService.selectedPokemonType$;
 
   constructor(private pokemonService: PokemonService) {}
 
   selectPokemonType(pokemonType: PokemonType): void {
-    this.pokemonService.updateSelectedPokemonType(pokemonType);
+    this.pokemonService.updateSelectedPokemonTypes(pokemonType);
   }
 }

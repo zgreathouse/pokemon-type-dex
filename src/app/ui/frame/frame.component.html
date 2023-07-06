@@ -2,8 +2,11 @@
   <div class="frame-content-container">
     <app-pokemon-type-picker></app-pokemon-type-picker>
     <mat-tab-group animationDuration="500ms">
-      <mat-tab label="Effect">
-        <app-pokemon-type-effect-index></app-pokemon-type-effect-index>
+      <mat-tab label="Offense">
+        <app-pokemon-type-effect-index effectPerspective="Offense"></app-pokemon-type-effect-index>
+      </mat-tab>
+      <mat-tab label="Defense">
+        <app-pokemon-type-effect-index effectPerspective="Defense"></app-pokemon-type-effect-index>
       </mat-tab>
       <mat-tab label="Pokèmon">
         <app-pokemon-index></app-pokemon-index>

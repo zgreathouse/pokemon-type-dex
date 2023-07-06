@@ -38,23 +38,38 @@ export type PokemonTypeColor =
   | '#A8A29D' // Steel
   | '#F7B5F7'; // Fairy
 
-// export type PokemonTypeDetail
+export type DamageMultiplier = 'x4' | 'x2' | 'x1' | 'x0.5' | 'x0.25' | 'x0';
+
+export type EffectPerspective = 'Offense' | 'Defense';
+
+export type Effect =
+  | 'Super effective'
+  | 'Effective'
+  | 'Not very effective'
+  | 'Ineffective'
+  | '(Double) Weak'
+  | 'Weak'
+  | 'Neutral'
+  | 'Resists'
+  | '(Double) Resists'
+  | 'Immune';
+
+export type PokemonTypeEffectDetail = {
+  types: PokemonType[];
+  effect: Effect;
+  damageMultiplier: DamageMultiplier;
+  pokemonTypes: PokemonType[];
+};
 
 export type PokemonTypeEffects = {
   superEffective: PokemonType[];
   notVeryEffective: PokemonType[];
   ineffective: PokemonType[];
+  effective: PokemonType[];
   weak: PokemonType[];
+  neutral: PokemonType[];
   resists: PokemonType[];
   immune: PokemonType[];
-};
-
-export type DamageMultiplier = 'x2' | 'x0.5' | 'x0';
-
-export type PokemonTypeEffectDetail = {
-  effect: string;
-  damageMultiplier: DamageMultiplier;
-  pokemonTypes: PokemonType[];
 };
 
 export type PokemonName =
