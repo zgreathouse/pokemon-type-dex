@@ -1,17 +1,15 @@
-<div class="pokemon-type-picker-container">
-  <div 
-    *ngIf="(selectedPokemonTypes$| async) as selectedPokemonTypes" 
-    class="pokemon-type-picker-types-container"
+<div 
+  *ngIf="(selectedPokemonTypes$| async) as selectedPokemonTypes" 
+  class="pokemon-type-picker-container"
+>
+  <button 
+    *ngFor="let pokemonType of pokemonTypes"
+    mat-raised-button 
+    ripple
+    [ngClass]="selectedPokemonTypes.includes(pokemonType) ? 'pokemon-type-picker-btn selected' : 'pokemon-type-picker-btn'"
+    [ngStyle]="{ 'background-color': selectedPokemonTypes.includes(pokemonType) ? pokemonTypeColors[pokemonType] : 'white' }"
+    (click)="selectPokemonType(pokemonType)"
   >
-    <button 
-      *ngFor="let pokemonType of pokemonTypes"
-      mat-raised-button 
-      ripple
-      [ngClass]="selectedPokemonTypes.includes(pokemonType) ? 'pokemon-type-picker-btn selected' : 'pokemon-type-picker-btn'"
-      [ngStyle]="{ 'background-color': selectedPokemonTypes.includes(pokemonType) ? pokemonTypeColors[pokemonType] : 'white' }"
-      (click)="selectPokemonType(pokemonType)"
-    >
-      {{ pokemonType.toUpperCase() }}
-    </button>
-  </div>
+    {{ pokemonType.toUpperCase() }}
+  </button>
 </div>

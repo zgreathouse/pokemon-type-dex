@@ -1,10 +1,10 @@
 .pokemon-type-effect-index-container {
-  height: 514px;
+  height: 600px;
 }
 
 .pokemon-type-chip-container {
   display: grid;
-  grid-template-columns: repeat(7, 70px);
+  grid-template-columns: repeat(9, 70px);
   grid-gap: 4px;
 }
 
@@ -19,13 +19,16 @@
   vertical-align: middle;
 }
 
-.w-144 {
-  width: 144px;
-  min-width: 144px;
+.w-104 {
+  min-width: 104px;
 }
 
-.damage-column-cell {
-  width: 56px;
+.w-180 {
+  min-width: 188px;
+}
+
+.w-200 {
+  min-width: 200px;
 }
 
 .no-types {

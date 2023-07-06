@@ -6,18 +6,12 @@
   <table mat-table [dataSource]="filteredPokemonMoves">
     <!-- Name Column -->
     <ng-container matColumnDef="Name">
-      <th class="center-content w-164" mat-header-cell *matHeaderCellDef>
-        Name
-      </th>
-      <td class="center-content" mat-cell *matCellDef="let pokemonMove">
-        {{ pokemonMove.name }}
-      </td>
+      <th class="w-164" mat-header-cell *matHeaderCellDef>Name</th>
+      <td mat-cell *matCellDef="let pokemonMove">{{ pokemonMove.name }}</td>
     </ng-container>
     <!-- Type Column -->
     <ng-container matColumnDef="Type">
-      <th class="center-content" mat-header-cell *matHeaderCellDef>
-        Type
-      </th>
+      <th class="center-content" mat-header-cell *matHeaderCellDef>Type</th>
       <td mat-cell *matCellDef="let pokemonMove"> 
         <div class="pokemon-type-chip-container">
           <app-pokemon-type-chip 
@@ -28,54 +22,42 @@
     </ng-container>
     <!-- Category Column -->
     <ng-container matColumnDef="Category">
-      <th class="center-content" mat-header-cell *matHeaderCellDef>
-        Category
-      </th>
+      <th class="center-content" mat-header-cell *matHeaderCellDef>Category</th>
       <td class="center-content" mat-cell *matCellDef="let pokemonMove">
         {{ pokemonMove.category }}
       </td>
     </ng-container>
     <!-- Power Column -->
     <ng-container matColumnDef="Power">
-      <th class="center-content" mat-header-cell *matHeaderCellDef>
-        Power
-      </th>
+      <th class="center-content" mat-header-cell *matHeaderCellDef>Power</th>
       <td class="center-content" mat-cell *matCellDef="let pokemonMove">
         {{ pokemonMove.power }}
       </td>
     </ng-container>
     <!-- Accuracy Column -->
     <ng-container matColumnDef="Accuracy">
-      <th class="center-content" mat-header-cell *matHeaderCellDef>
-        Accuracy
-      </th>
+      <th class="center-content" mat-header-cell *matHeaderCellDef>Accuracy</th>
       <td class="center-content" mat-cell *matCellDef="let pokemonMove">
         {{ pokemonMove.accuracy }}
       </td>
     </ng-container>
     <!-- PP Column -->
     <ng-container matColumnDef="PP">
-      <th class="center-content" mat-header-cell *matHeaderCellDef>
-        PP
-      </th>
+      <th class="center-content" mat-header-cell *matHeaderCellDef>PP</th>
       <td class="center-content" mat-cell *matCellDef="let pokemonMove">
         {{ pokemonMove.pp }}
       </td>
     </ng-container>
     <!-- Effect Column -->
     <ng-container matColumnDef="Effect">
-      <th class="w-400" mat-header-cell *matHeaderCellDef>
-        Effect
-      </th>
+      <th mat-header-cell *matHeaderCellDef>Effect</th>
       <td mat-cell *matCellDef="let pokemonMove">
         {{ pokemonMove.effect }}
       </td>
     </ng-container>
     <!-- % Column -->
     <ng-container matColumnDef="%">
-      <th class="center-content" mat-header-cell *matHeaderCellDef>
-        %
-      </th>
+      <th class="center-content" mat-header-cell *matHeaderCellDef>%</th>
       <td class="center-content" mat-cell *matCellDef="let pokemonMove">
         {{ pokemonMove.probability ? pokemonMove.probability + '%' : '—' }}
       </td>

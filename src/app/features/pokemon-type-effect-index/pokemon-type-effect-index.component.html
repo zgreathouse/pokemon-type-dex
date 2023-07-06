@@ -6,7 +6,7 @@
   <table mat-table [dataSource]="pokemonTypeEffects">
     <!-- Selected Type(s) Column -->
     <ng-container matColumnDef="Selected Type(s)">
-      <th class="center-content w-144" mat-header-cell *matHeaderCellDef>Selected Type(s)</th>
+      <th class="center-content w-200" mat-header-cell *matHeaderCellDef>Selected Type(s)</th>
       <td class="center-content" mat-cell *matCellDef="let pokemonTypeEffect"> 
         <div *ngIf="pokemonTypeEffect.types.length; else NoTypes" class="selected-type-chip-container">
           <app-pokemon-type-chip 
@@ -18,13 +18,13 @@
     </ng-container>
     <!-- Effect Column -->
     <ng-container matColumnDef="Effect">
-      <th class="w-144" mat-header-cell *matHeaderCellDef>Effect</th>
+      <th class="w-180" mat-header-cell *matHeaderCellDef>Effect</th>
       <td mat-cell *matCellDef="let pokemonTypeEffect">{{ pokemonTypeEffect.effect }}</td>
     </ng-container>
     <!-- Damage Column -->
     <ng-container matColumnDef="Damage">
-      <th class="center-content damage-column-cell" mat-header-cell *matHeaderCellDef>Damage</th>
-      <td class="center-content damage-column-cell" mat-cell *matCellDef="let pokemonTypeEffect">
+      <th class="center-content w-104" mat-header-cell *matHeaderCellDef>Damage</th>
+      <td class="center-content" mat-cell *matCellDef="let pokemonTypeEffect">
         {{ pokemonTypeEffect.damageMultiplier }}
       </td>
     </ng-container>

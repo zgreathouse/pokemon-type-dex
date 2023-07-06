@@ -1,5 +1,5 @@
 .pokemon-index-container {
-  height: 514px;
+  height: 600px;
 }
 
 .center-content {
@@ -13,12 +13,16 @@
 }
 
 .pokemon-sprite {
-  width: 72px;
-  height: 72px;
+  width: 76px;
+  height: 76px;
 }
 
-.w-160 {
-  width: 120px;
+.w-192 {
+  min-width: 192px;
+} 
+
+.w-200 {
+  min-width: 200px;
 }
 
 .empty {

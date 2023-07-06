@@ -1,19 +1,17 @@
 <div class="frame-container">
-  <div class="frame-content-container">
-    <app-pokemon-type-picker></app-pokemon-type-picker>
-    <mat-tab-group animationDuration="500ms">
-      <mat-tab label="Offense">
-        <app-pokemon-type-effect-index effectPerspective="Offense"></app-pokemon-type-effect-index>
-      </mat-tab>
-      <mat-tab label="Defense">
-        <app-pokemon-type-effect-index effectPerspective="Defense"></app-pokemon-type-effect-index>
-      </mat-tab>
-      <mat-tab label="Pokèmon">
-        <app-pokemon-index></app-pokemon-index>
-      </mat-tab>
-      <mat-tab label="Moves">
-        <app-pokemon-moves-index></app-pokemon-moves-index>
-      </mat-tab>
-    </mat-tab-group>
-  </div>
+  <app-pokemon-type-picker></app-pokemon-type-picker>
+  <mat-tab-group>
+    <mat-tab label="Offense">
+      <app-pokemon-type-effect-index effectPerspective="Offense"></app-pokemon-type-effect-index>
+    </mat-tab>
+    <mat-tab label="Defense">
+      <app-pokemon-type-effect-index effectPerspective="Defense"></app-pokemon-type-effect-index>
+    </mat-tab>
+    <mat-tab label="Pokèmon">
+      <app-pokemon-index></app-pokemon-index>
+    </mat-tab>
+    <mat-tab label="Moves">
+      <app-pokemon-moves-index></app-pokemon-moves-index>
+    </mat-tab>
+  </mat-tab-group>
 </div>
