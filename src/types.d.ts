@@ -82,6 +82,7 @@ export type PokemonDetail = {
   specialAttack: number;
   specialDefense: number;
   speed: number;
+  totalBaseStat?: number;
 };
 
 export type PokemonMoveCategory = 'Physical' | 'Special' | 'Status' | '—';

@@ -42,6 +42,12 @@ export class PokemonIndexComponent implements OnInit, AfterViewInit, OnDestroy {
     'name',
     'primaryType',
     'secondaryType',
+    'hp',
+    'attack',
+    'defense',
+    'specialAttack',
+    'specialDefense',
+    'speed',
     'totalBaseStat',
   ];
   readonly idColumnHeader = 'ID';
@@ -49,7 +55,13 @@ export class PokemonIndexComponent implements OnInit, AfterViewInit, OnDestroy {
   readonly nameColumnHeader = 'Name';
   readonly primaryTypeColumnHeader = 'Primary Type';
   readonly secondaryTypeColumnHeader = 'Secondary Type';
-  readonly totalBaseStatColumnHeader = 'Total Base Stat';
+  readonly hpColumnHeader = 'HP';
+  readonly attackColumnHeader = 'ATK';
+  readonly defenseColumnHeader = 'DEF';
+  readonly specialAttackColumnHeader = 'Sp. ATK';
+  readonly specialDefenseColumnHeader = 'Sp. DEF';
+  readonly speedColumnHeader = 'SPD';
+  readonly totalBaseStatColumnHeader = 'Total';
   readonly emptyTableMessage = `None of the first ${POKEMON.length} Pokemon have this typing.`;
 
   dataSource!: MatTableDataSource<PokemonDetail, MatTableDataSourcePaginator>;

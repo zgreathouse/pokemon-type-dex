@@ -72,7 +72,16 @@ export class PokemonService {
         selectedPokemonTypes.every((pokemonType) =>
           [typeOne, typeTwo].includes(pokemonType)
         )
-      )
+      ).map((pokemon) => {
+        pokemon.totalBaseStat =
+          pokemon.hp +
+          pokemon.attack +
+          pokemon.defense +
+          pokemon.specialAttack +
+          pokemon.specialDefense +
+          pokemon.speed;
+        return pokemon;
+      })
     )
   );
 

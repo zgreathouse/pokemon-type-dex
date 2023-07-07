@@ -1,12 +1,7 @@
 <mat-toolbar color="primary" class="footer-container">
-  <div class="footer-links-container">
-    <a
-      *ngFor="let link of links"
-      mat-button 
-      [href]="link.href" 
-      target="_blank"
-    >
+  <mat-toolbar-row class="footer-links-container">
+    <a *ngFor="let link of links" mat-button [href]="link.href" target="_blank">
       {{ link.label }}
     </a>
-  </div>
+  </mat-toolbar-row>
 </mat-toolbar>
