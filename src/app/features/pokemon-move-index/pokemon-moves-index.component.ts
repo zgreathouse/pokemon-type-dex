@@ -12,6 +12,7 @@ import {
   MatTableDataSourcePaginator,
   MatTableModule,
 } from '@angular/material/table';
+import { MatTooltipModule } from '@angular/material/tooltip';
 import { Subject, takeUntil, tap } from 'rxjs';
 import { PokemonService } from 'src/app/services/pokemon.service';
 import { PokemonTypeChipComponent } from 'src/app/features/pokemon-type-chip/pokemon-type-chip.component';
@@ -24,6 +25,7 @@ import { PokemonMoveDetail } from '@types';
     CommonModule,
     MatSortModule,
     MatTableModule,
+    MatTooltipModule,
     PokemonTypeChipComponent,
   ],
   templateUrl: './pokemon-moves-index.component.html',

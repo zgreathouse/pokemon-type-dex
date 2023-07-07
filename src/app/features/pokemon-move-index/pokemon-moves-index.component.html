@@ -21,7 +21,15 @@
       <th mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by category">
         {{ categoryColumnHeader }}
       </th>
-      <td mat-cell *matCellDef="let element">{{ element.category }}</td>
+      <td mat-cell *matCellDef="let element">
+        <img 
+          *ngIf="element.categoryImageUrl; else NoCategory" 
+          [matTooltip]="element.category + ' move'"
+          class="move-category-img" 
+          [src]="element.categoryImageUrl" 
+          [alt]="element.category"
+        />
+      </td>
     </ng-container>
 
     <!-- Power Column -->
@@ -68,3 +76,7 @@
     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
   </table>
 </section>
+
+<ng-template #NoCategory>
+  <p>—</p>
+</ng-template>

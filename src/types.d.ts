@@ -91,6 +91,7 @@ export type PokemonMoveDetail = {
   name: string;
   pokemonType: PokemonType;
   category: PokemonMoveCategory;
+  categoryImageUrl: string | null;
   power: string;
   accuracy: string;
   pp: string;
