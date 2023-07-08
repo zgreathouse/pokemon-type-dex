@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { POKEMON_TYPES, POKEMON_TYPE_COLORS } from '@data/pokemon-types';
-import { PokemonService } from 'src/app/services/pokemon.service';
-import { PokemonType } from '@types';
 import { MatButtonModule } from '@angular/material/button';
+import { PokemonService } from 'src/app/services/pokemon.service';
+import { POKEMON_TYPES, POKEMON_TYPE_COLORS } from '@data/pokemon-types';
+import { PokemonType } from '@types';
 
 @Component({
   selector: 'app-pokemon-type-picker',
