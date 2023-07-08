@@ -6,7 +6,7 @@ const getSpriteUrl = (id: number): string => {
 
 export const POKEMON: PokemonDetail[] = [
   {
-    id: '#001',
+    id: '#0001',
     sprite: getSpriteUrl(1),
     name: 'Bulbasaur',
     typeOne: 'Grass',
@@ -19,7 +19,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#002',
+    id: '#0002',
     sprite: getSpriteUrl(2),
     name: 'Ivysaur',
     typeOne: 'Grass',
@@ -32,7 +32,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#003',
+    id: '#0003',
     sprite: getSpriteUrl(3),
     name: 'Venusaur',
     typeOne: 'Grass',
@@ -45,7 +45,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#004',
+    id: '#0004',
     sprite: getSpriteUrl(4),
     name: 'Charmander',
     typeOne: 'Fire',
@@ -58,7 +58,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#005',
+    id: '#0005',
     sprite: getSpriteUrl(5),
     name: 'Charmeleon',
     typeOne: 'Fire',
@@ -71,7 +71,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#006',
+    id: '#0006',
     sprite: getSpriteUrl(6),
     name: 'Charizard',
     typeOne: 'Fire',
@@ -84,7 +84,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 100,
   },
   {
-    id: '#007',
+    id: '#0007',
     sprite: getSpriteUrl(7),
     name: 'Squirtle',
     typeOne: 'Water',
@@ -97,7 +97,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 43,
   },
   {
-    id: '#008',
+    id: '#0008',
     sprite: getSpriteUrl(8),
     name: 'Wartortle',
     typeOne: 'Water',
@@ -110,7 +110,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 58,
   },
   {
-    id: '#009',
+    id: '#0009',
     sprite: getSpriteUrl(9),
     name: 'Blastoise',
     typeOne: 'Water',
@@ -123,7 +123,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 78,
   },
   {
-    id: '#010',
+    id: '#0010',
     sprite: getSpriteUrl(10),
     name: 'Caterpie',
     typeOne: 'Bug',
@@ -136,7 +136,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#011',
+    id: '#0011',
     sprite: getSpriteUrl(11),
     name: 'Metapod',
     typeOne: 'Bug',
@@ -149,7 +149,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#012',
+    id: '#0012',
     sprite: getSpriteUrl(12),
     name: 'Butterfree',
     typeOne: 'Bug',
@@ -162,7 +162,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#013',
+    id: '#0013',
     sprite: getSpriteUrl(13),
     name: 'Weedle',
     typeOne: 'Bug',
@@ -175,7 +175,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#014',
+    id: '#0014',
     sprite: getSpriteUrl(14),
     name: 'Kakuna',
     typeOne: 'Bug',
@@ -188,7 +188,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#015',
+    id: '#0015',
     sprite: getSpriteUrl(15),
     name: 'Beedrill',
     typeOne: 'Bug',
@@ -201,7 +201,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 75,
   },
   {
-    id: '#016',
+    id: '#0016',
     sprite: getSpriteUrl(16),
     name: 'Pidgey',
     typeOne: 'Normal',
@@ -214,7 +214,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 56,
   },
   {
-    id: '#017',
+    id: '#0017',
     sprite: getSpriteUrl(17),
     name: 'Pidgeotto',
     typeOne: 'Normal',
@@ -227,7 +227,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 71,
   },
   {
-    id: '#018',
+    id: '#0018',
     sprite: getSpriteUrl(18),
     name: 'Pidgeot',
     typeOne: 'Normal',
@@ -240,7 +240,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 101,
   },
   {
-    id: '#019',
+    id: '#0019',
     sprite: getSpriteUrl(19),
     name: 'Rattata',
     typeOne: 'Normal',
@@ -253,7 +253,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 72,
   },
   {
-    id: '#020',
+    id: '#0020',
     sprite: getSpriteUrl(20),
     name: 'Raticate',
     typeOne: 'Normal',
@@ -266,7 +266,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 97,
   },
   {
-    id: '#021',
+    id: '#0021',
     sprite: getSpriteUrl(21),
     name: 'Spearow',
     typeOne: 'Normal',
@@ -279,7 +279,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#022',
+    id: '#0022',
     sprite: getSpriteUrl(22),
     name: 'Fearow',
     typeOne: 'Normal',
@@ -292,7 +292,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 100,
   },
   {
-    id: '#023',
+    id: '#0023',
     sprite: getSpriteUrl(23),
     name: 'Ekans',
     typeOne: 'Poison',
@@ -305,7 +305,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#024',
+    id: '#0024',
     sprite: getSpriteUrl(24),
     name: 'Arbok',
     typeOne: 'Poison',
@@ -318,7 +318,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#025',
+    id: '#0025',
     sprite: getSpriteUrl(25),
     name: 'Pikachu',
     typeOne: 'Electric',
@@ -331,7 +331,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#026',
+    id: '#0026',
     sprite: getSpriteUrl(26),
     name: 'Raichu',
     typeOne: 'Electric',
@@ -344,7 +344,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 110,
   },
   {
-    id: '#027',
+    id: '#0027',
     sprite: getSpriteUrl(27),
     name: 'Sandshrew',
     typeOne: 'Ground',
@@ -357,7 +357,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#028',
+    id: '#0028',
     sprite: getSpriteUrl(28),
     name: 'Sandslash',
     typeOne: 'Ground',
@@ -370,7 +370,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#029',
+    id: '#0029',
     sprite: getSpriteUrl(29),
     name: 'Nidoran♀',
     typeOne: 'Poison',
@@ -383,7 +383,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 41,
   },
   {
-    id: '#030',
+    id: '#0030',
     sprite: getSpriteUrl(30),
     name: 'Nidorina',
     typeOne: 'Poison',
@@ -396,7 +396,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 56,
   },
   {
-    id: '#031',
+    id: '#0031',
     sprite: getSpriteUrl(31),
     name: 'Nidoqueen',
     typeOne: 'Poison',
@@ -409,7 +409,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 76,
   },
   {
-    id: '#032',
+    id: '#0032',
     sprite: getSpriteUrl(32),
     name: 'Nidoran♂',
     typeOne: 'Poison',
@@ -422,7 +422,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#033',
+    id: '#0033',
     sprite: getSpriteUrl(33),
     name: 'Nidorino',
     typeOne: 'Poison',
@@ -435,7 +435,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#034',
+    id: '#0034',
     sprite: getSpriteUrl(34),
     name: 'Nidoking',
     typeOne: 'Poison',
@@ -448,7 +448,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#035',
+    id: '#0035',
     sprite: getSpriteUrl(35),
     name: 'Clefairy',
     typeOne: 'Fairy',
@@ -461,7 +461,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#036',
+    id: '#0036',
     sprite: getSpriteUrl(36),
     name: 'Clefable',
     typeOne: 'Fairy',
@@ -474,7 +474,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#037',
+    id: '#0037',
     sprite: getSpriteUrl(37),
     name: 'Vulpix',
     typeOne: 'Fire',
@@ -487,7 +487,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#038',
+    id: '#0038',
     sprite: getSpriteUrl(38),
     name: 'Ninetales',
     typeOne: 'Fire',
@@ -500,7 +500,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 100,
   },
   {
-    id: '#039',
+    id: '#0039',
     sprite: getSpriteUrl(39),
     name: 'Jigglypuff',
     typeOne: 'Normal',
@@ -513,7 +513,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 20,
   },
   {
-    id: '#040',
+    id: '#0040',
     sprite: getSpriteUrl(40),
     name: 'Wigglytuff',
     typeOne: 'Normal',
@@ -526,7 +526,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#041',
+    id: '#0041',
     sprite: getSpriteUrl(41),
     name: 'Zubat',
     typeOne: 'Poison',
@@ -539,7 +539,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#042',
+    id: '#0042',
     sprite: getSpriteUrl(42),
     name: 'Golbat',
     typeOne: 'Poison',
@@ -552,7 +552,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#043',
+    id: '#0043',
     sprite: getSpriteUrl(43),
     name: 'Oddish',
     typeOne: 'Grass',
@@ -565,7 +565,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#044',
+    id: '#0044',
     sprite: getSpriteUrl(44),
     name: 'Gloom',
     typeOne: 'Grass',
@@ -578,7 +578,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#045',
+    id: '#0045',
     sprite: getSpriteUrl(45),
     name: 'Vileplume',
     typeOne: 'Grass',
@@ -591,7 +591,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#046',
+    id: '#0046',
     sprite: getSpriteUrl(46),
     name: 'Paras',
     typeOne: 'Bug',
@@ -604,7 +604,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 25,
   },
   {
-    id: '#047',
+    id: '#0047',
     sprite: getSpriteUrl(47),
     name: 'Parasect',
     typeOne: 'Bug',
@@ -617,7 +617,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#048',
+    id: '#0048',
     sprite: getSpriteUrl(48),
     name: 'Venonat',
     typeOne: 'Bug',
@@ -630,7 +630,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#049',
+    id: '#0049',
     sprite: getSpriteUrl(49),
     name: 'Venomoth',
     typeOne: 'Bug',
@@ -643,7 +643,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#050',
+    id: '#0050',
     sprite: getSpriteUrl(50),
     name: 'Diglett',
     typeOne: 'Ground',
@@ -656,7 +656,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#051',
+    id: '#0051',
     sprite: getSpriteUrl(51),
     name: 'Dugtrio',
     typeOne: 'Ground',
@@ -669,7 +669,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 120,
   },
   {
-    id: '#052',
+    id: '#0052',
     sprite: getSpriteUrl(52),
     name: 'Meowth',
     typeOne: 'Normal',
@@ -682,7 +682,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#053',
+    id: '#0053',
     sprite: getSpriteUrl(53),
     name: 'Persian',
     typeOne: 'Normal',
@@ -695,7 +695,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 115,
   },
   {
-    id: '#054',
+    id: '#0054',
     sprite: getSpriteUrl(54),
     name: 'Psyduck',
     typeOne: 'Water',
@@ -708,7 +708,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#055',
+    id: '#0055',
     sprite: getSpriteUrl(55),
     name: 'Golduck',
     typeOne: 'Water',
@@ -721,7 +721,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#056',
+    id: '#0056',
     sprite: getSpriteUrl(56),
     name: 'Mankey',
     typeOne: 'Fighting',
@@ -734,7 +734,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#057',
+    id: '#0057',
     sprite: getSpriteUrl(57),
     name: 'Primeape',
     typeOne: 'Fighting',
@@ -747,7 +747,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#058',
+    id: '#0058',
     sprite: getSpriteUrl(58),
     name: 'Growlithe',
     typeOne: 'Fire',
@@ -760,7 +760,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#059',
+    id: '#0059',
     sprite: getSpriteUrl(59),
     name: 'Arcanine',
     typeOne: 'Fire',
@@ -773,7 +773,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#060',
+    id: '#0060',
     sprite: getSpriteUrl(60),
     name: 'Poliwag',
     typeOne: 'Water',
@@ -786,7 +786,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#061',
+    id: '#0061',
     sprite: getSpriteUrl(61),
     name: 'Poliwhirl',
     typeOne: 'Water',
@@ -799,7 +799,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#062',
+    id: '#0062',
     sprite: getSpriteUrl(62),
     name: 'Poliwrath',
     typeOne: 'Water',
@@ -812,7 +812,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#063',
+    id: '#0063',
     sprite: getSpriteUrl(63),
     name: 'Abra',
     typeOne: 'Psychic',
@@ -825,7 +825,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#064',
+    id: '#0064',
     sprite: getSpriteUrl(64),
     name: 'Kadabra',
     typeOne: 'Psychic',
@@ -838,7 +838,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 105,
   },
   {
-    id: '#065',
+    id: '#0065',
     sprite: getSpriteUrl(65),
     name: 'Alakazam',
     typeOne: 'Psychic',
@@ -851,7 +851,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 120,
   },
   {
-    id: '#066',
+    id: '#0066',
     sprite: getSpriteUrl(66),
     name: 'Machop',
     typeOne: 'Fighting',
@@ -864,7 +864,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#067',
+    id: '#0067',
     sprite: getSpriteUrl(67),
     name: 'Machoke',
     typeOne: 'Fighting',
@@ -877,7 +877,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#068',
+    id: '#0068',
     sprite: getSpriteUrl(68),
     name: 'Machamp',
     typeOne: 'Fighting',
@@ -890,7 +890,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#069',
+    id: '#0069',
     sprite: getSpriteUrl(69),
     name: 'Bellsprout',
     typeOne: 'Grass',
@@ -903,7 +903,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#070',
+    id: '#0070',
     sprite: getSpriteUrl(70),
     name: 'Weepinbell',
     typeOne: 'Grass',
@@ -916,7 +916,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#071',
+    id: '#0071',
     sprite: getSpriteUrl(71),
     name: 'Victreebel',
     typeOne: 'Grass',
@@ -929,7 +929,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#072',
+    id: '#0072',
     sprite: getSpriteUrl(72),
     name: 'Tentacool',
     typeOne: 'Water',
@@ -942,7 +942,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#073',
+    id: '#0073',
     sprite: getSpriteUrl(73),
     name: 'Tentacruel',
     typeOne: 'Water',
@@ -955,7 +955,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 100,
   },
   {
-    id: '#074',
+    id: '#0074',
     sprite: getSpriteUrl(74),
     name: 'Geodude',
     typeOne: 'Rock',
@@ -968,7 +968,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 20,
   },
   {
-    id: '#075',
+    id: '#0075',
     sprite: getSpriteUrl(75),
     name: 'Graveler',
     typeOne: 'Rock',
@@ -981,7 +981,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#076',
+    id: '#0076',
     sprite: getSpriteUrl(76),
     name: 'Golem',
     typeOne: 'Rock',
@@ -994,7 +994,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#077',
+    id: '#0077',
     sprite: getSpriteUrl(77),
     name: 'Ponyta',
     typeOne: 'Fire',
@@ -1007,7 +1007,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#078',
+    id: '#0078',
     sprite: getSpriteUrl(78),
     name: 'Rapidash',
     typeOne: 'Fire',
@@ -1020,7 +1020,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 105,
   },
   {
-    id: '#079',
+    id: '#0079',
     sprite: getSpriteUrl(79),
     name: 'Slowpoke',
     typeOne: 'Water',
@@ -1033,7 +1033,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 15,
   },
   {
-    id: '#080',
+    id: '#0080',
     sprite: getSpriteUrl(80),
     name: 'Slowbro',
     typeOne: 'Water',
@@ -1046,7 +1046,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#081',
+    id: '#0081',
     sprite: getSpriteUrl(81),
     name: 'Magnemite',
     typeOne: 'Electric',
@@ -1059,7 +1059,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#082',
+    id: '#0082',
     sprite: getSpriteUrl(82),
     name: 'Magneton',
     typeOne: 'Electric',
@@ -1072,7 +1072,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#083',
+    id: '#0083',
     sprite: getSpriteUrl(83),
     name: "Farfetch'd",
     typeOne: 'Normal',
@@ -1085,7 +1085,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#084',
+    id: '#0084',
     sprite: getSpriteUrl(84),
     name: 'Doduo',
     typeOne: 'Normal',
@@ -1098,7 +1098,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 75,
   },
   {
-    id: '#085',
+    id: '#0085',
     sprite: getSpriteUrl(85),
     name: 'Dodrio',
     typeOne: 'Normal',
@@ -1111,7 +1111,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 110,
   },
   {
-    id: '#086',
+    id: '#0086',
     sprite: getSpriteUrl(86),
     name: 'Seel',
     typeOne: 'Water',
@@ -1124,7 +1124,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#087',
+    id: '#0087',
     sprite: getSpriteUrl(87),
     name: 'Dewgong',
     typeOne: 'Water',
@@ -1137,7 +1137,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#088',
+    id: '#0088',
     sprite: getSpriteUrl(88),
     name: 'Grimer',
     typeOne: 'Poison',
@@ -1150,7 +1150,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 25,
   },
   {
-    id: '#089',
+    id: '#0089',
     sprite: getSpriteUrl(89),
     name: 'Muk',
     typeOne: 'Poison',
@@ -1163,7 +1163,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#090',
+    id: '#0090',
     sprite: getSpriteUrl(90),
     name: 'Shellder',
     typeOne: 'Water',
@@ -1176,7 +1176,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#091',
+    id: '#0091',
     sprite: getSpriteUrl(91),
     name: 'Cloyster',
     typeOne: 'Water',
@@ -1189,7 +1189,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#092',
+    id: '#0092',
     sprite: getSpriteUrl(92),
     name: 'Gastly',
     typeOne: 'Ghost',
@@ -1202,7 +1202,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#093',
+    id: '#0093',
     sprite: getSpriteUrl(93),
     name: 'Haunter',
     typeOne: 'Ghost',
@@ -1215,7 +1215,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#094',
+    id: '#0094',
     sprite: getSpriteUrl(94),
     name: 'Gengar',
     typeOne: 'Ghost',
@@ -1228,7 +1228,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 110,
   },
   {
-    id: '#095',
+    id: '#0095',
     sprite: getSpriteUrl(95),
     name: 'Onix',
     typeOne: 'Rock',
@@ -1241,7 +1241,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#096',
+    id: '#0096',
     sprite: getSpriteUrl(96),
     name: 'Drowzee',
     typeOne: 'Psychic',
@@ -1254,7 +1254,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 42,
   },
   {
-    id: '#097',
+    id: '#0097',
     sprite: getSpriteUrl(97),
     name: 'Hypno',
     typeOne: 'Psychic',
@@ -1267,7 +1267,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 67,
   },
   {
-    id: '#098',
+    id: '#0098',
     sprite: getSpriteUrl(98),
     name: 'Krabby',
     typeOne: 'Water',
@@ -1280,7 +1280,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#099',
+    id: '#0099',
     sprite: getSpriteUrl(99),
     name: 'Kingler',
     typeOne: 'Water',
@@ -1293,7 +1293,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 75,
   },
   {
-    id: '#100',
+    id: '#0100',
     sprite: getSpriteUrl(100),
     name: 'Voltorb',
     typeOne: 'Electric',
@@ -1306,7 +1306,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 100,
   },
   {
-    id: '#101',
+    id: '#0101',
     sprite: getSpriteUrl(101),
     name: 'Electrode',
     typeOne: 'Electric',
@@ -1319,7 +1319,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 150,
   },
   {
-    id: '#102',
+    id: '#0102',
     sprite: getSpriteUrl(102),
     name: 'Exeggcute',
     typeOne: 'Grass',
@@ -1332,7 +1332,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#103',
+    id: '#0103',
     sprite: getSpriteUrl(103),
     name: 'Exeggutor',
     typeOne: 'Grass',
@@ -1345,7 +1345,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#104',
+    id: '#0104',
     sprite: getSpriteUrl(104),
     name: 'Cubone',
     typeOne: 'Ground',
@@ -1358,7 +1358,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#105',
+    id: '#0105',
     sprite: getSpriteUrl(105),
     name: 'Marowak',
     typeOne: 'Ground',
@@ -1371,7 +1371,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#106',
+    id: '#0106',
     sprite: getSpriteUrl(106),
     name: 'Hitmonlee',
     typeOne: 'Fighting',
@@ -1384,7 +1384,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 87,
   },
   {
-    id: '#107',
+    id: '#0107',
     sprite: getSpriteUrl(107),
     name: 'Hitmonchan',
     typeOne: 'Fighting',
@@ -1397,7 +1397,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 76,
   },
   {
-    id: '#108',
+    id: '#0108',
     sprite: getSpriteUrl(108),
     name: 'Lickitung',
     typeOne: 'Normal',
@@ -1410,7 +1410,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#109',
+    id: '#0109',
     sprite: getSpriteUrl(109),
     name: 'Koffing',
     typeOne: 'Poison',
@@ -1423,7 +1423,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#110',
+    id: '#0110',
     sprite: getSpriteUrl(110),
     name: 'Weezing',
     typeOne: 'Poison',
@@ -1436,7 +1436,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#111',
+    id: '#0111',
     sprite: getSpriteUrl(111),
     name: 'Rhyhorn',
     typeOne: 'Ground',
@@ -1449,7 +1449,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 25,
   },
   {
-    id: '#112',
+    id: '#0112',
     sprite: getSpriteUrl(112),
     name: 'Rhydon',
     typeOne: 'Ground',
@@ -1462,7 +1462,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#113',
+    id: '#0113',
     sprite: getSpriteUrl(113),
     name: 'Chansey',
     typeOne: 'Normal',
@@ -1475,7 +1475,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#114',
+    id: '#0114',
     sprite: getSpriteUrl(114),
     name: 'Tangela',
     typeOne: 'Grass',
@@ -1488,7 +1488,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#115',
+    id: '#0115',
     sprite: getSpriteUrl(115),
     name: 'Kangaskhan',
     typeOne: 'Normal',
@@ -1501,7 +1501,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#116',
+    id: '#0116',
     sprite: getSpriteUrl(116),
     name: 'Horsea',
     typeOne: 'Water',
@@ -1514,7 +1514,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#117',
+    id: '#0117',
     sprite: getSpriteUrl(117),
     name: 'Seadra',
     typeOne: 'Water',
@@ -1527,7 +1527,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#118',
+    id: '#0118',
     sprite: getSpriteUrl(118),
     name: 'Goldeen',
     typeOne: 'Water',
@@ -1540,7 +1540,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 63,
   },
   {
-    id: '#119',
+    id: '#0119',
     sprite: getSpriteUrl(119),
     name: 'Seaking',
     typeOne: 'Water',
@@ -1553,7 +1553,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 68,
   },
   {
-    id: '#120',
+    id: '#0120',
     sprite: getSpriteUrl(120),
     name: 'Staryu',
     typeOne: 'Water',
@@ -1566,7 +1566,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#121',
+    id: '#0121',
     sprite: getSpriteUrl(121),
     name: 'Starmie',
     typeOne: 'Water',
@@ -1579,7 +1579,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 115,
   },
   {
-    id: '#122',
+    id: '#0122',
     sprite: getSpriteUrl(122),
     name: 'Mr. Mime',
     typeOne: 'Psychic',
@@ -1592,7 +1592,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#123',
+    id: '#0123',
     sprite: getSpriteUrl(123),
     name: 'Scyther',
     typeOne: 'Bug',
@@ -1605,7 +1605,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 105,
   },
   {
-    id: '#124',
+    id: '#0124',
     sprite: getSpriteUrl(124),
     name: 'Jynx',
     typeOne: 'Ice',
@@ -1618,7 +1618,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#125',
+    id: '#0125',
     sprite: getSpriteUrl(125),
     name: 'Electabuzz',
     typeOne: 'Electric',
@@ -1631,7 +1631,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 105,
   },
   {
-    id: '#126',
+    id: '#0126',
     sprite: getSpriteUrl(126),
     name: 'Magmar',
     typeOne: 'Fire',
@@ -1644,7 +1644,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 93,
   },
   {
-    id: '#127',
+    id: '#0127',
     sprite: getSpriteUrl(127),
     name: 'Pinsir',
     typeOne: 'Bug',
@@ -1657,7 +1657,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#128',
+    id: '#0128',
     sprite: getSpriteUrl(128),
     name: 'Tauros',
     typeOne: 'Normal',
@@ -1670,7 +1670,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 110,
   },
   {
-    id: '#129',
+    id: '#0129',
     sprite: getSpriteUrl(129),
     name: 'Magikarp',
     typeOne: 'Water',
@@ -1683,7 +1683,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#130',
+    id: '#0130',
     sprite: getSpriteUrl(130),
     name: 'Gyarados',
     typeOne: 'Water',
@@ -1696,7 +1696,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 81,
   },
   {
-    id: '#131',
+    id: '#0131',
     sprite: getSpriteUrl(131),
     name: 'Lapras',
     typeOne: 'Water',
@@ -1709,7 +1709,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#132',
+    id: '#0132',
     sprite: getSpriteUrl(132),
     name: 'Ditto',
     typeOne: 'Normal',
@@ -1722,7 +1722,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 48,
   },
   {
-    id: '#133',
+    id: '#0133',
     sprite: getSpriteUrl(133),
     name: 'Eevee',
     typeOne: 'Normal',
@@ -1735,7 +1735,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#134',
+    id: '#0134',
     sprite: getSpriteUrl(134),
     name: 'Vaporeon',
     typeOne: 'Water',
@@ -1748,7 +1748,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#135',
+    id: '#0135',
     sprite: getSpriteUrl(135),
     name: 'Jolteon',
     typeOne: 'Electric',
@@ -1761,7 +1761,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 130,
   },
   {
-    id: '#136',
+    id: '#0136',
     sprite: getSpriteUrl(136),
     name: 'Flareon',
     typeOne: 'Fire',
@@ -1774,7 +1774,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#137',
+    id: '#0137',
     sprite: getSpriteUrl(137),
     name: 'Porygon',
     typeOne: 'Normal',
@@ -1787,7 +1787,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#138',
+    id: '#0138',
     sprite: getSpriteUrl(138),
     name: 'Omanyte',
     typeOne: 'Rock',
@@ -1800,7 +1800,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#139',
+    id: '#0139',
     sprite: getSpriteUrl(139),
     name: 'Omastar',
     typeOne: 'Rock',
@@ -1813,7 +1813,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#140',
+    id: '#0140',
     sprite: getSpriteUrl(140),
     name: 'Kabuto',
     typeOne: 'Rock',
@@ -1826,7 +1826,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#141',
+    id: '#0141',
     sprite: getSpriteUrl(141),
     name: 'Kabutops',
     typeOne: 'Rock',
@@ -1839,7 +1839,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#142',
+    id: '#0142',
     sprite: getSpriteUrl(142),
     name: 'Aerodactyl',
     typeOne: 'Rock',
@@ -1852,7 +1852,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 130,
   },
   {
-    id: '#143',
+    id: '#0143',
     sprite: getSpriteUrl(143),
     name: 'Snorlax',
     typeOne: 'Normal',
@@ -1865,7 +1865,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#144',
+    id: '#0144',
     sprite: getSpriteUrl(144),
     name: 'Articuno',
     typeOne: 'Ice',
@@ -1878,7 +1878,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#145',
+    id: '#0145',
     sprite: getSpriteUrl(145),
     name: 'Zapdos',
     typeOne: 'Electric',
@@ -1891,7 +1891,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 100,
   },
   {
-    id: '#146',
+    id: '#0146',
     sprite: getSpriteUrl(146),
     name: 'Moltres',
     typeOne: 'Fire',
@@ -1904,7 +1904,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#147',
+    id: '#0147',
     sprite: getSpriteUrl(147),
     name: 'Dratini',
     typeOne: 'Dragon',
@@ -1917,7 +1917,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#148',
+    id: '#0148',
     sprite: getSpriteUrl(148),
     name: 'Dragonair',
     typeOne: 'Dragon',
@@ -1930,7 +1930,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#149',
+    id: '#0149',
     sprite: getSpriteUrl(149),
     name: 'Dragonite',
     typeOne: 'Dragon',
@@ -1943,7 +1943,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#150',
+    id: '#0150',
     sprite: getSpriteUrl(150),
     name: 'Mewtwo',
     typeOne: 'Psychic',
@@ -1956,7 +1956,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 130,
   },
   {
-    id: '#151',
+    id: '#0151',
     sprite: getSpriteUrl(151),
     name: 'Mew',
     typeOne: 'Psychic',
@@ -1969,7 +1969,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 100,
   },
   {
-    id: '#152',
+    id: '#0152',
     sprite: getSpriteUrl(152),
     name: 'Chikorita',
     typeOne: 'Grass',
@@ -1982,7 +1982,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#153',
+    id: '#0153',
     sprite: getSpriteUrl(153),
     name: 'Bayleef',
     typeOne: 'Grass',
@@ -1995,7 +1995,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#154',
+    id: '#0154',
     sprite: getSpriteUrl(154),
     name: 'Meganium',
     typeOne: 'Grass',
@@ -2008,7 +2008,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#155',
+    id: '#0155',
     sprite: getSpriteUrl(155),
     name: 'Cyndaquil',
     typeOne: 'Fire',
@@ -2021,7 +2021,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#156',
+    id: '#0156',
     sprite: getSpriteUrl(156),
     name: 'Quilava',
     typeOne: 'Fire',
@@ -2034,7 +2034,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#157',
+    id: '#0157',
     sprite: getSpriteUrl(157),
     name: 'Typhlosion',
     typeOne: 'Fire',
@@ -2047,7 +2047,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 100,
   },
   {
-    id: '#158',
+    id: '#0158',
     sprite: getSpriteUrl(158),
     name: 'Totodile',
     typeOne: 'Water',
@@ -2060,7 +2060,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 43,
   },
   {
-    id: '#159',
+    id: '#0159',
     sprite: getSpriteUrl(159),
     name: 'Croconaw',
     typeOne: 'Water',
@@ -2073,7 +2073,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 58,
   },
   {
-    id: '#160',
+    id: '#0160',
     sprite: getSpriteUrl(160),
     name: 'Feraligatr',
     typeOne: 'Water',
@@ -2086,7 +2086,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 78,
   },
   {
-    id: '#161',
+    id: '#0161',
     sprite: getSpriteUrl(161),
     name: 'Sentret',
     typeOne: 'Normal',
@@ -2099,7 +2099,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 20,
   },
   {
-    id: '#162',
+    id: '#0162',
     sprite: getSpriteUrl(162),
     name: 'Furret',
     typeOne: 'Normal',
@@ -2112,7 +2112,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#163',
+    id: '#0163',
     sprite: getSpriteUrl(163),
     name: 'Hoothoot',
     typeOne: 'Normal',
@@ -2125,7 +2125,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#164',
+    id: '#0164',
     sprite: getSpriteUrl(164),
     name: 'Noctowl',
     typeOne: 'Normal',
@@ -2138,7 +2138,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#165',
+    id: '#0165',
     sprite: getSpriteUrl(165),
     name: 'Ledyba',
     typeOne: 'Bug',
@@ -2151,7 +2151,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#166',
+    id: '#0166',
     sprite: getSpriteUrl(166),
     name: 'Ledian',
     typeOne: 'Bug',
@@ -2164,7 +2164,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#167',
+    id: '#0167',
     sprite: getSpriteUrl(167),
     name: 'Spinarak',
     typeOne: 'Bug',
@@ -2177,7 +2177,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#168',
+    id: '#0168',
     sprite: getSpriteUrl(168),
     name: 'Ariados',
     typeOne: 'Bug',
@@ -2190,7 +2190,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#169',
+    id: '#0169',
     sprite: getSpriteUrl(169),
     name: 'Crobat',
     typeOne: 'Poison',
@@ -2203,7 +2203,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 130,
   },
   {
-    id: '#170',
+    id: '#0170',
     sprite: getSpriteUrl(170),
     name: 'Chinchou',
     typeOne: 'Water',
@@ -2216,7 +2216,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 67,
   },
   {
-    id: '#171',
+    id: '#0171',
     sprite: getSpriteUrl(171),
     name: 'Lanturn',
     typeOne: 'Water',
@@ -2229,7 +2229,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 67,
   },
   {
-    id: '#172',
+    id: '#0172',
     sprite: getSpriteUrl(172),
     name: 'Pichu',
     typeOne: 'Electric',
@@ -2242,7 +2242,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#173',
+    id: '#0173',
     sprite: getSpriteUrl(173),
     name: 'Cleffa',
     typeOne: 'Fairy',
@@ -2255,7 +2255,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 15,
   },
   {
-    id: '#174',
+    id: '#0174',
     sprite: getSpriteUrl(174),
     name: 'Igglybuff',
     typeOne: 'Normal',
@@ -2268,7 +2268,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 15,
   },
   {
-    id: '#175',
+    id: '#0175',
     sprite: getSpriteUrl(175),
     name: 'Togepi',
     typeOne: 'Fairy',
@@ -2281,7 +2281,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 20,
   },
   {
-    id: '#176',
+    id: '#0176',
     sprite: getSpriteUrl(176),
     name: 'Togetic',
     typeOne: 'Fairy',
@@ -2294,7 +2294,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#177',
+    id: '#0177',
     sprite: getSpriteUrl(177),
     name: 'Natu',
     typeOne: 'Psychic',
@@ -2307,7 +2307,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#178',
+    id: '#0178',
     sprite: getSpriteUrl(178),
     name: 'Xatu',
     typeOne: 'Psychic',
@@ -2320,7 +2320,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#179',
+    id: '#0179',
     sprite: getSpriteUrl(179),
     name: 'Mareep',
     typeOne: 'Electric',
@@ -2333,7 +2333,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#180',
+    id: '#0180',
     sprite: getSpriteUrl(180),
     name: 'Flaaffy',
     typeOne: 'Electric',
@@ -2346,7 +2346,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#181',
+    id: '#0181',
     sprite: getSpriteUrl(181),
     name: 'Ampharos',
     typeOne: 'Electric',
@@ -2359,7 +2359,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#182',
+    id: '#0182',
     sprite: getSpriteUrl(182),
     name: 'Bellossom',
     typeOne: 'Grass',
@@ -2372,7 +2372,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#183',
+    id: '#0183',
     sprite: getSpriteUrl(183),
     name: 'Marill',
     typeOne: 'Water',
@@ -2385,7 +2385,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#184',
+    id: '#0184',
     sprite: getSpriteUrl(184),
     name: 'Azumarill',
     typeOne: 'Water',
@@ -2398,7 +2398,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#185',
+    id: '#0185',
     sprite: getSpriteUrl(185),
     name: 'Sudowoodo',
     typeOne: 'Rock',
@@ -2411,7 +2411,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#186',
+    id: '#0186',
     sprite: getSpriteUrl(186),
     name: 'Politoed',
     typeOne: 'Water',
@@ -2424,7 +2424,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#187',
+    id: '#0187',
     sprite: getSpriteUrl(187),
     name: 'Hoppip',
     typeOne: 'Grass',
@@ -2437,7 +2437,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#188',
+    id: '#0188',
     sprite: getSpriteUrl(188),
     name: 'Skiploom',
     typeOne: 'Grass',
@@ -2450,7 +2450,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#189',
+    id: '#0189',
     sprite: getSpriteUrl(189),
     name: 'Jumpluff',
     typeOne: 'Grass',
@@ -2463,7 +2463,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 110,
   },
   {
-    id: '#190',
+    id: '#0190',
     sprite: getSpriteUrl(190),
     name: 'Aipom',
     typeOne: 'Normal',
@@ -2476,7 +2476,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#191',
+    id: '#0191',
     sprite: getSpriteUrl(191),
     name: 'Sunkern',
     typeOne: 'Grass',
@@ -2489,7 +2489,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#192',
+    id: '#0192',
     sprite: getSpriteUrl(192),
     name: 'Sunflora',
     typeOne: 'Grass',
@@ -2502,7 +2502,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#193',
+    id: '#0193',
     sprite: getSpriteUrl(193),
     name: 'Yanma',
     typeOne: 'Bug',
@@ -2515,7 +2515,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#194',
+    id: '#0194',
     sprite: getSpriteUrl(194),
     name: 'Wooper',
     typeOne: 'Water',
@@ -2528,7 +2528,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 15,
   },
   {
-    id: '#195',
+    id: '#0195',
     sprite: getSpriteUrl(195),
     name: 'Quagsire',
     typeOne: 'Water',
@@ -2541,7 +2541,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#196',
+    id: '#0196',
     sprite: getSpriteUrl(196),
     name: 'Espeon',
     typeOne: 'Psychic',
@@ -2554,7 +2554,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 110,
   },
   {
-    id: '#197',
+    id: '#0197',
     sprite: getSpriteUrl(197),
     name: 'Umbreon',
     typeOne: 'Dark',
@@ -2567,7 +2567,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#198',
+    id: '#0198',
     sprite: getSpriteUrl(198),
     name: 'Murkrow',
     typeOne: 'Dark',
@@ -2580,7 +2580,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 91,
   },
   {
-    id: '#199',
+    id: '#0199',
     sprite: getSpriteUrl(199),
     name: 'Slowking',
     typeOne: 'Water',
@@ -2593,7 +2593,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#200',
+    id: '#0200',
     sprite: getSpriteUrl(200),
     name: 'Misdreavus',
     typeOne: 'Ghost',
@@ -2606,7 +2606,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#201',
+    id: '#0201',
     sprite: getSpriteUrl(201),
     name: 'Unown',
     typeOne: 'Psychic',
@@ -2619,7 +2619,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 48,
   },
   {
-    id: '#202',
+    id: '#0202',
     sprite: getSpriteUrl(202),
     name: 'Wobbuffet',
     typeOne: 'Psychic',
@@ -2632,7 +2632,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 33,
   },
   {
-    id: '#203',
+    id: '#0203',
     sprite: getSpriteUrl(203),
     name: 'Girafarig',
     typeOne: 'Normal',
@@ -2645,7 +2645,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#204',
+    id: '#0204',
     sprite: getSpriteUrl(204),
     name: 'Pineco',
     typeOne: 'Bug',
@@ -2658,7 +2658,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 15,
   },
   {
-    id: '#205',
+    id: '#0205',
     sprite: getSpriteUrl(205),
     name: 'Forretress',
     typeOne: 'Bug',
@@ -2671,7 +2671,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#206',
+    id: '#0206',
     sprite: getSpriteUrl(206),
     name: 'Dunsparce',
     typeOne: 'Normal',
@@ -2684,7 +2684,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#207',
+    id: '#0207',
     sprite: getSpriteUrl(207),
     name: 'Gligar',
     typeOne: 'Ground',
@@ -2697,7 +2697,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#208',
+    id: '#0208',
     sprite: getSpriteUrl(208),
     name: 'Steelix',
     typeOne: 'Steel',
@@ -2710,7 +2710,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#209',
+    id: '#0209',
     sprite: getSpriteUrl(209),
     name: 'Snubbull',
     typeOne: 'Fairy',
@@ -2723,7 +2723,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#210',
+    id: '#0210',
     sprite: getSpriteUrl(210),
     name: 'Granbull',
     typeOne: 'Fairy',
@@ -2736,7 +2736,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#211',
+    id: '#0211',
     sprite: getSpriteUrl(211),
     name: 'Qwilfish',
     typeOne: 'Water',
@@ -2749,7 +2749,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#212',
+    id: '#0212',
     sprite: getSpriteUrl(212),
     name: 'Scizor',
     typeOne: 'Bug',
@@ -2762,7 +2762,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#213',
+    id: '#0213',
     sprite: getSpriteUrl(213),
     name: 'Shuckle',
     typeOne: 'Bug',
@@ -2775,7 +2775,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 5,
   },
   {
-    id: '#214',
+    id: '#0214',
     sprite: getSpriteUrl(214),
     name: 'Heracross',
     typeOne: 'Bug',
@@ -2788,7 +2788,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#215',
+    id: '#0215',
     sprite: getSpriteUrl(215),
     name: 'Sneasel',
     typeOne: 'Dark',
@@ -2801,7 +2801,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 115,
   },
   {
-    id: '#216',
+    id: '#0216',
     sprite: getSpriteUrl(216),
     name: 'Teddiursa',
     typeOne: 'Normal',
@@ -2814,7 +2814,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#217',
+    id: '#0217',
     sprite: getSpriteUrl(217),
     name: 'Ursaring',
     typeOne: 'Normal',
@@ -2827,7 +2827,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#218',
+    id: '#0218',
     sprite: getSpriteUrl(218),
     name: 'Slugma',
     typeOne: 'Fire',
@@ -2840,7 +2840,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 20,
   },
   {
-    id: '#219',
+    id: '#0219',
     sprite: getSpriteUrl(219),
     name: 'Magcargo',
     typeOne: 'Fire',
@@ -2853,7 +2853,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#220',
+    id: '#0220',
     sprite: getSpriteUrl(220),
     name: 'Swinub',
     typeOne: 'Ice',
@@ -2866,7 +2866,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#221',
+    id: '#0221',
     sprite: getSpriteUrl(221),
     name: 'Piloswine',
     typeOne: 'Ice',
@@ -2879,7 +2879,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#222',
+    id: '#0222',
     sprite: getSpriteUrl(222),
     name: 'Corsola',
     typeOne: 'Water',
@@ -2892,7 +2892,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#223',
+    id: '#0223',
     sprite: getSpriteUrl(223),
     name: 'Remoraid',
     typeOne: 'Water',
@@ -2905,7 +2905,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#224',
+    id: '#0224',
     sprite: getSpriteUrl(224),
     name: 'Octillery',
     typeOne: 'Water',
@@ -2918,7 +2918,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#225',
+    id: '#0225',
     sprite: getSpriteUrl(225),
     name: 'Delibird',
     typeOne: 'Ice',
@@ -2931,7 +2931,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 75,
   },
   {
-    id: '#226',
+    id: '#0226',
     sprite: getSpriteUrl(226),
     name: 'Mantine',
     typeOne: 'Water',
@@ -2944,7 +2944,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#227',
+    id: '#0227',
     sprite: getSpriteUrl(227),
     name: 'Skarmory',
     typeOne: 'Steel',
@@ -2957,7 +2957,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#228',
+    id: '#0228',
     sprite: getSpriteUrl(228),
     name: 'Houndour',
     typeOne: 'Dark',
@@ -2970,7 +2970,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#229',
+    id: '#0229',
     sprite: getSpriteUrl(229),
     name: 'Houndoom',
     typeOne: 'Dark',
@@ -2983,7 +2983,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#230',
+    id: '#0230',
     sprite: getSpriteUrl(230),
     name: 'Kingdra',
     typeOne: 'Water',
@@ -2996,7 +2996,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#231',
+    id: '#0231',
     sprite: getSpriteUrl(231),
     name: 'Phanpy',
     typeOne: 'Ground',
@@ -3009,7 +3009,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#232',
+    id: '#0232',
     sprite: getSpriteUrl(232),
     name: 'Donphan',
     typeOne: 'Ground',
@@ -3022,7 +3022,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#233',
+    id: '#0233',
     sprite: getSpriteUrl(233),
     name: 'Porygon2',
     typeOne: 'Normal',
@@ -3035,7 +3035,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#234',
+    id: '#0234',
     sprite: getSpriteUrl(234),
     name: 'Stantler',
     typeOne: 'Normal',
@@ -3048,7 +3048,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#235',
+    id: '#0235',
     sprite: getSpriteUrl(235),
     name: 'Smeargle',
     typeOne: 'Normal',
@@ -3061,7 +3061,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 75,
   },
   {
-    id: '#236',
+    id: '#0236',
     sprite: getSpriteUrl(236),
     name: 'Tyrogue',
     typeOne: 'Fighting',
@@ -3074,7 +3074,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#237',
+    id: '#0237',
     sprite: getSpriteUrl(237),
     name: 'Hitmontop',
     typeOne: 'Fighting',
@@ -3087,7 +3087,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#238',
+    id: '#0238',
     sprite: getSpriteUrl(238),
     name: 'Smoochum',
     typeOne: 'Ice',
@@ -3100,7 +3100,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#239',
+    id: '#0239',
     sprite: getSpriteUrl(239),
     name: 'Elekid',
     typeOne: 'Electric',
@@ -3113,7 +3113,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#240',
+    id: '#0240',
     sprite: getSpriteUrl(240),
     name: 'Magby',
     typeOne: 'Fire',
@@ -3126,7 +3126,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 83,
   },
   {
-    id: '#241',
+    id: '#0241',
     sprite: getSpriteUrl(241),
     name: 'Miltank',
     typeOne: 'Normal',
@@ -3139,7 +3139,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 100,
   },
   {
-    id: '#242',
+    id: '#0242',
     sprite: getSpriteUrl(242),
     name: 'Blissey',
     typeOne: 'Normal',
@@ -3152,7 +3152,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#243',
+    id: '#0243',
     sprite: getSpriteUrl(243),
     name: 'Raikou',
     typeOne: 'Electric',
@@ -3165,7 +3165,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 115,
   },
   {
-    id: '#244',
+    id: '#0244',
     sprite: getSpriteUrl(244),
     name: 'Entei',
     typeOne: 'Fire',
@@ -3178,7 +3178,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 100,
   },
   {
-    id: '#245',
+    id: '#0245',
     sprite: getSpriteUrl(245),
     name: 'Suicune',
     typeOne: 'Water',
@@ -3191,7 +3191,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#246',
+    id: '#0246',
     sprite: getSpriteUrl(246),
     name: 'Larvitar',
     typeOne: 'Rock',
@@ -3204,7 +3204,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 41,
   },
   {
-    id: '#247',
+    id: '#0247',
     sprite: getSpriteUrl(247),
     name: 'Pupitar',
     typeOne: 'Rock',
@@ -3217,7 +3217,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 51,
   },
   {
-    id: '#248',
+    id: '#0248',
     sprite: getSpriteUrl(248),
     name: 'Tyranitar',
     typeOne: 'Rock',
@@ -3230,7 +3230,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 61,
   },
   {
-    id: '#249',
+    id: '#0249',
     sprite: getSpriteUrl(249),
     name: 'Lugia',
     typeOne: 'Psychic',
@@ -3243,7 +3243,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 110,
   },
   {
-    id: '#250',
+    id: '#0250',
     sprite: getSpriteUrl(250),
     name: 'Ho-Oh',
     typeOne: 'Fire',
@@ -3256,7 +3256,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#251',
+    id: '#0251',
     sprite: getSpriteUrl(251),
     name: 'Celebi',
     typeOne: 'Psychic',
@@ -3269,7 +3269,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 100,
   },
   {
-    id: '#252',
+    id: '#0252',
     sprite: getSpriteUrl(252),
     name: 'Treecko',
     typeOne: 'Grass',
@@ -3282,7 +3282,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#253',
+    id: '#0253',
     sprite: getSpriteUrl(253),
     name: 'Grovyle',
     typeOne: 'Grass',
@@ -3295,7 +3295,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#254',
+    id: '#0254',
     sprite: getSpriteUrl(254),
     name: 'Sceptile',
     typeOne: 'Grass',
@@ -3308,7 +3308,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 120,
   },
   {
-    id: '#255',
+    id: '#0255',
     sprite: getSpriteUrl(255),
     name: 'Torchic',
     typeOne: 'Fire',
@@ -3321,7 +3321,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#256',
+    id: '#0256',
     sprite: getSpriteUrl(256),
     name: 'Combusken',
     typeOne: 'Fire',
@@ -3334,7 +3334,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#257',
+    id: '#0257',
     sprite: getSpriteUrl(257),
     name: 'Blaziken',
     typeOne: 'Fire',
@@ -3347,7 +3347,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#258',
+    id: '#0258',
     sprite: getSpriteUrl(258),
     name: 'Mudkip',
     typeOne: 'Water',
@@ -3360,7 +3360,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#259',
+    id: '#0259',
     sprite: getSpriteUrl(259),
     name: 'Marshtomp',
     typeOne: 'Water',
@@ -3373,7 +3373,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#260',
+    id: '#0260',
     sprite: getSpriteUrl(260),
     name: 'Swampert',
     typeOne: 'Water',
@@ -3386,7 +3386,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#261',
+    id: '#0261',
     sprite: getSpriteUrl(261),
     name: 'Poochyena',
     typeOne: 'Dark',
@@ -3399,7 +3399,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#262',
+    id: '#0262',
     sprite: getSpriteUrl(262),
     name: 'Mightyena',
     typeOne: 'Dark',
@@ -3412,7 +3412,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#263',
+    id: '#0263',
     sprite: getSpriteUrl(263),
     name: 'Zigzagoon',
     typeOne: 'Normal',
@@ -3425,7 +3425,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#264',
+    id: '#0264',
     sprite: getSpriteUrl(264),
     name: 'Linoone',
     typeOne: 'Normal',
@@ -3438,7 +3438,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 100,
   },
   {
-    id: '#265',
+    id: '#0265',
     sprite: getSpriteUrl(265),
     name: 'Wurmple',
     typeOne: 'Bug',
@@ -3451,7 +3451,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 20,
   },
   {
-    id: '#266',
+    id: '#0266',
     sprite: getSpriteUrl(266),
     name: 'Silcoon',
     typeOne: 'Bug',
@@ -3464,7 +3464,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 15,
   },
   {
-    id: '#267',
+    id: '#0267',
     sprite: getSpriteUrl(267),
     name: 'Beautifly',
     typeOne: 'Bug',
@@ -3477,7 +3477,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#268',
+    id: '#0268',
     sprite: getSpriteUrl(268),
     name: 'Cascoon',
     typeOne: 'Bug',
@@ -3490,7 +3490,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 15,
   },
   {
-    id: '#269',
+    id: '#0269',
     sprite: getSpriteUrl(269),
     name: 'Dustox',
     typeOne: 'Bug',
@@ -3503,7 +3503,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#270',
+    id: '#0270',
     sprite: getSpriteUrl(270),
     name: 'Lotad',
     typeOne: 'Water',
@@ -3516,7 +3516,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#271',
+    id: '#0271',
     sprite: getSpriteUrl(271),
     name: 'Lombre',
     typeOne: 'Water',
@@ -3529,7 +3529,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#272',
+    id: '#0272',
     sprite: getSpriteUrl(272),
     name: 'Ludicolo',
     typeOne: 'Water',
@@ -3542,7 +3542,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#273',
+    id: '#0273',
     sprite: getSpriteUrl(273),
     name: 'Seedot',
     typeOne: 'Grass',
@@ -3555,7 +3555,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#274',
+    id: '#0274',
     sprite: getSpriteUrl(274),
     name: 'Nuzleaf',
     typeOne: 'Grass',
@@ -3568,7 +3568,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#275',
+    id: '#0275',
     sprite: getSpriteUrl(275),
     name: 'Shiftry',
     typeOne: 'Grass',
@@ -3581,7 +3581,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#276',
+    id: '#0276',
     sprite: getSpriteUrl(276),
     name: 'Taillow',
     typeOne: 'Normal',
@@ -3594,7 +3594,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#277',
+    id: '#0277',
     sprite: getSpriteUrl(277),
     name: 'Swellow',
     typeOne: 'Normal',
@@ -3607,7 +3607,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 125,
   },
   {
-    id: '#278',
+    id: '#0278',
     sprite: getSpriteUrl(278),
     name: 'Wingull',
     typeOne: 'Water',
@@ -3620,7 +3620,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#279',
+    id: '#0279',
     sprite: getSpriteUrl(279),
     name: 'Pelipper',
     typeOne: 'Water',
@@ -3633,7 +3633,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#280',
+    id: '#0280',
     sprite: getSpriteUrl(280),
     name: 'Ralts',
     typeOne: 'Psychic',
@@ -3646,7 +3646,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#281',
+    id: '#0281',
     sprite: getSpriteUrl(281),
     name: 'Kirlia',
     typeOne: 'Psychic',
@@ -3659,7 +3659,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#282',
+    id: '#0282',
     sprite: getSpriteUrl(282),
     name: 'Gardevoir',
     typeOne: 'Psychic',
@@ -3672,7 +3672,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#283',
+    id: '#0283',
     sprite: getSpriteUrl(283),
     name: 'Surskit',
     typeOne: 'Bug',
@@ -3685,7 +3685,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#284',
+    id: '#0284',
     sprite: getSpriteUrl(284),
     name: 'Masquerain',
     typeOne: 'Bug',
@@ -3698,7 +3698,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#285',
+    id: '#0285',
     sprite: getSpriteUrl(285),
     name: 'Shroomish',
     typeOne: 'Grass',
@@ -3711,7 +3711,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#286',
+    id: '#0286',
     sprite: getSpriteUrl(286),
     name: 'Breloom',
     typeOne: 'Grass',
@@ -3724,7 +3724,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#287',
+    id: '#0287',
     sprite: getSpriteUrl(287),
     name: 'Slakoth',
     typeOne: 'Normal',
@@ -3737,7 +3737,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#288',
+    id: '#0288',
     sprite: getSpriteUrl(288),
     name: 'Vigoroth',
     typeOne: 'Normal',
@@ -3750,7 +3750,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#289',
+    id: '#0289',
     sprite: getSpriteUrl(289),
     name: 'Slaking',
     typeOne: 'Normal',
@@ -3763,7 +3763,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 100,
   },
   {
-    id: '#290',
+    id: '#0290',
     sprite: getSpriteUrl(290),
     name: 'Nincada',
     typeOne: 'Bug',
@@ -3776,7 +3776,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#291',
+    id: '#0291',
     sprite: getSpriteUrl(291),
     name: 'Ninjask',
     typeOne: 'Bug',
@@ -3789,7 +3789,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 160,
   },
   {
-    id: '#292',
+    id: '#0292',
     sprite: getSpriteUrl(292),
     name: 'Shedinja',
     typeOne: 'Bug',
@@ -3802,7 +3802,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#293',
+    id: '#0293',
     sprite: getSpriteUrl(293),
     name: 'Whismur',
     typeOne: 'Normal',
@@ -3815,7 +3815,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 28,
   },
   {
-    id: '#294',
+    id: '#0294',
     sprite: getSpriteUrl(294),
     name: 'Loudred',
     typeOne: 'Normal',
@@ -3828,7 +3828,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 48,
   },
   {
-    id: '#295',
+    id: '#0295',
     sprite: getSpriteUrl(295),
     name: 'Exploud',
     typeOne: 'Normal',
@@ -3841,7 +3841,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 68,
   },
   {
-    id: '#296',
+    id: '#0296',
     sprite: getSpriteUrl(296),
     name: 'Makuhita',
     typeOne: 'Fighting',
@@ -3854,7 +3854,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 25,
   },
   {
-    id: '#297',
+    id: '#0297',
     sprite: getSpriteUrl(297),
     name: 'Hariyama',
     typeOne: 'Fighting',
@@ -3867,7 +3867,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#298',
+    id: '#0298',
     sprite: getSpriteUrl(298),
     name: 'Azurill',
     typeOne: 'Normal',
@@ -3880,7 +3880,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 20,
   },
   {
-    id: '#299',
+    id: '#0299',
     sprite: getSpriteUrl(299),
     name: 'Nosepass',
     typeOne: 'Rock',
@@ -3893,7 +3893,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#300',
+    id: '#0300',
     sprite: getSpriteUrl(300),
     name: 'Skitty',
     typeOne: 'Normal',
@@ -3906,7 +3906,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#301',
+    id: '#0301',
     sprite: getSpriteUrl(301),
     name: 'Delcatty',
     typeOne: 'Normal',
@@ -3919,7 +3919,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#302',
+    id: '#0302',
     sprite: getSpriteUrl(302),
     name: 'Sableye',
     typeOne: 'Dark',
@@ -3932,7 +3932,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#303',
+    id: '#0303',
     sprite: getSpriteUrl(303),
     name: 'Mawile',
     typeOne: 'Steel',
@@ -3945,7 +3945,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#304',
+    id: '#0304',
     sprite: getSpriteUrl(304),
     name: 'Aron',
     typeOne: 'Steel',
@@ -3958,7 +3958,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#305',
+    id: '#0305',
     sprite: getSpriteUrl(305),
     name: 'Lairon',
     typeOne: 'Steel',
@@ -3971,7 +3971,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#306',
+    id: '#0306',
     sprite: getSpriteUrl(306),
     name: 'Aggron',
     typeOne: 'Steel',
@@ -3984,7 +3984,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#307',
+    id: '#0307',
     sprite: getSpriteUrl(307),
     name: 'Meditite',
     typeOne: 'Fighting',
@@ -3997,7 +3997,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#308',
+    id: '#0308',
     sprite: getSpriteUrl(308),
     name: 'Medicham',
     typeOne: 'Fighting',
@@ -4010,7 +4010,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#309',
+    id: '#0309',
     sprite: getSpriteUrl(309),
     name: 'Electrike',
     typeOne: 'Electric',
@@ -4023,7 +4023,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#310',
+    id: '#0310',
     sprite: getSpriteUrl(310),
     name: 'Manectric',
     typeOne: 'Electric',
@@ -4036,7 +4036,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 105,
   },
   {
-    id: '#311',
+    id: '#0311',
     sprite: getSpriteUrl(311),
     name: 'Plusle',
     typeOne: 'Electric',
@@ -4049,7 +4049,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#312',
+    id: '#0312',
     sprite: getSpriteUrl(312),
     name: 'Minun',
     typeOne: 'Electric',
@@ -4062,7 +4062,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#313',
+    id: '#0313',
     sprite: getSpriteUrl(313),
     name: 'Volbeat',
     typeOne: 'Bug',
@@ -4075,7 +4075,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#314',
+    id: '#0314',
     sprite: getSpriteUrl(314),
     name: 'Illumise',
     typeOne: 'Bug',
@@ -4088,7 +4088,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#315',
+    id: '#0315',
     sprite: getSpriteUrl(315),
     name: 'Roselia',
     typeOne: 'Grass',
@@ -4101,7 +4101,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#316',
+    id: '#0316',
     sprite: getSpriteUrl(316),
     name: 'Gulpin',
     typeOne: 'Poison',
@@ -4114,7 +4114,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#317',
+    id: '#0317',
     sprite: getSpriteUrl(317),
     name: 'Swalot',
     typeOne: 'Poison',
@@ -4127,7 +4127,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#318',
+    id: '#0318',
     sprite: getSpriteUrl(318),
     name: 'Carvanha',
     typeOne: 'Water',
@@ -4140,7 +4140,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#319',
+    id: '#0319',
     sprite: getSpriteUrl(319),
     name: 'Sharpedo',
     typeOne: 'Water',
@@ -4153,7 +4153,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#320',
+    id: '#0320',
     sprite: getSpriteUrl(320),
     name: 'Wailmer',
     typeOne: 'Water',
@@ -4166,7 +4166,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#321',
+    id: '#0321',
     sprite: getSpriteUrl(321),
     name: 'Wailord',
     typeOne: 'Water',
@@ -4179,7 +4179,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#322',
+    id: '#0322',
     sprite: getSpriteUrl(322),
     name: 'Numel',
     typeOne: 'Fire',
@@ -4192,7 +4192,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#323',
+    id: '#0323',
     sprite: getSpriteUrl(323),
     name: 'Camerupt',
     typeOne: 'Fire',
@@ -4205,7 +4205,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#324',
+    id: '#0324',
     sprite: getSpriteUrl(324),
     name: 'Torkoal',
     typeOne: 'Fire',
@@ -4218,7 +4218,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 20,
   },
   {
-    id: '#325',
+    id: '#0325',
     sprite: getSpriteUrl(325),
     name: 'Spoink',
     typeOne: 'Psychic',
@@ -4231,7 +4231,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#326',
+    id: '#0326',
     sprite: getSpriteUrl(326),
     name: 'Grumpig',
     typeOne: 'Psychic',
@@ -4244,7 +4244,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#327',
+    id: '#0327',
     sprite: getSpriteUrl(327),
     name: 'Spinda',
     typeOne: 'Normal',
@@ -4257,7 +4257,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#328',
+    id: '#0328',
     sprite: getSpriteUrl(328),
     name: 'Trapinch',
     typeOne: 'Ground',
@@ -4270,7 +4270,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 10,
   },
   {
-    id: '#329',
+    id: '#0329',
     sprite: getSpriteUrl(329),
     name: 'Vibrava',
     typeOne: 'Ground',
@@ -4283,7 +4283,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#330',
+    id: '#0330',
     sprite: getSpriteUrl(330),
     name: 'Flygon',
     typeOne: 'Ground',
@@ -4296,7 +4296,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 100,
   },
   {
-    id: '#331',
+    id: '#0331',
     sprite: getSpriteUrl(331),
     name: 'Cacnea',
     typeOne: 'Grass',
@@ -4309,7 +4309,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#332',
+    id: '#0332',
     sprite: getSpriteUrl(332),
     name: 'Cacturne',
     typeOne: 'Grass',
@@ -4322,7 +4322,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#333',
+    id: '#0333',
     sprite: getSpriteUrl(333),
     name: 'Swablu',
     typeOne: 'Normal',
@@ -4335,7 +4335,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#334',
+    id: '#0334',
     sprite: getSpriteUrl(334),
     name: 'Altaria',
     typeOne: 'Dragon',
@@ -4348,7 +4348,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#335',
+    id: '#0335',
     sprite: getSpriteUrl(335),
     name: 'Zangoose',
     typeOne: 'Normal',
@@ -4361,7 +4361,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#336',
+    id: '#0336',
     sprite: getSpriteUrl(336),
     name: 'Seviper',
     typeOne: 'Poison',
@@ -4374,7 +4374,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#337',
+    id: '#0337',
     sprite: getSpriteUrl(337),
     name: 'Lunatone',
     typeOne: 'Rock',
@@ -4387,7 +4387,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#338',
+    id: '#0338',
     sprite: getSpriteUrl(338),
     name: 'Solrock',
     typeOne: 'Rock',
@@ -4400,7 +4400,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#339',
+    id: '#0339',
     sprite: getSpriteUrl(339),
     name: 'Barboach',
     typeOne: 'Water',
@@ -4413,7 +4413,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#340',
+    id: '#0340',
     sprite: getSpriteUrl(340),
     name: 'Whiscash',
     typeOne: 'Water',
@@ -4426,7 +4426,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#341',
+    id: '#0341',
     sprite: getSpriteUrl(341),
     name: 'Corphish',
     typeOne: 'Water',
@@ -4439,7 +4439,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#342',
+    id: '#0342',
     sprite: getSpriteUrl(342),
     name: 'Crawdaunt',
     typeOne: 'Water',
@@ -4452,7 +4452,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#343',
+    id: '#0343',
     sprite: getSpriteUrl(343),
     name: 'Baltoy',
     typeOne: 'Ground',
@@ -4465,7 +4465,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#344',
+    id: '#0344',
     sprite: getSpriteUrl(344),
     name: 'Claydol',
     typeOne: 'Ground',
@@ -4478,7 +4478,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 75,
   },
   {
-    id: '#345',
+    id: '#0345',
     sprite: getSpriteUrl(345),
     name: 'Lileep',
     typeOne: 'Rock',
@@ -4491,7 +4491,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 23,
   },
   {
-    id: '#346',
+    id: '#0346',
     sprite: getSpriteUrl(346),
     name: 'Cradily',
     typeOne: 'Rock',
@@ -4504,7 +4504,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 43,
   },
   {
-    id: '#347',
+    id: '#0347',
     sprite: getSpriteUrl(347),
     name: 'Anorith',
     typeOne: 'Rock',
@@ -4517,7 +4517,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 75,
   },
   {
-    id: '#348',
+    id: '#0348',
     sprite: getSpriteUrl(348),
     name: 'Armaldo',
     typeOne: 'Rock',
@@ -4530,7 +4530,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#349',
+    id: '#0349',
     sprite: getSpriteUrl(349),
     name: 'Feebas',
     typeOne: 'Water',
@@ -4543,7 +4543,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#350',
+    id: '#0350',
     sprite: getSpriteUrl(350),
     name: 'Milotic',
     typeOne: 'Water',
@@ -4556,7 +4556,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 81,
   },
   {
-    id: '#351',
+    id: '#0351',
     sprite: getSpriteUrl(351),
     name: 'Castform',
     typeOne: 'Normal',
@@ -4569,7 +4569,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#352',
+    id: '#0352',
     sprite: getSpriteUrl(352),
     name: 'Kecleon',
     typeOne: 'Normal',
@@ -4582,7 +4582,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#353',
+    id: '#0353',
     sprite: getSpriteUrl(353),
     name: 'Shuppet',
     typeOne: 'Ghost',
@@ -4595,7 +4595,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#354',
+    id: '#0354',
     sprite: getSpriteUrl(354),
     name: 'Banette',
     typeOne: 'Ghost',
@@ -4608,7 +4608,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#355',
+    id: '#0355',
     sprite: getSpriteUrl(355),
     name: 'Duskull',
     typeOne: 'Ghost',
@@ -4621,7 +4621,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 25,
   },
   {
-    id: '#356',
+    id: '#0356',
     sprite: getSpriteUrl(356),
     name: 'Dusclops',
     typeOne: 'Ghost',
@@ -4634,7 +4634,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 25,
   },
   {
-    id: '#357',
+    id: '#0357',
     sprite: getSpriteUrl(357),
     name: 'Tropius',
     typeOne: 'Grass',
@@ -4647,7 +4647,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 51,
   },
   {
-    id: '#358',
+    id: '#0358',
     sprite: getSpriteUrl(358),
     name: 'Chimecho',
     typeOne: 'Psychic',
@@ -4660,7 +4660,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#359',
+    id: '#0359',
     sprite: getSpriteUrl(359),
     name: 'Absol',
     typeOne: 'Dark',
@@ -4673,7 +4673,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 75,
   },
   {
-    id: '#360',
+    id: '#0360',
     sprite: getSpriteUrl(360),
     name: 'Wynaut',
     typeOne: 'Psychic',
@@ -4686,7 +4686,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 23,
   },
   {
-    id: '#361',
+    id: '#0361',
     sprite: getSpriteUrl(361),
     name: 'Snorunt',
     typeOne: 'Ice',
@@ -4699,7 +4699,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#362',
+    id: '#0362',
     sprite: getSpriteUrl(362),
     name: 'Glalie',
     typeOne: 'Ice',
@@ -4712,7 +4712,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#363',
+    id: '#0363',
     sprite: getSpriteUrl(363),
     name: 'Spheal',
     typeOne: 'Ice',
@@ -4725,7 +4725,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 25,
   },
   {
-    id: '#364',
+    id: '#0364',
     sprite: getSpriteUrl(364),
     name: 'Sealeo',
     typeOne: 'Ice',
@@ -4738,7 +4738,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#365',
+    id: '#0365',
     sprite: getSpriteUrl(365),
     name: 'Walrein',
     typeOne: 'Ice',
@@ -4751,7 +4751,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#366',
+    id: '#0366',
     sprite: getSpriteUrl(366),
     name: 'Clamperl',
     typeOne: 'Water',
@@ -4764,7 +4764,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 32,
   },
   {
-    id: '#367',
+    id: '#0367',
     sprite: getSpriteUrl(367),
     name: 'Huntail',
     typeOne: 'Water',
@@ -4777,7 +4777,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 52,
   },
   {
-    id: '#368',
+    id: '#0368',
     sprite: getSpriteUrl(368),
     name: 'Gorebyss',
     typeOne: 'Water',
@@ -4790,7 +4790,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 52,
   },
   {
-    id: '#369',
+    id: '#0369',
     sprite: getSpriteUrl(369),
     name: 'Relicanth',
     typeOne: 'Water',
@@ -4803,7 +4803,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#370',
+    id: '#0370',
     sprite: getSpriteUrl(370),
     name: 'Luvdisc',
     typeOne: 'Water',
@@ -4816,7 +4816,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 97,
   },
   {
-    id: '#371',
+    id: '#0371',
     sprite: getSpriteUrl(371),
     name: 'Bagon',
     typeOne: 'Dragon',
@@ -4829,7 +4829,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#372',
+    id: '#0372',
     sprite: getSpriteUrl(372),
     name: 'Shelgon',
     typeOne: 'Dragon',
@@ -4842,7 +4842,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#373',
+    id: '#0373',
     sprite: getSpriteUrl(373),
     name: 'Salamence',
     typeOne: 'Dragon',
@@ -4855,7 +4855,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 100,
   },
   {
-    id: '#374',
+    id: '#0374',
     sprite: getSpriteUrl(374),
     name: 'Beldum',
     typeOne: 'Steel',
@@ -4868,7 +4868,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#375',
+    id: '#0375',
     sprite: getSpriteUrl(375),
     name: 'Metang',
     typeOne: 'Steel',
@@ -4881,7 +4881,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#376',
+    id: '#0376',
     sprite: getSpriteUrl(376),
     name: 'Metagross',
     typeOne: 'Steel',
@@ -4894,7 +4894,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#377',
+    id: '#0377',
     sprite: getSpriteUrl(377),
     name: 'Regirock',
     typeOne: 'Rock',
@@ -4907,7 +4907,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#378',
+    id: '#0378',
     sprite: getSpriteUrl(378),
     name: 'Regice',
     typeOne: 'Ice',
@@ -4920,7 +4920,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#379',
+    id: '#0379',
     sprite: getSpriteUrl(379),
     name: 'Registeel',
     typeOne: 'Steel',
@@ -4933,7 +4933,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#380',
+    id: '#0380',
     sprite: getSpriteUrl(380),
     name: 'Latias',
     typeOne: 'Dragon',
@@ -4946,7 +4946,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 110,
   },
   {
-    id: '#381',
+    id: '#0381',
     sprite: getSpriteUrl(381),
     name: 'Latios',
     typeOne: 'Dragon',
@@ -4959,7 +4959,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 110,
   },
   {
-    id: '#382',
+    id: '#0382',
     sprite: getSpriteUrl(382),
     name: 'Kyogre',
     typeOne: 'Water',
@@ -4972,7 +4972,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#383',
+    id: '#0383',
     sprite: getSpriteUrl(383),
     name: 'Groudon',
     typeOne: 'Ground',
@@ -4985,7 +4985,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#384',
+    id: '#0384',
     sprite: getSpriteUrl(384),
     name: 'Rayquaza',
     typeOne: 'Dragon',
@@ -4998,7 +4998,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#385',
+    id: '#0385',
     sprite: getSpriteUrl(385),
     name: 'Jirachi',
     typeOne: 'Steel',
@@ -5011,7 +5011,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 100,
   },
   {
-    id: '#386',
+    id: '#0386',
     sprite: getSpriteUrl(386),
     name: 'Deoxys',
     typeOne: 'Psychic',
@@ -5024,7 +5024,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 150,
   },
   {
-    id: '#387',
+    id: '#0387',
     sprite: getSpriteUrl(387),
     name: 'Turtwig',
     typeOne: 'Grass',
@@ -5037,7 +5037,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 31,
   },
   {
-    id: '#388',
+    id: '#0388',
     sprite: getSpriteUrl(388),
     name: 'Grotle',
     typeOne: 'Grass',
@@ -5050,7 +5050,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 36,
   },
   {
-    id: '#389',
+    id: '#0389',
     sprite: getSpriteUrl(389),
     name: 'Torterra',
     typeOne: 'Grass',
@@ -5063,7 +5063,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 56,
   },
   {
-    id: '#390',
+    id: '#0390',
     sprite: getSpriteUrl(390),
     name: 'Chimchar',
     typeOne: 'Fire',
@@ -5076,7 +5076,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 61,
   },
   {
-    id: '#391',
+    id: '#0391',
     sprite: getSpriteUrl(391),
     name: 'Monferno',
     typeOne: 'Fire',
@@ -5089,7 +5089,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 81,
   },
   {
-    id: '#392',
+    id: '#0392',
     sprite: getSpriteUrl(392),
     name: 'Infernape',
     typeOne: 'Fire',
@@ -5102,7 +5102,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 108,
   },
   {
-    id: '#393',
+    id: '#0393',
     sprite: getSpriteUrl(393),
     name: 'Piplup',
     typeOne: 'Water',
@@ -5115,7 +5115,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#394',
+    id: '#0394',
     sprite: getSpriteUrl(394),
     name: 'Prinplup',
     typeOne: 'Water',
@@ -5128,7 +5128,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#395',
+    id: '#0395',
     sprite: getSpriteUrl(395),
     name: 'Empoleon',
     typeOne: 'Water',
@@ -5141,7 +5141,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#396',
+    id: '#0396',
     sprite: getSpriteUrl(396),
     name: 'Starly',
     typeOne: 'Normal',
@@ -5154,7 +5154,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#397',
+    id: '#0397',
     sprite: getSpriteUrl(397),
     name: 'Staravia',
     typeOne: 'Normal',
@@ -5167,7 +5167,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#398',
+    id: '#0398',
     sprite: getSpriteUrl(398),
     name: 'Staraptor',
     typeOne: 'Normal',
@@ -5180,7 +5180,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 100,
   },
   {
-    id: '#399',
+    id: '#0399',
     sprite: getSpriteUrl(399),
     name: 'Bidoof',
     typeOne: 'Normal',
@@ -5193,7 +5193,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 31,
   },
   {
-    id: '#400',
+    id: '#0400',
     sprite: getSpriteUrl(400),
     name: 'Bibarel',
     typeOne: 'Normal',
@@ -5206,7 +5206,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 71,
   },
   {
-    id: '#401',
+    id: '#0401',
     sprite: getSpriteUrl(401),
     name: 'Kricketot',
     typeOne: 'Bug',
@@ -5219,7 +5219,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 25,
   },
   {
-    id: '#402',
+    id: '#0402',
     sprite: getSpriteUrl(402),
     name: 'Kricketune',
     typeOne: 'Bug',
@@ -5232,7 +5232,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#403',
+    id: '#0403',
     sprite: getSpriteUrl(403),
     name: 'Shinx',
     typeOne: 'Electric',
@@ -5245,7 +5245,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#404',
+    id: '#0404',
     sprite: getSpriteUrl(404),
     name: 'Luxio',
     typeOne: 'Electric',
@@ -5258,7 +5258,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#405',
+    id: '#0405',
     sprite: getSpriteUrl(405),
     name: 'Luxray',
     typeOne: 'Electric',
@@ -5271,7 +5271,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#406',
+    id: '#0406',
     sprite: getSpriteUrl(406),
     name: 'Budew',
     typeOne: 'Grass',
@@ -5284,7 +5284,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#407',
+    id: '#0407',
     sprite: getSpriteUrl(407),
     name: 'Roserade',
     typeOne: 'Grass',
@@ -5297,7 +5297,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#408',
+    id: '#0408',
     sprite: getSpriteUrl(408),
     name: 'Cranidos',
     typeOne: 'Rock',
@@ -5310,7 +5310,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 58,
   },
   {
-    id: '#409',
+    id: '#0409',
     sprite: getSpriteUrl(409),
     name: 'Rampardos',
     typeOne: 'Rock',
@@ -5323,7 +5323,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 58,
   },
   {
-    id: '#410',
+    id: '#0410',
     sprite: getSpriteUrl(410),
     name: 'Shieldon',
     typeOne: 'Rock',
@@ -5336,7 +5336,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#411',
+    id: '#0411',
     sprite: getSpriteUrl(411),
     name: 'Bastiodon',
     typeOne: 'Rock',
@@ -5349,7 +5349,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#412',
+    id: '#0412',
     sprite: getSpriteUrl(412),
     name: 'Burmy',
     typeOne: 'Bug',
@@ -5362,7 +5362,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 36,
   },
   {
-    id: '#413',
+    id: '#0413',
     sprite: getSpriteUrl(413),
     name: 'Wormadam',
     typeOne: 'Bug',
@@ -5375,7 +5375,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 36,
   },
   {
-    id: '#414',
+    id: '#0414',
     sprite: getSpriteUrl(414),
     name: 'Mothim',
     typeOne: 'Bug',
@@ -5388,7 +5388,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 66,
   },
   {
-    id: '#415',
+    id: '#0415',
     sprite: getSpriteUrl(415),
     name: 'Combee',
     typeOne: 'Bug',
@@ -5401,7 +5401,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#416',
+    id: '#0416',
     sprite: getSpriteUrl(416),
     name: 'Vespiquen',
     typeOne: 'Bug',
@@ -5414,7 +5414,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#417',
+    id: '#0417',
     sprite: getSpriteUrl(417),
     name: 'Pachirisu',
     typeOne: 'Electric',
@@ -5427,7 +5427,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#418',
+    id: '#0418',
     sprite: getSpriteUrl(418),
     name: 'Buizel',
     typeOne: 'Water',
@@ -5440,7 +5440,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#419',
+    id: '#0419',
     sprite: getSpriteUrl(419),
     name: 'Floatzel',
     typeOne: 'Water',
@@ -5453,7 +5453,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 115,
   },
   {
-    id: '#420',
+    id: '#0420',
     sprite: getSpriteUrl(420),
     name: 'Cherubi',
     typeOne: 'Grass',
@@ -5466,7 +5466,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#421',
+    id: '#0421',
     sprite: getSpriteUrl(421),
     name: 'Cherrim',
     typeOne: 'Grass',
@@ -5479,7 +5479,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#422',
+    id: '#0422',
     sprite: getSpriteUrl(422),
     name: 'Shellos',
     typeOne: 'Water',
@@ -5492,7 +5492,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 34,
   },
   {
-    id: '#423',
+    id: '#0423',
     sprite: getSpriteUrl(423),
     name: 'Gastrodon',
     typeOne: 'Water',
@@ -5505,7 +5505,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 39,
   },
   {
-    id: '#424',
+    id: '#0424',
     sprite: getSpriteUrl(424),
     name: 'Ambipom',
     typeOne: 'Normal',
@@ -5518,7 +5518,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 115,
   },
   {
-    id: '#425',
+    id: '#0425',
     sprite: getSpriteUrl(425),
     name: 'Drifloon',
     typeOne: 'Ghost',
@@ -5531,7 +5531,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#426',
+    id: '#0426',
     sprite: getSpriteUrl(426),
     name: 'Drifblim',
     typeOne: 'Ghost',
@@ -5544,7 +5544,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#427',
+    id: '#0427',
     sprite: getSpriteUrl(427),
     name: 'Buneary',
     typeOne: 'Normal',
@@ -5557,7 +5557,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#428',
+    id: '#0428',
     sprite: getSpriteUrl(428),
     name: 'Lopunny',
     typeOne: 'Normal',
@@ -5570,7 +5570,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 105,
   },
   {
-    id: '#429',
+    id: '#0429',
     sprite: getSpriteUrl(429),
     name: 'Mismagius',
     typeOne: 'Ghost',
@@ -5583,7 +5583,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 105,
   },
   {
-    id: '#430',
+    id: '#0430',
     sprite: getSpriteUrl(430),
     name: 'Honchkrow',
     typeOne: 'Dark',
@@ -5596,7 +5596,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 71,
   },
   {
-    id: '#431',
+    id: '#0431',
     sprite: getSpriteUrl(431),
     name: 'Glameow',
     typeOne: 'Normal',
@@ -5609,7 +5609,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#432',
+    id: '#0432',
     sprite: getSpriteUrl(432),
     name: 'Purugly',
     typeOne: 'Normal',
@@ -5622,7 +5622,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 112,
   },
   {
-    id: '#433',
+    id: '#0433',
     sprite: getSpriteUrl(433),
     name: 'Chingling',
     typeOne: 'Psychic',
@@ -5635,7 +5635,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#434',
+    id: '#0434',
     sprite: getSpriteUrl(434),
     name: 'Stunky',
     typeOne: 'Poison',
@@ -5648,7 +5648,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 74,
   },
   {
-    id: '#435',
+    id: '#0435',
     sprite: getSpriteUrl(435),
     name: 'Skuntank',
     typeOne: 'Poison',
@@ -5661,7 +5661,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 84,
   },
   {
-    id: '#436',
+    id: '#0436',
     sprite: getSpriteUrl(436),
     name: 'Bronzor',
     typeOne: 'Steel',
@@ -5674,7 +5674,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 23,
   },
   {
-    id: '#437',
+    id: '#0437',
     sprite: getSpriteUrl(437),
     name: 'Bronzong',
     typeOne: 'Steel',
@@ -5687,7 +5687,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 33,
   },
   {
-    id: '#438',
+    id: '#0438',
     sprite: getSpriteUrl(438),
     name: 'Bonsly',
     typeOne: 'Rock',
@@ -5700,7 +5700,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 10,
   },
   {
-    id: '#439',
+    id: '#0439',
     sprite: getSpriteUrl(439),
     name: 'Mime Jr.',
     typeOne: 'Psychic',
@@ -5713,7 +5713,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#440',
+    id: '#0440',
     sprite: getSpriteUrl(440),
     name: 'Happiny',
     typeOne: 'Normal',
@@ -5726,7 +5726,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#441',
+    id: '#0441',
     sprite: getSpriteUrl(441),
     name: 'Chatot',
     typeOne: 'Normal',
@@ -5739,7 +5739,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 91,
   },
   {
-    id: '#442',
+    id: '#0442',
     sprite: getSpriteUrl(442),
     name: 'Spiritomb',
     typeOne: 'Ghost',
@@ -5752,7 +5752,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#443',
+    id: '#0443',
     sprite: getSpriteUrl(443),
     name: 'Gible',
     typeOne: 'Dragon',
@@ -5765,7 +5765,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 42,
   },
   {
-    id: '#444',
+    id: '#0444',
     sprite: getSpriteUrl(444),
     name: 'Gabite',
     typeOne: 'Dragon',
@@ -5778,7 +5778,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 82,
   },
   {
-    id: '#445',
+    id: '#0445',
     sprite: getSpriteUrl(445),
     name: 'Garchomp',
     typeOne: 'Dragon',
@@ -5791,7 +5791,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 102,
   },
   {
-    id: '#446',
+    id: '#0446',
     sprite: getSpriteUrl(446),
     name: 'Munchlax',
     typeOne: 'Normal',
@@ -5804,7 +5804,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 5,
   },
   {
-    id: '#447',
+    id: '#0447',
     sprite: getSpriteUrl(447),
     name: 'Riolu',
     typeOne: 'Fighting',
@@ -5817,7 +5817,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#448',
+    id: '#0448',
     sprite: getSpriteUrl(448),
     name: 'Lucario',
     typeOne: 'Fighting',
@@ -5830,7 +5830,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#449',
+    id: '#0449',
     sprite: getSpriteUrl(449),
     name: 'Hippopotas',
     typeOne: 'Ground',
@@ -5843,7 +5843,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 32,
   },
   {
-    id: '#450',
+    id: '#0450',
     sprite: getSpriteUrl(450),
     name: 'Hippowdon',
     typeOne: 'Ground',
@@ -5856,7 +5856,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 47,
   },
   {
-    id: '#451',
+    id: '#0451',
     sprite: getSpriteUrl(451),
     name: 'Skorupi',
     typeOne: 'Poison',
@@ -5869,7 +5869,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#452',
+    id: '#0452',
     sprite: getSpriteUrl(452),
     name: 'Drapion',
     typeOne: 'Poison',
@@ -5882,7 +5882,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#453',
+    id: '#0453',
     sprite: getSpriteUrl(453),
     name: 'Croagunk',
     typeOne: 'Poison',
@@ -5895,7 +5895,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#454',
+    id: '#0454',
     sprite: getSpriteUrl(454),
     name: 'Toxicroak',
     typeOne: 'Poison',
@@ -5908,7 +5908,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#455',
+    id: '#0455',
     sprite: getSpriteUrl(455),
     name: 'Carnivine',
     typeOne: 'Grass',
@@ -5921,7 +5921,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 46,
   },
   {
-    id: '#456',
+    id: '#0456',
     sprite: getSpriteUrl(456),
     name: 'Finneon',
     typeOne: 'Water',
@@ -5934,7 +5934,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 66,
   },
   {
-    id: '#457',
+    id: '#0457',
     sprite: getSpriteUrl(457),
     name: 'Lumineon',
     typeOne: 'Water',
@@ -5947,7 +5947,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 91,
   },
   {
-    id: '#458',
+    id: '#0458',
     sprite: getSpriteUrl(458),
     name: 'Mantyke',
     typeOne: 'Water',
@@ -5960,7 +5960,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#459',
+    id: '#0459',
     sprite: getSpriteUrl(459),
     name: 'Snover',
     typeOne: 'Grass',
@@ -5973,7 +5973,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#460',
+    id: '#0460',
     sprite: getSpriteUrl(460),
     name: 'Abomasnow',
     typeOne: 'Grass',
@@ -5986,7 +5986,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#461',
+    id: '#0461',
     sprite: getSpriteUrl(461),
     name: 'Weavile',
     typeOne: 'Dark',
@@ -5999,7 +5999,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 125,
   },
   {
-    id: '#462',
+    id: '#0462',
     sprite: getSpriteUrl(462),
     name: 'Magnezone',
     typeOne: 'Electric',
@@ -6012,7 +6012,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#463',
+    id: '#0463',
     sprite: getSpriteUrl(463),
     name: 'Lickilicky',
     typeOne: 'Normal',
@@ -6025,7 +6025,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#464',
+    id: '#0464',
     sprite: getSpriteUrl(464),
     name: 'Rhyperior',
     typeOne: 'Ground',
@@ -6038,7 +6038,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#465',
+    id: '#0465',
     sprite: getSpriteUrl(465),
     name: 'Tangrowth',
     typeOne: 'Grass',
@@ -6051,7 +6051,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#466',
+    id: '#0466',
     sprite: getSpriteUrl(466),
     name: 'Electivire',
     typeOne: 'Electric',
@@ -6064,7 +6064,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#467',
+    id: '#0467',
     sprite: getSpriteUrl(467),
     name: 'Magmortar',
     typeOne: 'Fire',
@@ -6077,7 +6077,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 83,
   },
   {
-    id: '#468',
+    id: '#0468',
     sprite: getSpriteUrl(468),
     name: 'Togekiss',
     typeOne: 'Fairy',
@@ -6090,7 +6090,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#469',
+    id: '#0469',
     sprite: getSpriteUrl(469),
     name: 'Yanmega',
     typeOne: 'Bug',
@@ -6103,7 +6103,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#470',
+    id: '#0470',
     sprite: getSpriteUrl(470),
     name: 'Leafeon',
     typeOne: 'Grass',
@@ -6116,7 +6116,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#471',
+    id: '#0471',
     sprite: getSpriteUrl(471),
     name: 'Glaceon',
     typeOne: 'Ice',
@@ -6129,7 +6129,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#472',
+    id: '#0472',
     sprite: getSpriteUrl(472),
     name: 'Gliscor',
     typeOne: 'Ground',
@@ -6142,7 +6142,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#473',
+    id: '#0473',
     sprite: getSpriteUrl(473),
     name: 'Mamoswine',
     typeOne: 'Ice',
@@ -6155,7 +6155,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#474',
+    id: '#0474',
     sprite: getSpriteUrl(474),
     name: 'Porygon-Z',
     typeOne: 'Normal',
@@ -6168,7 +6168,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#475',
+    id: '#0475',
     sprite: getSpriteUrl(475),
     name: 'Gallade',
     typeOne: 'Psychic',
@@ -6181,7 +6181,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#476',
+    id: '#0476',
     sprite: getSpriteUrl(476),
     name: 'Probopass',
     typeOne: 'Rock',
@@ -6194,7 +6194,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#477',
+    id: '#0477',
     sprite: getSpriteUrl(477),
     name: 'Dusknoir',
     typeOne: 'Ghost',
@@ -6207,7 +6207,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#478',
+    id: '#0478',
     sprite: getSpriteUrl(478),
     name: 'Froslass',
     typeOne: 'Ice',
@@ -6220,7 +6220,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 110,
   },
   {
-    id: '#479',
+    id: '#0479',
     sprite: getSpriteUrl(479),
     name: 'Rotom',
     typeOne: 'Electric',
@@ -6233,7 +6233,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 91,
   },
   {
-    id: '#480',
+    id: '#0480',
     sprite: getSpriteUrl(480),
     name: 'Uxie',
     typeOne: 'Psychic',
@@ -6246,7 +6246,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#481',
+    id: '#0481',
     sprite: getSpriteUrl(481),
     name: 'Mesprit',
     typeOne: 'Psychic',
@@ -6259,7 +6259,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#482',
+    id: '#0482',
     sprite: getSpriteUrl(482),
     name: 'Azelf',
     typeOne: 'Psychic',
@@ -6272,7 +6272,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 115,
   },
   {
-    id: '#483',
+    id: '#0483',
     sprite: getSpriteUrl(483),
     name: 'Dialga',
     typeOne: 'Steel',
@@ -6285,7 +6285,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#484',
+    id: '#0484',
     sprite: getSpriteUrl(484),
     name: 'Palkia',
     typeOne: 'Water',
@@ -6298,7 +6298,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 100,
   },
   {
-    id: '#485',
+    id: '#0485',
     sprite: getSpriteUrl(485),
     name: 'Heatran',
     typeOne: 'Fire',
@@ -6311,7 +6311,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 77,
   },
   {
-    id: '#486',
+    id: '#0486',
     sprite: getSpriteUrl(486),
     name: 'Regigigas',
     typeOne: 'Normal',
@@ -6324,7 +6324,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 100,
   },
   {
-    id: '#487',
+    id: '#0487',
     sprite: getSpriteUrl(487),
     name: 'Giratina',
     typeOne: 'Ghost',
@@ -6337,7 +6337,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#488',
+    id: '#0488',
     sprite: getSpriteUrl(488),
     name: 'Cresselia',
     typeOne: 'Psychic',
@@ -6350,7 +6350,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#489',
+    id: '#0489',
     sprite: getSpriteUrl(489),
     name: 'Phione',
     typeOne: 'Water',
@@ -6363,7 +6363,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#490',
+    id: '#0490',
     sprite: getSpriteUrl(490),
     name: 'Manaphy',
     typeOne: 'Water',
@@ -6376,7 +6376,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 100,
   },
   {
-    id: '#491',
+    id: '#0491',
     sprite: getSpriteUrl(491),
     name: 'Darkrai',
     typeOne: 'Dark',
@@ -6389,7 +6389,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 125,
   },
   {
-    id: '#492',
+    id: '#0492',
     sprite: getSpriteUrl(492),
     name: 'Shaymin',
     typeOne: 'Grass',
@@ -6402,7 +6402,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 100,
   },
   {
-    id: '#493',
+    id: '#0493',
     sprite: getSpriteUrl(493),
     name: 'Arceus',
     typeOne: 'Normal',
@@ -6415,7 +6415,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 120,
   },
   {
-    id: '#494',
+    id: '#0494',
     sprite: getSpriteUrl(494),
     name: 'Victini',
     typeOne: 'Psychic',
@@ -6428,7 +6428,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 100,
   },
   {
-    id: '#495',
+    id: '#0495',
     sprite: getSpriteUrl(495),
     name: 'Snivy',
     typeOne: 'Grass',
@@ -6441,7 +6441,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 63,
   },
   {
-    id: '#496',
+    id: '#0496',
     sprite: getSpriteUrl(496),
     name: 'Servine',
     typeOne: 'Grass',
@@ -6454,7 +6454,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 83,
   },
   {
-    id: '#497',
+    id: '#0497',
     sprite: getSpriteUrl(497),
     name: 'Serperior',
     typeOne: 'Grass',
@@ -6467,7 +6467,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 113,
   },
   {
-    id: '#498',
+    id: '#0498',
     sprite: getSpriteUrl(498),
     name: 'Tepig',
     typeOne: 'Fire',
@@ -6480,7 +6480,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#499',
+    id: '#0499',
     sprite: getSpriteUrl(499),
     name: 'Pignite',
     typeOne: 'Fire',
@@ -6493,7 +6493,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#500',
+    id: '#0500',
     sprite: getSpriteUrl(500),
     name: 'Emboar',
     typeOne: 'Fire',
@@ -6506,7 +6506,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#501',
+    id: '#0501',
     sprite: getSpriteUrl(501),
     name: 'Oshawott',
     typeOne: 'Water',
@@ -6519,7 +6519,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#502',
+    id: '#0502',
     sprite: getSpriteUrl(502),
     name: 'Dewott',
     typeOne: 'Water',
@@ -6532,7 +6532,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#503',
+    id: '#0503',
     sprite: getSpriteUrl(503),
     name: 'Samurott',
     typeOne: 'Water',
@@ -6545,7 +6545,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#504',
+    id: '#0504',
     sprite: getSpriteUrl(504),
     name: 'Patrat',
     typeOne: 'Normal',
@@ -6558,7 +6558,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 42,
   },
   {
-    id: '#505',
+    id: '#0505',
     sprite: getSpriteUrl(505),
     name: 'Watchog',
     typeOne: 'Normal',
@@ -6571,7 +6571,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 77,
   },
   {
-    id: '#506',
+    id: '#0506',
     sprite: getSpriteUrl(506),
     name: 'Lillipup',
     typeOne: 'Normal',
@@ -6584,7 +6584,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#507',
+    id: '#0507',
     sprite: getSpriteUrl(507),
     name: 'Herdier',
     typeOne: 'Normal',
@@ -6597,7 +6597,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#508',
+    id: '#0508',
     sprite: getSpriteUrl(508),
     name: 'Stoutland',
     typeOne: 'Normal',
@@ -6610,7 +6610,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#509',
+    id: '#0509',
     sprite: getSpriteUrl(509),
     name: 'Purrloin',
     typeOne: 'Dark',
@@ -6623,7 +6623,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 66,
   },
   {
-    id: '#510',
+    id: '#0510',
     sprite: getSpriteUrl(510),
     name: 'Liepard',
     typeOne: 'Dark',
@@ -6636,7 +6636,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 106,
   },
   {
-    id: '#511',
+    id: '#0511',
     sprite: getSpriteUrl(511),
     name: 'Pansage',
     typeOne: 'Grass',
@@ -6649,7 +6649,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 64,
   },
   {
-    id: '#512',
+    id: '#0512',
     sprite: getSpriteUrl(512),
     name: 'Simisage',
     typeOne: 'Grass',
@@ -6662,7 +6662,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 101,
   },
   {
-    id: '#513',
+    id: '#0513',
     sprite: getSpriteUrl(513),
     name: 'Pansear',
     typeOne: 'Fire',
@@ -6675,7 +6675,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 64,
   },
   {
-    id: '#514',
+    id: '#0514',
     sprite: getSpriteUrl(514),
     name: 'Simisear',
     typeOne: 'Fire',
@@ -6688,7 +6688,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 101,
   },
   {
-    id: '#515',
+    id: '#0515',
     sprite: getSpriteUrl(515),
     name: 'Panpour',
     typeOne: 'Water',
@@ -6701,7 +6701,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 64,
   },
   {
-    id: '#516',
+    id: '#0516',
     sprite: getSpriteUrl(516),
     name: 'Simipour',
     typeOne: 'Water',
@@ -6714,7 +6714,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 101,
   },
   {
-    id: '#517',
+    id: '#0517',
     sprite: getSpriteUrl(517),
     name: 'Munna',
     typeOne: 'Psychic',
@@ -6727,7 +6727,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 24,
   },
   {
-    id: '#518',
+    id: '#0518',
     sprite: getSpriteUrl(518),
     name: 'Musharna',
     typeOne: 'Psychic',
@@ -6740,7 +6740,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 29,
   },
   {
-    id: '#519',
+    id: '#0519',
     sprite: getSpriteUrl(519),
     name: 'Pidove',
     typeOne: 'Normal',
@@ -6753,7 +6753,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 43,
   },
   {
-    id: '#520',
+    id: '#0520',
     sprite: getSpriteUrl(520),
     name: 'Tranquill',
     typeOne: 'Normal',
@@ -6766,7 +6766,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#521',
+    id: '#0521',
     sprite: getSpriteUrl(521),
     name: 'Unfezant',
     typeOne: 'Normal',
@@ -6779,7 +6779,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 93,
   },
   {
-    id: '#522',
+    id: '#0522',
     sprite: getSpriteUrl(522),
     name: 'Blitzle',
     typeOne: 'Electric',
@@ -6792,7 +6792,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 76,
   },
   {
-    id: '#523',
+    id: '#0523',
     sprite: getSpriteUrl(523),
     name: 'Zebstrika',
     typeOne: 'Electric',
@@ -6805,7 +6805,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 116,
   },
   {
-    id: '#524',
+    id: '#0524',
     sprite: getSpriteUrl(524),
     name: 'Roggenrola',
     typeOne: 'Rock',
@@ -6818,7 +6818,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 15,
   },
   {
-    id: '#525',
+    id: '#0525',
     sprite: getSpriteUrl(525),
     name: 'Boldore',
     typeOne: 'Rock',
@@ -6831,7 +6831,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 20,
   },
   {
-    id: '#526',
+    id: '#0526',
     sprite: getSpriteUrl(526),
     name: 'Gigalith',
     typeOne: 'Rock',
@@ -6844,7 +6844,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 25,
   },
   {
-    id: '#527',
+    id: '#0527',
     sprite: getSpriteUrl(527),
     name: 'Woobat',
     typeOne: 'Psychic',
@@ -6857,7 +6857,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 72,
   },
   {
-    id: '#528',
+    id: '#0528',
     sprite: getSpriteUrl(528),
     name: 'Swoobat',
     typeOne: 'Psychic',
@@ -6870,7 +6870,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 114,
   },
   {
-    id: '#529',
+    id: '#0529',
     sprite: getSpriteUrl(529),
     name: 'Drilbur',
     typeOne: 'Ground',
@@ -6883,7 +6883,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 68,
   },
   {
-    id: '#530',
+    id: '#0530',
     sprite: getSpriteUrl(530),
     name: 'Excadrill',
     typeOne: 'Ground',
@@ -6896,7 +6896,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 88,
   },
   {
-    id: '#531',
+    id: '#0531',
     sprite: getSpriteUrl(531),
     name: 'Audino',
     typeOne: 'Normal',
@@ -6909,7 +6909,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#532',
+    id: '#0532',
     sprite: getSpriteUrl(532),
     name: 'Timburr',
     typeOne: 'Fighting',
@@ -6922,7 +6922,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#533',
+    id: '#0533',
     sprite: getSpriteUrl(533),
     name: 'Gurdurr',
     typeOne: 'Fighting',
@@ -6935,7 +6935,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#534',
+    id: '#0534',
     sprite: getSpriteUrl(534),
     name: 'Conkeldurr',
     typeOne: 'Fighting',
@@ -6948,7 +6948,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#535',
+    id: '#0535',
     sprite: getSpriteUrl(535),
     name: 'Tympole',
     typeOne: 'Water',
@@ -6961,7 +6961,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 64,
   },
   {
-    id: '#536',
+    id: '#0536',
     sprite: getSpriteUrl(536),
     name: 'Palpitoad',
     typeOne: 'Water',
@@ -6974,7 +6974,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 69,
   },
   {
-    id: '#537',
+    id: '#0537',
     sprite: getSpriteUrl(537),
     name: 'Seismitoad',
     typeOne: 'Water',
@@ -6987,7 +6987,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 74,
   },
   {
-    id: '#538',
+    id: '#0538',
     sprite: getSpriteUrl(538),
     name: 'Throh',
     typeOne: 'Fighting',
@@ -7000,7 +7000,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#539',
+    id: '#0539',
     sprite: getSpriteUrl(539),
     name: 'Sawk',
     typeOne: 'Fighting',
@@ -7013,7 +7013,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#540',
+    id: '#0540',
     sprite: getSpriteUrl(540),
     name: 'Sewaddle',
     typeOne: 'Bug',
@@ -7026,7 +7026,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 42,
   },
   {
-    id: '#541',
+    id: '#0541',
     sprite: getSpriteUrl(541),
     name: 'Swadloon',
     typeOne: 'Bug',
@@ -7039,7 +7039,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 42,
   },
   {
-    id: '#542',
+    id: '#0542',
     sprite: getSpriteUrl(542),
     name: 'Leavanny',
     typeOne: 'Bug',
@@ -7052,7 +7052,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 92,
   },
   {
-    id: '#543',
+    id: '#0543',
     sprite: getSpriteUrl(543),
     name: 'Venipede',
     typeOne: 'Bug',
@@ -7065,7 +7065,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 57,
   },
   {
-    id: '#544',
+    id: '#0544',
     sprite: getSpriteUrl(544),
     name: 'Whirlipede',
     typeOne: 'Bug',
@@ -7078,7 +7078,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 47,
   },
   {
-    id: '#545',
+    id: '#0545',
     sprite: getSpriteUrl(545),
     name: 'Scolipede',
     typeOne: 'Bug',
@@ -7091,7 +7091,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 112,
   },
   {
-    id: '#546',
+    id: '#0546',
     sprite: getSpriteUrl(546),
     name: 'Cottonee',
     typeOne: 'Grass',
@@ -7104,7 +7104,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 66,
   },
   {
-    id: '#547',
+    id: '#0547',
     sprite: getSpriteUrl(547),
     name: 'Whimsicott',
     typeOne: 'Grass',
@@ -7117,7 +7117,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 116,
   },
   {
-    id: '#548',
+    id: '#0548',
     sprite: getSpriteUrl(548),
     name: 'Petilil',
     typeOne: 'Grass',
@@ -7130,7 +7130,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#549',
+    id: '#0549',
     sprite: getSpriteUrl(549),
     name: 'Lilligant',
     typeOne: 'Grass',
@@ -7143,7 +7143,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#550',
+    id: '#0550',
     sprite: getSpriteUrl(550),
     name: 'Basculin',
     typeOne: 'Water',
@@ -7156,7 +7156,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 98,
   },
   {
-    id: '#551',
+    id: '#0551',
     sprite: getSpriteUrl(551),
     name: 'Sandile',
     typeOne: 'Ground',
@@ -7169,7 +7169,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#552',
+    id: '#0552',
     sprite: getSpriteUrl(552),
     name: 'Krokorok',
     typeOne: 'Ground',
@@ -7182,7 +7182,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 74,
   },
   {
-    id: '#553',
+    id: '#0553',
     sprite: getSpriteUrl(553),
     name: 'Krookodile',
     typeOne: 'Ground',
@@ -7195,7 +7195,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 92,
   },
   {
-    id: '#554',
+    id: '#0554',
     sprite: getSpriteUrl(554),
     name: 'Darumaka',
     typeOne: 'Fire',
@@ -7208,7 +7208,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#555',
+    id: '#0555',
     sprite: getSpriteUrl(555),
     name: 'Darmanitan',
     typeOne: 'Fire',
@@ -7221,7 +7221,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#556',
+    id: '#0556',
     sprite: getSpriteUrl(556),
     name: 'Maractus',
     typeOne: 'Grass',
@@ -7234,7 +7234,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#557',
+    id: '#0557',
     sprite: getSpriteUrl(557),
     name: 'Dwebble',
     typeOne: 'Bug',
@@ -7247,7 +7247,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#558',
+    id: '#0558',
     sprite: getSpriteUrl(558),
     name: 'Crustle',
     typeOne: 'Bug',
@@ -7260,7 +7260,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#559',
+    id: '#0559',
     sprite: getSpriteUrl(559),
     name: 'Scraggy',
     typeOne: 'Dark',
@@ -7273,7 +7273,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 48,
   },
   {
-    id: '#560',
+    id: '#0560',
     sprite: getSpriteUrl(560),
     name: 'Scrafty',
     typeOne: 'Dark',
@@ -7286,7 +7286,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 58,
   },
   {
-    id: '#561',
+    id: '#0561',
     sprite: getSpriteUrl(561),
     name: 'Sigilyph',
     typeOne: 'Psychic',
@@ -7299,7 +7299,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 97,
   },
   {
-    id: '#562',
+    id: '#0562',
     sprite: getSpriteUrl(562),
     name: 'Yamask',
     typeOne: 'Ghost',
@@ -7312,7 +7312,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#563',
+    id: '#0563',
     sprite: getSpriteUrl(563),
     name: 'Cofagrigus',
     typeOne: 'Ghost',
@@ -7325,7 +7325,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#564',
+    id: '#0564',
     sprite: getSpriteUrl(564),
     name: 'Tirtouga',
     typeOne: 'Water',
@@ -7338,7 +7338,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 22,
   },
   {
-    id: '#565',
+    id: '#0565',
     sprite: getSpriteUrl(565),
     name: 'Carracosta',
     typeOne: 'Water',
@@ -7351,7 +7351,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 32,
   },
   {
-    id: '#566',
+    id: '#0566',
     sprite: getSpriteUrl(566),
     name: 'Archen',
     typeOne: 'Rock',
@@ -7364,7 +7364,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#567',
+    id: '#0567',
     sprite: getSpriteUrl(567),
     name: 'Archeops',
     typeOne: 'Rock',
@@ -7377,7 +7377,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 110,
   },
   {
-    id: '#568',
+    id: '#0568',
     sprite: getSpriteUrl(568),
     name: 'Trubbish',
     typeOne: 'Poison',
@@ -7390,7 +7390,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#569',
+    id: '#0569',
     sprite: getSpriteUrl(569),
     name: 'Garbodor',
     typeOne: 'Poison',
@@ -7403,7 +7403,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 75,
   },
   {
-    id: '#570',
+    id: '#0570',
     sprite: getSpriteUrl(570),
     name: 'Zorua',
     typeOne: 'Dark',
@@ -7416,7 +7416,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#571',
+    id: '#0571',
     sprite: getSpriteUrl(571),
     name: 'Zoroark',
     typeOne: 'Dark',
@@ -7429,7 +7429,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 105,
   },
   {
-    id: '#572',
+    id: '#0572',
     sprite: getSpriteUrl(572),
     name: 'Minccino',
     typeOne: 'Normal',
@@ -7442,7 +7442,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 75,
   },
   {
-    id: '#573',
+    id: '#0573',
     sprite: getSpriteUrl(573),
     name: 'Cinccino',
     typeOne: 'Normal',
@@ -7455,7 +7455,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 115,
   },
   {
-    id: '#574',
+    id: '#0574',
     sprite: getSpriteUrl(574),
     name: 'Gothita',
     typeOne: 'Psychic',
@@ -7468,7 +7468,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#575',
+    id: '#0575',
     sprite: getSpriteUrl(575),
     name: 'Gothorita',
     typeOne: 'Psychic',
@@ -7481,7 +7481,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#576',
+    id: '#0576',
     sprite: getSpriteUrl(576),
     name: 'Gothitelle',
     typeOne: 'Psychic',
@@ -7494,7 +7494,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#577',
+    id: '#0577',
     sprite: getSpriteUrl(577),
     name: 'Solosis',
     typeOne: 'Psychic',
@@ -7507,7 +7507,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 20,
   },
   {
-    id: '#578',
+    id: '#0578',
     sprite: getSpriteUrl(578),
     name: 'Duosion',
     typeOne: 'Psychic',
@@ -7520,7 +7520,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#579',
+    id: '#0579',
     sprite: getSpriteUrl(579),
     name: 'Reuniclus',
     typeOne: 'Psychic',
@@ -7533,7 +7533,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#580',
+    id: '#0580',
     sprite: getSpriteUrl(580),
     name: 'Ducklett',
     typeOne: 'Water',
@@ -7546,7 +7546,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#581',
+    id: '#0581',
     sprite: getSpriteUrl(581),
     name: 'Swanna',
     typeOne: 'Water',
@@ -7559,7 +7559,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 98,
   },
   {
-    id: '#582',
+    id: '#0582',
     sprite: getSpriteUrl(582),
     name: 'Vanillite',
     typeOne: 'Ice',
@@ -7572,7 +7572,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 44,
   },
   {
-    id: '#583',
+    id: '#0583',
     sprite: getSpriteUrl(583),
     name: 'Vanillish',
     typeOne: 'Ice',
@@ -7585,7 +7585,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 59,
   },
   {
-    id: '#584',
+    id: '#0584',
     sprite: getSpriteUrl(584),
     name: 'Vanilluxe',
     typeOne: 'Ice',
@@ -7598,7 +7598,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 79,
   },
   {
-    id: '#585',
+    id: '#0585',
     sprite: getSpriteUrl(585),
     name: 'Deerling',
     typeOne: 'Normal',
@@ -7611,7 +7611,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 75,
   },
   {
-    id: '#586',
+    id: '#0586',
     sprite: getSpriteUrl(586),
     name: 'Sawsbuck',
     typeOne: 'Normal',
@@ -7624,7 +7624,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#587',
+    id: '#0587',
     sprite: getSpriteUrl(587),
     name: 'Emolga',
     typeOne: 'Electric',
@@ -7637,7 +7637,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 103,
   },
   {
-    id: '#588',
+    id: '#0588',
     sprite: getSpriteUrl(588),
     name: 'Karrablast',
     typeOne: 'Bug',
@@ -7650,7 +7650,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#589',
+    id: '#0589',
     sprite: getSpriteUrl(589),
     name: 'Escavalier',
     typeOne: 'Bug',
@@ -7663,7 +7663,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 20,
   },
   {
-    id: '#590',
+    id: '#0590',
     sprite: getSpriteUrl(590),
     name: 'Foongus',
     typeOne: 'Grass',
@@ -7676,7 +7676,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 15,
   },
   {
-    id: '#591',
+    id: '#0591',
     sprite: getSpriteUrl(591),
     name: 'Amoonguss',
     typeOne: 'Grass',
@@ -7689,7 +7689,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#592',
+    id: '#0592',
     sprite: getSpriteUrl(592),
     name: 'Frillish',
     typeOne: 'Water',
@@ -7702,7 +7702,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#593',
+    id: '#0593',
     sprite: getSpriteUrl(593),
     name: 'Jellicent',
     typeOne: 'Water',
@@ -7715,7 +7715,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#594',
+    id: '#0594',
     sprite: getSpriteUrl(594),
     name: 'Alomomola',
     typeOne: 'Water',
@@ -7728,7 +7728,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#595',
+    id: '#0595',
     sprite: getSpriteUrl(595),
     name: 'Joltik',
     typeOne: 'Bug',
@@ -7741,7 +7741,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#596',
+    id: '#0596',
     sprite: getSpriteUrl(596),
     name: 'Galvantula',
     typeOne: 'Bug',
@@ -7754,7 +7754,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 108,
   },
   {
-    id: '#597',
+    id: '#0597',
     sprite: getSpriteUrl(597),
     name: 'Ferroseed',
     typeOne: 'Grass',
@@ -7767,7 +7767,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 10,
   },
   {
-    id: '#598',
+    id: '#0598',
     sprite: getSpriteUrl(598),
     name: 'Ferrothorn',
     typeOne: 'Grass',
@@ -7780,7 +7780,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 20,
   },
   {
-    id: '#599',
+    id: '#0599',
     sprite: getSpriteUrl(599),
     name: 'Klink',
     typeOne: 'Steel',
@@ -7793,7 +7793,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#600',
+    id: '#0600',
     sprite: getSpriteUrl(600),
     name: 'Klang',
     typeOne: 'Steel',
@@ -7806,7 +7806,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#601',
+    id: '#0601',
     sprite: getSpriteUrl(601),
     name: 'Klinklang',
     typeOne: 'Steel',
@@ -7819,7 +7819,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#602',
+    id: '#0602',
     sprite: getSpriteUrl(602),
     name: 'Tynamo',
     typeOne: 'Electric',
@@ -7832,7 +7832,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#603',
+    id: '#0603',
     sprite: getSpriteUrl(603),
     name: 'Eelektrik',
     typeOne: 'Electric',
@@ -7845,7 +7845,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#604',
+    id: '#0604',
     sprite: getSpriteUrl(604),
     name: 'Eelektross',
     typeOne: 'Electric',
@@ -7858,7 +7858,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#605',
+    id: '#0605',
     sprite: getSpriteUrl(605),
     name: 'Elgyem',
     typeOne: 'Psychic',
@@ -7871,7 +7871,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#606',
+    id: '#0606',
     sprite: getSpriteUrl(606),
     name: 'Beheeyem',
     typeOne: 'Psychic',
@@ -7884,7 +7884,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#607',
+    id: '#0607',
     sprite: getSpriteUrl(607),
     name: 'Litwick',
     typeOne: 'Ghost',
@@ -7897,7 +7897,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 20,
   },
   {
-    id: '#608',
+    id: '#0608',
     sprite: getSpriteUrl(608),
     name: 'Lampent',
     typeOne: 'Ghost',
@@ -7910,7 +7910,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#609',
+    id: '#0609',
     sprite: getSpriteUrl(609),
     name: 'Chandelure',
     typeOne: 'Ghost',
@@ -7923,7 +7923,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#610',
+    id: '#0610',
     sprite: getSpriteUrl(610),
     name: 'Axew',
     typeOne: 'Dragon',
@@ -7936,7 +7936,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 57,
   },
   {
-    id: '#611',
+    id: '#0611',
     sprite: getSpriteUrl(611),
     name: 'Fraxure',
     typeOne: 'Dragon',
@@ -7949,7 +7949,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 67,
   },
   {
-    id: '#612',
+    id: '#0612',
     sprite: getSpriteUrl(612),
     name: 'Haxorus',
     typeOne: 'Dragon',
@@ -7962,7 +7962,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 97,
   },
   {
-    id: '#613',
+    id: '#0613',
     sprite: getSpriteUrl(613),
     name: 'Cubchoo',
     typeOne: 'Ice',
@@ -7975,7 +7975,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#614',
+    id: '#0614',
     sprite: getSpriteUrl(614),
     name: 'Beartic',
     typeOne: 'Ice',
@@ -7988,7 +7988,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#615',
+    id: '#0615',
     sprite: getSpriteUrl(615),
     name: 'Cryogonal',
     typeOne: 'Ice',
@@ -8001,7 +8001,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 105,
   },
   {
-    id: '#616',
+    id: '#0616',
     sprite: getSpriteUrl(616),
     name: 'Shelmet',
     typeOne: 'Bug',
@@ -8014,7 +8014,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 25,
   },
   {
-    id: '#617',
+    id: '#0617',
     sprite: getSpriteUrl(617),
     name: 'Accelgor',
     typeOne: 'Bug',
@@ -8027,7 +8027,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 145,
   },
   {
-    id: '#618',
+    id: '#0618',
     sprite: getSpriteUrl(618),
     name: 'Stunfisk',
     typeOne: 'Ground',
@@ -8040,7 +8040,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 32,
   },
   {
-    id: '#619',
+    id: '#0619',
     sprite: getSpriteUrl(619),
     name: 'Mienfoo',
     typeOne: 'Fighting',
@@ -8053,7 +8053,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#620',
+    id: '#0620',
     sprite: getSpriteUrl(620),
     name: 'Mienshao',
     typeOne: 'Fighting',
@@ -8066,7 +8066,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 105,
   },
   {
-    id: '#621',
+    id: '#0621',
     sprite: getSpriteUrl(621),
     name: 'Druddigon',
     typeOne: 'Dragon',
@@ -8079,7 +8079,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 48,
   },
   {
-    id: '#622',
+    id: '#0622',
     sprite: getSpriteUrl(622),
     name: 'Golett',
     typeOne: 'Ground',
@@ -8092,7 +8092,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#623',
+    id: '#0623',
     sprite: getSpriteUrl(623),
     name: 'Golurk',
     typeOne: 'Ground',
@@ -8105,7 +8105,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#624',
+    id: '#0624',
     sprite: getSpriteUrl(624),
     name: 'Pawniard',
     typeOne: 'Dark',
@@ -8118,7 +8118,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#625',
+    id: '#0625',
     sprite: getSpriteUrl(625),
     name: 'Bisharp',
     typeOne: 'Dark',
@@ -8131,7 +8131,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#626',
+    id: '#0626',
     sprite: getSpriteUrl(626),
     name: 'Bouffalant',
     typeOne: 'Normal',
@@ -8144,7 +8144,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#627',
+    id: '#0627',
     sprite: getSpriteUrl(627),
     name: 'Rufflet',
     typeOne: 'Normal',
@@ -8157,7 +8157,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#628',
+    id: '#0628',
     sprite: getSpriteUrl(628),
     name: 'Braviary',
     typeOne: 'Normal',
@@ -8170,7 +8170,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#629',
+    id: '#0629',
     sprite: getSpriteUrl(629),
     name: 'Vullaby',
     typeOne: 'Dark',
@@ -8183,7 +8183,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#630',
+    id: '#0630',
     sprite: getSpriteUrl(630),
     name: 'Mandibuzz',
     typeOne: 'Dark',
@@ -8196,7 +8196,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#631',
+    id: '#0631',
     sprite: getSpriteUrl(631),
     name: 'Heatmor',
     typeOne: 'Fire',
@@ -8209,7 +8209,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#632',
+    id: '#0632',
     sprite: getSpriteUrl(632),
     name: 'Durant',
     typeOne: 'Bug',
@@ -8222,7 +8222,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 109,
   },
   {
-    id: '#633',
+    id: '#0633',
     sprite: getSpriteUrl(633),
     name: 'Deino',
     typeOne: 'Dark',
@@ -8235,7 +8235,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 38,
   },
   {
-    id: '#634',
+    id: '#0634',
     sprite: getSpriteUrl(634),
     name: 'Zweilous',
     typeOne: 'Dark',
@@ -8248,7 +8248,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 58,
   },
   {
-    id: '#635',
+    id: '#0635',
     sprite: getSpriteUrl(635),
     name: 'Hydreigon',
     typeOne: 'Dark',
@@ -8261,7 +8261,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 98,
   },
   {
-    id: '#636',
+    id: '#0636',
     sprite: getSpriteUrl(636),
     name: 'Larvesta',
     typeOne: 'Bug',
@@ -8274,7 +8274,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#637',
+    id: '#0637',
     sprite: getSpriteUrl(637),
     name: 'Volcarona',
     typeOne: 'Bug',
@@ -8287,7 +8287,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 100,
   },
   {
-    id: '#638',
+    id: '#0638',
     sprite: getSpriteUrl(638),
     name: 'Cobalion',
     typeOne: 'Steel',
@@ -8300,7 +8300,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 108,
   },
   {
-    id: '#639',
+    id: '#0639',
     sprite: getSpriteUrl(639),
     name: 'Terrakion',
     typeOne: 'Rock',
@@ -8313,7 +8313,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 108,
   },
   {
-    id: '#640',
+    id: '#0640',
     sprite: getSpriteUrl(640),
     name: 'Virizion',
     typeOne: 'Grass',
@@ -8326,7 +8326,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 108,
   },
   {
-    id: '#641',
+    id: '#0641',
     sprite: getSpriteUrl(641),
     name: 'Tornadus',
     typeOne: 'Flying',
@@ -8339,7 +8339,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 111,
   },
   {
-    id: '#642',
+    id: '#0642',
     sprite: getSpriteUrl(642),
     name: 'Thundurus',
     typeOne: 'Electric',
@@ -8352,7 +8352,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 111,
   },
   {
-    id: '#643',
+    id: '#0643',
     sprite: getSpriteUrl(643),
     name: 'Reshiram',
     typeOne: 'Dragon',
@@ -8365,7 +8365,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#644',
+    id: '#0644',
     sprite: getSpriteUrl(644),
     name: 'Zekrom',
     typeOne: 'Dragon',
@@ -8378,7 +8378,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#645',
+    id: '#0645',
     sprite: getSpriteUrl(645),
     name: 'Landorus',
     typeOne: 'Ground',
@@ -8391,7 +8391,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 101,
   },
   {
-    id: '#646',
+    id: '#0646',
     sprite: getSpriteUrl(646),
     name: 'Kyurem',
     typeOne: 'Dragon',
@@ -8404,7 +8404,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#647',
+    id: '#0647',
     sprite: getSpriteUrl(647),
     name: 'Keldeo',
     typeOne: 'Water',
@@ -8417,7 +8417,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 108,
   },
   {
-    id: '#648',
+    id: '#0648',
     sprite: getSpriteUrl(648),
     name: 'Meloetta',
     typeOne: 'Normal',
@@ -8430,7 +8430,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#649',
+    id: '#0649',
     sprite: getSpriteUrl(649),
     name: 'Genesect',
     typeOne: 'Bug',
@@ -8443,7 +8443,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 99,
   },
   {
-    id: '#650',
+    id: '#0650',
     sprite: getSpriteUrl(650),
     name: 'Chespin',
     typeOne: 'Grass',
@@ -8456,7 +8456,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 38,
   },
   {
-    id: '#651',
+    id: '#0651',
     sprite: getSpriteUrl(651),
     name: 'Quilladin',
     typeOne: 'Grass',
@@ -8469,7 +8469,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 57,
   },
   {
-    id: '#652',
+    id: '#0652',
     sprite: getSpriteUrl(652),
     name: 'Chesnaught',
     typeOne: 'Grass',
@@ -8482,7 +8482,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 64,
   },
   {
-    id: '#653',
+    id: '#0653',
     sprite: getSpriteUrl(653),
     name: 'Fennekin',
     typeOne: 'Fire',
@@ -8495,7 +8495,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#654',
+    id: '#0654',
     sprite: getSpriteUrl(654),
     name: 'Braixen',
     typeOne: 'Fire',
@@ -8508,7 +8508,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 73,
   },
   {
-    id: '#655',
+    id: '#0655',
     sprite: getSpriteUrl(655),
     name: 'Delphox',
     typeOne: 'Fire',
@@ -8521,7 +8521,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 104,
   },
   {
-    id: '#656',
+    id: '#0656',
     sprite: getSpriteUrl(656),
     name: 'Froakie',
     typeOne: 'Water',
@@ -8534,7 +8534,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 71,
   },
   {
-    id: '#657',
+    id: '#0657',
     sprite: getSpriteUrl(657),
     name: 'Frogadier',
     typeOne: 'Water',
@@ -8547,7 +8547,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 97,
   },
   {
-    id: '#658',
+    id: '#0658',
     sprite: getSpriteUrl(658),
     name: 'Greninja',
     typeOne: 'Water',
@@ -8560,7 +8560,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 122,
   },
   {
-    id: '#659',
+    id: '#0659',
     sprite: getSpriteUrl(659),
     name: 'Bunnelby',
     typeOne: 'Normal',
@@ -8573,7 +8573,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 57,
   },
   {
-    id: '#660',
+    id: '#0660',
     sprite: getSpriteUrl(660),
     name: 'Diggersby',
     typeOne: 'Normal',
@@ -8586,7 +8586,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 78,
   },
   {
-    id: '#661',
+    id: '#0661',
     sprite: getSpriteUrl(661),
     name: 'Fletchling',
     typeOne: 'Normal',
@@ -8599,7 +8599,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 62,
   },
   {
-    id: '#662',
+    id: '#0662',
     sprite: getSpriteUrl(662),
     name: 'Fletchinder',
     typeOne: 'Fire',
@@ -8612,7 +8612,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 84,
   },
   {
-    id: '#663',
+    id: '#0663',
     sprite: getSpriteUrl(663),
     name: 'Talonflame',
     typeOne: 'Fire',
@@ -8625,7 +8625,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 126,
   },
   {
-    id: '#664',
+    id: '#0664',
     sprite: getSpriteUrl(664),
     name: 'Scatterbug',
     typeOne: 'Bug',
@@ -8638,7 +8638,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#665',
+    id: '#0665',
     sprite: getSpriteUrl(665),
     name: 'Spewpa',
     typeOne: 'Bug',
@@ -8651,7 +8651,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 29,
   },
   {
-    id: '#666',
+    id: '#0666',
     sprite: getSpriteUrl(666),
     name: 'Vivillon',
     typeOne: 'Bug',
@@ -8664,7 +8664,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 89,
   },
   {
-    id: '#667',
+    id: '#0667',
     sprite: getSpriteUrl(667),
     name: 'Litleo',
     typeOne: 'Fire',
@@ -8677,7 +8677,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 72,
   },
   {
-    id: '#668',
+    id: '#0668',
     sprite: getSpriteUrl(668),
     name: 'Pyroar',
     typeOne: 'Fire',
@@ -8690,7 +8690,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 106,
   },
   {
-    id: '#669',
+    id: '#0669',
     sprite: getSpriteUrl(669),
     name: 'Flabébé',
     typeOne: 'Fairy',
@@ -8703,7 +8703,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 42,
   },
   {
-    id: '#670',
+    id: '#0670',
     sprite: getSpriteUrl(670),
     name: 'Floette',
     typeOne: 'Fairy',
@@ -8716,7 +8716,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 52,
   },
   {
-    id: '#671',
+    id: '#0671',
     sprite: getSpriteUrl(671),
     name: 'Florges',
     typeOne: 'Fairy',
@@ -8729,7 +8729,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 75,
   },
   {
-    id: '#672',
+    id: '#0672',
     sprite: getSpriteUrl(672),
     name: 'Skiddo',
     typeOne: 'Grass',
@@ -8742,7 +8742,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 52,
   },
   {
-    id: '#673',
+    id: '#0673',
     sprite: getSpriteUrl(673),
     name: 'Gogoat',
     typeOne: 'Grass',
@@ -8755,7 +8755,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 68,
   },
   {
-    id: '#674',
+    id: '#0674',
     sprite: getSpriteUrl(674),
     name: 'Pancham',
     typeOne: 'Fighting',
@@ -8768,7 +8768,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 43,
   },
   {
-    id: '#675',
+    id: '#0675',
     sprite: getSpriteUrl(675),
     name: 'Pangoro',
     typeOne: 'Fighting',
@@ -8781,7 +8781,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 58,
   },
   {
-    id: '#676',
+    id: '#0676',
     sprite: getSpriteUrl(676),
     name: 'Furfrou',
     typeOne: 'Normal',
@@ -8794,7 +8794,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 102,
   },
   {
-    id: '#677',
+    id: '#0677',
     sprite: getSpriteUrl(677),
     name: 'Espurr',
     typeOne: 'Psychic',
@@ -8807,7 +8807,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 68,
   },
   {
-    id: '#678',
+    id: '#0678',
     sprite: getSpriteUrl(678),
     name: 'Meowstic',
     typeOne: 'Psychic',
@@ -8820,7 +8820,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 104,
   },
   {
-    id: '#679',
+    id: '#0679',
     sprite: getSpriteUrl(679),
     name: 'Honedge',
     typeOne: 'Steel',
@@ -8833,7 +8833,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 28,
   },
   {
-    id: '#680',
+    id: '#0680',
     sprite: getSpriteUrl(680),
     name: 'Doublade',
     typeOne: 'Steel',
@@ -8846,7 +8846,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#681',
+    id: '#0681',
     sprite: getSpriteUrl(681),
     name: 'Aegislash',
     typeOne: 'Steel',
@@ -8859,7 +8859,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#682',
+    id: '#0682',
     sprite: getSpriteUrl(682),
     name: 'Spritzee',
     typeOne: 'Fairy',
@@ -8872,7 +8872,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 23,
   },
   {
-    id: '#683',
+    id: '#0683',
     sprite: getSpriteUrl(683),
     name: 'Aromatisse',
     typeOne: 'Fairy',
@@ -8885,7 +8885,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 29,
   },
   {
-    id: '#684',
+    id: '#0684',
     sprite: getSpriteUrl(684),
     name: 'Swirlix',
     typeOne: 'Fairy',
@@ -8898,7 +8898,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 49,
   },
   {
-    id: '#685',
+    id: '#0685',
     sprite: getSpriteUrl(685),
     name: 'Slurpuff',
     typeOne: 'Fairy',
@@ -8911,7 +8911,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 72,
   },
   {
-    id: '#686',
+    id: '#0686',
     sprite: getSpriteUrl(686),
     name: 'Inkay',
     typeOne: 'Dark',
@@ -8924,7 +8924,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#687',
+    id: '#0687',
     sprite: getSpriteUrl(687),
     name: 'Malamar',
     typeOne: 'Dark',
@@ -8937,7 +8937,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 73,
   },
   {
-    id: '#688',
+    id: '#0688',
     sprite: getSpriteUrl(688),
     name: 'Binacle',
     typeOne: 'Rock',
@@ -8950,7 +8950,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#689',
+    id: '#0689',
     sprite: getSpriteUrl(689),
     name: 'Barbaracle',
     typeOne: 'Rock',
@@ -8963,7 +8963,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 68,
   },
   {
-    id: '#690',
+    id: '#0690',
     sprite: getSpriteUrl(690),
     name: 'Skrelp',
     typeOne: 'Poison',
@@ -8976,7 +8976,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#691',
+    id: '#0691',
     sprite: getSpriteUrl(691),
     name: 'Dragalge',
     typeOne: 'Poison',
@@ -8989,7 +8989,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 44,
   },
   {
-    id: '#692',
+    id: '#0692',
     sprite: getSpriteUrl(692),
     name: 'Clauncher',
     typeOne: 'Water',
@@ -9002,7 +9002,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 44,
   },
   {
-    id: '#693',
+    id: '#0693',
     sprite: getSpriteUrl(693),
     name: 'Clawitzer',
     typeOne: 'Water',
@@ -9015,7 +9015,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 59,
   },
   {
-    id: '#694',
+    id: '#0694',
     sprite: getSpriteUrl(694),
     name: 'Helioptile',
     typeOne: 'Electric',
@@ -9028,7 +9028,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#695',
+    id: '#0695',
     sprite: getSpriteUrl(695),
     name: 'Heliolisk',
     typeOne: 'Electric',
@@ -9041,7 +9041,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 109,
   },
   {
-    id: '#696',
+    id: '#0696',
     sprite: getSpriteUrl(696),
     name: 'Tyrunt',
     typeOne: 'Rock',
@@ -9054,7 +9054,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 48,
   },
   {
-    id: '#697',
+    id: '#0697',
     sprite: getSpriteUrl(697),
     name: 'Tyrantrum',
     typeOne: 'Rock',
@@ -9067,7 +9067,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 71,
   },
   {
-    id: '#698',
+    id: '#0698',
     sprite: getSpriteUrl(698),
     name: 'Amaura',
     typeOne: 'Rock',
@@ -9080,7 +9080,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 46,
   },
   {
-    id: '#699',
+    id: '#0699',
     sprite: getSpriteUrl(699),
     name: 'Aurorus',
     typeOne: 'Rock',
@@ -9093,7 +9093,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 58,
   },
   {
-    id: '#700',
+    id: '#0700',
     sprite: getSpriteUrl(700),
     name: 'Sylveon',
     typeOne: 'Fairy',
@@ -9106,7 +9106,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#701',
+    id: '#0701',
     sprite: getSpriteUrl(701),
     name: 'Hawlucha',
     typeOne: 'Fighting',
@@ -9119,7 +9119,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 118,
   },
   {
-    id: '#702',
+    id: '#0702',
     sprite: getSpriteUrl(702),
     name: 'Dedenne',
     typeOne: 'Electric',
@@ -9132,7 +9132,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 101,
   },
   {
-    id: '#703',
+    id: '#0703',
     sprite: getSpriteUrl(703),
     name: 'Carbink',
     typeOne: 'Rock',
@@ -9145,7 +9145,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#704',
+    id: '#0704',
     sprite: getSpriteUrl(704),
     name: 'Goomy',
     typeOne: 'Dragon',
@@ -9158,7 +9158,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#705',
+    id: '#0705',
     sprite: getSpriteUrl(705),
     name: 'Sliggoo',
     typeOne: 'Dragon',
@@ -9171,7 +9171,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#706',
+    id: '#0706',
     sprite: getSpriteUrl(706),
     name: 'Goodra',
     typeOne: 'Dragon',
@@ -9184,7 +9184,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#707',
+    id: '#0707',
     sprite: getSpriteUrl(707),
     name: 'Klefki',
     typeOne: 'Steel',
@@ -9197,7 +9197,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 75,
   },
   {
-    id: '#708',
+    id: '#0708',
     sprite: getSpriteUrl(708),
     name: 'Phantump',
     typeOne: 'Ghost',
@@ -9210,7 +9210,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 38,
   },
   {
-    id: '#709',
+    id: '#0709',
     sprite: getSpriteUrl(709),
     name: 'Trevenant',
     typeOne: 'Ghost',
@@ -9223,7 +9223,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 56,
   },
   {
-    id: '#710',
+    id: '#0710',
     sprite: getSpriteUrl(710),
     name: 'Pumpkaboo',
     typeOne: 'Ghost',
@@ -9236,7 +9236,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 41,
   },
   {
-    id: '#711',
+    id: '#0711',
     sprite: getSpriteUrl(711),
     name: 'Gourgeist',
     typeOne: 'Ghost',
@@ -9249,7 +9249,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 54,
   },
   {
-    id: '#712',
+    id: '#0712',
     sprite: getSpriteUrl(712),
     name: 'Bergmite',
     typeOne: 'Ice',
@@ -9262,7 +9262,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 28,
   },
   {
-    id: '#713',
+    id: '#0713',
     sprite: getSpriteUrl(713),
     name: 'Avalugg',
     typeOne: 'Ice',
@@ -9275,7 +9275,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 28,
   },
   {
-    id: '#714',
+    id: '#0714',
     sprite: getSpriteUrl(714),
     name: 'Noibat',
     typeOne: 'Flying',
@@ -9288,7 +9288,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 55,
   },
   {
-    id: '#715',
+    id: '#0715',
     sprite: getSpriteUrl(715),
     name: 'Noivern',
     typeOne: 'Flying',
@@ -9301,7 +9301,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 123,
   },
   {
-    id: '#716',
+    id: '#0716',
     sprite: getSpriteUrl(716),
     name: 'Xerneas',
     typeOne: 'Fairy',
@@ -9314,7 +9314,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 99,
   },
   {
-    id: '#717',
+    id: '#0717',
     sprite: getSpriteUrl(717),
     name: 'Yveltal',
     typeOne: 'Dark',
@@ -9327,7 +9327,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 99,
   },
   {
-    id: '#718',
+    id: '#0718',
     sprite: getSpriteUrl(718),
     name: 'Zygarde',
     typeOne: 'Dragon',
@@ -9340,7 +9340,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#719',
+    id: '#0719',
     sprite: getSpriteUrl(719),
     name: 'Diancie',
     typeOne: 'Rock',
@@ -9353,7 +9353,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#720',
+    id: '#0720',
     sprite: getSpriteUrl(720),
     name: 'Hoopa',
     typeOne: 'Psychic',
@@ -9366,7 +9366,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#721',
+    id: '#0721',
     sprite: getSpriteUrl(721),
     name: 'Volcanion',
     typeOne: 'Fire',
@@ -9379,7 +9379,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#722',
+    id: '#0722',
     sprite: getSpriteUrl(722),
     name: 'Rowlet',
     typeOne: 'Grass',
@@ -9392,7 +9392,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 42,
   },
   {
-    id: '#723',
+    id: '#0723',
     sprite: getSpriteUrl(723),
     name: 'Dartrix',
     typeOne: 'Grass',
@@ -9405,7 +9405,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 52,
   },
   {
-    id: '#724',
+    id: '#0724',
     sprite: getSpriteUrl(724),
     name: 'Decidueye',
     typeOne: 'Grass',
@@ -9418,7 +9418,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#725',
+    id: '#0725',
     sprite: getSpriteUrl(725),
     name: 'Litten',
     typeOne: 'Fire',
@@ -9431,7 +9431,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 70,
   },
   {
-    id: '#726',
+    id: '#0726',
     sprite: getSpriteUrl(726),
     name: 'Torracat',
     typeOne: 'Fire',
@@ -9444,7 +9444,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 90,
   },
   {
-    id: '#727',
+    id: '#0727',
     sprite: getSpriteUrl(727),
     name: 'Incineroar',
     typeOne: 'Fire',
@@ -9457,7 +9457,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#728',
+    id: '#0728',
     sprite: getSpriteUrl(728),
     name: 'Popplio',
     typeOne: 'Water',
@@ -9470,7 +9470,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#729',
+    id: '#0729',
     sprite: getSpriteUrl(729),
     name: 'Brionne',
     typeOne: 'Water',
@@ -9483,7 +9483,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#730',
+    id: '#0730',
     sprite: getSpriteUrl(730),
     name: 'Primarina',
     typeOne: 'Water',
@@ -9496,7 +9496,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#731',
+    id: '#0731',
     sprite: getSpriteUrl(731),
     name: 'Pikipek',
     typeOne: 'Normal',
@@ -9509,7 +9509,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#732',
+    id: '#0732',
     sprite: getSpriteUrl(732),
     name: 'Trumbeak',
     typeOne: 'Normal',
@@ -9522,7 +9522,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 75,
   },
   {
-    id: '#733',
+    id: '#0733',
     sprite: getSpriteUrl(733),
     name: 'Toucannon',
     typeOne: 'Normal',
@@ -9535,7 +9535,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#734',
+    id: '#0734',
     sprite: getSpriteUrl(734),
     name: 'Yungoos',
     typeOne: 'Normal',
@@ -9548,7 +9548,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#735',
+    id: '#0735',
     sprite: getSpriteUrl(735),
     name: 'Gumshoos',
     typeOne: 'Normal',
@@ -9561,7 +9561,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#736',
+    id: '#0736',
     sprite: getSpriteUrl(736),
     name: 'Grubbin',
     typeOne: 'Bug',
@@ -9574,7 +9574,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 46,
   },
   {
-    id: '#737',
+    id: '#0737',
     sprite: getSpriteUrl(737),
     name: 'Charjabug',
     typeOne: 'Bug',
@@ -9587,7 +9587,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 36,
   },
   {
-    id: '#738',
+    id: '#0738',
     sprite: getSpriteUrl(738),
     name: 'Vikavolt',
     typeOne: 'Bug',
@@ -9600,7 +9600,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 43,
   },
   {
-    id: '#739',
+    id: '#0739',
     sprite: getSpriteUrl(739),
     name: 'Crabrawler',
     typeOne: 'Fighting',
@@ -9613,7 +9613,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 63,
   },
   {
-    id: '#740',
+    id: '#0740',
     sprite: getSpriteUrl(740),
     name: 'Crabominable',
     typeOne: 'Fighting',
@@ -9626,7 +9626,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 43,
   },
   {
-    id: '#741',
+    id: '#0741',
     sprite: getSpriteUrl(741),
     name: 'Oricorio',
     typeOne: 'Fire',
@@ -9639,7 +9639,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 93,
   },
   {
-    id: '#742',
+    id: '#0742',
     sprite: getSpriteUrl(742),
     name: 'Cutiefly',
     typeOne: 'Bug',
@@ -9652,7 +9652,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 84,
   },
   {
-    id: '#743',
+    id: '#0743',
     sprite: getSpriteUrl(743),
     name: 'Ribombee',
     typeOne: 'Bug',
@@ -9665,7 +9665,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 124,
   },
   {
-    id: '#744',
+    id: '#0744',
     sprite: getSpriteUrl(744),
     name: 'Rockruff',
     typeOne: 'Rock',
@@ -9678,7 +9678,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#745',
+    id: '#0745',
     sprite: getSpriteUrl(745),
     name: 'Lycanroc',
     typeOne: 'Rock',
@@ -9691,7 +9691,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 112,
   },
   {
-    id: '#746',
+    id: '#0746',
     sprite: getSpriteUrl(746),
     name: 'Wishiwashi',
     typeOne: 'Water',
@@ -9704,7 +9704,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#747',
+    id: '#0747',
     sprite: getSpriteUrl(747),
     name: 'Mareanie',
     typeOne: 'Poison',
@@ -9717,7 +9717,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#748',
+    id: '#0748',
     sprite: getSpriteUrl(748),
     name: 'Toxapex',
     typeOne: 'Poison',
@@ -9730,7 +9730,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#749',
+    id: '#0749',
     sprite: getSpriteUrl(749),
     name: 'Mudbray',
     typeOne: 'Ground',
@@ -9743,7 +9743,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#750',
+    id: '#0750',
     sprite: getSpriteUrl(750),
     name: 'Mudsdale',
     typeOne: 'Ground',
@@ -9756,7 +9756,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#751',
+    id: '#0751',
     sprite: getSpriteUrl(751),
     name: 'Dewpider',
     typeOne: 'Water',
@@ -9769,7 +9769,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 27,
   },
   {
-    id: '#752',
+    id: '#0752',
     sprite: getSpriteUrl(752),
     name: 'Araquanid',
     typeOne: 'Water',
@@ -9782,7 +9782,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 42,
   },
   {
-    id: '#753',
+    id: '#0753',
     sprite: getSpriteUrl(753),
     name: 'Fomantis',
     typeOne: 'Grass',
@@ -9795,7 +9795,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#754',
+    id: '#0754',
     sprite: getSpriteUrl(754),
     name: 'Lurantis',
     typeOne: 'Grass',
@@ -9808,7 +9808,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#755',
+    id: '#0755',
     sprite: getSpriteUrl(755),
     name: 'Morelull',
     typeOne: 'Grass',
@@ -9821,7 +9821,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 15,
   },
   {
-    id: '#756',
+    id: '#0756',
     sprite: getSpriteUrl(756),
     name: 'Shiinotic',
     typeOne: 'Grass',
@@ -9834,7 +9834,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 30,
   },
   {
-    id: '#757',
+    id: '#0757',
     sprite: getSpriteUrl(757),
     name: 'Salandit',
     typeOne: 'Poison',
@@ -9847,7 +9847,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 77,
   },
   {
-    id: '#758',
+    id: '#0758',
     sprite: getSpriteUrl(758),
     name: 'Salazzle',
     typeOne: 'Poison',
@@ -9860,7 +9860,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 117,
   },
   {
-    id: '#759',
+    id: '#0759',
     sprite: getSpriteUrl(759),
     name: 'Stufful',
     typeOne: 'Normal',
@@ -9873,7 +9873,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 50,
   },
   {
-    id: '#760',
+    id: '#0760',
     sprite: getSpriteUrl(760),
     name: 'Bewear',
     typeOne: 'Normal',
@@ -9886,7 +9886,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#761',
+    id: '#0761',
     sprite: getSpriteUrl(761),
     name: 'Bounsweet',
     typeOne: 'Grass',
@@ -9899,7 +9899,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 32,
   },
   {
-    id: '#762',
+    id: '#0762',
     sprite: getSpriteUrl(762),
     name: 'Steenee',
     typeOne: 'Grass',
@@ -9912,7 +9912,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 62,
   },
   {
-    id: '#763',
+    id: '#0763',
     sprite: getSpriteUrl(763),
     name: 'Tsareena',
     typeOne: 'Grass',
@@ -9925,7 +9925,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 72,
   },
   {
-    id: '#764',
+    id: '#0764',
     sprite: getSpriteUrl(764),
     name: 'Comfey',
     typeOne: 'Fairy',
@@ -9938,7 +9938,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 100,
   },
   {
-    id: '#765',
+    id: '#0765',
     sprite: getSpriteUrl(765),
     name: 'Oranguru',
     typeOne: 'Normal',
@@ -9951,7 +9951,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#766',
+    id: '#0766',
     sprite: getSpriteUrl(766),
     name: 'Passimian',
     typeOne: 'Fighting',
@@ -9964,7 +9964,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#767',
+    id: '#0767',
     sprite: getSpriteUrl(767),
     name: 'Wimpod',
     typeOne: 'Bug',
@@ -9977,7 +9977,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 80,
   },
   {
-    id: '#768',
+    id: '#0768',
     sprite: getSpriteUrl(768),
     name: 'Golisopod',
     typeOne: 'Bug',
@@ -9990,7 +9990,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#769',
+    id: '#0769',
     sprite: getSpriteUrl(769),
     name: 'Sandygast',
     typeOne: 'Ghost',
@@ -10003,7 +10003,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 15,
   },
   {
-    id: '#770',
+    id: '#0770',
     sprite: getSpriteUrl(770),
     name: 'Palossand',
     typeOne: 'Ghost',
@@ -10016,7 +10016,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 35,
   },
   {
-    id: '#771',
+    id: '#0771',
     sprite: getSpriteUrl(771),
     name: 'Pyukumuku',
     typeOne: 'Water',
@@ -10029,7 +10029,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 5,
   },
   {
-    id: '#772',
+    id: '#0772',
     sprite: getSpriteUrl(772),
     name: 'Type: Null',
     typeOne: 'Normal',
@@ -10042,7 +10042,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 59,
   },
   {
-    id: '#773',
+    id: '#0773',
     sprite: getSpriteUrl(773),
     name: 'Silvally',
     typeOne: 'Normal',
@@ -10055,7 +10055,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#774',
+    id: '#0774',
     sprite: getSpriteUrl(774),
     name: 'Minior',
     typeOne: 'Rock',
@@ -10068,7 +10068,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 60,
   },
   {
-    id: '#775',
+    id: '#0775',
     sprite: getSpriteUrl(775),
     name: 'Komala',
     typeOne: 'Normal',
@@ -10081,7 +10081,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#776',
+    id: '#0776',
     sprite: getSpriteUrl(776),
     name: 'Turtonator',
     typeOne: 'Fire',
@@ -10094,7 +10094,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 36,
   },
   {
-    id: '#777',
+    id: '#0777',
     sprite: getSpriteUrl(777),
     name: 'Togedemaru',
     typeOne: 'Electric',
@@ -10107,7 +10107,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 96,
   },
   {
-    id: '#778',
+    id: '#0778',
     sprite: getSpriteUrl(778),
     name: 'Mimikyu',
     typeOne: 'Ghost',
@@ -10120,7 +10120,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 96,
   },
   {
-    id: '#779',
+    id: '#0779',
     sprite: getSpriteUrl(779),
     name: 'Bruxish',
     typeOne: 'Water',
@@ -10133,7 +10133,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 92,
   },
   {
-    id: '#780',
+    id: '#0780',
     sprite: getSpriteUrl(780),
     name: 'Drampa',
     typeOne: 'Normal',
@@ -10146,7 +10146,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 36,
   },
   {
-    id: '#781',
+    id: '#0781',
     sprite: getSpriteUrl(781),
     name: 'Dhelmise',
     typeOne: 'Ghost',
@@ -10159,7 +10159,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 40,
   },
   {
-    id: '#782',
+    id: '#0782',
     sprite: getSpriteUrl(782),
     name: 'Jangmo-o',
     typeOne: 'Dragon',
@@ -10172,7 +10172,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 45,
   },
   {
-    id: '#783',
+    id: '#0783',
     sprite: getSpriteUrl(783),
     name: 'Hakamo-o',
     typeOne: 'Dragon',
@@ -10185,7 +10185,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#784',
+    id: '#0784',
     sprite: getSpriteUrl(784),
     name: 'Kommo-o',
     typeOne: 'Dragon',
@@ -10198,7 +10198,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#785',
+    id: '#0785',
     sprite: getSpriteUrl(785),
     name: 'Tapu Koko',
     typeOne: 'Electric',
@@ -10211,7 +10211,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 130,
   },
   {
-    id: '#786',
+    id: '#0786',
     sprite: getSpriteUrl(786),
     name: 'Tapu Lele',
     typeOne: 'Psychic',
@@ -10224,7 +10224,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 95,
   },
   {
-    id: '#787',
+    id: '#0787',
     sprite: getSpriteUrl(787),
     name: 'Tapu Bulu',
     typeOne: 'Grass',
@@ -10237,7 +10237,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 75,
   },
   {
-    id: '#788',
+    id: '#0788',
     sprite: getSpriteUrl(788),
     name: 'Tapu Fini',
     typeOne: 'Water',
@@ -10250,7 +10250,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 85,
   },
   {
-    id: '#789',
+    id: '#0789',
     sprite: getSpriteUrl(789),
     name: 'Cosmog',
     typeOne: 'Psychic',
@@ -10263,7 +10263,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 37,
   },
   {
-    id: '#790',
+    id: '#0790',
     sprite: getSpriteUrl(790),
     name: 'Cosmoem',
     typeOne: 'Psychic',
@@ -10276,7 +10276,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 37,
   },
   {
-    id: '#791',
+    id: '#0791',
     sprite: getSpriteUrl(791),
     name: 'Solgaleo',
     typeOne: 'Psychic',
@@ -10289,7 +10289,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 97,
   },
   {
-    id: '#792',
+    id: '#0792',
     sprite: getSpriteUrl(792),
     name: 'Lunala',
     typeOne: 'Psychic',
@@ -10302,7 +10302,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 97,
   },
   {
-    id: '#793',
+    id: '#0793',
     sprite: getSpriteUrl(793),
     name: 'Nihilego',
     typeOne: 'Rock',
@@ -10315,7 +10315,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 103,
   },
   {
-    id: '#794',
+    id: '#0794',
     sprite: getSpriteUrl(794),
     name: 'Buzzwole',
     typeOne: 'Bug',
@@ -10328,7 +10328,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 79,
   },
   {
-    id: '#795',
+    id: '#0795',
     sprite: getSpriteUrl(795),
     name: 'Pheromosa',
     typeOne: 'Bug',
@@ -10341,7 +10341,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 151,
   },
   {
-    id: '#796',
+    id: '#0796',
     sprite: getSpriteUrl(796),
     name: 'Xurkitree',
     typeOne: 'Electric',
@@ -10354,7 +10354,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 83,
   },
   {
-    id: '#797',
+    id: '#0797',
     sprite: getSpriteUrl(797),
     name: 'Celesteela',
     typeOne: 'Steel',
@@ -10367,7 +10367,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 61,
   },
   {
-    id: '#798',
+    id: '#0798',
     sprite: getSpriteUrl(798),
     name: 'Kartana',
     typeOne: 'Grass',
@@ -10380,7 +10380,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 109,
   },
   {
-    id: '#799',
+    id: '#0799',
     sprite: getSpriteUrl(799),
     name: 'Guzzlord',
     typeOne: 'Dark',
@@ -10393,7 +10393,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 43,
   },
   {
-    id: '#800',
+    id: '#0800',
     sprite: getSpriteUrl(800),
     name: 'Necrozma',
     typeOne: 'Psychic',
@@ -10406,7 +10406,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 79,
   },
   {
-    id: '#801',
+    id: '#0801',
     sprite: getSpriteUrl(801),
     name: 'Magearna',
     typeOne: 'Steel',
@@ -10419,7 +10419,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 65,
   },
   {
-    id: '#802',
+    id: '#0802',
     sprite: getSpriteUrl(802),
     name: 'Marshadow',
     typeOne: 'Fighting',
@@ -10432,7 +10432,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 125,
   },
   {
-    id: '#803',
+    id: '#0803',
     sprite: getSpriteUrl(803),
     name: 'Poipole',
     typeOne: 'Poison',
@@ -10445,7 +10445,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 73,
   },
   {
-    id: '#804',
+    id: '#0804',
     sprite: getSpriteUrl(804),
     name: 'Naganadel',
     typeOne: 'Poison',
@@ -10458,7 +10458,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 121,
   },
   {
-    id: '#805',
+    id: '#0805',
     sprite: getSpriteUrl(805),
     name: 'Stakataka',
     typeOne: 'Rock',
@@ -10471,7 +10471,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 13,
   },
   {
-    id: '#806',
+    id: '#0806',
     sprite: getSpriteUrl(806),
     name: 'Blacephalon',
     typeOne: 'Fire',
@@ -10484,7 +10484,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 107,
   },
   {
-    id: '#807',
+    id: '#0807',
     sprite: getSpriteUrl(807),
     name: 'Zeraora',
     typeOne: 'Electric',
@@ -10497,7 +10497,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 143,
   },
   {
-    id: '#808',
+    id: '#0808',
     sprite: getSpriteUrl(808),
     name: 'Meltan',
     typeOne: 'Steel',
@@ -10510,7 +10510,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 34,
   },
   {
-    id: '#809',
+    id: '#0809',
     sprite: getSpriteUrl(809),
     name: 'Melmetal',
     typeOne: 'Steel',
@@ -10523,7 +10523,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 34,
   },
   {
-    id: '#810',
+    id: '#0810',
     sprite: getSpriteUrl(810),
     name: 'Grookey',
     typeOne: 'Grass',
@@ -10536,7 +10536,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#811',
+    id: '#0811',
     sprite: getSpriteUrl(811),
     name: 'Thwackey',
     typeOne: 'Grass',
@@ -10549,7 +10549,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#812',
+    id: '#0812',
     sprite: getSpriteUrl(812),
     name: 'Rillaboom',
     typeOne: 'Grass',
@@ -10562,7 +10562,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#813',
+    id: '#0813',
     sprite: getSpriteUrl(813),
     name: 'Scorbunny',
     typeOne: 'Fire',
@@ -10575,7 +10575,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#814',
+    id: '#0814',
     sprite: getSpriteUrl(814),
     name: 'Raboot',
     typeOne: 'Fire',
@@ -10588,7 +10588,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#815',
+    id: '#0815',
     sprite: getSpriteUrl(815),
     name: 'Cinderace',
     typeOne: 'Fire',
@@ -10601,7 +10601,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#816',
+    id: '#0816',
     sprite: getSpriteUrl(816),
     name: 'Sobble',
     typeOne: 'Water',
@@ -10614,7 +10614,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#817',
+    id: '#0817',
     sprite: getSpriteUrl(817),
     name: 'Drizzile',
     typeOne: 'Water',
@@ -10627,7 +10627,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#818',
+    id: '#0818',
     sprite: getSpriteUrl(818),
     name: 'Inteleon',
     typeOne: 'Water',
@@ -10640,7 +10640,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#819',
+    id: '#0819',
     sprite: getSpriteUrl(819),
     name: 'Skwovet',
     typeOne: 'Normal',
@@ -10653,7 +10653,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#820',
+    id: '#0820',
     sprite: getSpriteUrl(820),
     name: 'Greedent',
     typeOne: 'Normal',
@@ -10666,7 +10666,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#821',
+    id: '#0821',
     sprite: getSpriteUrl(821),
     name: 'Rookidee',
     typeOne: 'Flying',
@@ -10679,7 +10679,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#822',
+    id: '#0822',
     sprite: getSpriteUrl(822),
     name: 'Corvisquire',
     typeOne: 'Flying',
@@ -10692,7 +10692,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#823',
+    id: '#0823',
     sprite: getSpriteUrl(823),
     name: 'Corviknight',
     typeOne: 'Flying',
@@ -10705,7 +10705,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#824',
+    id: '#0824',
     sprite: getSpriteUrl(824),
     name: 'Blipbug',
     typeOne: 'Bug',
@@ -10718,7 +10718,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#825',
+    id: '#0825',
     sprite: getSpriteUrl(825),
     name: 'Dottler',
     typeOne: 'Bug',
@@ -10731,7 +10731,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#826',
+    id: '#0826',
     sprite: getSpriteUrl(826),
     name: 'Orbeetle',
     typeOne: 'Bug',
@@ -10744,7 +10744,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#827',
+    id: '#0827',
     sprite: getSpriteUrl(827),
     name: 'Nickit',
     typeOne: 'Dark',
@@ -10757,7 +10757,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#828',
+    id: '#0828',
     sprite: getSpriteUrl(828),
     name: 'Thievul',
     typeOne: 'Dark',
@@ -10770,7 +10770,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#829',
+    id: '#0829',
     sprite: getSpriteUrl(829),
     name: 'Gossifleur',
     typeOne: 'Grass',
@@ -10783,7 +10783,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#830',
+    id: '#0830',
     sprite: getSpriteUrl(830),
     name: 'Eldegoss',
     typeOne: 'Grass',
@@ -10796,7 +10796,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#831',
+    id: '#0831',
     sprite: getSpriteUrl(831),
     name: 'Wooloo',
     typeOne: 'Normal',
@@ -10809,7 +10809,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#832',
+    id: '#0832',
     sprite: getSpriteUrl(832),
     name: 'Dubwool',
     typeOne: 'Normal',
@@ -10822,7 +10822,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#833',
+    id: '#0833',
     sprite: getSpriteUrl(833),
     name: 'Chewtle',
     typeOne: 'Water',
@@ -10835,7 +10835,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#834',
+    id: '#0834',
     sprite: getSpriteUrl(834),
     name: 'Drednaw',
     typeOne: 'Water',
@@ -10848,7 +10848,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#835',
+    id: '#0835',
     sprite: getSpriteUrl(835),
     name: 'Yamper',
     typeOne: 'Electric',
@@ -10861,7 +10861,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#836',
+    id: '#0836',
     sprite: getSpriteUrl(836),
     name: 'Boltund',
     typeOne: 'Electric',
@@ -10874,7 +10874,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#837',
+    id: '#0837',
     sprite: getSpriteUrl(837),
     name: 'Rolycoly',
     typeOne: 'Rock',
@@ -10887,7 +10887,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#838',
+    id: '#0838',
     sprite: getSpriteUrl(838),
     name: 'Carkol',
     typeOne: 'Rock',
@@ -10900,7 +10900,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#839',
+    id: '#0839',
     sprite: getSpriteUrl(839),
     name: 'Coalossal',
     typeOne: 'Rock',
@@ -10913,7 +10913,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#840',
+    id: '#0840',
     sprite: getSpriteUrl(840),
     name: 'Applin',
     typeOne: 'Grass',
@@ -10926,7 +10926,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#841',
+    id: '#0841',
     sprite: getSpriteUrl(841),
     name: 'Flapple',
     typeOne: 'Grass',
@@ -10939,7 +10939,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#842',
+    id: '#0842',
     sprite: getSpriteUrl(842),
     name: 'Appletun',
     typeOne: 'Grass',
@@ -10952,7 +10952,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#843',
+    id: '#0843',
     sprite: getSpriteUrl(843),
     name: 'Silicobra',
     typeOne: 'Ground',
@@ -10965,7 +10965,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#844',
+    id: '#0844',
     sprite: getSpriteUrl(844),
     name: 'Sandaconda',
     typeOne: 'Ground',
@@ -10978,7 +10978,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#845',
+    id: '#0845',
     sprite: getSpriteUrl(845),
     name: 'Cramorant',
     typeOne: 'Flying',
@@ -10991,7 +10991,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#846',
+    id: '#0846',
     sprite: getSpriteUrl(846),
     name: 'Arrokuda',
     typeOne: 'Water',
@@ -11004,7 +11004,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#847',
+    id: '#0847',
     sprite: getSpriteUrl(847),
     name: 'Barraskewda',
     typeOne: 'Water',
@@ -11017,7 +11017,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#848',
+    id: '#0848',
     sprite: getSpriteUrl(848),
     name: 'Toxel',
     typeOne: 'Electric',
@@ -11030,7 +11030,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#849',
+    id: '#0849',
     sprite: getSpriteUrl(849),
     name: 'Toxtricity',
     typeOne: 'Electric',
@@ -11043,7 +11043,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#850',
+    id: '#0850',
     sprite: getSpriteUrl(850),
     name: 'Sizzlipede',
     typeOne: 'Fire',
@@ -11056,7 +11056,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#851',
+    id: '#0851',
     sprite: getSpriteUrl(851),
     name: 'Centiskorch',
     typeOne: 'Fire',
@@ -11069,7 +11069,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#852',
+    id: '#0852',
     sprite: getSpriteUrl(852),
     name: 'Clobbopus',
     typeOne: 'Fighting',
@@ -11082,7 +11082,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#853',
+    id: '#0853',
     sprite: getSpriteUrl(853),
     name: 'Grapploct',
     typeOne: 'Fighting',
@@ -11095,7 +11095,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#854',
+    id: '#0854',
     sprite: getSpriteUrl(854),
     name: 'Sinistea',
     typeOne: 'Ghost',
@@ -11108,7 +11108,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#855',
+    id: '#0855',
     sprite: getSpriteUrl(855),
     name: 'Polteageist',
     typeOne: 'Ghost',
@@ -11121,7 +11121,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#856',
+    id: '#0856',
     sprite: getSpriteUrl(856),
     name: 'Hatenna',
     typeOne: 'Psychic',
@@ -11134,7 +11134,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#857',
+    id: '#0857',
     sprite: getSpriteUrl(857),
     name: 'Hattrem',
     typeOne: 'Psychic',
@@ -11147,7 +11147,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#858',
+    id: '#0858',
     sprite: getSpriteUrl(858),
     name: 'Hatterene',
     typeOne: 'Psychic',
@@ -11160,7 +11160,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#859',
+    id: '#0859',
     sprite: getSpriteUrl(859),
     name: 'Impidimp',
     typeOne: 'Dark',
@@ -11173,7 +11173,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#860',
+    id: '#0860',
     sprite: getSpriteUrl(860),
     name: 'Morgrem',
     typeOne: 'Dark',
@@ -11186,7 +11186,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#861',
+    id: '#0861',
     sprite: getSpriteUrl(861),
     name: 'Grimmsnarl',
     typeOne: 'Dark',
@@ -11199,7 +11199,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#862',
+    id: '#0862',
     sprite: getSpriteUrl(862),
     name: 'Obstagoon',
     typeOne: 'Dark',
@@ -11212,7 +11212,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#863',
+    id: '#0863',
     sprite: getSpriteUrl(863),
     name: 'Perrserker',
     typeOne: 'Steel',
@@ -11225,7 +11225,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#864',
+    id: '#0864',
     sprite: getSpriteUrl(864),
     name: 'Cursola',
     typeOne: 'Ghost',
@@ -11238,7 +11238,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#865',
+    id: '#0865',
     sprite: getSpriteUrl(865),
     name: "Sirfetch'd",
     typeOne: 'Fighting',
@@ -11251,7 +11251,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#866',
+    id: '#0866',
     sprite: getSpriteUrl(866),
     name: 'Mr. Rime',
     typeOne: 'Ice',
@@ -11264,7 +11264,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#867',
+    id: '#0867',
     sprite: getSpriteUrl(867),
     name: 'Runerigus',
     typeOne: 'Ground',
@@ -11277,7 +11277,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#868',
+    id: '#0868',
     sprite: getSpriteUrl(868),
     name: 'Milcery',
     typeOne: 'Fairy',
@@ -11290,7 +11290,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#869',
+    id: '#0869',
     sprite: getSpriteUrl(869),
     name: 'Alcremie',
     typeOne: 'Fairy',
@@ -11303,7 +11303,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#870',
+    id: '#0870',
     sprite: getSpriteUrl(870),
     name: 'Falinks',
     typeOne: 'Fighting',
@@ -11316,7 +11316,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#871',
+    id: '#0871',
     sprite: getSpriteUrl(871),
     name: 'Pincurchin',
     typeOne: 'Electric',
@@ -11329,7 +11329,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#872',
+    id: '#0872',
     sprite: getSpriteUrl(872),
     name: 'Snom',
     typeOne: 'Ice',
@@ -11342,7 +11342,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#873',
+    id: '#0873',
     sprite: getSpriteUrl(873),
     name: 'Frosmoth',
     typeOne: 'Ice',
@@ -11355,7 +11355,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#874',
+    id: '#0874',
     sprite: getSpriteUrl(874),
     name: 'Stonjourner',
     typeOne: 'Rock',
@@ -11368,7 +11368,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#875',
+    id: '#0875',
     sprite: getSpriteUrl(875),
     name: 'Eiscue',
     typeOne: 'Ice',
@@ -11381,7 +11381,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#876',
+    id: '#0876',
     sprite: getSpriteUrl(876),
     name: 'Indeedee',
     typeOne: 'Psychic',
@@ -11394,7 +11394,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#877',
+    id: '#0877',
     sprite: getSpriteUrl(877),
     name: 'Morpeko',
     typeOne: 'Electric',
@@ -11407,7 +11407,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#878',
+    id: '#0878',
     sprite: getSpriteUrl(878),
     name: 'Cufant',
     typeOne: 'Steel',
@@ -11420,7 +11420,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#879',
+    id: '#0879',
     sprite: getSpriteUrl(879),
     name: 'Copperajah',
     typeOne: 'Steel',
@@ -11433,7 +11433,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#880',
+    id: '#0880',
     sprite: getSpriteUrl(880),
     name: 'Dracozolt',
     typeOne: 'Electric',
@@ -11446,7 +11446,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#881',
+    id: '#0881',
     sprite: getSpriteUrl(881),
     name: 'Arctozolt',
     typeOne: 'Electric',
@@ -11459,7 +11459,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#882',
+    id: '#0882',
     sprite: getSpriteUrl(882),
     name: 'Dracovish',
     typeOne: 'Water',
@@ -11472,7 +11472,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#883',
+    id: '#0883',
     sprite: getSpriteUrl(883),
     name: 'Arctovish',
     typeOne: 'Water',
@@ -11485,7 +11485,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#884',
+    id: '#0884',
     sprite: getSpriteUrl(884),
     name: 'Duraludon',
     typeOne: 'Steel',
@@ -11498,7 +11498,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#885',
+    id: '#0885',
     sprite: getSpriteUrl(885),
     name: 'Dreepy',
     typeOne: 'Dragon',
@@ -11511,7 +11511,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#886',
+    id: '#0886',
     sprite: getSpriteUrl(886),
     name: 'Drakloak',
     typeOne: 'Dragon',
@@ -11524,7 +11524,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#887',
+    id: '#0887',
     sprite: getSpriteUrl(887),
     name: 'Dragapult',
     typeOne: 'Dragon',
@@ -11537,7 +11537,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#888',
+    id: '#0888',
     sprite: getSpriteUrl(888),
     name: 'Zacian',
     typeOne: 'Fairy',
@@ -11550,7 +11550,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#889',
+    id: '#0889',
     sprite: getSpriteUrl(889),
     name: 'Zamazenta',
     typeOne: 'Fighting',
@@ -11563,7 +11563,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#890',
+    id: '#0890',
     sprite: getSpriteUrl(890),
     name: 'Eternatus',
     typeOne: 'Poison',
@@ -11576,7 +11576,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#891',
+    id: '#0891',
     sprite: getSpriteUrl(891),
     name: 'Kubfu',
     typeOne: 'Fighting',
@@ -11589,7 +11589,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#892',
+    id: '#0892',
     sprite: getSpriteUrl(892),
     name: 'Urshifu',
     typeOne: 'Fighting',
@@ -11602,7 +11602,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#893',
+    id: '#0893',
     sprite: getSpriteUrl(893),
     name: 'Zarude',
     typeOne: 'Dark',
@@ -11615,7 +11615,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#894',
+    id: '#0894',
     sprite: getSpriteUrl(894),
     name: 'Regieleki',
     typeOne: 'Electric',
@@ -11628,7 +11628,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#895',
+    id: '#0895',
     sprite: getSpriteUrl(895),
     name: 'Regidrago',
     typeOne: 'Dragon',
@@ -11641,7 +11641,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#896',
+    id: '#0896',
     sprite: getSpriteUrl(896),
     name: 'Glastrier',
     typeOne: 'Ice',
@@ -11654,7 +11654,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#897',
+    id: '#0897',
     sprite: getSpriteUrl(897),
     name: 'Spectrier',
     typeOne: 'Ghost',
@@ -11667,7 +11667,7 @@ export const POKEMON: PokemonDetail[] = [
     speed: 0,
   },
   {
-    id: '#898',
+    id: '#0898',
     sprite: getSpriteUrl(898),
     name: 'Calyrex',
     typeOne: 'Psychic',
@@ -11678,5 +11678,1461 @@ export const POKEMON: PokemonDetail[] = [
     specialAttack: 0,
     specialDefense: 0,
     speed: 0,
+  },
+  {
+    id: '#0899',
+    sprite: getSpriteUrl(899),
+    name: 'Wyrdeer',
+    typeOne: 'Normal',
+    typeTwo: 'Psychic',
+    hp: 103,
+    attack: 105,
+    defense: 72,
+    specialAttack: 105,
+    specialDefense: 75,
+    speed: 65,
+  },
+  {
+    id: '#0900',
+    sprite: getSpriteUrl(900),
+    name: 'Kleavor',
+    typeOne: 'Bug',
+    typeTwo: 'Rock',
+    hp: 70,
+    attack: 135,
+    defense: 95,
+    specialAttack: 45,
+    specialDefense: 70,
+    speed: 85,
+  },
+  {
+    id: '#0901',
+    sprite: getSpriteUrl(901),
+    name: 'Ursaluna',
+    typeOne: 'Ground',
+    typeTwo: 'Normal',
+    hp: 130,
+    attack: 140,
+    defense: 105,
+    specialAttack: 45,
+    specialDefense: 80,
+    speed: 50,
+  },
+  {
+    id: '#0902',
+    sprite: getSpriteUrl(902),
+    name: 'Basculegion',
+    typeOne: 'Water',
+    typeTwo: 'Ghost',
+    hp: 120,
+    attack: 112,
+    defense: 65,
+    specialAttack: 80,
+    specialDefense: 75,
+    speed: 78,
+  },
+  {
+    id: '#0903',
+    sprite: getSpriteUrl(903),
+    name: 'Sneasler',
+    typeOne: 'Fighting',
+    typeTwo: 'Poison',
+    hp: 80,
+    attack: 130,
+    defense: 60,
+    specialAttack: 40,
+    specialDefense: 80,
+    speed: 120,
+  },
+  {
+    id: '#0904',
+    sprite: getSpriteUrl(904),
+    name: 'Overqwil',
+    typeOne: 'Dark',
+    typeTwo: 'Poison',
+    hp: 85,
+    attack: 115,
+    defense: 95,
+    specialAttack: 65,
+    specialDefense: 65,
+    speed: 85,
+  },
+  {
+    id: '#0905',
+    sprite: getSpriteUrl(905),
+    name: 'Enamorus',
+    typeOne: 'Fairy',
+    typeTwo: 'Flying',
+    hp: 74,
+    attack: 115,
+    defense: 70,
+    specialAttack: 135,
+    specialDefense: 80,
+    speed: 106,
+  },
+  {
+    id: '#0906',
+    sprite: getSpriteUrl(906),
+    name: 'Sprigatito',
+    typeOne: 'Grass',
+    typeTwo: null,
+    hp: 40,
+    attack: 61,
+    defense: 54,
+    specialAttack: 45,
+    specialDefense: 45,
+    speed: 65,
+  },
+  {
+    id: '#0907',
+    sprite: getSpriteUrl(907),
+    name: 'Floragato',
+    typeOne: 'Grass',
+    typeTwo: null,
+    hp: 61,
+    attack: 80,
+    defense: 63,
+    specialAttack: 60,
+    specialDefense: 63,
+    speed: 83,
+  },
+  {
+    id: '#0908',
+    sprite: getSpriteUrl(908),
+    name: 'Meowscarada',
+    typeOne: 'Grass',
+    typeTwo: 'Dark',
+    hp: 76,
+    attack: 110,
+    defense: 70,
+    specialAttack: 81,
+    specialDefense: 70,
+    speed: 123,
+  },
+  {
+    id: '#0909',
+    sprite: getSpriteUrl(909),
+    name: 'Fuecoco',
+    typeOne: 'Fire',
+    typeTwo: null,
+    hp: 67,
+    attack: 45,
+    defense: 59,
+    specialAttack: 63,
+    specialDefense: 40,
+    speed: 36,
+  },
+  {
+    id: '#0910',
+    sprite: getSpriteUrl(910),
+    name: 'Crocalor',
+    typeOne: 'Fire',
+    typeTwo: null,
+    hp: 81,
+    attack: 55,
+    defense: 78,
+    specialAttack: 90,
+    specialDefense: 58,
+    speed: 49,
+  },
+  {
+    id: '#0911',
+    sprite: getSpriteUrl(911),
+    name: 'Skeledirge',
+    typeOne: 'Fire',
+    typeTwo: 'Ghost',
+    hp: 104,
+    attack: 75,
+    defense: 100,
+    specialAttack: 110,
+    specialDefense: 75,
+    speed: 66,
+  },
+  {
+    id: '#0912',
+    sprite: getSpriteUrl(912),
+    name: 'Quaxly',
+    typeOne: 'Water',
+    typeTwo: null,
+    hp: 55,
+    attack: 65,
+    defense: 45,
+    specialAttack: 50,
+    specialDefense: 45,
+    speed: 50,
+  },
+  {
+    id: '#0913',
+    sprite: getSpriteUrl(913),
+    name: 'Quaxwell',
+    typeOne: 'Water',
+    typeTwo: null,
+    hp: 70,
+    attack: 85,
+    defense: 65,
+    specialAttack: 65,
+    specialDefense: 60,
+    speed: 65,
+  },
+  {
+    id: '#0914',
+    sprite: getSpriteUrl(914),
+    name: 'Quaquaval',
+    typeOne: 'Water',
+    typeTwo: 'Fighting',
+    hp: 85,
+    attack: 120,
+    defense: 80,
+    specialAttack: 85,
+    specialDefense: 75,
+    speed: 85,
+  },
+  {
+    id: '#0915',
+    sprite: getSpriteUrl(915),
+    name: 'Lechonk',
+    typeOne: 'Normal',
+    typeTwo: null,
+    hp: 54,
+    attack: 45,
+    defense: 40,
+    specialAttack: 35,
+    specialDefense: 45,
+    speed: 35,
+  },
+  {
+    id: '#0916',
+    sprite: getSpriteUrl(916),
+    name: 'Oinkologne',
+    typeOne: 'Normal',
+    typeTwo: null,
+    hp: 110,
+    attack: 100,
+    defense: 75,
+    specialAttack: 59,
+    specialDefense: 80,
+    speed: 65,
+  },
+  {
+    id: '#0917',
+    sprite: getSpriteUrl(917),
+    name: 'Tarountula',
+    typeOne: 'Bug',
+    typeTwo: null,
+    hp: 35,
+    attack: 41,
+    defense: 45,
+    specialAttack: 29,
+    specialDefense: 40,
+    speed: 20,
+  },
+  {
+    id: '#0918',
+    sprite: getSpriteUrl(918),
+    name: 'Spidops',
+    typeOne: 'Bug',
+    typeTwo: null,
+    hp: 60,
+    attack: 79,
+    defense: 92,
+    specialAttack: 52,
+    specialDefense: 86,
+    speed: 35,
+  },
+  {
+    id: '#0919',
+    sprite: getSpriteUrl(919),
+    name: 'Nymble',
+    typeOne: 'Bug',
+    typeTwo: null,
+    hp: 33,
+    attack: 46,
+    defense: 40,
+    specialAttack: 21,
+    specialDefense: 25,
+    speed: 45,
+  },
+  {
+    id: '#0920',
+    sprite: getSpriteUrl(920),
+    name: 'Lokix',
+    typeOne: 'Bug',
+    typeTwo: 'Dark',
+    hp: 71,
+    attack: 102,
+    defense: 78,
+    specialAttack: 52,
+    specialDefense: 55,
+    speed: 92,
+  },
+  {
+    id: '#0921',
+    sprite: getSpriteUrl(921),
+    name: 'Pawmi',
+    typeOne: 'Electric',
+    typeTwo: null,
+    hp: 45,
+    attack: 50,
+    defense: 20,
+    specialAttack: 40,
+    specialDefense: 25,
+    speed: 60,
+  },
+  {
+    id: '#0922',
+    sprite: getSpriteUrl(922),
+    name: 'Pawmo',
+    typeOne: 'Electric',
+    typeTwo: 'Fighting',
+    hp: 60,
+    attack: 75,
+    defense: 40,
+    specialAttack: 50,
+    specialDefense: 40,
+    speed: 85,
+  },
+  {
+    id: '#0923',
+    sprite: getSpriteUrl(923),
+    name: 'Pawmot',
+    typeOne: 'Electric',
+    typeTwo: 'Fighting',
+    hp: 70,
+    attack: 115,
+    defense: 70,
+    specialAttack: 70,
+    specialDefense: 60,
+    speed: 105,
+  },
+  {
+    id: '#0924',
+    sprite: getSpriteUrl(924),
+    name: 'Tandemaus',
+    typeOne: 'Normal',
+    typeTwo: null,
+    hp: 50,
+    attack: 50,
+    defense: 45,
+    specialAttack: 40,
+    specialDefense: 45,
+    speed: 75,
+  },
+  {
+    id: '#0925',
+    sprite: getSpriteUrl(925),
+    name: 'Maushold',
+    typeOne: 'Normal',
+    typeTwo: null,
+    hp: 74,
+    attack: 75,
+    defense: 70,
+    specialAttack: 65,
+    specialDefense: 75,
+    speed: 111,
+  },
+  {
+    id: '#0926',
+    sprite: getSpriteUrl(926),
+    name: 'Fidough',
+    typeOne: 'Fairy',
+    typeTwo: null,
+    hp: 37,
+    attack: 55,
+    defense: 70,
+    specialAttack: 30,
+    specialDefense: 55,
+    speed: 65,
+  },
+  {
+    id: '#0927',
+    sprite: getSpriteUrl(927),
+    name: 'Dachsbun',
+    typeOne: 'Fairy',
+    typeTwo: null,
+    hp: 57,
+    attack: 80,
+    defense: 115,
+    specialAttack: 50,
+    specialDefense: 80,
+    speed: 95,
+  },
+  {
+    id: '#0928',
+    sprite: getSpriteUrl(928),
+    name: 'Smoliv',
+    typeOne: 'Grass',
+    typeTwo: 'Normal',
+    hp: 41,
+    attack: 35,
+    defense: 45,
+    specialAttack: 58,
+    specialDefense: 51,
+    speed: 30,
+  },
+  {
+    id: '#0929',
+    sprite: getSpriteUrl(929),
+    name: 'Dolliv',
+    typeOne: 'Grass',
+    typeTwo: 'Normal',
+    hp: 52,
+    attack: 53,
+    defense: 60,
+    specialAttack: 78,
+    specialDefense: 78,
+    speed: 33,
+  },
+  {
+    id: '#0930',
+    sprite: getSpriteUrl(930),
+    name: 'Arboliva',
+    typeOne: 'Grass',
+    typeTwo: 'Normal',
+    hp: 78,
+    attack: 69,
+    defense: 90,
+    specialAttack: 125,
+    specialDefense: 109,
+    speed: 39,
+  },
+  {
+    id: '#0931',
+    sprite: getSpriteUrl(931),
+    name: 'Squawkabilly',
+    typeOne: 'Normal',
+    typeTwo: 'Flying',
+    hp: 82,
+    attack: 96,
+    defense: 51,
+    specialAttack: 45,
+    specialDefense: 51,
+    speed: 92,
+  },
+  {
+    id: '#0932',
+    sprite: getSpriteUrl(932),
+    name: 'Nacli',
+    typeOne: 'Rock',
+    typeTwo: null,
+    hp: 55,
+    attack: 55,
+    defense: 75,
+    specialAttack: 35,
+    specialDefense: 35,
+    speed: 25,
+  },
+  {
+    id: '#0933',
+    sprite: getSpriteUrl(933),
+    name: 'Naclstack',
+    typeOne: 'Rock',
+    typeTwo: null,
+    hp: 60,
+    attack: 60,
+    defense: 100,
+    specialAttack: 35,
+    specialDefense: 65,
+    speed: 35,
+  },
+  {
+    id: '#0934',
+    sprite: getSpriteUrl(934),
+    name: 'Garganacl',
+    typeOne: 'Rock',
+    typeTwo: null,
+    hp: 100,
+    attack: 100,
+    defense: 130,
+    specialAttack: 45,
+    specialDefense: 90,
+    speed: 35,
+  },
+  {
+    id: '#0935',
+    sprite: getSpriteUrl(935),
+    name: 'Charcadet',
+    typeOne: 'Fire',
+    typeTwo: null,
+    hp: 40,
+    attack: 50,
+    defense: 40,
+    specialAttack: 50,
+    specialDefense: 40,
+    speed: 35,
+  },
+  {
+    id: '#0936',
+    sprite: getSpriteUrl(936),
+    name: 'Armarouge',
+    typeOne: 'Fire',
+    typeTwo: 'Psychic',
+    hp: 85,
+    attack: 60,
+    defense: 100,
+    specialAttack: 125,
+    specialDefense: 80,
+    speed: 75,
+  },
+  {
+    id: '#0937',
+    sprite: getSpriteUrl(937),
+    name: 'Ceruledge',
+    typeOne: 'Fire',
+    typeTwo: 'Ghost',
+    hp: 75,
+    attack: 125,
+    defense: 80,
+    specialAttack: 60,
+    specialDefense: 100,
+    speed: 85,
+  },
+  {
+    id: '#0938',
+    sprite: getSpriteUrl(938),
+    name: 'Tadbulb',
+    typeOne: 'Electric',
+    typeTwo: null,
+    hp: 61,
+    attack: 31,
+    defense: 41,
+    specialAttack: 59,
+    specialDefense: 35,
+    speed: 45,
+  },
+  {
+    id: '#0939',
+    sprite: getSpriteUrl(939),
+    name: 'Bellibolt',
+    typeOne: 'Electric',
+    typeTwo: null,
+    hp: 109,
+    attack: 64,
+    defense: 91,
+    specialAttack: 103,
+    specialDefense: 83,
+    speed: 45,
+  },
+  {
+    id: '#0940',
+    sprite: getSpriteUrl(940),
+    name: 'Wattrel',
+    typeOne: 'Electric',
+    typeTwo: 'Flying',
+    hp: 40,
+    attack: 40,
+    defense: 35,
+    specialAttack: 55,
+    specialDefense: 40,
+    speed: 70,
+  },
+  {
+    id: '#0941',
+    sprite: getSpriteUrl(941),
+    name: 'Kilowattrel',
+    typeOne: 'Electric',
+    typeTwo: 'Flying',
+    hp: 70,
+    attack: 70,
+    defense: 60,
+    specialAttack: 105,
+    specialDefense: 60,
+    speed: 125,
+  },
+  {
+    id: '#0942',
+    sprite: getSpriteUrl(942),
+    name: 'Maschiff',
+    typeOne: 'Dark',
+    typeTwo: null,
+    hp: 60,
+    attack: 78,
+    defense: 60,
+    specialAttack: 40,
+    specialDefense: 51,
+    speed: 51,
+  },
+  {
+    id: '#0943',
+    sprite: getSpriteUrl(943),
+    name: 'Mabosstiff',
+    typeOne: 'Dark',
+    typeTwo: null,
+    hp: 80,
+    attack: 120,
+    defense: 90,
+    specialAttack: 60,
+    specialDefense: 70,
+    speed: 85,
+  },
+  {
+    id: '#0944',
+    sprite: getSpriteUrl(944),
+    name: 'Shroodle',
+    typeOne: 'Poison',
+    typeTwo: 'Normal',
+    hp: 40,
+    attack: 65,
+    defense: 35,
+    specialAttack: 40,
+    specialDefense: 35,
+    speed: 75,
+  },
+  {
+    id: '#0945',
+    sprite: getSpriteUrl(945),
+    name: 'Grafaiai',
+    typeOne: 'Poison',
+    typeTwo: 'Normal',
+    hp: 63,
+    attack: 95,
+    defense: 65,
+    specialAttack: 80,
+    specialDefense: 72,
+    speed: 110,
+  },
+  {
+    id: '#0946',
+    sprite: getSpriteUrl(946),
+    name: 'Bramblin',
+    typeOne: 'Grass',
+    typeTwo: 'Ghost',
+    hp: 40,
+    attack: 65,
+    defense: 30,
+    specialAttack: 45,
+    specialDefense: 35,
+    speed: 60,
+  },
+  {
+    id: '#0947',
+    sprite: getSpriteUrl(947),
+    name: 'Brambleghast',
+    typeOne: 'Grass',
+    typeTwo: 'Ghost',
+    hp: 55,
+    attack: 115,
+    defense: 70,
+    specialAttack: 80,
+    specialDefense: 70,
+    speed: 90,
+  },
+  {
+    id: '#0948',
+    sprite: getSpriteUrl(948),
+    name: 'Toedscool',
+    typeOne: 'Ground',
+    typeTwo: 'Grass',
+    hp: 40,
+    attack: 40,
+    defense: 35,
+    specialAttack: 50,
+    specialDefense: 100,
+    speed: 70,
+  },
+  {
+    id: '#0949',
+    sprite: getSpriteUrl(949),
+    name: 'Toedscruel',
+    typeOne: 'Ground',
+    typeTwo: 'Grass',
+    hp: 80,
+    attack: 70,
+    defense: 65,
+    specialAttack: 80,
+    specialDefense: 120,
+    speed: 100,
+  },
+  {
+    id: '#0950',
+    sprite: getSpriteUrl(950),
+    name: 'Klawf',
+    typeOne: 'Rock',
+    typeTwo: null,
+    hp: 70,
+    attack: 100,
+    defense: 115,
+    specialAttack: 35,
+    specialDefense: 55,
+    speed: 75,
+  },
+  {
+    id: '#0951',
+    sprite: getSpriteUrl(951),
+    name: 'Capsakid',
+    typeOne: 'Grass',
+    typeTwo: null,
+    hp: 50,
+    attack: 62,
+    defense: 40,
+    specialAttack: 62,
+    specialDefense: 40,
+    speed: 50,
+  },
+  {
+    id: '#0952',
+    sprite: getSpriteUrl(952),
+    name: 'Scovillain',
+    typeOne: 'Grass',
+    typeTwo: 'Fire',
+    hp: 65,
+    attack: 108,
+    defense: 65,
+    specialAttack: 108,
+    specialDefense: 65,
+    speed: 75,
+  },
+  {
+    id: '#0953',
+    sprite: getSpriteUrl(953),
+    name: 'Rellor',
+    typeOne: 'Bug',
+    typeTwo: null,
+    hp: 41,
+    attack: 50,
+    defense: 60,
+    specialAttack: 31,
+    specialDefense: 58,
+    speed: 30,
+  },
+  {
+    id: '#0954',
+    sprite: getSpriteUrl(954),
+    name: 'Rabsca',
+    typeOne: 'Bug',
+    typeTwo: 'Psychic',
+    hp: 75,
+    attack: 50,
+    defense: 85,
+    specialAttack: 115,
+    specialDefense: 100,
+    speed: 45,
+  },
+  {
+    id: '#0955',
+    sprite: getSpriteUrl(955),
+    name: 'Flittle',
+    typeOne: 'Psychic',
+    typeTwo: null,
+    hp: 30,
+    attack: 35,
+    defense: 30,
+    specialAttack: 55,
+    specialDefense: 30,
+    speed: 75,
+  },
+  {
+    id: '#0956',
+    sprite: getSpriteUrl(956),
+    name: 'Espathra',
+    typeOne: 'Psychic',
+    typeTwo: null,
+    hp: 95,
+    attack: 60,
+    defense: 60,
+    specialAttack: 101,
+    specialDefense: 60,
+    speed: 105,
+  },
+  {
+    id: '#0957',
+    sprite: getSpriteUrl(957),
+    name: 'Tinkatink',
+    typeOne: 'Fairy',
+    typeTwo: 'Steel',
+    hp: 50,
+    attack: 45,
+    defense: 45,
+    specialAttack: 35,
+    specialDefense: 64,
+    speed: 58,
+  },
+  {
+    id: '#0958',
+    sprite: getSpriteUrl(958),
+    name: 'Tinkatuff',
+    typeOne: 'Fairy',
+    typeTwo: 'Steel',
+    hp: 65,
+    attack: 55,
+    defense: 55,
+    specialAttack: 45,
+    specialDefense: 82,
+    speed: 78,
+  },
+  {
+    id: '#0959',
+    sprite: getSpriteUrl(959),
+    name: 'Tinkaton',
+    typeOne: 'Fairy',
+    typeTwo: 'Steel',
+    hp: 85,
+    attack: 75,
+    defense: 77,
+    specialAttack: 70,
+    specialDefense: 105,
+    speed: 94,
+  },
+  {
+    id: '#0960',
+    sprite: getSpriteUrl(960),
+    name: 'Wiglett',
+    typeOne: 'Water',
+    typeTwo: null,
+    hp: 10,
+    attack: 55,
+    defense: 25,
+    specialAttack: 35,
+    specialDefense: 25,
+    speed: 95,
+  },
+  {
+    id: '#0961',
+    sprite: getSpriteUrl(961),
+    name: 'Wugtrio',
+    typeOne: 'Water',
+    typeTwo: null,
+    hp: 35,
+    attack: 100,
+    defense: 50,
+    specialAttack: 50,
+    specialDefense: 70,
+    speed: 120,
+  },
+  {
+    id: '#0962',
+    sprite: getSpriteUrl(962),
+    name: 'Bombirdier',
+    typeOne: 'Flying',
+    typeTwo: 'Dark',
+    hp: 70,
+    attack: 103,
+    defense: 85,
+    specialAttack: 60,
+    specialDefense: 85,
+    speed: 82,
+  },
+  {
+    id: '#0963',
+    sprite: getSpriteUrl(963),
+    name: 'Finizen',
+    typeOne: 'Water',
+    typeTwo: null,
+    hp: 70,
+    attack: 45,
+    defense: 40,
+    specialAttack: 45,
+    specialDefense: 40,
+    speed: 75,
+  },
+  {
+    id: '#0964',
+    sprite: getSpriteUrl(964),
+    name: 'Palafin',
+    typeOne: 'Water',
+    typeTwo: null,
+    hp: 100,
+    attack: 70,
+    defense: 72,
+    specialAttack: 53,
+    specialDefense: 62,
+    speed: 100,
+  },
+  {
+    id: '#0965',
+    sprite: getSpriteUrl(965),
+    name: 'Varoom',
+    typeOne: 'Steel',
+    typeTwo: 'Poison',
+    hp: 45,
+    attack: 70,
+    defense: 63,
+    specialAttack: 30,
+    specialDefense: 45,
+    speed: 47,
+  },
+  {
+    id: '#0966',
+    sprite: getSpriteUrl(966),
+    name: 'Revavroom',
+    typeOne: 'Steel',
+    typeTwo: 'Poison',
+    hp: 80,
+    attack: 119,
+    defense: 90,
+    specialAttack: 54,
+    specialDefense: 67,
+    speed: 90,
+  },
+  {
+    id: '#0967',
+    sprite: getSpriteUrl(967),
+    name: 'Cyclizar',
+    typeOne: 'Dragon',
+    typeTwo: 'Normal',
+    hp: 70,
+    attack: 95,
+    defense: 65,
+    specialAttack: 85,
+    specialDefense: 65,
+    speed: 121,
+  },
+  {
+    id: '#0968',
+    sprite: getSpriteUrl(968),
+    name: 'Orthworm',
+    typeOne: 'Steel',
+    typeTwo: null,
+    hp: 70,
+    attack: 85,
+    defense: 145,
+    specialAttack: 60,
+    specialDefense: 55,
+    speed: 65,
+  },
+  {
+    id: '#0969',
+    sprite: getSpriteUrl(969),
+    name: 'Glimmet',
+    typeOne: 'Rock',
+    typeTwo: 'Poison',
+    hp: 48,
+    attack: 35,
+    defense: 42,
+    specialAttack: 105,
+    specialDefense: 60,
+    speed: 60,
+  },
+  {
+    id: '#0970',
+    sprite: getSpriteUrl(970),
+    name: 'Glimmora',
+    typeOne: 'Rock',
+    typeTwo: 'Poison',
+    hp: 83,
+    attack: 55,
+    defense: 90,
+    specialAttack: 130,
+    specialDefense: 81,
+    speed: 86,
+  },
+  {
+    id: '#0971',
+    sprite: getSpriteUrl(971),
+    name: 'Greavard',
+    typeOne: 'Ghost',
+    typeTwo: null,
+    hp: 50,
+    attack: 61,
+    defense: 60,
+    specialAttack: 30,
+    specialDefense: 55,
+    speed: 34,
+  },
+  {
+    id: '#0972',
+    sprite: getSpriteUrl(972),
+    name: 'Houndstone',
+    typeOne: 'Ghost',
+    typeTwo: null,
+    hp: 72,
+    attack: 101,
+    defense: 100,
+    specialAttack: 50,
+    specialDefense: 97,
+    speed: 68,
+  },
+  {
+    id: '#0973',
+    sprite: getSpriteUrl(973),
+    name: 'Flamigo',
+    typeOne: 'Flying',
+    typeTwo: 'Fighting',
+    hp: 82,
+    attack: 115,
+    defense: 74,
+    specialAttack: 75,
+    specialDefense: 64,
+    speed: 90,
+  },
+  {
+    id: '#0974',
+    sprite: getSpriteUrl(974),
+    name: 'Cetoddle',
+    typeOne: 'Ice',
+    typeTwo: null,
+    hp: 108,
+    attack: 68,
+    defense: 45,
+    specialAttack: 30,
+    specialDefense: 40,
+    speed: 43,
+  },
+  {
+    id: '#0975',
+    sprite: getSpriteUrl(975),
+    name: 'Cetitan',
+    typeOne: 'Ice',
+    typeTwo: null,
+    hp: 170,
+    attack: 113,
+    defense: 65,
+    specialAttack: 45,
+    specialDefense: 55,
+    speed: 73,
+  },
+  {
+    id: '#0976',
+    sprite: getSpriteUrl(976),
+    name: 'Veluza',
+    typeOne: 'Water',
+    typeTwo: 'Psychic',
+    hp: 90,
+    attack: 102,
+    defense: 73,
+    specialAttack: 78,
+    specialDefense: 65,
+    speed: 70,
+  },
+  {
+    id: '#0977',
+    sprite: getSpriteUrl(977),
+    name: 'Dondozo',
+    typeOne: 'Water',
+    typeTwo: null,
+    hp: 150,
+    attack: 100,
+    defense: 115,
+    specialAttack: 65,
+    specialDefense: 65,
+    speed: 35,
+  },
+  {
+    id: '#0978',
+    sprite: getSpriteUrl(978),
+    name: 'Tatsugiri',
+    typeOne: 'Dragon',
+    typeTwo: 'Water',
+    hp: 68,
+    attack: 50,
+    defense: 60,
+    specialAttack: 120,
+    specialDefense: 95,
+    speed: 82,
+  },
+  {
+    id: '#0979',
+    sprite: getSpriteUrl(979),
+    name: 'Annihilape',
+    typeOne: 'Fighting',
+    typeTwo: 'Ghost',
+    hp: 110,
+    attack: 115,
+    defense: 80,
+    specialAttack: 50,
+    specialDefense: 90,
+    speed: 90,
+  },
+  {
+    id: '#0980',
+    sprite: getSpriteUrl(980),
+    name: 'Clodsire',
+    typeOne: 'Poison',
+    typeTwo: 'Ground',
+    hp: 130,
+    attack: 75,
+    defense: 60,
+    specialAttack: 45,
+    specialDefense: 100,
+    speed: 20,
+  },
+  {
+    id: '#0981',
+    sprite: getSpriteUrl(981),
+    name: 'Farigiraf',
+    typeOne: 'Normal',
+    typeTwo: 'Psychic',
+    hp: 120,
+    attack: 90,
+    defense: 70,
+    specialAttack: 110,
+    specialDefense: 70,
+    speed: 60,
+  },
+  {
+    id: '#0982',
+    sprite: getSpriteUrl(982),
+    name: 'Dudunsparce',
+    typeOne: 'Normal',
+    typeTwo: null,
+    hp: 125,
+    attack: 100,
+    defense: 80,
+    specialAttack: 85,
+    specialDefense: 75,
+    speed: 55,
+  },
+  {
+    id: '#0983',
+    sprite: getSpriteUrl(983),
+    name: 'Kingambit',
+    typeOne: 'Dark',
+    typeTwo: 'Steel',
+    hp: 100,
+    attack: 135,
+    defense: 120,
+    specialAttack: 60,
+    specialDefense: 85,
+    speed: 50,
+  },
+  {
+    id: '#0984',
+    sprite: getSpriteUrl(984),
+    name: 'Great Tusk',
+    typeOne: 'Ground',
+    typeTwo: 'Fighting',
+    hp: 115,
+    attack: 131,
+    defense: 131,
+    specialAttack: 53,
+    specialDefense: 53,
+    speed: 87,
+  },
+  {
+    id: '#0985',
+    sprite: getSpriteUrl(985),
+    name: 'Scream Tail',
+    typeOne: 'Fairy',
+    typeTwo: 'Psychic',
+    hp: 115,
+    attack: 65,
+    defense: 99,
+    specialAttack: 65,
+    specialDefense: 115,
+    speed: 111,
+  },
+  {
+    id: '#0986',
+    sprite: getSpriteUrl(986),
+    name: 'Brute Bonnet',
+    typeOne: 'Grass',
+    typeTwo: 'Dark',
+    hp: 111,
+    attack: 127,
+    defense: 99,
+    specialAttack: 79,
+    specialDefense: 99,
+    speed: 55,
+  },
+  {
+    id: '#0987',
+    sprite: getSpriteUrl(987),
+    name: 'Flutter Mane',
+    typeOne: 'Ghost',
+    typeTwo: 'Fairy',
+    hp: 55,
+    attack: 55,
+    defense: 55,
+    specialAttack: 135,
+    specialDefense: 135,
+    speed: 135,
+  },
+  {
+    id: '#0988',
+    sprite: getSpriteUrl(988),
+    name: 'Slither Wing',
+    typeOne: 'Bug',
+    typeTwo: 'Fighting',
+    hp: 85,
+    attack: 135,
+    defense: 79,
+    specialAttack: 85,
+    specialDefense: 105,
+    speed: 81,
+  },
+  {
+    id: '#0989',
+    sprite: getSpriteUrl(989),
+    name: 'Sandy Shocks',
+    typeOne: 'Electric',
+    typeTwo: 'Ground',
+    hp: 85,
+    attack: 81,
+    defense: 97,
+    specialAttack: 121,
+    specialDefense: 85,
+    speed: 101,
+  },
+  {
+    id: '#0990',
+    sprite: getSpriteUrl(990),
+    name: 'Iron Treads',
+    typeOne: 'Ground',
+    typeTwo: 'Steel',
+    hp: 112,
+    defense: 90,
+    attack: 120,
+    specialAttack: 72,
+    specialDefense: 70,
+    speed: 106,
+  },
+  {
+    id: '#0991',
+    sprite: getSpriteUrl(991),
+    name: 'Iron Bundle',
+    typeOne: 'Ice',
+    typeTwo: 'Water',
+    hp: 56,
+    attack: 80,
+    defense: 114,
+    specialAttack: 124,
+    specialDefense: 60,
+    speed: 136,
+  },
+  {
+    id: '#0992',
+    sprite: getSpriteUrl(992),
+    name: 'Iron Hands',
+    typeOne: 'Fighting',
+    typeTwo: 'Electric',
+    hp: 154,
+    attack: 140,
+    defense: 108,
+    specialAttack: 50,
+    specialDefense: 68,
+    speed: 50,
+  },
+  {
+    id: '#0993',
+    sprite: getSpriteUrl(993),
+    name: 'Iron Jugulis',
+    typeOne: 'Dark',
+    typeTwo: 'Flying',
+    hp: 94,
+    attack: 80,
+    defense: 86,
+    specialAttack: 122,
+    specialDefense: 80,
+    speed: 108,
+  },
+  {
+    id: '#0994',
+    sprite: getSpriteUrl(994),
+    name: 'Iron Moth',
+    typeOne: 'Fire',
+    typeTwo: 'Poison',
+    hp: 80,
+    attack: 70,
+    defense: 60,
+    specialAttack: 140,
+    specialDefense: 110,
+    speed: 110,
+  },
+  {
+    id: '#0995',
+    sprite: getSpriteUrl(995),
+    name: 'Iron Thorns',
+    typeOne: 'Rock',
+    typeTwo: 'Electric',
+    hp: 100,
+    attack: 134,
+    defense: 110,
+    specialAttack: 70,
+    specialDefense: 84,
+    speed: 72,
+  },
+  {
+    id: '#0996',
+    sprite: getSpriteUrl(996),
+    name: 'Frigibax',
+    typeOne: 'Dragon',
+    typeTwo: 'Ice',
+    hp: 65,
+    attack: 75,
+    defense: 45,
+    specialAttack: 35,
+    specialDefense: 45,
+    speed: 55,
+  },
+  {
+    id: '#0997',
+    sprite: getSpriteUrl(997),
+    name: 'Arctibax',
+    typeOne: 'Dragon',
+    typeTwo: 'Ice',
+    hp: 90,
+    attack: 95,
+    defense: 66,
+    specialAttack: 45,
+    specialDefense: 65,
+    speed: 62,
+  },
+  {
+    id: '#0998',
+    sprite: getSpriteUrl(998),
+    name: 'Baxcalibur',
+    typeOne: 'Dragon',
+    typeTwo: 'Ice',
+    hp: 115,
+    attack: 145,
+    defense: 92,
+    specialAttack: 75,
+    specialDefense: 86,
+    speed: 87,
+  },
+  {
+    id: '#0999',
+    sprite: getSpriteUrl(999),
+    name: 'Gimmighoul',
+    typeOne: 'Ghost',
+    typeTwo: null,
+    hp: 45,
+    attack: 30,
+    defense: 70,
+    specialAttack: 75,
+    specialDefense: 70,
+    speed: 10,
+  },
+  {
+    id: '#1000',
+    sprite: getSpriteUrl(1000),
+    name: 'Gholdengo',
+    typeOne: 'Steel',
+    typeTwo: 'Ghost',
+    hp: 87,
+    attack: 60,
+    defense: 95,
+    specialAttack: 133,
+    specialDefense: 91,
+    speed: 84,
+  },
+  {
+    id: '#1001',
+    sprite: getSpriteUrl(1001),
+    name: 'Wo-Chien',
+    typeOne: 'Dark',
+    typeTwo: 'Grass',
+    hp: 85,
+    attack: 85,
+    defense: 100,
+    specialAttack: 95,
+    specialDefense: 135,
+    speed: 70,
+  },
+  {
+    id: '#1002',
+    sprite: getSpriteUrl(1002),
+    name: 'Chien-Pao',
+    typeOne: 'Dark',
+    typeTwo: 'Ice',
+    hp: 80,
+    attack: 120,
+    defense: 80,
+    specialAttack: 90,
+    specialDefense: 65,
+    speed: 135,
+  },
+  {
+    id: '#1003',
+    sprite: getSpriteUrl(1003),
+    name: 'Ting-Lu',
+    typeOne: 'Dark',
+    typeTwo: 'Ground',
+    hp: 155,
+    attack: 110,
+    defense: 125,
+    specialAttack: 55,
+    specialDefense: 80,
+    speed: 45,
+  },
+  {
+    id: '#1004',
+    sprite: getSpriteUrl(1004),
+    name: 'Chi-Yu',
+    typeOne: 'Dark',
+    typeTwo: 'Fire',
+    hp: 55,
+    attack: 80,
+    defense: 80,
+    specialAttack: 135,
+    specialDefense: 120,
+    speed: 100,
+  },
+  {
+    id: '#1005',
+    sprite: getSpriteUrl(1005),
+    name: 'Roaring Moon',
+    typeOne: 'Dragon',
+    typeTwo: 'Dark',
+    hp: 105,
+    attack: 139,
+    defense: 71,
+    specialAttack: 55,
+    specialDefense: 101,
+    speed: 119,
+  },
+  {
+    id: '#1006',
+    sprite: getSpriteUrl(1006),
+    name: 'Iron Valiant',
+    typeOne: 'Fairy',
+    typeTwo: 'Fighting',
+    hp: 74,
+    attack: 130,
+    defense: 90,
+    specialAttack: 120,
+    specialDefense: 60,
+    speed: 116,
+  },
+  {
+    id: '#1007',
+    sprite: getSpriteUrl(1007),
+    name: 'Koraidon',
+    typeOne: 'Fighting',
+    typeTwo: 'Dragon',
+    hp: 100,
+    attack: 135,
+    defense: 115,
+    specialAttack: 85,
+    specialDefense: 100,
+    speed: 135,
+  },
+  {
+    id: '#1008',
+    sprite: getSpriteUrl(1008),
+    name: 'Miraidon',
+    typeOne: 'Electric',
+    typeTwo: 'Dragon',
+    hp: 100,
+    attack: 85,
+    defense: 100,
+    specialAttack: 135,
+    specialDefense: 115,
+    speed: 135,
+  },
+  {
+    id: '#1009',
+    sprite: getSpriteUrl(1009),
+    name: 'Walking Wake',
+    typeOne: 'Water',
+    typeTwo: 'Dragon',
+    hp: 99,
+    attack: 83,
+    defense: 91,
+    specialAttack: 125,
+    specialDefense: 83,
+    speed: 109,
+  },
+  {
+    id: '#1010',
+    sprite: getSpriteUrl(1010),
+    name: 'Iron Leaves',
+    typeOne: 'Grass',
+    typeTwo: 'Psychic',
+    hp: 90,
+    attack: 130,
+    defense: 88,
+    specialAttack: 70,
+    specialDefense: 108,
+    speed: 104,
   },
 ];
