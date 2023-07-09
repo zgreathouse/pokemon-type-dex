@@ -4,9 +4,9 @@
   tabindex="0"
 >
   <table mat-table [dataSource]="pokemonTypeEffects">
-    <!-- Selected Type(s) Column -->
-    <ng-container matColumnDef="Selected Type(s)">
-      <th class="w-142" mat-header-cell *matHeaderCellDef>Selected Type(s)</th>
+    <!-- Type Column -->
+    <ng-container matColumnDef="types">
+      <th class="center w-142" mat-header-cell *matHeaderCellDef>{{ typeColumnHeader }}</th>
       <td mat-cell *matCellDef="let pokemonTypeEffect"> 
         <div *ngIf="pokemonTypeEffect.types.length; else NoTypes" class="selected-type-chip-container">
           <app-pokemon-type-chip 
@@ -16,21 +16,24 @@
         </div>
       </td>
     </ng-container>
+
     <!-- Effect Column -->
-    <ng-container matColumnDef="Effect">
-      <th class="w-142" mat-header-cell *matHeaderCellDef>Effect</th>
+    <ng-container matColumnDef="effect">
+      <th class="w-142" mat-header-cell *matHeaderCellDef>{{ effectivenessColumnHeader }}</th>
       <td mat-cell *matCellDef="let pokemonTypeEffect">{{ pokemonTypeEffect.effect }}</td>
     </ng-container>
+
     <!-- Damage Column -->
-    <ng-container matColumnDef="Damage">
-      <th class="w-120" mat-header-cell *matHeaderCellDef>Damage</th>
-      <td mat-cell *matCellDef="let pokemonTypeEffect">
+    <ng-container matColumnDef="damage">
+      <th class="center w-120" mat-header-cell *matHeaderCellDef>{{ damageColumnHeader }}</th>
+      <td class="center" mat-cell *matCellDef="let pokemonTypeEffect">
         {{ pokemonTypeEffect.damageMultiplier }}
       </td>
     </ng-container>
+
     <!-- Pokemon Types Column -->
-    <ng-container matColumnDef="Pokemon Types">
-      <th class="w-800" mat-header-cell *matHeaderCellDef>Pokemon Types</th>
+    <ng-container matColumnDef="pokemonTypes">
+      <th class="w-800" mat-header-cell *matHeaderCellDef>{{ effectedTypesColumnHeader }}</th>
       <td mat-cell *matCellDef="let pokemonTypeEffect"> 
         <div 
           *ngIf="pokemonTypeEffect.pokemonTypes.length; else NoTypes" 
@@ -43,6 +46,7 @@
         </div>
       </td>
     </ng-container>
+    
     <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
   </table>

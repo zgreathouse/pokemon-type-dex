@@ -46,8 +46,8 @@ export class PokemonMovesIndexComponent
     'effect',
     'probability',
   ];
-  readonly nameColumnHeader = 'Name';
   readonly typeColumnHeader = 'Type';
+  readonly nameColumnHeader = 'Name';
   readonly categoryColumnHeader = 'Category';
   readonly powerColumnHeader = 'Power';
   readonly accuracyColumnHeader = 'Accuracy';

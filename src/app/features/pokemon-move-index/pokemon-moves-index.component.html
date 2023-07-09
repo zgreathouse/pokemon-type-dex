@@ -2,7 +2,7 @@
   <table mat-table [dataSource]="dataSource" matSort>
      <!-- Type Column -->
      <ng-container matColumnDef="pokemonType">
-      <th class="center-content" mat-header-cell *matHeaderCellDef>{{ typeColumnHeader }}</th>
+      <th class="center" mat-header-cell *matHeaderCellDef>{{ typeColumnHeader }}</th>
       <td mat-cell *matCellDef="let element"> 
           <app-pokemon-type-chip [pokemonType]="element.pokemonType"></app-pokemon-type-chip> 
       </td>
@@ -10,7 +10,7 @@
 
     <!-- Name Column -->
     <ng-container matColumnDef="name">
-      <th class="w-200" mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by name">
+      <th class="w-148" mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by name">
         {{ nameColumnHeader }}
       </th>
       <td mat-cell *matCellDef="let element">{{ element.name }}</td>

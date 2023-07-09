@@ -10,17 +10,17 @@
 
     <!-- Sprite Column -->
     <ng-container matColumnDef="sprite">
-      <th class="center-content" mat-header-cell *matHeaderCellDef>
+      <th class="center" mat-header-cell *matHeaderCellDef>
         {{ spriteColumnHeader }} 
       </th>
-      <td class="center-content" mat-cell *matCellDef="let element"> 
+      <td class="center" mat-cell *matCellDef="let element"> 
         <img class="pokemon-sprite" [src]="element.sprite" [alt]="element.name"/> 
       </td>
     </ng-container>
 
     <!-- Name Column -->
     <ng-container matColumnDef="name">
-      <th class="w-120" mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by name">
+      <th class="w-128" mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by name">
         {{ nameColumnHeader }}
       </th>
       <td mat-cell *matCellDef="let element">{{ element.name }}</td>
@@ -28,7 +28,7 @@
 
     <!-- Primary Type Column -->
     <ng-container matColumnDef="primaryType">
-      <th class="center-content" mat-header-cell *matHeaderCellDef>
+      <th class="center" mat-header-cell *matHeaderCellDef>
         {{ primaryTypeColumnHeader }}
       </th>
       <td mat-cell *matCellDef="let element"> 
@@ -40,10 +40,10 @@
 
     <!-- Secondary Type Column -->
     <ng-container matColumnDef="secondaryType">
-      <th class="center-content" mat-header-cell *matHeaderCellDef>
+      <th class="center" mat-header-cell *matHeaderCellDef>
         {{ secondaryTypeColumnHeader }}
       </th>
-      <td class="center-content" mat-cell *matCellDef="let element"> 
+      <td class="center" mat-cell *matCellDef="let element"> 
         <div *ngIf="element.typeTwo; else NoTypes" class="pokemon-type-chip-container">
           <app-pokemon-type-chip [pokemonType]="element.typeTwo"></app-pokemon-type-chip>
         </div>
@@ -52,7 +52,7 @@
 
     <!-- HP Column -->
     <ng-container matColumnDef="hp">
-      <th class="w-100" mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by base HP stat">
+      <th class="w-92" mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by base HP stat">
         {{ hpColumnHeader }}
       </th>
       <td mat-cell *matCellDef="let element">{{ element.hp }}</td>
@@ -60,7 +60,7 @@
 
     <!-- Attack Column -->
     <ng-container matColumnDef="attack">
-      <th class="w-100" mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by base Attack stat">
+      <th class="w-92" mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by base Attack stat">
         {{ attackColumnHeader }}
       </th>
       <td mat-cell *matCellDef="let element">{{ element.attack }}</td>
@@ -68,7 +68,7 @@
 
     <!-- Defense Column -->
     <ng-container matColumnDef="defense">
-      <th class="w-100" mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by base Defense stat">
+      <th class="w-92" mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by base Defense stat">
         {{ defenseColumnHeader }}
       </th>
       <td mat-cell *matCellDef="let element">{{ element.defense }}</td>
@@ -76,7 +76,7 @@
     
     <!-- Special Attack Column -->
     <ng-container matColumnDef="specialAttack">
-      <th class="w-100" mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by base Special Attack stat">
+      <th class="w-92" mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by base Special Attack stat">
         {{ specialAttackColumnHeader }}
       </th>
       <td mat-cell *matCellDef="let element">{{ element.specialAttack }}</td>
@@ -84,7 +84,7 @@
 
     <!-- Special Defense Column -->
     <ng-container matColumnDef="specialDefense">
-      <th class="w-100" mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by base Special Defense stat">
+      <th class="w-92" mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by base Special Defense stat">
         {{ specialDefenseColumnHeader }}
       </th>
       <td mat-cell *matCellDef="let element">{{ element.specialDefense }}</td>
@@ -92,7 +92,7 @@
 
     <!-- Speed Column -->
     <ng-container matColumnDef="speed">
-      <th class="w-100" mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by base Speed stat">
+      <th class="w-92" mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by base Speed stat">
         {{ speedColumnHeader }}
       </th>
       <td mat-cell *matCellDef="let element">{{ element.speed }}</td>
@@ -100,7 +100,7 @@
 
     <!-- Total Base Stat Column -->
     <ng-container matColumnDef="totalBaseStat">
-      <th class="w-100" mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by total base stat">
+      <th class="w-92" mat-header-cell *matHeaderCellDef mat-sort-header sortActionDescription="Sort by total base stat">
         {{ totalBaseStatColumnHeader }}
       </th>
       <td mat-cell *matCellDef="let element">{{ element.totalBaseStat }}</td>

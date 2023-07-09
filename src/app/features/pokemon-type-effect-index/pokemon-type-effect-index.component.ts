@@ -16,7 +16,12 @@ import { Observable } from 'rxjs';
 export class PokemonTypeEffectIndexComponent implements OnInit {
   @Input() effectPerspective!: EffectPerspective;
 
-  displayedColumns = ['Selected Type(s)', 'Effect', 'Damage', 'Pokemon Types'];
+  readonly displayedColumns = ['types', 'effect', 'damage', 'pokemonTypes'];
+  readonly typeColumnHeader = 'Type';
+  readonly effectivenessColumnHeader = 'Effectiveness';
+  readonly damageColumnHeader = 'Damage';
+  readonly effectedTypesColumnHeader = 'Effected Types';
+
   pokemonTypeEffect$!: Observable<PokemonTypeEffectDetail[]>;
 
   constructor(private pokemonService: PokemonService) {}
