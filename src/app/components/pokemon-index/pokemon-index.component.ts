@@ -15,7 +15,7 @@ import {
 } from '@angular/material/table';
 import { Subject, takeUntil, tap } from 'rxjs';
 import { PokemonService } from 'src/app/services/pokemon.service';
-import { PokemonTypeChipComponent } from 'src/app/features/pokemon-type-chip/pokemon-type-chip.component';
+import { PokemonTypeChipComponent } from '../pokemon-type-chip/pokemon-type-chip.component';
 import { POKEMON } from '@data/pokemon';
 import { PokemonDetail } from '@types';
 

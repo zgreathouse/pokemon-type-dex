@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatTabsModule } from '@angular/material/tabs';
-import { PokemonTypePickerComponent } from '../../features/pokemon-type-picker/pokemon-type-picker.component';
-import { PokemonIndexComponent } from 'src/app/features/pokemon-index/pokemon-index.component';
-import { PokemonMovesIndexComponent } from 'src/app/features/pokemon-move-index/pokemon-moves-index.component';
-import { PokemonTypeEffectIndexComponent } from 'src/app/features/pokemon-type-effect-index/pokemon-type-effect-index.component';
+import { PokemonTypePickerComponent } from '../pokemon-type-picker/pokemon-type-picker.component';
+import { PokemonIndexComponent } from '../pokemon-index/pokemon-index.component';
+import { PokemonMovesIndexComponent } from '../pokemon-move-index/pokemon-moves-index.component';
+import { PokemonTypeEffectIndexComponent } from '../pokemon-type-effect-index/pokemon-type-effect-index.component';
 
 @Component({
   selector: 'app-frame',

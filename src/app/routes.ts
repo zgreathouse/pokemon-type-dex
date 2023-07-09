@@ -4,7 +4,9 @@ export const routes: Routes = [
   {
     path: 'home',
     loadComponent: () =>
-      import('./ui/frame/frame.component').then((m) => m.FrameComponent),
+      import('./components/frame/frame.component').then(
+        (m) => m.FrameComponent
+      ),
   },
   {
     path: '**',
