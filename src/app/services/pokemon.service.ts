@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { POKEMON } from '@data/pokemon';
 import { POKEMON_MOVES } from '@data/pokemon-moves';
 import {
@@ -8,56 +9,30 @@ import {
 } from '@data/pokemon-types';
 import {
   EffectPerspective,
+  PokemonDetail,
   PokemonType,
   PokemonTypeColor,
   PokemonTypeEffectDetail,
 } from '@types';
-import { BehaviorSubject, map, shareReplay, take, tap } from 'rxjs';
+import { map, Observable, shareReplay, take, tap } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
 })
 export class PokemonService {
-  private _selectedPokemonType$ = new BehaviorSubject<PokemonType[]>([
-    'Normal',
-  ]);
-  selectedPokemonType$ = this._selectedPokemonType$
-    .asObservable()
-    .pipe(shareReplay(1));
-
-  updateSelectedPokemonTypes(pokemonType: PokemonType): void {
-    this.selectedPokemonType$
-      .pipe(
-        take(1),
-        tap((selectedPokemonTypes) => {
-          const targetIndex = selectedPokemonTypes.indexOf(pokemonType);
-          // remove type from selection if already selected for toggle effect
-          if (targetIndex !== -1) {
-            selectedPokemonTypes.splice(targetIndex, 1);
-            this._selectedPokemonType$.next(selectedPokemonTypes);
-            return;
-          }
-          if (selectedPokemonTypes.length > 1) selectedPokemonTypes.shift();
-          selectedPokemonTypes.push(pokemonType);
-          this._selectedPokemonType$.next(selectedPokemonTypes);
-        })
-      )
-      .subscribe();
-  }
+  selectedPokemonType$: Observable<PokemonType[]> =
+    this.activatedRoute.queryParamMap.pipe(
+      map(
+        (queryParams): PokemonType[] =>
+          (queryParams.get('selectedTypes')?.split(',') ?? []) as PokemonType[]
+      ),
+      shareReplay(1)
+    );
 
   offensiveTypeEffectsOfSelectedType$ = this.selectedPokemonType$.pipe(
-    map((selectedPokemonTypes) => {
-      if (selectedPokemonTypes.length === 1) {
-        return this.computeOffensiveTypeEffects(selectedPokemonTypes[0]);
-      } else if (selectedPokemonTypes.length === 2) {
-        return [
-          ...this.computeOffensiveTypeEffects(selectedPokemonTypes[0]),
-          ...this.computeOffensiveTypeEffects(selectedPokemonTypes[1]),
-        ];
-      } else {
-        return this.nullTypeEffects('Offense');
-      }
-    })
+    map((selectedPokemonTypes) =>
+      this.computeOffensiveTypeEffects(selectedPokemonTypes)
+    )
   );
 
   defensiveTypeEffectsOfSelectedType$ = this.selectedPokemonType$.pipe(
@@ -72,16 +47,7 @@ export class PokemonService {
         selectedPokemonTypes.every((pokemonType) =>
           [typeOne, typeTwo].includes(pokemonType)
         )
-      ).map((pokemon) => {
-        pokemon.totalBaseStat =
-          pokemon.hp +
-          pokemon.attack +
-          pokemon.defense +
-          pokemon.specialAttack +
-          pokemon.specialDefense +
-          pokemon.speed;
-        return pokemon;
-      })
+      ).map((pokemon) => this.addTotalBaseStatProperty(pokemon))
     )
   );
 
@@ -95,86 +61,73 @@ export class PokemonService {
     )
   );
 
+  constructor(private activatedRoute: ActivatedRoute, private router: Router) {}
+
+  updateSelectedPokemonTypes(pokemonType: PokemonType): void {
+    this.selectedPokemonType$
+      .pipe(
+        take(1),
+        map((selectedPokemonTypes) => {
+          const targetIndex = selectedPokemonTypes.indexOf(pokemonType);
+          if (targetIndex !== -1) {
+            // remove type from selection if already selected for toggle effect
+            selectedPokemonTypes.splice(targetIndex, 1);
+          } else {
+            // remove a selected type if two types are already selected (first in, first out)
+            if (selectedPokemonTypes.length > 1) selectedPokemonTypes.shift();
+            selectedPokemonTypes.push(pokemonType);
+          }
+          return selectedPokemonTypes.join(',') || null;
+        }),
+        tap((selectedTypes) => {
+          this.router.navigate([], {
+            relativeTo: this.activatedRoute,
+            queryParams: { selectedTypes },
+            queryParamsHandling: 'merge',
+          });
+        })
+      )
+      .subscribe();
+  }
+
   getPokemonTypeColor(pokemonType: PokemonType): PokemonTypeColor {
     return POKEMON_TYPE_COLORS[pokemonType];
   }
 
-  private nullTypeEffects(
-    effectPerspective: EffectPerspective
-  ): PokemonTypeEffectDetail[] {
-    const isOffensePerspective = effectPerspective === 'Offense';
-    const nullTypeEffectsList: PokemonTypeEffectDetail[] = [
-      {
-        types: [],
-        effect: isOffensePerspective ? 'Super effective' : 'Weak',
-        damageMultiplier: 'x2',
-        pokemonTypes: [],
-      },
-      {
-        types: [],
-        effect: isOffensePerspective ? 'Effective' : 'Neutral',
-        damageMultiplier: 'x1',
-        pokemonTypes: [],
-      },
-      {
-        types: [],
-        effect: isOffensePerspective ? 'Not very effective' : 'Resists',
-        damageMultiplier: 'x0.5',
-        pokemonTypes: [],
-      },
-      {
-        types: [],
-        effect: isOffensePerspective ? 'Ineffective' : 'Immune',
-        damageMultiplier: 'x0',
-        pokemonTypes: [],
-      },
-    ];
-    if (!isOffensePerspective) {
-      nullTypeEffectsList.splice(0, 0, {
-        types: [],
-        effect: '(Double) Weak',
-        damageMultiplier: 'x4',
-        pokemonTypes: [],
-      });
-      nullTypeEffectsList.splice(-1, 0, {
-        types: [],
-        effect: '(Double) Resists',
-        damageMultiplier: 'x0.25',
-        pokemonTypes: [],
-      });
-    }
-    return nullTypeEffectsList;
-  }
-
   private computeOffensiveTypeEffects(
-    pokemonType: PokemonType
+    pokemonTypes: PokemonType[]
   ): PokemonTypeEffectDetail[] {
-    return [
-      {
-        types: [pokemonType],
-        effect: 'Super effective',
-        damageMultiplier: 'x2',
-        pokemonTypes: POKEMON_TYPE_DETAILS[pokemonType].superEffective,
-      },
-      {
-        types: [pokemonType],
-        effect: 'Effective',
-        damageMultiplier: 'x1',
-        pokemonTypes: POKEMON_TYPE_DETAILS[pokemonType].effective,
-      },
-      {
-        types: [pokemonType],
-        effect: 'Not very effective',
-        damageMultiplier: 'x0.5',
-        pokemonTypes: POKEMON_TYPE_DETAILS[pokemonType].notVeryEffective,
-      },
-      {
-        types: [pokemonType],
-        effect: 'Ineffective',
-        damageMultiplier: 'x0',
-        pokemonTypes: POKEMON_TYPE_DETAILS[pokemonType].ineffective,
-      },
-    ];
+    if (!pokemonTypes.length) return this.nullTypeEffects('Offense');
+    const offensiveTypeEffects: PokemonTypeEffectDetail[] = [];
+    pokemonTypes.forEach((pokemonType) => {
+      offensiveTypeEffects.push(
+        {
+          types: [pokemonType],
+          effect: 'Super effective',
+          damageMultiplier: 'x2',
+          pokemonTypes: POKEMON_TYPE_DETAILS[pokemonType].superEffective,
+        },
+        {
+          types: [pokemonType],
+          effect: 'Effective',
+          damageMultiplier: 'x1',
+          pokemonTypes: POKEMON_TYPE_DETAILS[pokemonType].effective,
+        },
+        {
+          types: [pokemonType],
+          effect: 'Not very effective',
+          damageMultiplier: 'x0.5',
+          pokemonTypes: POKEMON_TYPE_DETAILS[pokemonType].notVeryEffective,
+        },
+        {
+          types: [pokemonType],
+          effect: 'Ineffective',
+          damageMultiplier: 'x0',
+          pokemonTypes: POKEMON_TYPE_DETAILS[pokemonType].ineffective,
+        }
+      );
+    });
+    return offensiveTypeEffects;
   }
 
   private computeDefensiveTypeEffects(
@@ -296,5 +249,64 @@ export class PokemonService {
         ).sort(),
       },
     ];
+  }
+
+  private nullTypeEffects(
+    effectPerspective: EffectPerspective
+  ): PokemonTypeEffectDetail[] {
+    const isOffensePerspective = effectPerspective === 'Offense';
+    const nullTypeEffectsList: PokemonTypeEffectDetail[] = [
+      {
+        types: [],
+        effect: isOffensePerspective ? 'Super effective' : 'Weak',
+        damageMultiplier: 'x2',
+        pokemonTypes: [],
+      },
+      {
+        types: [],
+        effect: isOffensePerspective ? 'Effective' : 'Neutral',
+        damageMultiplier: 'x1',
+        pokemonTypes: [],
+      },
+      {
+        types: [],
+        effect: isOffensePerspective ? 'Not very effective' : 'Resists',
+        damageMultiplier: 'x0.5',
+        pokemonTypes: [],
+      },
+      {
+        types: [],
+        effect: isOffensePerspective ? 'Ineffective' : 'Immune',
+        damageMultiplier: 'x0',
+        pokemonTypes: [],
+      },
+    ];
+    if (!isOffensePerspective) {
+      nullTypeEffectsList.splice(0, 0, {
+        types: [],
+        effect: '(Double) Weak',
+        damageMultiplier: 'x4',
+        pokemonTypes: [],
+      });
+      nullTypeEffectsList.splice(-1, 0, {
+        types: [],
+        effect: '(Double) Resists',
+        damageMultiplier: 'x0.25',
+        pokemonTypes: [],
+      });
+    }
+    return nullTypeEffectsList;
+  }
+
+  private addTotalBaseStatProperty(pokemon: PokemonDetail): PokemonDetail {
+    const totalBaseStat =
+      pokemon.hp +
+      pokemon.attack +
+      pokemon.defense +
+      pokemon.specialAttack +
+      pokemon.specialDefense +
+      pokemon.speed;
+    pokemon.totalBaseStat = totalBaseStat;
+    return pokemon;
   }
 }
