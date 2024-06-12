@@ -85,7 +85,7 @@ export type PokemonDetail = {
   totalBaseStat?: number;
 };
 
-export type PokemonMoveCategory = 'Physical' | 'Special' | 'Status' | '—';
+export type PokemonMoveCategory = 'Physical' | 'Special' | 'Status' | '0';
 
 export type PokemonMoveDetail = {
   name: string;
